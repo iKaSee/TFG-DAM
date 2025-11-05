@@ -1,0 +1,1 @@
+EL objetivo de este proyecto es hacer un juego 2d mezclando varios subgéneros como el roguelike soulslike y puzzles

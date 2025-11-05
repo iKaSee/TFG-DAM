@@ -1,0 +1,29 @@
+# This .gitignore is for Unity projects
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# Auto-generated VS/IDE files
+.vscode/
+*.sln
+*.csproj
+*.unityproj
+*.pidb
+*.user
+*.userprefs
+
+# Packages
+Packages/com.unity.package-manager-ui/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Unity generated meta and other files we might still want to keep are handled by Visible Meta Files and Force Text
+
+# Git LFS placeholder (actual LFS tracking done separately)
