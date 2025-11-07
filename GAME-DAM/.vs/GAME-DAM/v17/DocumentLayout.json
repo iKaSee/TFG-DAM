@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerMovement2D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerMovement2D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,15 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:10:06.286Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PlayerMovement2D.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerMovement2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement2D.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerMovement2D.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerMovement2D.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T23:21:08.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T23:21:08.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMove.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T09:15:18.782Z"
             }
           ]
         }
