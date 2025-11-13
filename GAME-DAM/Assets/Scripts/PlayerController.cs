@@ -59,7 +59,8 @@ public class PlayerController : MonoBehaviour
             extraJumps--;
         }else if(Input.GetKeyDown(KeyCode.Space) && extraJumps == 0 && isGrounded == true)
         {
-            rb.linearVelocity = Vector2.up * jumpForce;
+
+            rb.linearVelocity = Vector2.up * (jumpForce - 2);
 
         }
     }
