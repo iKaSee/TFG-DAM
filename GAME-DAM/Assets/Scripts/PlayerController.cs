@@ -32,8 +32,16 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
-        moveInput = Input.GetAxis("Horizontal");
+        // --- LÍNEA NUEVA PARA EL SALTO ---
+        // Le decimos al animator: "¿Estoy saltando? Sí, si NO estoy en el suelo (!isGrounded)"
+        animator.SetBool("IsJumping", !isGrounded);
+        // ---------------------------------
 
+        //NUEVO: Avisamos de la velocidad vertical (Para saber si sube o baja)
+        animator.SetFloat("vSpeed", rb.linearVelocity.y);
+
+
+        moveInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
 
         // 3. NUEVO: ENVIAR VELOCIDAD AL ANIMATOR
