@@ -12,8 +12,8 @@ public class PlayerController : MonoBehaviour
     private float coyoteTimeCounter;
 
     [Header("Dash")]
-    public float dashSpeed = 20f;
-    public float dashDuration = 0.2f;
+    public float dashSpeed = 15f; // Ajustada para que se aprecie la animación
+    public float dashDuration = 0.35f; // Ajustada para que coincida con el sprite
     public float dashCooldown = 1f;
     private bool canDash = true;
     private bool isDashing;
@@ -39,34 +39,37 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        // Si estamos dasheando, no procesamos más inputs
         if (isDashing) return;
 
-        // Bloqueo de movimiento por ataque
+        // Bloqueo de movimiento por ataque (Soulslike)
         if (combat != null && combat.isAttacking)
         {
             rb.linearVelocity = Vector2.zero;
+            UpdateAnimator(); // Para que pase a Idle si estaba corriendo
             return;
         }
 
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        // Coyote Time
+        // Lógica de Coyote Time
         if (isGrounded) coyoteTimeCounter = coyoteTime;
         else coyoteTimeCounter -= Time.deltaTime;
 
-        // Salto con Coyote Time
+        // Salto
         if (Input.GetButtonDown("Jump") && coyoteTimeCounter > 0f)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
             coyoteTimeCounter = 0f;
         }
 
-        // --- BOTÓN DEL DASH (Shift Izquierdo) ---
+        // Botón del Dash
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
         {
             StartCoroutine(PerformDash());
         }
 
+        // Girar personaje (Tu método original)
         if (moveInput > 0 && !facingRight) Flip();
         else if (moveInput < 0 && facingRight) Flip();
 
@@ -75,6 +78,7 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Si estamos dasheando o atacando, no aplicamos movimiento de caminata
         if (isDashing || (combat != null && combat.isAttacking)) return;
 
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
@@ -85,21 +89,23 @@ public class PlayerController : MonoBehaviour
     {
         canDash = false;
         isDashing = true;
+
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0f;
 
-        // Aplicamos la velocidad del dash
+        // Aplicamos la velocidad
         rb.linearVelocity = new Vector2((facingRight ? 1 : -1) * dashSpeed, 0f);
         anim.SetTrigger("Dash");
 
-        // Esperamos la duración que hayas puesto en el Inspector
+        // Esperamos la duración exacta
         yield return new WaitForSeconds(dashDuration);
 
-      
-
+        // --- EL CORTE MAESTRO ---
+        rb.linearVelocity = Vector2.zero; // Frenazo total
         rb.gravityScale = originalGravity;
         isDashing = false;
 
+        // Esperar al cooldown
         yield return new WaitForSeconds(dashCooldown);
         canDash = true;
     }
