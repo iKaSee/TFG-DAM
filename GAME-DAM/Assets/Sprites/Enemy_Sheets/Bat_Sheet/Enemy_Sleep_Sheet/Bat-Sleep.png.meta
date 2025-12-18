@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: feace7eff22c95e49aa3ed6ac8f0b51d
+guid: c20a6b7945a269c42885626c7ef5076f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6007857137893288414
-    second: Sprite-0001_0
+      213: 5160337174065941027
+    second: Bat-Sleep_0
+  - first:
+      213: 5719716247012904364
+    second: Bat-Sleep_1
+  - first:
+      213: -5379846406165079992
+    second: Bat-Sleep_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite-0001_0
+      name: Bat-Sleep_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 7
-        width: 19
-        height: 17
+        x: 26
+        y: 25
+        width: 12
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 226539a93cdcf9ca0800000000000000
-      internalID: -6007857137893288414
+      spriteID: 32a8175b1533d9740800000000000000
+      internalID: 5160337174065941027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-Sleep_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 25
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad0c3f4f93806f40800000000000000
+      internalID: 5719716247012904364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat-Sleep_2
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 25
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8485e5e7232f655b0800000000000000
+      internalID: -5379846406165079992
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: fc7e79cdc108e134e8e6fc4da4b1f4d6
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -146,11 +196,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Sprite-0001_0: -6007857137893288414
+      Bat-Sleep_0: 5160337174065941027
+      Bat-Sleep_1: 5719716247012904364
+      Bat-Sleep_2: -5379846406165079992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
