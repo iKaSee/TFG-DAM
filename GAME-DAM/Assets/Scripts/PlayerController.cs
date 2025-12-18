@@ -1,149 +1,121 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Collections.Generic;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed;
-    public float jumpForce;
-    private float moveInput;
+    [Header("Movimiento")]
+    public float moveSpeed = 8f;
+    public float jumpForce = 12f;
+
+    [Header("Coyote Time")]
+    public float coyoteTime = 0.15f;
+    private float coyoteTimeCounter;
+
+    [Header("Dash")]
+    public float dashSpeed = 20f;
+    public float dashDuration = 0.2f;
+    public float dashCooldown = 1f;
+    private bool canDash = true;
+    private bool isDashing;
+
+    [Header("Detección de Suelo")]
+    public Transform groundCheck;
+    public float checkRadius = 0.2f;
+    public LayerMask groundLayer;
 
     private Rigidbody2D rb;
-    private Animator animator;
-
+    private Animator anim;
+    private PlayerCombat combat;
+    private bool isGrounded;
+    private float moveInput;
     private bool facingRight = true;
 
-    private bool isGrounded;
-    public Transform groundCheck;
-    public float checkRadius;
-    public LayerMask whatIsGround;
-
-    private int extraJumps;
-    public int extraJumpsValue;
-
-    // ===================================
-    // ⚔️ NUEVAS VARIABLES PARA EL ATAQUE
-    // ===================================
-    public GameObject attackHitbox; // Asigna aquí el objeto AttackHitbox (hijo del Jugador)
-    private bool isAttacking = false; // Controla si el jugador ya está en la animación de ataque
-
-    void Start()
+    void Awake()
     {
-        extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
+        combat = GetComponent<PlayerCombat>();
+    }
+
+    void Update()
+    {
+        if (isDashing) return;
+
+        // Bloqueo de movimiento por ataque
+        if (combat != null && combat.isAttacking)
+        {
+            rb.linearVelocity = Vector2.zero;
+            return;
+        }
+
+        moveInput = Input.GetAxisRaw("Horizontal");
+
+        // Coyote Time
+        if (isGrounded) coyoteTimeCounter = coyoteTime;
+        else coyoteTimeCounter -= Time.deltaTime;
+
+        // Salto con Coyote Time
+        if (Input.GetButtonDown("Jump") && coyoteTimeCounter > 0f)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            coyoteTimeCounter = 0f;
+        }
+
+        // --- BOTÓN DEL DASH (Shift Izquierdo) ---
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        {
+            StartCoroutine(PerformDash());
+        }
+
+        if (moveInput > 0 && !facingRight) Flip();
+        else if (moveInput < 0 && facingRight) Flip();
+
+        UpdateAnimator();
     }
 
     void FixedUpdate()
     {
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
+        if (isDashing || (combat != null && combat.isAttacking)) return;
 
-        // --- LÍNEA NUEVA PARA EL SALTO ---
-        // Le decimos al animator: "¿Estoy saltando? Sí, si NO estoy en el suelo (!isGrounded)"
-        animator.SetBool("IsJumping", !isGrounded);
-        // ---------------------------------
-
-        //NUEVO: Avisamos de la velocidad vertical (Para saber si sube o baja)
-        animator.SetFloat("vSpeed", rb.linearVelocity.y);
-
-
-        moveInput = Input.GetAxis("Horizontal");
-
-        // 🛑 NUEVO: Bloquear el movimiento horizontal si estamos atacando
-        if (!isAttacking)
-        {
-            rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
-        }
-        else
-        {
-            // Opcional: Reducir velocidad horizontal mientras ataca, o mantenerla en 0
-            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
-        }
-
-        // 3. NUEVO: ENVIAR VELOCIDAD AL ANIMATOR
-        // Usamos Mathf.Abs (Valor Absoluto) porque moveInput va de -1 a 1.
-        // Al Animator solo le importa la velocidad positiva (0 a 1).
-        animator.SetFloat("Speed", Mathf.Abs(moveInput));
-
-        if (facingRight == false && moveInput > 0)
-        {
-            flip();
-        }
-        else if (facingRight == true && moveInput < 0)
-        {
-            flip();
-        }
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
     }
 
-
-    void Update()
+    private IEnumerator PerformDash()
     {
-        if (isGrounded == true)
-        {
-            extraJumps = extraJumpsValue;
-        }
+        canDash = false;
+        isDashing = true;
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0f;
 
-        if (Input.GetKeyDown(KeyCode.Space) && extraJumps > 0)
-        {
-            rb.linearVelocity = Vector2.up * jumpForce;
-            extraJumps--;
-        }
-        else if (Input.GetKeyDown(KeyCode.Space) && extraJumps == 0 && isGrounded == true)
-        {
-            rb.linearVelocity = Vector2.up * (jumpForce - 2);
-        }
+        // Aplicamos la velocidad del dash
+        rb.linearVelocity = new Vector2((facingRight ? 1 : -1) * dashSpeed, 0f);
+        anim.SetTrigger("Dash");
 
-        // ===================================
-        // ⚔️ NUEVA LÓGICA DE ATAQUE (Input)
-        // ===================================
-        if (Input.GetKeyDown(KeyCode.X) && !isAttacking && isGrounded) // Usamos la tecla X como ejemplo
-        {
-            StartAttack();
-        }
+        // Esperamos la duración que hayas puesto en el Inspector
+        yield return new WaitForSeconds(dashDuration);
+
+      
+
+        rb.gravityScale = originalGravity;
+        isDashing = false;
+
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
 
-    // ===================================
-    // ⚔️ NUEVOS MÉTODOS DE ATAQUE
-    // ===================================
-
-    // Método que se llama al pulsar la tecla de ataque
-    private void StartAttack()
+    void UpdateAnimator()
     {
-        isAttacking = true;
-        // Inicia la animación de ataque, usando el Trigger que configuraste
-        animator.SetTrigger("Attack");
+        anim.SetFloat("HorizontalSpeed", Mathf.Abs(moveInput));
+        anim.SetFloat("VerticalVelocity", rb.linearVelocity.y);
+        anim.SetBool("isGrounded", isGrounded);
     }
 
-    // MÉTODOS LLAMADOS POR ANIMATION EVENTS
-
-    // 1. Llamado en el frame de impacto de la animación
-    public void EnableHitbox()
-    {
-        if (attackHitbox != null)
-        {
-            attackHitbox.SetActive(true);
-        }
-    }
-
-    // 2. Llamado después del frame de impacto para finalizar el ataque
-    public void DisableHitboxAndEndAttack()
-    {
-        if (attackHitbox != null)
-        {
-            attackHitbox.SetActive(false);
-        }
-        isAttacking = false; // Permite que el jugador pueda moverse y atacar de nuevo
-    }
-
-    // ===================================
-    // ⚔️ FIN DE MÉTODOS DE ATAQUE
-    // ===================================
-
-    void flip()
+    void Flip()
     {
         facingRight = !facingRight;
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        transform.localScale = Scaler;
+        Vector3 scaler = transform.localScale;
+        scaler.x *= -1;
+        transform.localScale = scaler;
     }
 }
