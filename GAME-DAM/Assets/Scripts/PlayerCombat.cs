@@ -3,8 +3,13 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     private Animator anim;
+
+    [Header("Configuración de Ataque")]
     public float attackRate = 2f;
     private float nextAttackTime = 0f;
+
+    // ESTA VARIABLE DEBE SER PÚBLICA PARA QUE EL CONTROLLER LA VEA
+    public bool isAttacking;
 
     void Awake()
     {
@@ -15,7 +20,6 @@ public class PlayerCombat : MonoBehaviour
     {
         if (Time.time >= nextAttackTime)
         {
-            // Cambiado a la tecla F
             if (Input.GetKeyDown(KeyCode.F))
             {
                 Attack();
@@ -26,11 +30,19 @@ public class PlayerCombat : MonoBehaviour
 
     void Attack()
     {
-        // El trigger debe ser instantáneo
+        isAttacking = true;
         anim.SetTrigger("Attack");
     }
 
-    // Mantén estas funciones para evitar los errores de consola que vimos antes
-    public void EndAttack() { }
-    public void DisableHitboxAndEndAttack() { }
+    // --- ESTAS FUNCIONES QUITAN LOS ERRORES ROJOS DE TU CONSOLA ---
+    // Se deben llamar mediante Animation Events al final de tu animación
+    public void EndAttack()
+    {
+        isAttacking = false;
+    }
+
+    public void DisableHitboxAndEndAttack()
+    {
+        isAttacking = false;
+    }
 }
