@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 376068971}
   - component: {fileID: 376068970}
   - component: {fileID: 376068975}
+  - component: {fileID: 376068977}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -441,8 +442,8 @@ Transform:
   m_GameObject: {fileID: 376068969}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.671, y: 0.431, z: 0}
-  m_LocalScale: {x: 1, y: 1.0028, z: 1}
+  m_LocalPosition: {x: -3.0144, y: -0.0426, z: 0}
+  m_LocalScale: {x: 0.99992937, y: 0.95911676, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1873722874}
@@ -492,6 +493,19 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attackDamage: 40
+--- !u!114 &376068977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376068969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9da681d418d87e649b37ce4c4f26bafc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 30
 --- !u!1 &486585005
 GameObject:
   m_ObjectHideFlags: 0
@@ -1177,6 +1191,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.04}
+--- !u!1 &1291141757
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291141758}
+  m_Layer: 7
+  m_Name: BatAttackPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 2488908585195742037, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1291141758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1291141757}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.255, y: -0.084, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1657320743}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1315345211
 GameObject:
   m_ObjectHideFlags: 0
@@ -1406,10 +1451,11 @@ Transform:
   m_GameObject: {fileID: 1657320738}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.0337, y: 2.6708, z: 0}
+  m_LocalPosition: {x: 4.01, y: 2.66, z: 0}
   m_LocalScale: {x: 1.4492917, y: 1.5327208, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1291141758}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1657320745
@@ -1429,6 +1475,11 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   speed: 2
+  attackRange: 0.55
+  attackCooldown: 2
+  damage: 10
+  attackPoint: {fileID: 1291141758}
+  hitRadius: 1.5
 --- !u!114 &1657320746
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -38,6 +38,11 @@ public class EnemyHealth : MonoBehaviour
         if (currentHealth <= 0) Die();
     }
 
+    public void DestroyEnemy()
+    {
+        Destroy(gameObject);
+    }
+
     private IEnumerator ApplyKnockback(Vector2 playerPosition)
     {
         isBeingKnockbacked = true;
