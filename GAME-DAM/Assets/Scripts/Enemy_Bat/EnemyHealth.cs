@@ -7,6 +7,9 @@ public class EnemyHealth : MonoBehaviour
     public float maxHealth = 100f;
     private float currentHealth;
 
+    [Header("UI")]
+    public EnemyHealthBar healthBar; // <--- AÑADIDO: Referencia a la barra flotante
+
     [Header("Knockback")]
     public float knockbackForce = 5f;
     public float knockbackDuration = 0.2f;
@@ -20,11 +23,26 @@ public class EnemyHealth : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+
+        // Quitamos la activación del Awake para que la barra no aparezca 
+        // hasta que el BatAI detecte al jugador o reciba daño.
     }
 
     public void TakeDamage(float damage, Vector2 playerPosition)
     {
         currentHealth -= damage;
+
+        // Aseguramos que la barra se active al recibir daño
+        if (healthBar != null && !healthBar.gameObject.activeSelf)
+        {
+            healthBar.gameObject.SetActive(true);
+        }
+
+        // Actualizar la barra visualmente
+        if (healthBar != null)
+        {
+            healthBar.ConfigurarBarra((int)currentHealth, (int)maxHealth);
+        }
 
         // Despertar al murciélago si estaba dormido
         if (GetComponent<BatAI>() != null) GetComponent<BatAI>().WakeUp();
@@ -62,6 +80,9 @@ public class EnemyHealth : MonoBehaviour
 
     void Die()
     {
+        // Ocultar la barra al morir para que no flote sobre el cadáver
+        if (healthBar != null) healthBar.gameObject.SetActive(false);
+
         if (anim != null) anim.SetBool("IsDead", true);
         GetComponent<Collider2D>().enabled = false;
         rb.linearVelocity = Vector2.zero; // Que no salga volando al morir

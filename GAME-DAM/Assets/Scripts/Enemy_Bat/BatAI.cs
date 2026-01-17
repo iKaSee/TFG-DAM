@@ -60,6 +60,14 @@ public class BatAI : MonoBehaviour
     {
         if (awake) return;
         awake = true;
+
+        // --- AÑADIDO: Activar la barra de vida al despertar ---
+        if (health != null && health.healthBar != null)
+        {
+            health.healthBar.gameObject.SetActive(true);
+        }
+        // -------------------------------------------------------
+
         anim.SetBool("isAwake", true);
     }
 
