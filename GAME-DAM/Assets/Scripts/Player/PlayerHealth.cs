@@ -4,7 +4,12 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 100;
+
+    public HealthBarController healthBar;
+    public DamageFlash damageFlash;
+
     private int currentHealth;
+
 
     private Animator anim;
     private Rigidbody2D rb;
@@ -15,6 +20,11 @@ public class PlayerHealth : MonoBehaviour
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+
+        if (healthBar != null)
+        {
+            healthBar.SetVidaMaxima(maxHealth);
+        }
     }
 
     public void TakeDamage(int damage)
@@ -22,7 +32,19 @@ public class PlayerHealth : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
+        if (damageFlash != null)
+        {
+            damageFlash.Flash();
+        }
+        healthBar.ActualizarVida(currentHealth);
         Debug.Log("Vida Player: " + currentHealth);
+
+        if (currentHealth < 0) currentHealth = 0;
+
+        if (healthBar != null)
+        {
+            healthBar.ActualizarVida(currentHealth);
+        }
 
         if (currentHealth <= 0)
         {
@@ -40,8 +62,11 @@ public class PlayerHealth : MonoBehaviour
         anim.SetBool("isDead", true);
 
         GetComponent<PlayerController>().enabled = false;
-        // Reinicia la escena actual tras 2 segundos
-        Invoke("RestartLevel", 2f);
+        if (healthBar != null)
+        {
+            healthBar.gameObject.SetActive(false);
+        }
+
         FindObjectOfType<GameManager>().ShowGameOver();
     }
 
