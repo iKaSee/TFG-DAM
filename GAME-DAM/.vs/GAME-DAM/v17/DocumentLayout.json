@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy_Bat\\BatAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy_Bat\\BatAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy_Bat\\EnemyHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy_Bat\\EnemyHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +31,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BatAI.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy_Bat\\BatAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Bat\\BatAI.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy_Bat\\BatAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemy_Bat\\BatAI.cs",
+              "ViewState": "AgIAAFUAAAAABAAAAAARwHUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T14:19:27.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy_Bat\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy_Bat\\EnemyHealth.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy_Bat\\EnemyHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemy_Bat\\EnemyHealth.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T11:20:33.092Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T11:20:33.092Z"
             },
             {
               "$type": "Document",
@@ -45,23 +61,21 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAC4MjMzM7MiwCQAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T10:44:49.626Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T10:44:49.626Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "PlayerCombat.cs",
               "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCombat.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAwDMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAACAmZmZmZkewC0AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T09:38:06.332Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T09:38:06.332Z"
             }
           ]
         }

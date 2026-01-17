@@ -1,5 +1,6 @@
 using UnityEngine;
-using System.Collections; // Necesario para la corrutina
+using System.Collections;
+using UnityEngine.SceneManagement; // Necesario para reiniciar el nivel
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -26,12 +27,10 @@ public class EnemyHealth : MonoBehaviour
     {
         currentHealth -= damage;
 
-        // Despertar al murciélago si estaba dormido
         if (GetComponent<BatAI>() != null) GetComponent<BatAI>().WakeUp();
 
         if (anim != null) anim.SetTrigger("Hurt");
 
-        // Aplicar retroceso
         StopAllCoroutines();
         StartCoroutine(ApplyKnockback(playerPosition));
 
@@ -40,34 +39,42 @@ public class EnemyHealth : MonoBehaviour
 
     public void DestroyEnemy()
     {
-        Destroy(gameObject);
+       // Destroy(gameObject);
     }
 
     private IEnumerator ApplyKnockback(Vector2 playerPosition)
     {
         isBeingKnockbacked = true;
-
-        // Calculamos la dirección opuesta al jugador
         Vector2 direction = ((Vector2)transform.position - playerPosition).normalized;
-
-        // Aplicamos la fuerza de golpe
         rb.linearVelocity = direction * knockbackForce;
 
         yield return new WaitForSeconds(knockbackDuration);
 
-        // Volvemos a dejar la velocidad a cero para que la IA recupere el control
         rb.linearVelocity = Vector2.zero;
         isBeingKnockbacked = false;
     }
 
     void Die()
     {
+        // 1. Evitamos que la muerte se ejecute más de una vez
+        if (GetComponent<Collider2D>().enabled == false) return;
+
+        // 2. Visual y física
         if (anim != null) anim.SetBool("IsDead", true);
         GetComponent<Collider2D>().enabled = false;
-        rb.linearVelocity = Vector2.zero; // Que no salga volando al morir
-        this.enabled = false;
+        if (rb != null) rb.linearVelocity = Vector2.zero;
+
+        // 3. Desactivar la IA para que no de errores mientras espera
+        if (GetComponent<BatAI>() != null) GetComponent<BatAI>().enabled = false;
+
+        // 4. Reinicia la escena actual tras 5 segundos (como en tu Player)
+        Invoke("RestartLevel", 2f);
     }
 
-    // Propiedad para que la IA sepa si debe quedarse quieta mientras recibe el golpe
+    void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
     public bool IsInKnockback() => isBeingKnockbacked;
 }
