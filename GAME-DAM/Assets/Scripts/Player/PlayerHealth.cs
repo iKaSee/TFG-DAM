@@ -42,6 +42,7 @@ public class PlayerHealth : MonoBehaviour
         GetComponent<PlayerController>().enabled = false;
         // Reinicia la escena actual tras 2 segundos
         Invoke("RestartLevel", 2f);
+        FindObjectOfType<GameManager>().ShowGameOver();
     }
 
     void RestartLevel()
