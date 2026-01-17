@@ -9,6 +9,14 @@ UserSettings/
 MemoryCaptures/
 
 # Auto-generated VS/IDE files
+.vs/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.userprefs
+*.db-shm
+*.db-wal
 .vscode/
 *.sln
 *.csproj
