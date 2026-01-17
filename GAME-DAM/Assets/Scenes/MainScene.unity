@@ -794,6 +794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   maxHealth: 40
   healthBar: {fileID: 131910073}
+  damageFlash: {fileID: 1218054825}
 --- !u!1 &486585005
 GameObject:
   m_ObjectHideFlags: 0
