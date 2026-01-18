@@ -15,6 +15,11 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;    // Seleccionaremos la capa "Enemy"
     public int attackDamage = 40;    // El daño que harás
 
+    [Header("Audio")]
+    public AudioSource audioSource;
+    public AudioClip swingSound; // El sonido de la espada en el aire
+
+
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -40,6 +45,13 @@ public class PlayerCombat : MonoBehaviour
         // Esta linea crea un circulo invisible y guarda todo lo que sea "Enemy" dentro de el
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
+        if (audioSource != null && swingSound != null)
+        {
+            audioSource.PlayOneShot(swingSound);
+        }
+
+
+
         // Por cada enemigo que hayamos golpeado...
         foreach (Collider2D enemy in hitEnemies)
         {
@@ -50,6 +62,8 @@ public class PlayerCombat : MonoBehaviour
                 enemyHealth.TakeDamage(attackDamage, transform.position);
             }
         }
+      
+
     }
 
     public void EndAttack() { isAttacking = false; }
