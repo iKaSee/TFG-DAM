@@ -16,7 +16,7 @@ TagManager:
   - UI
   - Ground
   - Enemy
-  - 
+  - Fondo
   - 
   - 
   - 
@@ -43,6 +43,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Fondo
+    uniqueID: 538909933
+    locked: 0
+  - name: Juego
+    uniqueID: 1466253339
     locked: 0
   m_RenderingLayers:
   - Default
