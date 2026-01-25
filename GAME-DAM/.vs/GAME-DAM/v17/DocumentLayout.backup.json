@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Music\\MusicManager.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Music\\MusicManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Music\\MusicManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-18T09:17:18.627Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCombat.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T07:56:47.495Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T07:56:47.495Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Enemy_Bat\\EnemyHealth.cs",
               "ViewState": "AgIAAF8AAAAAAAAAAAAuwG8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T07:49:58.085Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T07:49:58.085Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\UI\\HealthBarController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-18T07:41:48.503Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-18T07:41:48.503Z"
             },
             {
               "$type": "Document",
