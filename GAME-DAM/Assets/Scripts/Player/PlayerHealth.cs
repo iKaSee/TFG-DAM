@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (healthBar != null)
         {
-            healthBar.SetVidaMaxima(maxHealth);
+            healthBar.SetVidaMaxima(maxHealth); // Aquí le enviamos el 100
         }
     }
 
@@ -59,9 +59,23 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         isDead = true;
+
+        // 1. Ponemos los parámetros de movimiento a 0 para que no intenten volver al Idle/Run
+        anim.SetFloat("HorizontalSpeed", 0);
+        anim.SetFloat("VerticalVelocity", 0);
+        anim.SetBool("isGrounded", true);
+
+        // 2. Activamos la muerte
         anim.SetBool("isDead", true);
 
+        // 3. Desactivamos los scripts
         GetComponent<PlayerController>().enabled = false;
+        GetComponent<PlayerCombat>().enabled = false;
+
+        // Desactivamos el Rigidbody para que no se caiga por el suelo o ruede raro
+        rb.linearVelocity = Vector2.zero;
+        rb.bodyType = RigidbodyType2D.Static;
+
         if (healthBar != null)
         {
             healthBar.gameObject.SetActive(false);

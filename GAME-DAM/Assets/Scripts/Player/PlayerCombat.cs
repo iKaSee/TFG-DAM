@@ -20,6 +20,11 @@ public class PlayerCombat : MonoBehaviour
     public AudioClip swingSound; // El sonido de la espada en el aire
 
 
+    [Header("Ajustes de Combo")]
+    public int comboStep = 0;
+    public float comboResetTime = 0.5f; // Tiempo máximo entre clics para seguir el combo
+    private float lastClickTime;
+
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -27,6 +32,17 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
+        // Lógica para reiniciar el combo si pasa mucho tiempo sin atacar
+        if (Time.time - lastClickTime > comboResetTime)
+        {
+            comboStep = 0;
+            anim.SetInteger("ComboStep", 0);
+
+            // Esta línea es el "seguro de vida": si el evento falla, 
+            // el tiempo te devolverá el movimiento.
+            isAttacking = false;
+        }
+
         if (Time.time >= nextAttackTime)
         {
             if (Input.GetKeyDown(KeyCode.F))
@@ -40,6 +56,12 @@ public class PlayerCombat : MonoBehaviour
     void Attack()
     {
         isAttacking = true;
+
+        // Guardamos el momento del clic para el temporizador
+        lastClickTime = Time.time;
+
+        // Avisamos al Animator en qué paso del combo estamos antes de disparar el Trigger
+        anim.SetInteger("ComboStep", comboStep);
         anim.SetTrigger("Attack");
 
         // Esta linea crea un circulo invisible y guarda todo lo que sea "Enemy" dentro de el
@@ -49,8 +71,6 @@ public class PlayerCombat : MonoBehaviour
         {
             audioSource.PlayOneShot(swingSound);
         }
-
-
 
         // Por cada enemigo que hayamos golpeado...
         foreach (Collider2D enemy in hitEnemies)
@@ -62,8 +82,13 @@ public class PlayerCombat : MonoBehaviour
                 enemyHealth.TakeDamage(attackDamage, transform.position);
             }
         }
-      
 
+        // Avanzamos el combo para el siguiente clic
+        comboStep++;
+        if (comboStep > 2) // Si ya hicimos el tercer ataque (0, 1, 2), volvemos a empezar
+        {
+            comboStep = 0;
+        }
     }
 
     public void EndAttack() { isAttacking = false; }

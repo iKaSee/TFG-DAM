@@ -10,7 +10,9 @@ public class GameManager : MonoBehaviour
     public Image fondoNegro;
     public TextMeshProUGUI textoGameOver; // <--- ARRASTRA AQUÍ EL TEXTO DE "GAME OVER"
     public GameObject mensajeReintentar; // El que parpadea
-    public float velocidadOscurecimiento = 0.7f; // Un poco más lento queda mejor
+
+    [Header("Ajustes de Tiempo")]
+    public float duracionMuerteSegundos = 30f; // <--- PON AQUÍ LOS SEGUNDOS QUE DURA TU ANIMACIÓN
 
     private bool isGameOver = false;
     private bool puedeReiniciar = false;
@@ -51,28 +53,36 @@ public class GameManager : MonoBehaviour
 
     IEnumerator EfectoMuerte()
     {
-        float alpha = 0;
+        float tiempoPasado = 0;
         Color cFondo = fondoNegro.color;
         Color cTexto = textoGameOver.color;
 
-        while (alpha < 1)
+        // Este bucle durará exactamente los segundos que hayas puesto en duracionMuerteSegundos
+        while (tiempoPasado < duracionMuerteSegundos)
         {
-            // Aumentamos el alpha gradualmente
-            alpha += Time.unscaledDeltaTime * velocidadOscurecimiento;
+            tiempoPasado += Time.unscaledDeltaTime;
+
+            // Calculamos el progreso (de 0 a 1) basado en el tiempo
+            float progreso = tiempoPasado / duracionMuerteSegundos;
 
             // Aplicamos al fondo
-            cFondo.a = alpha;
+            cFondo.a = progreso;
             fondoNegro.color = cFondo;
 
             // Aplicamos al texto de GAME OVER
             if (textoGameOver != null)
             {
-                cTexto.a = alpha;
+                cTexto.a = progreso;
                 textoGameOver.color = cTexto;
             }
 
             yield return null;
         }
+
+        // Nos aseguramos de que al final sea 1 total
+        cFondo.a = 1;
+        fondoNegro.color = cFondo;
+        if (textoGameOver != null) { cTexto.a = 1; textoGameOver.color = cTexto; }
 
         // Al terminar el fundido, aparece el mensaje de "Pulsa tecla"
         if (mensajeReintentar != null) mensajeReintentar.SetActive(true);

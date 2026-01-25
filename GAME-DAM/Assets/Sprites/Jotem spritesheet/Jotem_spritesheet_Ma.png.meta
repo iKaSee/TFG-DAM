@@ -1,0 +1,2564 @@
+fileFormatVersion: 2
+guid: 41d276e687d01424f99784c91e163e60
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4144236673701703670
+    second: Jotem_spritesheet_0
+  - first:
+      213: 2426604413639461383
+    second: Jotem_spritesheet_1
+  - first:
+      213: -4617713519957202622
+    second: Jotem_spritesheet_2
+  - first:
+      213: -3439193624433001066
+    second: Jotem_spritesheet_3
+  - first:
+      213: -2254102056382428520
+    second: Jotem_spritesheet_4
+  - first:
+      213: 8458627078529971645
+    second: Jotem_spritesheet_5
+  - first:
+      213: 7123090479349535858
+    second: Jotem_spritesheet_6
+  - first:
+      213: -8024201053449389589
+    second: Jotem_spritesheet_7
+  - first:
+      213: -3963881875594953635
+    second: Jotem_spritesheet_8
+  - first:
+      213: -6258022043757240933
+    second: Jotem_spritesheet_9
+  - first:
+      213: -8062573477907976760
+    second: Jotem_spritesheet_10
+  - first:
+      213: 2163438104787062200
+    second: Jotem_spritesheet_11
+  - first:
+      213: 2818269542880822246
+    second: Jotem_spritesheet_12
+  - first:
+      213: 4888899393507478815
+    second: Jotem_spritesheet_13
+  - first:
+      213: -8519927173552374428
+    second: Jotem_spritesheet_14
+  - first:
+      213: 309227012270760936
+    second: Jotem_spritesheet_15
+  - first:
+      213: -6231652051400149324
+    second: Jotem_spritesheet_16
+  - first:
+      213: -7683937414885705576
+    second: Jotem_spritesheet_17
+  - first:
+      213: 2415366354719894713
+    second: Jotem_spritesheet_18
+  - first:
+      213: -8172830978949574001
+    second: Jotem_spritesheet_19
+  - first:
+      213: -7379474372623336426
+    second: Jotem_spritesheet_20
+  - first:
+      213: 1417107330445956633
+    second: Jotem_spritesheet_21
+  - first:
+      213: 7742420233111704477
+    second: Jotem_spritesheet_22
+  - first:
+      213: -712146886332024862
+    second: Jotem_spritesheet_23
+  - first:
+      213: -3141902628635940652
+    second: Jotem_spritesheet_24
+  - first:
+      213: 6159034418731482546
+    second: Jotem_spritesheet_25
+  - first:
+      213: 1871581731103869555
+    second: Jotem_spritesheet_26
+  - first:
+      213: 1578809541896511915
+    second: Jotem_spritesheet_27
+  - first:
+      213: 8443468368180655270
+    second: Jotem_spritesheet_28
+  - first:
+      213: 6969967447270994102
+    second: Jotem_spritesheet_29
+  - first:
+      213: -5600367213287816283
+    second: Jotem_spritesheet_30
+  - first:
+      213: 7516220971196563772
+    second: Jotem_spritesheet_31
+  - first:
+      213: 2379807626217831383
+    second: Jotem_spritesheet_32
+  - first:
+      213: -2830582243387390135
+    second: Jotem_spritesheet_33
+  - first:
+      213: 5491180438867813223
+    second: Jotem_spritesheet_34
+  - first:
+      213: 8422639631266640707
+    second: Jotem_spritesheet_35
+  - first:
+      213: -2792789613050450095
+    second: Jotem_spritesheet_36
+  - first:
+      213: -8505952374059084424
+    second: Jotem_spritesheet_37
+  - first:
+      213: -2826340359897173514
+    second: Jotem_spritesheet_38
+  - first:
+      213: -5820702945407245565
+    second: Jotem_spritesheet_39
+  - first:
+      213: -8036188239891190245
+    second: Jotem_spritesheet_40
+  - first:
+      213: -2418516168636718357
+    second: Jotem_spritesheet_41
+  - first:
+      213: 2840396065578756451
+    second: Jotem_spritesheet_42
+  - first:
+      213: 3763574442318877559
+    second: Jotem_spritesheet_43
+  - first:
+      213: -4246192309394375008
+    second: Jotem_spritesheet_44
+  - first:
+      213: -288287567801236094
+    second: Jotem_spritesheet_45
+  - first:
+      213: -1780622203967981243
+    second: Jotem_spritesheet_46
+  - first:
+      213: 7026704167353057657
+    second: Jotem_spritesheet_47
+  - first:
+      213: -5168953399504383356
+    second: Jotem_spritesheet_48
+  - first:
+      213: 715521077440131788
+    second: Jotem_spritesheet_49
+  - first:
+      213: 8019359724316104405
+    second: Jotem_spritesheet_50
+  - first:
+      213: -1503519924431977782
+    second: Jotem_spritesheet_51
+  - first:
+      213: -7680396903579475644
+    second: Jotem_spritesheet_52
+  - first:
+      213: -2477115587567591259
+    second: Jotem_spritesheet_53
+  - first:
+      213: 6189670128096262831
+    second: Jotem_spritesheet_54
+  - first:
+      213: 6224903428707054317
+    second: Jotem_spritesheet_55
+  - first:
+      213: 4345789026127874380
+    second: Jotem_spritesheet_56
+  - first:
+      213: -5088734727905618256
+    second: Jotem_spritesheet_57
+  - first:
+      213: -1191025638799962593
+    second: Jotem_spritesheet_58
+  - first:
+      213: 8553548032722125737
+    second: Jotem_spritesheet_59
+  - first:
+      213: -1044329469662754151
+    second: Jotem_spritesheet_60
+  - first:
+      213: 6246622134299157112
+    second: Jotem_spritesheet_61
+  - first:
+      213: -665492798767826757
+    second: Jotem_spritesheet_62
+  - first:
+      213: 788535768269121808
+    second: Jotem_spritesheet_63
+  - first:
+      213: -7731318954251458808
+    second: Jotem_spritesheet_64
+  - first:
+      213: 4167963695210511467
+    second: Jotem_spritesheet_65
+  - first:
+      213: 7802025110565519910
+    second: Jotem_spritesheet_66
+  - first:
+      213: 1921223788862880828
+    second: Jotem_spritesheet_67
+  - first:
+      213: -1273771172085491215
+    second: Jotem_spritesheet_68
+  - first:
+      213: 6298758867025315646
+    second: Jotem_spritesheet_69
+  - first:
+      213: -1766763622998617056
+    second: Jotem_spritesheet_70
+  - first:
+      213: 6875706637847274219
+    second: Jotem_spritesheet_71
+  - first:
+      213: -7038693208073956270
+    second: Jotem_spritesheet_72
+  - first:
+      213: -2107180532450058625
+    second: Jotem_spritesheet_73
+  - first:
+      213: 2555732815856405500
+    second: Jotem_spritesheet_74
+  - first:
+      213: 1388657210518365988
+    second: Jotem_spritesheet_75
+  - first:
+      213: 6679537296869739774
+    second: Jotem_spritesheet_76
+  - first:
+      213: 4094153607745724087
+    second: Jotem_spritesheet_77
+  - first:
+      213: 2095695137334576213
+    second: Jotem_spritesheet_78
+  - first:
+      213: 8253421174832313225
+    second: Jotem_spritesheet_79
+  - first:
+      213: -6333956415774140956
+    second: Jotem_spritesheet_80
+  - first:
+      213: -8035783364145137024
+    second: Jotem_spritesheet_81
+  - first:
+      213: 2201194311637169101
+    second: Jotem_spritesheet_82
+  - first:
+      213: 5679667993655845011
+    second: Jotem_spritesheet_83
+  - first:
+      213: -7510856948447506370
+    second: Jotem_spritesheet_84
+  - first:
+      213: -780134408637818081
+    second: Jotem_spritesheet_85
+  - first:
+      213: -4289281229264993433
+    second: Jotem_spritesheet_86
+  - first:
+      213: -8613538556693132534
+    second: Jotem_spritesheet_87
+  - first:
+      213: 2614693092449504008
+    second: Jotem_spritesheet_88
+  - first:
+      213: 6602680591666849767
+    second: Jotem_spritesheet_89
+  - first:
+      213: -2814835630854760789
+    second: Jotem_spritesheet_90
+  - first:
+      213: -8509523829051745543
+    second: Jotem_spritesheet_91
+  - first:
+      213: -2562266778577918267
+    second: Jotem_spritesheet_92
+  - first:
+      213: 8484277094235099600
+    second: Jotem_spritesheet_93
+  - first:
+      213: -4670932253140643593
+    second: Jotem_spritesheet_94
+  - first:
+      213: 3991295742585334808
+    second: Jotem_spritesheet_95
+  - first:
+      213: 565243152187935472
+    second: Jotem_spritesheet_96
+  - first:
+      213: -6969382606588072330
+    second: Jotem_spritesheet_97
+  - first:
+      213: -3004018904227672507
+    second: Jotem_spritesheet_98
+  - first:
+      213: -2635070968158771805
+    second: Jotem_spritesheet_99
+  - first:
+      213: 3339275867837891402
+    second: Jotem_spritesheet_100
+  - first:
+      213: 6627548482682677988
+    second: Jotem_spritesheet_101
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 40
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1408
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7742bbd248cdc1640adfae57556a2983
+      internalID: 1764938834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1408
+        width: 26
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a95bc43e012c440bf5a8a17ae212e9
+      internalID: -739691477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 1408
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c1009f593d69444bf8342dcb063877
+      internalID: 712386975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 1408
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f697dcbe3d2ec418392e2c1c0b26f6
+      internalID: 1146768959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1408
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cd8e580ea91584791123d6d1cb8e69
+      internalID: -322454045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_5
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1408
+        width: 26
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b0882ce5962a3419f9faab80df2d7d
+      internalID: 1830536078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_6
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 1280
+        width: 25
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4f3469f08b1254ea4fbc7dde98a5c7
+      internalID: 2110877854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_7
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1280
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a64f3334708d7540abed97ecc8d6f04
+      internalID: 1360300946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_8
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1280
+        width: 24
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 479040c014af3c0418f74f1964cfb40d
+      internalID: 593563302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 1280
+        width: 26
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91626ec6b125ca04688b85aa95952ad0
+      internalID: -1930250599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_10
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 1280
+        width: 28
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb227773a1af81c43b46621acacdb6a9
+      internalID: -40461626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_11
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1280
+        width: 26
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3348184fa868014cbe833c3dc008f80
+      internalID: -459662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_12
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1280
+        width: 24
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa552825010483843817f23454576e42
+      internalID: -933922175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_13
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1280
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e7a2d6253629b42b34cbd0f453a8d6
+      internalID: -1934303638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_14
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 1152
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0064c391251a3e847b8f00d8c528f8e6
+      internalID: -1225242843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_15
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1152
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce310b1c2e351d54481bfacee8d61947
+      internalID: -1028798828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_16
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 1152
+        width: 48
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9441474aa4b392441b904a568a429a30
+      internalID: 2036455922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_17
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 1152
+        width: 48
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdc5ae7f6ae2ca4fa4c2aeca18d9a95
+      internalID: 1085196367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_18
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1152
+        width: 48
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62386f9a617db8541a58870c072438d8
+      internalID: 663196949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_19
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 1152
+        width: 48
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c96bb7e674ed14490f73a04ad7c7d3
+      internalID: 603419450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_20
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1024
+        width: 48
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdb1fc0986f07314192cd2c2492880f1
+      internalID: -1396440574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1024
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b56889faddad64685b177cae2782ea
+      internalID: -1257725168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_22
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1024
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2133715b45b1d45a8e47beceb0b4e0
+      internalID: -534899318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_23
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1024
+        width: 48
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c48cd526c475424d9451017b94bc838
+      internalID: 1327519317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_24
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 1024
+        width: 48
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b207d6f44f7cfb438211743f3e5a10e
+      internalID: -1055069500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_25
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1024
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd9c023805b7c1488f420e5f65b4811
+      internalID: -1482832948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_26
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 1024
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e306ee0c720793479652a46a78225ae
+      internalID: 597281708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_27
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1024
+        width: 48
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5606eac0903a7d447b4bc40359bd678c
+      internalID: 1112355622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 896
+        width: 47
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55b41c5d35b74745806968385507831
+      internalID: 1417293291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_29
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 896
+        width: 47
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a119386e2f9f95a4aa6c42a65d267eee
+      internalID: -1343974697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_30
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 896
+        width: 47
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c0db881b6eea184c81e4d99cd681085
+      internalID: 1373702939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_31
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 769
+        width: 48
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b20f1be6d8d45143a8bed8c788769e8
+      internalID: 109050518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_32
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 769
+        width: 48
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85e96ab622c12b4e885d72e789220ef
+      internalID: -856606248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_33
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 769
+        width: 48
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c08897377f1adb42916d006a39c2175
+      internalID: -836912527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_34
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 769
+        width: 48
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979246bce774f384cad10e396488e1f0
+      internalID: 1579802193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_35
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 769
+        width: 48
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d4f83d70a1f4b4794f10754fa95c11
+      internalID: 1406639491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_36
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 640
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f6be90cae14b64db717dcdb1ce8358
+      internalID: -975750891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_37
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 640
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5528c5446493b34f8b7288a699c4e75
+      internalID: -1676667480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_38
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 640
+        width: 48
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032dc22a84d36ab4bb720f5c578f2d99
+      internalID: -1510396430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_39
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 640
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aba8c6c0789cb1449a7a33ed83951907
+      internalID: -285956032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_40
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 640
+        width: 48
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eabdeded042d77e4d800354f310c7eac
+      internalID: 421057380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_41
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 640
+        width: 48
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e870785bd92936b44909b4b8b5373ee8
+      internalID: -745037660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_43
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 672
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ac9df35b20553458b3a10791937ff4
+      internalID: 1996941626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_46
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 640
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1fdaef21dce1004d83facee8355877c
+      internalID: 1335232889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_47
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 640
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c587aeca4960b524582732e340ce2263
+      internalID: -288085955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_48
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 640
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb99751f484f18741815aadefd6e6c37
+      internalID: 1556079609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_49
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 640
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18288c6a0346d3e43ae579571fe93f9f
+      internalID: -1239073533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_50
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 512
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2d6a6a9b04d4b43b9e471ad2178638
+      internalID: 1948150540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_51
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 512
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63aa9c2e5d4832748a7c5b93fc982799
+      internalID: 87443156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_52
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 512
+        width: 56
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58847c95e30376f469146ff76bea3553
+      internalID: -563954409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_53
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 512
+        width: 75
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4351ea305c3f4e40a3ce8e664dd3c90
+      internalID: 84826314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_54
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 512
+        width: 58
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bfc80f49b1f424cbb89768bdd75397
+      internalID: 791437033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_55
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 512
+        width: 58
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7b7339b1c744948806ca55ac990324
+      internalID: 6871905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_56
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 512
+        width: 53
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5313e7d65ff0140469b5b3b4e7553d29
+      internalID: -729649532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_57
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 512
+        width: 80
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d4417331e6a64459647af21362b6e6
+      internalID: 1016145547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_58
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 512
+        width: 84
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031b02e861191cd46ba580a96477f92a
+      internalID: 475606782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_59
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 512
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a2911b31cf19448ae17caecb22f6f9
+      internalID: 709522562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_60
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 384
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02f78e6d6c9f987489f774a11459d391
+      internalID: 1806088063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_61
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 384
+        width: 48
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1e0c142684d4346ba6ba8a29b7787e
+      internalID: -528051844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_62
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 384
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2145761c3fbfd1640833886381223cf2
+      internalID: 575439385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_63
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 384
+        width: 48
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c807cc0ce195a14cb213f227c6e1e60
+      internalID: 1694676957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_64
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 384
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d332a31d30bbca94a9991ae14a98e8ff
+      internalID: -1673039604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_65
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 256
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5f991210d3cdf4a88d89f66699f5d1
+      internalID: 2127502275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_66
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 256
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367e0cba041a0dd49b7829843887b6d8
+      internalID: -473328071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_67
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 256
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc79dd21ad9c024e8aea327225ce777
+      internalID: 933249511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_68
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 256
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ef02d91f36cef4ebe67af869b39753
+      internalID: 1040134756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_69
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 256
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c11a29b84ea5546a8e3bfc2fa49694
+      internalID: -1248850639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_70
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 256
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9935506ba5d9e9b40be896f6561e1d88
+      internalID: 1147288226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_71
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 256
+        width: 54
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d234068251eba554d952af3793f79db6
+      internalID: 2061736772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_73
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 256
+        width: 53
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb4a4490def9024db317116b1bc7018
+      internalID: 794981670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_75
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 256
+        width: 53
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2202390ea5c951847a9731ac28fceaaa
+      internalID: -1909610215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_76
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 256
+        width: 51
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8147e20dc6003b44ad214aa30c45e02
+      internalID: -116585992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_77
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 256
+        width: 55
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf3c73422716be46be261f44074d562
+      internalID: 1471728863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_78
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 256
+        width: 64
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2069e8defc80069469fdd310ac6423e6
+      internalID: -2065305007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_79
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 128
+        width: 67
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09fcf947f83aace4bad01825c889c25e
+      internalID: 1465971092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_83
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 128
+        width: 62
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f55cf315308eef4d96f6803501ebca9
+      internalID: -1282737471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_84
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 128
+        width: 65
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6116e0acb6c534dada8da68cb13221
+      internalID: -491070132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_85
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 128
+        width: 64
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34d6bb481d82444586ab49b4c7e1090
+      internalID: 842970470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_86
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 128
+        width: 64
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e63af1b1298bef24cb619725c235faa7
+      internalID: -1122088764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_87
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 128
+        width: 64
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f334a07f716c454b8fd4c16cf0c3fb3
+      internalID: 1468211041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_88
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 128
+        width: 63
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb7f35e3fee74e40811156bf2e106de
+      internalID: -783483636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_89
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 128
+        width: 65
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2412b32c5d9bb374da1f8c685c1a31f0
+      internalID: -194002605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_90
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 128
+        width: 65
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a13aa8175318e7a4ea0607c3d4e922d4
+      internalID: -260018212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_91
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 128
+        width: 65
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48062824653daa448236cc51028b3f3
+      internalID: 2012196146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_92
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 128
+        width: 80
+        height: 63
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495e5133127e82946a9e0dfd4d2c5a41
+      internalID: -508301873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_93
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 128
+        width: 64
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8629eb6a4984445b535728e2fe75b8
+      internalID: -704531720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_96
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 0
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 455474c7fe3cb3c48b198196f78df491
+      internalID: -960546220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_97
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 48
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95aed9cdb03954e46b757e8e80c57bba
+      internalID: -1415868664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_98
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 48
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03fa8f5b78ddd44db60dcf39ddad336
+      internalID: 752249953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_99
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 0
+        width: 55
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c92f19599286ca46b03ce814d647433
+      internalID: -1747204797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_100
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 0
+        width: 65
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e17b3d4aab2d3b46ab2989c0d9fca7d
+      internalID: -1019944594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jotem_spritesheet_Ma_101
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 0
+        width: 65
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bde1ec13d1b904988906f8ec44beb7
+      internalID: -2113142020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b648d15ae2ebf3645bec139359dac4d2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Jotem_spritesheet_Ma_0: 1764938834
+      Jotem_spritesheet_Ma_1: -739691477
+      Jotem_spritesheet_Ma_10: -40461626
+      Jotem_spritesheet_Ma_100: -1019944594
+      Jotem_spritesheet_Ma_101: -2113142020
+      Jotem_spritesheet_Ma_11: -459662
+      Jotem_spritesheet_Ma_12: -933922175
+      Jotem_spritesheet_Ma_13: -1934303638
+      Jotem_spritesheet_Ma_14: -1225242843
+      Jotem_spritesheet_Ma_15: -1028798828
+      Jotem_spritesheet_Ma_16: 2036455922
+      Jotem_spritesheet_Ma_17: 1085196367
+      Jotem_spritesheet_Ma_18: 663196949
+      Jotem_spritesheet_Ma_19: 603419450
+      Jotem_spritesheet_Ma_2: 712386975
+      Jotem_spritesheet_Ma_20: -1396440574
+      Jotem_spritesheet_Ma_21: -1257725168
+      Jotem_spritesheet_Ma_22: -534899318
+      Jotem_spritesheet_Ma_23: 1327519317
+      Jotem_spritesheet_Ma_24: -1055069500
+      Jotem_spritesheet_Ma_25: -1482832948
+      Jotem_spritesheet_Ma_26: 597281708
+      Jotem_spritesheet_Ma_27: 1112355622
+      Jotem_spritesheet_Ma_28: 1417293291
+      Jotem_spritesheet_Ma_29: -1343974697
+      Jotem_spritesheet_Ma_3: 1146768959
+      Jotem_spritesheet_Ma_30: 1373702939
+      Jotem_spritesheet_Ma_31: 109050518
+      Jotem_spritesheet_Ma_32: -856606248
+      Jotem_spritesheet_Ma_33: -836912527
+      Jotem_spritesheet_Ma_34: 1579802193
+      Jotem_spritesheet_Ma_35: 1406639491
+      Jotem_spritesheet_Ma_36: -975750891
+      Jotem_spritesheet_Ma_37: -1676667480
+      Jotem_spritesheet_Ma_38: -1510396430
+      Jotem_spritesheet_Ma_39: -285956032
+      Jotem_spritesheet_Ma_4: -322454045
+      Jotem_spritesheet_Ma_40: 421057380
+      Jotem_spritesheet_Ma_41: -745037660
+      Jotem_spritesheet_Ma_42: -1148436982
+      Jotem_spritesheet_Ma_43: 1996941626
+      Jotem_spritesheet_Ma_44: -1117585720
+      Jotem_spritesheet_Ma_45: 1236387574
+      Jotem_spritesheet_Ma_46: 1335232889
+      Jotem_spritesheet_Ma_47: -288085955
+      Jotem_spritesheet_Ma_48: 1556079609
+      Jotem_spritesheet_Ma_49: -1239073533
+      Jotem_spritesheet_Ma_5: 1830536078
+      Jotem_spritesheet_Ma_50: 1948150540
+      Jotem_spritesheet_Ma_51: 87443156
+      Jotem_spritesheet_Ma_52: -563954409
+      Jotem_spritesheet_Ma_53: 84826314
+      Jotem_spritesheet_Ma_54: 791437033
+      Jotem_spritesheet_Ma_55: 6871905
+      Jotem_spritesheet_Ma_56: -729649532
+      Jotem_spritesheet_Ma_57: 1016145547
+      Jotem_spritesheet_Ma_58: 475606782
+      Jotem_spritesheet_Ma_59: 709522562
+      Jotem_spritesheet_Ma_6: 2110877854
+      Jotem_spritesheet_Ma_60: 1806088063
+      Jotem_spritesheet_Ma_61: -528051844
+      Jotem_spritesheet_Ma_62: 575439385
+      Jotem_spritesheet_Ma_63: 1694676957
+      Jotem_spritesheet_Ma_64: -1673039604
+      Jotem_spritesheet_Ma_65: 2127502275
+      Jotem_spritesheet_Ma_66: -473328071
+      Jotem_spritesheet_Ma_67: 933249511
+      Jotem_spritesheet_Ma_68: 1040134756
+      Jotem_spritesheet_Ma_69: -1248850639
+      Jotem_spritesheet_Ma_7: 1360300946
+      Jotem_spritesheet_Ma_70: 1147288226
+      Jotem_spritesheet_Ma_71: 2061736772
+      Jotem_spritesheet_Ma_72: -1030845044
+      Jotem_spritesheet_Ma_73: 794981670
+      Jotem_spritesheet_Ma_74: 694051143
+      Jotem_spritesheet_Ma_75: -1909610215
+      Jotem_spritesheet_Ma_76: -116585992
+      Jotem_spritesheet_Ma_77: 1471728863
+      Jotem_spritesheet_Ma_78: -2065305007
+      Jotem_spritesheet_Ma_79: 1465971092
+      Jotem_spritesheet_Ma_8: 593563302
+      Jotem_spritesheet_Ma_80: -1741257243
+      Jotem_spritesheet_Ma_81: -1462600644
+      Jotem_spritesheet_Ma_82: -68582365
+      Jotem_spritesheet_Ma_83: -1282737471
+      Jotem_spritesheet_Ma_84: -491070132
+      Jotem_spritesheet_Ma_85: 842970470
+      Jotem_spritesheet_Ma_86: -1122088764
+      Jotem_spritesheet_Ma_87: 1468211041
+      Jotem_spritesheet_Ma_88: -783483636
+      Jotem_spritesheet_Ma_89: -194002605
+      Jotem_spritesheet_Ma_9: -1930250599
+      Jotem_spritesheet_Ma_90: -260018212
+      Jotem_spritesheet_Ma_91: 2012196146
+      Jotem_spritesheet_Ma_92: -508301873
+      Jotem_spritesheet_Ma_93: -704531720
+      Jotem_spritesheet_Ma_94: -1153130479
+      Jotem_spritesheet_Ma_95: 1681730837
+      Jotem_spritesheet_Ma_96: -960546220
+      Jotem_spritesheet_Ma_97: -1415868664
+      Jotem_spritesheet_Ma_98: 752249953
+      Jotem_spritesheet_Ma_99: -1747204797
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

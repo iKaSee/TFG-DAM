@@ -1,40 +1,10 @@
 fileFormatVersion: 2
-guid: 1e6852fb6f14f244a87b5350c90c95e4
+guid: 4de06c4f87491354684398dae855a73d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3360928576007487524
-    second: Bat-Attack2_0
-  - first:
-      213: 1433283180146207013
-    second: Bat-Attack2_1
-  - first:
-      213: -50175975255986556
-    second: Bat-Attack2_2
-  - first:
-      213: 8038217047353360322
-    second: Bat-Attack2_3
-  - first:
-      213: -2187873852825670964
-    second: Bat-Attack2_4
-  - first:
-      213: 1576388397293603164
-    second: Bat-Attack2_5
-  - first:
-      213: 4127612531767738023
-    second: Bat-Attack2_6
-  - first:
-      213: 6352858989827537929
-    second: Bat-Attack2_7
-  - first:
-      213: -7246643240521344652
-    second: Bat-Attack2_8
-  - first:
-      213: -8485750876489600730
-    second: Bat-Attack2_9
-  - first:
-      213: -9214628519888500846
-    second: Bat-Attack2_10
+      213: 7621811115366677154
+    second: LifeHealing-Sheet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 30
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -143,243 +113,287 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bat-Attack2_0
+      name: LifeHealing-Sheet_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 23
-        width: 36
-        height: 18
+        x: 0
+        y: 192
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cdf3d9f54459b51d0800000000000000
-      internalID: -3360928576007487524
+      spriteID: 2aafd8cc3dc16c960800000000000000
+      internalID: 7621811115366677154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_1
+      name: LifeHealing-Sheet_1
       rect:
         serializedVersion: 2
-        x: 90
-        y: 24
-        width: 24
-        height: 19
+        x: 0
+        y: 176
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 529282f557b04e310800000000000000
-      internalID: 1433283180146207013
+      spriteID: 3bc5c163ec92dd244ad3e6e650638289
+      internalID: -2136135000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_2
+      name: LifeHealing-Sheet_2
       rect:
         serializedVersion: 2
-        x: 159
-        y: 25
-        width: 28
-        height: 21
+        x: 0
+        y: 160
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48eab92673dbd4ff0800000000000000
-      internalID: -50175975255986556
+      spriteID: dd7e4c02ee50698478077f969f26a59c
+      internalID: -254821499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_3
+      name: LifeHealing-Sheet_3
       rect:
         serializedVersion: 2
-        x: 225
-        y: 26
-        width: 28
-        height: 21
+        x: 0
+        y: 144
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2cf7cf6f0db7d8f60800000000000000
-      internalID: 8038217047353360322
+      spriteID: 6d707132b1ed75945a52d7953fda1cdf
+      internalID: 1486593575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_4
+      name: LifeHealing-Sheet_4
       rect:
         serializedVersion: 2
-        x: 282
-        y: 29
-        width: 25
-        height: 18
+        x: 0
+        y: 128
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ccae5fc925c13a1e0800000000000000
-      internalID: -2187873852825670964
+      spriteID: 6b0655e2ae6d35e4080c0bf37cdc714b
+      internalID: 1012928691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_5
+      name: LifeHealing-Sheet_5
       rect:
         serializedVersion: 2
-        x: 338
-        y: 29
-        width: 24
-        height: 20
+        x: 0
+        y: 112
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c598bb035e470e510800000000000000
-      internalID: 1576388397293603164
+      spriteID: aded3f48798066f46a3362e895bff35a
+      internalID: 1530975330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_6
+      name: LifeHealing-Sheet_6
       rect:
         serializedVersion: 2
-        x: 398
-        y: 28
-        width: 19
-        height: 21
+        x: 0
+        y: 96
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7ae77768ab9384930800000000000000
-      internalID: 4127612531767738023
+      spriteID: da84638a8d68bab4194446caa0e5c9e0
+      internalID: 858428886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_7
+      name: LifeHealing-Sheet_7
       rect:
         serializedVersion: 2
-        x: 452
-        y: 29
-        width: 25
-        height: 10
+        x: 0
+        y: 80
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 90c31d4a793e92850800000000000000
-      internalID: 6352858989827537929
+      spriteID: 069e293c947f4a049b7b54565014ea79
+      internalID: 1231145145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_8
+      name: LifeHealing-Sheet_8
       rect:
         serializedVersion: 2
-        x: 514
-        y: 27
-        width: 23
-        height: 12
+        x: 0
+        y: 64
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4795dbafd50ce6b90800000000000000
-      internalID: -7246643240521344652
+      spriteID: 57f68bf9e9f6d8540803132a5bae0d14
+      internalID: 436975090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_9
+      name: LifeHealing-Sheet_9
       rect:
         serializedVersion: 2
-        x: 577
-        y: 27
-        width: 23
-        height: 12
+        x: 0
+        y: 48
+        width: 64
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 621b06a898e8c3a80800000000000000
-      internalID: -8485750876489600730
+      spriteID: 2a03ee13284de2e488264900a5d406d3
+      internalID: 189170122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bat-Attack2_10
+      name: LifeHealing-Sheet_10
       rect:
         serializedVersion: 2
-        x: 648
-        y: 22
-        width: 29
-        height: 19
+        x: 0
+        y: 32
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e53e3ce232355468505b4e4e71d5d3
+      internalID: 946075013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LifeHealing-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 64
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 297ccdeae201f1080800000000000000
-      internalID: -9214628519888500846
+      spriteID: 756ad79e450418e429b99546f29d4363
+      internalID: -2133803646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LifeHealing-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07746168ab7a9a745bb15fd002bd0457
+      internalID: -1651035797
       vertices: []
       indices: 
       edges: []
@@ -388,7 +402,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 21815c9e2a8afb44a9b3ba94a50a1ff3
     internalID: 0
     vertices: []
     indices: 
@@ -396,19 +410,23 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":11.0},"gridSpriteSize":{"x":64.0,"y":18.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Bat-Attack2_0: -3360928576007487524
-      Bat-Attack2_1: 1433283180146207013
-      Bat-Attack2_10: -9214628519888500846
-      Bat-Attack2_2: -50175975255986556
-      Bat-Attack2_3: 8038217047353360322
-      Bat-Attack2_4: -2187873852825670964
-      Bat-Attack2_5: 1576388397293603164
-      Bat-Attack2_6: 4127612531767738023
-      Bat-Attack2_7: 6352858989827537929
-      Bat-Attack2_8: -7246643240521344652
-      Bat-Attack2_9: -8485750876489600730
+      LifeHealing-Sheet_0: 7621811115366677154
+      LifeHealing-Sheet_1: -2136135000
+      LifeHealing-Sheet_10: 946075013
+      LifeHealing-Sheet_11: -2133803646
+      LifeHealing-Sheet_12: -1651035797
+      LifeHealing-Sheet_2: -254821499
+      LifeHealing-Sheet_3: 1486593575
+      LifeHealing-Sheet_4: 1012928691
+      LifeHealing-Sheet_5: 1530975330
+      LifeHealing-Sheet_6: 858428886
+      LifeHealing-Sheet_7: 1231145145
+      LifeHealing-Sheet_8: 436975090
+      LifeHealing-Sheet_9: 189170122
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

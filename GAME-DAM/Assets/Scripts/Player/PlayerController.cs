@@ -20,13 +20,18 @@ public class PlayerController : MonoBehaviour
 
     [Header("Detección de Suelo")]
     public Transform groundCheck;
-    public float checkRadius = 0.2f;
+    public float checkHeight = 0.3f;
+    public float checkWidth = 1;
     public LayerMask groundLayer;
+
+    [Header("Ajustes de Combate")]
+    public float combatSpeedBoost = 4f; // Cuánto más rápido irá (ej: 8 original + 4 = 12)
+    private float defaultSpeed;
 
     private Rigidbody2D rb;
     private Animator anim;
     private PlayerCombat combat;
-    private bool isGrounded;
+    public bool isGrounded;
     private float moveInput;
     private bool facingRight = true;
 
@@ -35,6 +40,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         combat = GetComponent<PlayerCombat>();
+        defaultSpeed = moveSpeed;
     }
 
     void Update()
@@ -68,6 +74,24 @@ public class PlayerController : MonoBehaviour
         {
             StartCoroutine(PerformDash());
         }
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            bool currentMode = anim.GetBool("IsCombatMode");
+            bool newMode = !currentMode;
+
+            anim.SetBool("IsCombatMode", newMode);
+
+            // 2. Aplicar el cambio de velocidad
+            if (newMode)
+            {
+                moveSpeed = defaultSpeed + combatSpeedBoost;
+            }
+            else
+            {
+                moveSpeed = defaultSpeed;
+            }
+        }
+    
 
         // Girar personaje (Tu método original)
         if (moveInput > 0 && !facingRight) Flip();
@@ -82,8 +106,22 @@ public class PlayerController : MonoBehaviour
         if (isDashing || (combat != null && combat.isAttacking)) return;
 
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
+        isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(checkWidth, checkHeight), 0f, groundLayer);
+
+
+
+
     }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireCube(
+            groundCheck.position,
+            new Vector3(checkWidth, checkHeight, 0f)
+        );
+    }
+
 
     private IEnumerator PerformDash()
     {
