@@ -14,6 +14,11 @@ public class GameManager : MonoBehaviour
     [Header("Ajustes de Tiempo")]
     public float duracionMuerteSegundos = 30f; // <--- PON AQUÍ LOS SEGUNDOS QUE DURA TU ANIMACIÓN
 
+    [Header("Ajustes de Vibración Cámara")]
+    public Transform camaraPrincipal; // Arrastra aquí la cámara
+    public float duracionVibracion = 0.1f;
+    public float intensidadVibracion = 0.08f;
+
     private bool isGameOver = false;
     private bool puedeReiniciar = false;
 
@@ -41,6 +46,33 @@ public class GameManager : MonoBehaviour
         {
             RestartGame();
         }
+    }
+
+    // --- FUNCIÓN PARA LLAMAR DESDE EL COMBATE ---
+    public void SacudirCamara()
+    {
+        if (camaraPrincipal != null)
+        {
+            StartCoroutine(ProcesoVibracion());
+        }
+    }
+
+    IEnumerator ProcesoVibracion()
+    {
+        float tiempoPasado = 0f;
+        float zOriginal = camaraPrincipal.localPosition.z;
+
+        while (tiempoPasado < duracionVibracion)
+        {
+            // Vibración pura de izquierda a derecha (Eje X)
+            float x = Random.Range(-1f, 1f) * intensidadVibracion;
+            camaraPrincipal.localPosition = new Vector3(x, 0, zOriginal);
+
+            tiempoPasado += Time.deltaTime;
+            yield return null;
+        }
+
+        camaraPrincipal.localPosition = new Vector3(0, 0, zOriginal);
     }
 
     public void ShowGameOver()

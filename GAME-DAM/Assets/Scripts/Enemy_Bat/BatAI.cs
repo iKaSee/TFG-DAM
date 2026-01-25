@@ -10,6 +10,14 @@ public class BatAI : MonoBehaviour
     [Header("Movimiento")]
     public float speed = 3f;
     private Transform playerTransform;
+    // --- NUEVO: Referencia al punto de mira específico ---
+    private Transform targetPoint;
+    public string targetPointName = "EnemyTarget";
+    // -----------------------------------------------------
+
+    [Header("Vuelo Erratico")]
+    public float frecuenciaOscilacion = 5f; // Qué tan rápido hace el zig-zag
+    public float amplitudOscilacion = 0.5f; // Qué tan ancho es el zig-zag
 
     [Header("Ataque")]
     public float attackRange = 1.2f;    // Distancia para empezar a atacar
@@ -52,6 +60,11 @@ public class BatAI : MonoBehaviour
         if (playerCollider != null)
         {
             playerTransform = playerCollider.transform;
+
+            // --- NUEVO: Buscar el punto de mira dentro del Player ---
+            targetPoint = playerTransform.Find(targetPointName);
+            // -------------------------------------------------------
+
             WakeUp();
         }
     }
@@ -75,10 +88,12 @@ public class BatAI : MonoBehaviour
     {
         if (playerTransform == null) return;
 
-        float distanceToPlayer = Vector2.Distance(transform.position, playerTransform.position);
+        // --- MODIFICADO: La distancia se calcula ahora respecto al targetPoint si existe ---
+        Vector3 currentTargetPos = targetPoint != null ? targetPoint.position : playerTransform.position;
+        float distanceToTarget = Vector2.Distance(transform.position, currentTargetPos);
 
         // Si está en rango de ataque
-        if (distanceToPlayer <= attackRange)
+        if (distanceToTarget <= attackRange)
         {
             rb.linearVelocity = Vector2.zero; // Se detiene para atacar
 
@@ -117,8 +132,22 @@ public class BatAI : MonoBehaviour
 
     void FollowPlayer()
     {
-        Vector2 direction = (playerTransform.position - transform.position).normalized;
-        rb.linearVelocity = direction * speed;
+        // --- MODIFICADO: Ahora se dirige al targetPoint (pecho/cabeza) y no a los pies ---
+        Vector3 currentTargetPos = targetPoint != null ? targetPoint.position : playerTransform.position;
+        Vector2 direction = (currentTargetPos - transform.position).normalized;
+
+        // --- NUEVO: MOVIMIENTO ERRÁTICO (Zig-Zag) ---
+        // Creamos un vector perpendicular a la dirección del movimiento
+        Vector2 perpendicular = new Vector2(-direction.y, direction.x);
+
+        // Usamos Sin(Time) para crear el vaivén
+        float oscilacion = Mathf.Sin(Time.time * frecuenciaOscilacion) * amplitudOscilacion;
+
+        // Sumamos la oscilación a la dirección principal
+        Vector2 direccionFinal = direction + (perpendicular * oscilacion);
+        // --------------------------------------------
+
+        rb.linearVelocity = direccionFinal.normalized * speed;
 
         // Girar el sprite hacia el jugador
         if (direction.x > 0) transform.localScale = new Vector3(-1, 1, 1);

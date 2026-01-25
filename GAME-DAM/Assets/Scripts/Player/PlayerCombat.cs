@@ -13,7 +13,8 @@ public class PlayerCombat : MonoBehaviour
     public Transform attackPoint;    // Arrastra aqui el objeto AttackPoint
     public float attackRange = 0.5f; // El tamaño del circulo de golpe
     public LayerMask enemyLayers;    // Seleccionaremos la capa "Enemy"
-    public int attackDamage = 40;    // El daño que harás
+    public int attackDamage = 40;    // El daño que harás (Normal)
+    public int attackDamageCombate = 60; // Daño en modo combate
 
     [Header("Audio")]
     public AudioSource audioSource;
@@ -64,6 +65,10 @@ public class PlayerCombat : MonoBehaviour
         anim.SetInteger("ComboStep", comboStep);
         anim.SetTrigger("Attack");
 
+        // Detectamos si estamos en modo combate para el daño y la cámara
+        bool enModoCombate = anim.GetBool("IsCombatMode");
+        int dañoFinal = enModoCombate ? attackDamageCombate : attackDamage;
+
         // Esta linea crea un circulo invisible y guarda todo lo que sea "Enemy" dentro de el
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
@@ -79,7 +84,14 @@ public class PlayerCombat : MonoBehaviour
             if (enemyHealth != null)
             {
                 // Pasamos el daño Y la posición actual del jugador (transform.position)
-                enemyHealth.TakeDamage(attackDamage, transform.position);
+                enemyHealth.TakeDamage(dañoFinal, transform.position);
+
+                // Sacudida de cámara solo en modo combate al impactar
+                if (enModoCombate)
+                {
+                    GameManager gm = FindObjectOfType<GameManager>();
+                    if (gm != null) gm.SacudirCamara();
+                }
             }
         }
 

@@ -269,37 +269,37 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -1372657336072667073}
-    m_Position: {x: 100, y: 30, z: 0}
+    m_Position: {x: -150, y: -50, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3168963063776257510}
-    m_Position: {x: 740, y: 100, z: 0}
+    m_Position: {x: 100, y: -240, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3544115571861536885}
-    m_Position: {x: 740, y: 260, z: 0}
+    m_Position: {x: 700, y: 470, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6729466149905910484}
-    m_Position: {x: 470, y: 270, z: 0}
+    m_Position: {x: 200, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8654687513977495177}
-    m_Position: {x: 480, y: -10, z: 0}
+    m_Position: {x: -150, y: -360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -897856390102340946}
-    m_Position: {x: 760, y: -10, z: 0}
+    m_Position: {x: 260, y: -360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5987705042214465716}
-    m_Position: {x: -430, y: 210, z: 0}
+    m_Position: {x: -750, y: 190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6657642774539139428}
-    m_Position: {x: -70, y: 260, z: 0}
+    m_Position: {x: -290, y: 280, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 935403251210847853}
-    m_Position: {x: 230, y: 220, z: 0}
+    m_Position: {x: 630, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 3677948227385032459}
-    m_Position: {x: 10, y: 610, z: 0}
+    m_Position: {x: -110, y: 630, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2048066093786720728}
-    m_Position: {x: -430, y: 640, z: 0}
+    m_Position: {x: -750, y: 610, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: 7470469485961961506}
@@ -312,7 +312,7 @@ AnimatorStateMachine:
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: -140, y: 470, z: 0}
+  m_AnyStatePosition: {x: -730, y: 450, z: 0}
   m_EntryPosition: {x: -450, y: 60, z: 0}
   m_ExitPosition: {x: 1190, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
@@ -713,7 +713,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Atack3
-  m_Speed: 0.12
+  m_Speed: 0.11
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2516909743035095733}

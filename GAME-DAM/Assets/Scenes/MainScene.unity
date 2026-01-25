@@ -446,6 +446,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194482258}
   m_CullTransparentMesh: 1
+--- !u!1 &223247979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 223247980}
+  - component: {fileID: 223247981}
+  m_Layer: 0
+  m_Name: CameraHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &223247980
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223247979}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.74919, y: 2.24553, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 691601977}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &223247981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223247979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e8b0be7bd1bcfa4380b2511167326fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CamaraController
+  objetivo: {fileID: 1481257019}
+  velocidadCamara: 0.015
+  desplazamiento: {x: 1, y: 2, z: -10}
 --- !u!1 &346490564
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,6 +528,9 @@ MonoBehaviour:
   textoGameOver: {fileID: 194482260}
   mensajeReintentar: {fileID: 786149165}
   duracionMuerteSegundos: 3.4
+  camaraPrincipal: {fileID: 691601977}
+  duracionVibracion: 0.5
+  intensidadVibracion: 0.1
 --- !u!4 &346490566
 Transform:
   m_ObjectHideFlags: 0
@@ -737,6 +788,7 @@ MonoBehaviour:
   jumpForce: 5
   coyoteTime: 1.02
   dashSpeed: 15
+  dashSpeedCombate: 10
   dashDuration: 0.5
   dashCooldown: 1
   groundCheck: {fileID: 1873722874}
@@ -745,7 +797,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  combatSpeedBoost: 4
+  combatSpeedPenalty: 4
   isGrounded: 0
 --- !u!212 &376068973
 SpriteRenderer:
@@ -864,6 +916,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attackDamage: 40
+  attackDamageCombate: 60
   audioSource: {fileID: 376068978}
   swingSound: {fileID: 8300000, guid: 0f0f7a244cd873546b79611d05007c14, type: 3}
   comboStep: 0
@@ -1112,7 +1165,6 @@ GameObject:
   - component: {fileID: 691601976}
   - component: {fileID: 691601975}
   - component: {fileID: 691601974}
-  - component: {fileID: 691601978}
   m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1232,27 +1284,12 @@ Transform:
   m_GameObject: {fileID: 691601973}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.0180063, y: 1.49, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 0.99992937, y: 0.9564387, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 223247980}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &691601978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 691601973}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e8b0be7bd1bcfa4380b2511167326fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CamaraController
-  objetivo: {fileID: 1481257019}
-  velocidadCamara: 0.015
-  desplazamiento: {x: 1, y: 2, z: -10}
 --- !u!1 &700001561
 GameObject:
   m_ObjectHideFlags: 0
@@ -6792,10 +6829,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 829078cd4ea776347a51a7c16ce4cbee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
-  moveSpeed: 7
+  moveSpeed: 10
   jumpForce: 5
   coyoteTime: 1.02
   dashSpeed: 15
+  dashSpeedCombate: 10
   dashDuration: 0.5
   dashCooldown: 1
   groundCheck: {fileID: 684307441}
@@ -6804,7 +6842,7 @@ MonoBehaviour:
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
-  combatSpeedBoost: 4
+  combatSpeedPenalty: 5
   isGrounded: 0
 --- !u!114 &1481257017
 MonoBehaviour:
@@ -6826,6 +6864,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   attackDamage: 40
+  attackDamageCombate: 60
   audioSource: {fileID: 1481257011}
   swingSound: {fileID: 8300000, guid: 0f0f7a244cd873546b79611d05007c14, type: 3}
   comboStep: 3
@@ -6903,6 +6942,7 @@ Transform:
   m_Children:
   - {fileID: 684307441}
   - {fileID: 1047484378}
+  - {fileID: 1663328341}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1506512506
@@ -7264,6 +7304,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   speed: 2
+  targetPointName: EnemyTarget
+  frecuenciaOscilacion: 5
+  amplitudOscilacion: 1
   attackRange: 0.55
   attackCooldown: 2
   damage: 30
@@ -7388,6 +7431,37 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1663328340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1663328341}
+  m_Layer: 3
+  m_Name: EnemyTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1663328341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1663328340}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.622, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1481257019}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1793395525
 GameObject:
   m_ObjectHideFlags: 0
@@ -8024,7 +8098,7 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 691601977}
+  - {fileID: 223247980}
   - {fileID: 376068974}
   - {fileID: 1481257019}
   - {fileID: 1315345213}
