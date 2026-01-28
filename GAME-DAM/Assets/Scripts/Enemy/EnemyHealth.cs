@@ -12,7 +12,7 @@ public class EnemyHealth : MonoBehaviour
 
     [Header("Visual Flash")]
     public SpriteRenderer spriteRenderer;
-    public Color flashColor = Color.red; // Lo he puesto en rojo por defecto como quer�as
+    public Color flashColor = Color.red; // Lo he puesto en rojo por defecto como querías
     public float flashDuration = 0.1f;
     private Color originalColor;
 
@@ -25,6 +25,12 @@ public class EnemyHealth : MonoBehaviour
     public float knockbackForce = 5f;
     public float knockbackDuration = 0.2f;
     private bool isBeingKnockbacked;
+
+    [Header("Ajustes de Muerte")]
+    public float tiempoParaDestruir = 2f; // Tiempo que dura la animación de muerte
+    private bool estaMuerto = false;
+    public bool esElBoss = false; // <--- OPCIÓN B: MARCAR SI ES EL JEFE FINAL
+
 
     private Animator anim;
     private Rigidbody2D rb;
@@ -43,10 +49,11 @@ public class EnemyHealth : MonoBehaviour
 
     public void TakeDamage(float damage, Vector2 playerPosition)
     {
+        if (estaMuerto) return; // Si ya murió, no procesamos más daño
+
         currentHealth -= damage;
 
         // 1. DETENEMOS TODO LO ANTERIOR PRIMERO
-        // As� el nuevo golpe resetea el flash y el knockback sin cancelarlos a mitad
         StopAllCoroutines();
 
         // 2. ACTIVAMOS LOS EFECTOS
@@ -57,32 +64,39 @@ public class EnemyHealth : MonoBehaviour
             audioSource.PlayOneShot(hitSound);
         }
 
-        // 3. L�GICA DE UI Y DESPERTAR
+        // 3. LÓGICA DE UI Y DESPERTAR
         if (healthBar != null && !healthBar.gameObject.activeSelf) healthBar.gameObject.SetActive(true);
         if (healthBar != null) healthBar.ConfigurarBarra((int)currentHealth, (int)maxHealth);
 
         if (GetComponent<BatAI>() != null) GetComponent<BatAI>().WakeUp();
 
-        // 4. ANIMACI�N Y MOVIMIENTO (F�SICA)
-        if (anim != null) anim.SetTrigger("Hurt");
-        StartCoroutine(ApplyKnockback(playerPosition));
+        // --- NUEVO: También despertar al Boss si tiene BossAI ---
+        if (GetComponent<BossAI>() != null) GetComponent<BossAI>().WakeUp();
 
-        if (currentHealth <= 0) Die();
+        // 4. ANIMACIÓN Y MOVIMIENTO (FÍSICA)
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+        else
+        {
+            if (anim != null) anim.SetTrigger("Hurt");
+            StartCoroutine(ApplyKnockback(playerPosition));
+        }
     }
 
     private IEnumerator FlashEffect()
     {
-        // Ponemos el color de impacto
         spriteRenderer.color = flashColor;
-
         yield return new WaitForSeconds(flashDuration);
-
-        // Volvemos al color que el bicho ten�a en el Awake (normalmente blanco/gris)
         spriteRenderer.color = originalColor;
     }
 
     void Die()
     {
+        if (estaMuerto) return;
+        estaMuerto = true;
+
         if (audioSource != null && deathSound != null)
         {
             audioSource.PlayOneShot(deathSound);
@@ -91,9 +105,32 @@ public class EnemyHealth : MonoBehaviour
         if (healthBar != null) healthBar.gameObject.SetActive(false);
         if (anim != null) anim.SetBool("IsDead", true);
 
+        // --- SOLUCIÓN AL HUNDIMIENTO ---
+        // Convertimos el Rigidbody en Static para que no le afecte la gravedad ni fuerzas
+        rb.bodyType = RigidbodyType2D.Static;
+
+        // Desactivamos el collider para que el jugador pueda pasar a través
         GetComponent<Collider2D>().enabled = false;
-        rb.linearVelocity = Vector2.zero;
-        this.enabled = false;
+
+        // --- LÓGICA DE FINAL DE JUEGO (OPCIÓN B) ---
+        if (esElBoss)
+        {
+            GameManager gm = FindObjectOfType<GameManager>();
+            if (gm != null)
+            {
+                gm.TerminarJuego(); // Llama a la corrutina de los 10 segundos y cambio de escena
+            }
+        }
+
+        // IMPORTANTE: No hacemos "this.enabled = false" porque detendría la corrutina de destrucción
+        StartCoroutine(MuerteFinal());
+    }
+
+    // Corrutina para esperar a la animación y limpiar el objeto
+    private IEnumerator MuerteFinal()
+    {
+        yield return new WaitForSeconds(tiempoParaDestruir);
+        Destroy(gameObject);
     }
 
     public void DestroyEnemy() { Destroy(gameObject); }

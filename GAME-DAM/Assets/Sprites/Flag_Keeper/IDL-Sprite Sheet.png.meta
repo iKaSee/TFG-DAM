@@ -1,0 +1,3500 @@
+fileFormatVersion: 2
+guid: 3ea10a34cd5e715448f4bd0a48d7f27a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2242254412043883019
+    second: IDL-Sprite Sheet_0
+  - first:
+      213: 7144208860038540203
+    second: IDL-Sprite Sheet_1
+  - first:
+      213: -2019064486312890797
+    second: IDL-Sprite Sheet_2
+  - first:
+      213: -8337779685213106110
+    second: IDL-Sprite Sheet_3
+  - first:
+      213: -1866549459383535438
+    second: IDL-Sprite Sheet_4
+  - first:
+      213: 679085890409076257
+    second: IDL-Sprite Sheet_5
+  - first:
+      213: 5286069096290903996
+    second: IDL-Sprite Sheet_6
+  - first:
+      213: -3321161132291537374
+    second: IDL-Sprite Sheet_7
+  - first:
+      213: 5414083802593264214
+    second: IDL-Sprite Sheet_8
+  - first:
+      213: -6809027392281320371
+    second: IDL-Sprite Sheet_9
+  - first:
+      213: -6766487490357921664
+    second: IDL-Sprite Sheet_10
+  - first:
+      213: 5640486152679027532
+    second: IDL-Sprite Sheet_11
+  - first:
+      213: 5947446175043447549
+    second: IDL-Sprite Sheet_12
+  - first:
+      213: 1627773342339741940
+    second: IDL-Sprite Sheet_13
+  - first:
+      213: -4594402107121288292
+    second: IDL-Sprite Sheet_14
+  - first:
+      213: -5215978948190908712
+    second: IDL-Sprite Sheet_15
+  - first:
+      213: -3481264359577220231
+    second: IDL-Sprite Sheet_16
+  - first:
+      213: -8055401803949871159
+    second: IDL-Sprite Sheet_17
+  - first:
+      213: -3672439272829161127
+    second: IDL-Sprite Sheet_18
+  - first:
+      213: -2250809777406125455
+    second: IDL-Sprite Sheet_19
+  - first:
+      213: -761028736062420907
+    second: IDL-Sprite Sheet_20
+  - first:
+      213: 515169272745750982
+    second: IDL-Sprite Sheet_21
+  - first:
+      213: 5520039068850523642
+    second: IDL-Sprite Sheet_22
+  - first:
+      213: 3522768718039862966
+    second: IDL-Sprite Sheet_23
+  - first:
+      213: -7201665990130318365
+    second: IDL-Sprite Sheet_24
+  - first:
+      213: 3699562362450770330
+    second: IDL-Sprite Sheet_25
+  - first:
+      213: 7708543825907760665
+    second: IDL-Sprite Sheet_26
+  - first:
+      213: -5182214306799073472
+    second: IDL-Sprite Sheet_27
+  - first:
+      213: -2821528666444392991
+    second: IDL-Sprite Sheet_28
+  - first:
+      213: 27049671603252239
+    second: IDL-Sprite Sheet_29
+  - first:
+      213: 3482892390664910763
+    second: IDL-Sprite Sheet_30
+  - first:
+      213: -5461057844172890149
+    second: IDL-Sprite Sheet_31
+  - first:
+      213: -5748803437783276339
+    second: IDL-Sprite Sheet_32
+  - first:
+      213: 2537036050474644660
+    second: IDL-Sprite Sheet_33
+  - first:
+      213: 3857544961431363289
+    second: IDL-Sprite Sheet_34
+  - first:
+      213: 7051416400071027063
+    second: IDL-Sprite Sheet_35
+  - first:
+      213: -3716894681328724786
+    second: IDL-Sprite Sheet_36
+  - first:
+      213: 2526121616996513719
+    second: IDL-Sprite Sheet_37
+  - first:
+      213: 4975520532220353167
+    second: IDL-Sprite Sheet_38
+  - first:
+      213: 1144904199254851528
+    second: IDL-Sprite Sheet_39
+  - first:
+      213: -2032453688314321111
+    second: IDL-Sprite Sheet_40
+  - first:
+      213: 2242665552258906877
+    second: IDL-Sprite Sheet_41
+  - first:
+      213: -1793326105067741957
+    second: IDL-Sprite Sheet_42
+  - first:
+      213: 607348655573311799
+    second: IDL-Sprite Sheet_43
+  - first:
+      213: -1166339749853518795
+    second: IDL-Sprite Sheet_44
+  - first:
+      213: -7448180508249218667
+    second: IDL-Sprite Sheet_45
+  - first:
+      213: 3252400162632957790
+    second: IDL-Sprite Sheet_46
+  - first:
+      213: -6708879883845473770
+    second: IDL-Sprite Sheet_47
+  - first:
+      213: 5528351103957534640
+    second: IDL-Sprite Sheet_48
+  - first:
+      213: 5160413651802836284
+    second: IDL-Sprite Sheet_49
+  - first:
+      213: -4005265661981080553
+    second: IDL-Sprite Sheet_50
+  - first:
+      213: 8360253548816053074
+    second: IDL-Sprite Sheet_51
+  - first:
+      213: -554654567671043842
+    second: IDL-Sprite Sheet_52
+  - first:
+      213: -6790257404446365242
+    second: IDL-Sprite Sheet_53
+  - first:
+      213: 3233571145031665125
+    second: IDL-Sprite Sheet_54
+  - first:
+      213: 8860612719163091974
+    second: IDL-Sprite Sheet_55
+  - first:
+      213: -2695124243176839416
+    second: IDL-Sprite Sheet_56
+  - first:
+      213: 6393409307323379907
+    second: IDL-Sprite Sheet_57
+  - first:
+      213: -7003336769913036938
+    second: IDL-Sprite Sheet_58
+  - first:
+      213: -3562920202564425156
+    second: IDL-Sprite Sheet_59
+  - first:
+      213: -3486352741258801118
+    second: IDL-Sprite Sheet_60
+  - first:
+      213: -3946212231905048972
+    second: IDL-Sprite Sheet_61
+  - first:
+      213: 738663195481357295
+    second: IDL-Sprite Sheet_62
+  - first:
+      213: -1714200690317806006
+    second: IDL-Sprite Sheet_63
+  - first:
+      213: 1311251757477234893
+    second: IDL-Sprite Sheet_64
+  - first:
+      213: 387064898785000873
+    second: IDL-Sprite Sheet_65
+  - first:
+      213: -1491487691246432672
+    second: IDL-Sprite Sheet_66
+  - first:
+      213: 8475736705384055805
+    second: IDL-Sprite Sheet_67
+  - first:
+      213: -1591404462698046810
+    second: IDL-Sprite Sheet_68
+  - first:
+      213: -7431588975973462301
+    second: IDL-Sprite Sheet_69
+  - first:
+      213: 1433835513872178192
+    second: IDL-Sprite Sheet_70
+  - first:
+      213: 5605625932902887756
+    second: IDL-Sprite Sheet_71
+  - first:
+      213: -6380328610563000419
+    second: IDL-Sprite Sheet_72
+  - first:
+      213: 28711581541293667
+    second: IDL-Sprite Sheet_73
+  - first:
+      213: 4900977350271244728
+    second: IDL-Sprite Sheet_74
+  - first:
+      213: -3788675113047198781
+    second: IDL-Sprite Sheet_75
+  - first:
+      213: 1058924547616824420
+    second: IDL-Sprite Sheet_76
+  - first:
+      213: 6095558280076130193
+    second: IDL-Sprite Sheet_77
+  - first:
+      213: 4225985519424897086
+    second: IDL-Sprite Sheet_78
+  - first:
+      213: 2485045784181721544
+    second: IDL-Sprite Sheet_79
+  - first:
+      213: 2229438653959067608
+    second: IDL-Sprite Sheet_80
+  - first:
+      213: -3047920077646499415
+    second: IDL-Sprite Sheet_81
+  - first:
+      213: 3787324827207184946
+    second: IDL-Sprite Sheet_82
+  - first:
+      213: 1221989105202044969
+    second: IDL-Sprite Sheet_83
+  - first:
+      213: 3489664670963544282
+    second: IDL-Sprite Sheet_84
+  - first:
+      213: 6182521819122310749
+    second: IDL-Sprite Sheet_85
+  - first:
+      213: 8133286411588168761
+    second: IDL-Sprite Sheet_86
+  - first:
+      213: 2846181944294165597
+    second: IDL-Sprite Sheet_87
+  - first:
+      213: 3319688086955278262
+    second: IDL-Sprite Sheet_88
+  - first:
+      213: 4992454106303979162
+    second: IDL-Sprite Sheet_89
+  - first:
+      213: -2201257581037743291
+    second: IDL-Sprite Sheet_90
+  - first:
+      213: -5303094547543428865
+    second: IDL-Sprite Sheet_91
+  - first:
+      213: -3452488294452165252
+    second: IDL-Sprite Sheet_92
+  - first:
+      213: 3452345456666470371
+    second: IDL-Sprite Sheet_93
+  - first:
+      213: 907221735755046248
+    second: IDL-Sprite Sheet_94
+  - first:
+      213: -1031707220032521190
+    second: IDL-Sprite Sheet_95
+  - first:
+      213: -2824211026594168717
+    second: IDL-Sprite Sheet_96
+  - first:
+      213: 6529649107637734116
+    second: IDL-Sprite Sheet_97
+  - first:
+      213: 2295424841276593155
+    second: IDL-Sprite Sheet_98
+  - first:
+      213: 5867749593013549009
+    second: IDL-Sprite Sheet_99
+  - first:
+      213: 387092940038107503
+    second: IDL-Sprite Sheet_100
+  - first:
+      213: 4769212598918976329
+    second: IDL-Sprite Sheet_101
+  - first:
+      213: 1692725249159966976
+    second: IDL-Sprite Sheet_102
+  - first:
+      213: -2756145009729710402
+    second: IDL-Sprite Sheet_103
+  - first:
+      213: -8763869214149341640
+    second: IDL-Sprite Sheet_104
+  - first:
+      213: 1236595375694648227
+    second: IDL-Sprite Sheet_105
+  - first:
+      213: -2127930446042960447
+    second: IDL-Sprite Sheet_106
+  - first:
+      213: 5096483831130149284
+    second: IDL-Sprite Sheet_107
+  - first:
+      213: -426817719432750925
+    second: IDL-Sprite Sheet_108
+  - first:
+      213: -7433558502516234745
+    second: IDL-Sprite Sheet_109
+  - first:
+      213: 6574978300064476546
+    second: IDL-Sprite Sheet_110
+  - first:
+      213: 406374864309539214
+    second: IDL-Sprite Sheet_111
+  - first:
+      213: -3309901556724427612
+    second: IDL-Sprite Sheet_112
+  - first:
+      213: -8463050047708474387
+    second: IDL-Sprite Sheet_113
+  - first:
+      213: -6772514730891043713
+    second: IDL-Sprite Sheet_114
+  - first:
+      213: 4638684285543367443
+    second: IDL-Sprite Sheet_115
+  - first:
+      213: -11592328695244493
+    second: IDL-Sprite Sheet_116
+  - first:
+      213: -8245621122493717778
+    second: IDL-Sprite Sheet_117
+  - first:
+      213: 6233230773186280231
+    second: IDL-Sprite Sheet_118
+  - first:
+      213: -3967749476494188635
+    second: IDL-Sprite Sheet_119
+  - first:
+      213: -1070857626135653669
+    second: IDL-Sprite Sheet_120
+  - first:
+      213: 5901972183473636395
+    second: IDL-Sprite Sheet_121
+  - first:
+      213: 3430902050482029324
+    second: IDL-Sprite Sheet_122
+  - first:
+      213: 2627318347713159826
+    second: IDL-Sprite Sheet_123
+  - first:
+      213: 6527216997711705926
+    second: IDL-Sprite Sheet_124
+  - first:
+      213: 822047079461201915
+    second: IDL-Sprite Sheet_125
+  - first:
+      213: 3941452949863069522
+    second: IDL-Sprite Sheet_126
+  - first:
+      213: 5575447426399546684
+    second: IDL-Sprite Sheet_127
+  - first:
+      213: 5354935384605844551
+    second: IDL-Sprite Sheet_128
+  - first:
+      213: -4362640454038116578
+    second: IDL-Sprite Sheet_129
+  - first:
+      213: 1160933842501088399
+    second: IDL-Sprite Sheet_130
+  - first:
+      213: -7990602147576668459
+    second: IDL-Sprite Sheet_131
+  - first:
+      213: 5092824411354603506
+    second: IDL-Sprite Sheet_132
+  - first:
+      213: -359961463612700553
+    second: IDL-Sprite Sheet_133
+  - first:
+      213: 4147300167220180134
+    second: IDL-Sprite Sheet_134
+  - first:
+      213: -5758892843168690829
+    second: IDL-Sprite Sheet_135
+  - first:
+      213: -4101987053124331442
+    second: IDL-Sprite Sheet_136
+  - first:
+      213: 932212706975287057
+    second: IDL-Sprite Sheet_137
+  - first:
+      213: 1632323544318875596
+    second: IDL-Sprite Sheet_138
+  - first:
+      213: 4971379395611337974
+    second: IDL-Sprite Sheet_139
+  - first:
+      213: 6755027084541913696
+    second: IDL-Sprite Sheet_140
+  - first:
+      213: 9222808845579996001
+    second: IDL-Sprite Sheet_141
+  - first:
+      213: 6654144610363372259
+    second: IDL-Sprite Sheet_142
+  - first:
+      213: 98989032408804305
+    second: IDL-Sprite Sheet_143
+  - first:
+      213: 7817017922656065437
+    second: IDL-Sprite Sheet_144
+  - first:
+      213: -3015143050520762948
+    second: IDL-Sprite Sheet_145
+  - first:
+      213: 6119091134071153918
+    second: IDL-Sprite Sheet_146
+  - first:
+      213: 7768355140379741561
+    second: IDL-Sprite Sheet_147
+  - first:
+      213: 6214396227190376692
+    second: IDL-Sprite Sheet_148
+  - first:
+      213: -4581549208501350554
+    second: IDL-Sprite Sheet_149
+  - first:
+      213: 8568431418397013553
+    second: IDL-Sprite Sheet_150
+  - first:
+      213: 532764611421801515
+    second: IDL-Sprite Sheet_151
+  - first:
+      213: -1870686144647501103
+    second: IDL-Sprite Sheet_152
+  - first:
+      213: 6937883942373806327
+    second: IDL-Sprite Sheet_153
+  - first:
+      213: 7651856483164427523
+    second: IDL-Sprite Sheet_154
+  - first:
+      213: -4063763625924971692
+    second: IDL-Sprite Sheet_155
+  - first:
+      213: -7085676640649946605
+    second: IDL-Sprite Sheet_156
+  - first:
+      213: -2004479396413585565
+    second: IDL-Sprite Sheet_157
+  - first:
+      213: 2480465272463140482
+    second: IDL-Sprite Sheet_158
+  - first:
+      213: -6396018908744602889
+    second: IDL-Sprite Sheet_159
+  - first:
+      213: -8731565101226140842
+    second: IDL-Sprite Sheet_160
+  - first:
+      213: 7625838979230689667
+    second: IDL-Sprite Sheet_161
+  - first:
+      213: 1479823961389584448
+    second: IDL-Sprite Sheet_162
+  - first:
+      213: -4726177193172693865
+    second: IDL-Sprite Sheet_163
+  - first:
+      213: 3068995883645107905
+    second: IDL-Sprite Sheet_164
+  - first:
+      213: -4393278489641028454
+    second: IDL-Sprite Sheet_165
+  - first:
+      213: 3157235690914259053
+    second: IDL-Sprite Sheet_166
+  - first:
+      213: 1460125764306312710
+    second: IDL-Sprite Sheet_167
+  - first:
+      213: -8176653375705537985
+    second: IDL-Sprite Sheet_168
+  - first:
+      213: -6320037659631311025
+    second: IDL-Sprite Sheet_169
+  - first:
+      213: -517684967523118873
+    second: IDL-Sprite Sheet_170
+  - first:
+      213: 5300218435032490785
+    second: IDL-Sprite Sheet_171
+  - first:
+      213: -767045680467047607
+    second: IDL-Sprite Sheet_172
+  - first:
+      213: 5210886640737249387
+    second: IDL-Sprite Sheet_173
+  - first:
+      213: 225554056042524002
+    second: IDL-Sprite Sheet_174
+  - first:
+      213: -4231080747178027697
+    second: IDL-Sprite Sheet_175
+  - first:
+      213: -4500669196267582615
+    second: IDL-Sprite Sheet_176
+  - first:
+      213: -5206806021586342541
+    second: IDL-Sprite Sheet_177
+  - first:
+      213: 3174890312876381851
+    second: IDL-Sprite Sheet_178
+  - first:
+      213: -3686070416300712222
+    second: IDL-Sprite Sheet_179
+  - first:
+      213: 4067650908531216147
+    second: IDL-Sprite Sheet_180
+  - first:
+      213: 8189681812571363503
+    second: IDL-Sprite Sheet_181
+  - first:
+      213: 2548183840009965611
+    second: IDL-Sprite Sheet_182
+  - first:
+      213: 20131819423894423
+    second: IDL-Sprite Sheet_183
+  - first:
+      213: -7536450738182515390
+    second: IDL-Sprite Sheet_184
+  - first:
+      213: 950986798095321117
+    second: IDL-Sprite Sheet_185
+  - first:
+      213: 5886285465533834526
+    second: IDL-Sprite Sheet_186
+  - first:
+      213: 6454305293591523069
+    second: IDL-Sprite Sheet_187
+  - first:
+      213: 4552197974596811609
+    second: IDL-Sprite Sheet_188
+  - first:
+      213: 5629395816312595902
+    second: IDL-Sprite Sheet_189
+  - first:
+      213: 2731813067331440118
+    second: IDL-Sprite Sheet_190
+  - first:
+      213: -5390316920497940874
+    second: IDL-Sprite Sheet_191
+  - first:
+      213: 3910262334483457745
+    second: IDL-Sprite Sheet_192
+  - first:
+      213: -8115476561562875982
+    second: IDL-Sprite Sheet_193
+  - first:
+      213: -2429999556866281235
+    second: IDL-Sprite Sheet_194
+  - first:
+      213: -3731147359376219262
+    second: IDL-Sprite Sheet_195
+  - first:
+      213: 3963675536775253667
+    second: IDL-Sprite Sheet_196
+  - first:
+      213: -2359781913037092996
+    second: IDL-Sprite Sheet_197
+  - first:
+      213: 4540103153540131087
+    second: IDL-Sprite Sheet_198
+  - first:
+      213: 6845777068537989299
+    second: IDL-Sprite Sheet_199
+  - first:
+      213: 1211695164375874172
+    second: IDL-Sprite Sheet_200
+  - first:
+      213: -4952716769041092930
+    second: IDL-Sprite Sheet_201
+  - first:
+      213: -2896187556558075805
+    second: IDL-Sprite Sheet_202
+  - first:
+      213: -5061535167086256874
+    second: IDL-Sprite Sheet_203
+  - first:
+      213: -1846254065636270773
+    second: IDL-Sprite Sheet_204
+  - first:
+      213: -3267088055884261690
+    second: IDL-Sprite Sheet_205
+  - first:
+      213: -1197184873441561757
+    second: IDL-Sprite Sheet_206
+  - first:
+      213: -5697616797306233862
+    second: IDL-Sprite Sheet_207
+  - first:
+      213: -4049965453052494602
+    second: IDL-Sprite Sheet_208
+  - first:
+      213: -859529307141070994
+    second: IDL-Sprite Sheet_209
+  - first:
+      213: 5381663229475553508
+    second: IDL-Sprite Sheet_210
+  - first:
+      213: -6598110117737004595
+    second: IDL-Sprite Sheet_211
+  - first:
+      213: -3397685748455897803
+    second: IDL-Sprite Sheet_212
+  - first:
+      213: -7473984012584350598
+    second: IDL-Sprite Sheet_213
+  - first:
+      213: -1745876941574797900
+    second: IDL-Sprite Sheet_214
+  - first:
+      213: 8389507204780570565
+    second: IDL-Sprite Sheet_215
+  - first:
+      213: 5177426769845986041
+    second: IDL-Sprite Sheet_216
+  - first:
+      213: 7158845665335324866
+    second: IDL-Sprite Sheet_217
+  - first:
+      213: 8595485268088757129
+    second: IDL-Sprite Sheet_218
+  - first:
+      213: 4951041391097178154
+    second: IDL-Sprite Sheet_219
+  - first:
+      213: 6219867870446234055
+    second: IDL-Sprite Sheet_220
+  - first:
+      213: -5878617651351812305
+    second: IDL-Sprite Sheet_221
+  - first:
+      213: -669675948626616165
+    second: IDL-Sprite Sheet_222
+  - first:
+      213: 5936743954194809636
+    second: IDL-Sprite Sheet_223
+  - first:
+      213: 2845789440134579151
+    second: IDL-Sprite Sheet_224
+  - first:
+      213: 5555990866342504256
+    second: IDL-Sprite Sheet_225
+  - first:
+      213: 4065656582920751271
+    second: IDL-Sprite Sheet_226
+  - first:
+      213: -8437185071447753635
+    second: IDL-Sprite Sheet_227
+  - first:
+      213: 938786233950565354
+    second: IDL-Sprite Sheet_228
+  - first:
+      213: 3985684925575435964
+    second: IDL-Sprite Sheet_229
+  - first:
+      213: 2580814723950901962
+    second: IDL-Sprite Sheet_230
+  - first:
+      213: -2571650956572064944
+    second: IDL-Sprite Sheet_231
+  - first:
+      213: 7584230944526215055
+    second: IDL-Sprite Sheet_232
+  - first:
+      213: 1829398570230514708
+    second: IDL-Sprite Sheet_233
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 7298
+        width: 570
+        height: 827
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b029dedf1861e1f10800000000000000
+      internalID: 2242254412043883019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 7298
+        width: 570
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ea6b21c87daf3e0800000000000000
+      internalID: -2019064486312890797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 7300
+        width: 566
+        height: 828
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b83fb5f72fa816e0800000000000000
+      internalID: -1866549459383535438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 7298
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7e69616d3eb5940800000000000000
+      internalID: 5286069096290903996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 7298
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 226cde3eb8dd8e1d0800000000000000
+      internalID: -3321161132291537374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 7298
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65284cd8880b22b40800000000000000
+      internalID: 5414083802593264214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 7298
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d44ea2999a97181a0800000000000000
+      internalID: -6809027392281320371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 6218
+        y: 7298
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08877185a7b9812a0800000000000000
+      internalID: -6766487490357921664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 7077
+        y: 7298
+        width: 572
+        height: 825
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4371f27548074e40800000000000000
+      internalID: 5640486152679027532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 7937
+        y: 7288
+        width: 568
+        height: 831
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8b2050b33079610800000000000000
+      internalID: 1627773342339741940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 8796
+        y: 7274
+        width: 583
+        height: 854
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de4a2538ce1d97b0800000000000000
+      internalID: -5215978948190908712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 6128
+        width: 594
+        height: 859
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ce3337889106000800000000000000
+      internalID: 27049671603252239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 6119
+        width: 609
+        height: 866
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba73e781d28b55030800000000000000
+      internalID: 3482892390664910763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 8935
+        y: 6118
+        width: 573
+        height: 871
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf3072ad4483ef00800000000000000
+      internalID: 1144904199254851528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 6096
+        width: 588
+        height: 891
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfab568007c8f1f10800000000000000
+      internalID: 2242665552258906877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 3770
+        y: 6094
+        width: 578
+        height: 886
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc900da863dc17e0800000000000000
+      internalID: -1793326105067741957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 5496
+        y: 6137
+        width: 565
+        height: 856
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53420925d2450dfe0800000000000000
+      internalID: -1166339749853518795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 6356
+        y: 6137
+        width: 568
+        height: 843
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59121d63a4fb2a890800000000000000
+      internalID: -7448180508249218667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 7218
+        y: 6137
+        width: 563
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ff82947b8d22d20800000000000000
+      internalID: 3252400162632957790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 6094
+        width: 604
+        height: 893
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a60a27a4545e2a0800000000000000
+      internalID: -6708879883845473770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 4637
+        y: 6118
+        width: 562
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7144c8ae9107a68c0800000000000000
+      internalID: -4005265661981080553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 8075
+        y: 6128
+        width: 568
+        height: 861
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2533161ee46950470800000000000000
+      internalID: 8360253548816053074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 4977
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3aa513f3f6fd8ec0800000000000000
+      internalID: -3562920202564425156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 4977
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2205f8f37acfd9fc0800000000000000
+      internalID: -3486352741258801118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 4977
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4768ffc02ec3c39c0800000000000000
+      internalID: -3946212231905048972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 6218
+        y: 4958
+        width: 568
+        height: 845
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46b0ebed8fe538e0800000000000000
+      internalID: -1714200690317806006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 4934
+        width: 554
+        height: 862
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3082e80addf9570800000000000000
+      internalID: 8475736705384055805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 4958
+        width: 570
+        height: 838
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee846a5331bdd890800000000000000
+      internalID: -7431588975973462301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 4978
+        width: 566
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41f46a061f2bcd40800000000000000
+      internalID: 5605625932902887756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 4958
+        width: 566
+        height: 847
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d977121eee48477a0800000000000000
+      internalID: -6380328610563000419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 7077
+        y: 4958
+        width: 565
+        height: 849
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e55b20801066000800000000000000
+      internalID: 28711581541293667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 7937
+        y: 4948
+        width: 563
+        height: 852
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c37575de0ceb6bc0800000000000000
+      internalID: -3788675113047198781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 8796
+        y: 4934
+        width: 559
+        height: 876
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8294758cc0051f47a5d3c34c26a4746
+      internalID: -138693955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3768
+        width: 578
+        height: 880
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22c73015751046c40846602eabfecbce
+      internalID: 815770191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 3754
+        width: 564
+        height: 898
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cdad4ebd768d646ab68f64e3407c3d
+      internalID: 864133591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 3744
+        width: 571
+        height: 897
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d7e2c1696ceca4d8f66b43f7cae490
+      internalID: 1169723706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 3754
+        width: 568
+        height: 887
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2b4946b85eb5c4a928fbb08726c71a
+      internalID: 733425910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 3754
+        width: 568
+        height: 897
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fbf47eddd8692f4391439dad46985b2
+      internalID: -1227417335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 3778
+        width: 568
+        height: 889
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75b868151703bd64dbbe9c6b7e89d884
+      internalID: -1499686716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 5355
+        y: 3790
+        width: 568
+        height: 880
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af5faf7c958dd94d8288318a3bf294c
+      internalID: -1487218609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 6205
+        y: 3787
+        width: 614
+        height: 880
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2900c0d4ddbc14f99ae2d81ea80203
+      internalID: -1388840199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 7115
+        y: 3778
+        width: 641
+        height: 896
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1496c6e6c140d3d4981d28861341fe3d
+      internalID: 1469945269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 8042
+        y: 3754
+        width: 640
+        height: 926
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8492c897480f1364aadaa2a2e6fc0244
+      internalID: -901945616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 8942
+        y: 3735
+        width: 634
+        height: 942
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890cbe37bb3b068409c41887fc1d62c3
+      internalID: -715402108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 3415
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39df581e5d3fc8a4e89153bde3b992e3
+      internalID: -841990758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 3415
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3caa181b0864b4bbd88c3e93316645
+      internalID: 854212674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 3415
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164600acd720f8b448fbd7cfd8617821
+      internalID: 405177289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 3415
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8634c2c2d0c9024ab058379b4efc534
+      internalID: 708243485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 3415
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb8fdbf62aff9c4c94de4afceebeeaa
+      internalID: -765577502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 4508
+        y: 2598
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f28b6bdfc9cad48b0f6d483c1f0b21
+      internalID: -3004435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 4837
+        y: 3424
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9eabef5a42891449261ee5d2b51220
+      internalID: -910846362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 5687
+        y: 3415
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881ae9abe9b528f4e921a81d7795d851
+      internalID: -1880549993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 6547
+        y: 3424
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259d1e5068750bd44bee68473a3726c7
+      internalID: 1780980939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 7416
+        y: 3424
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a76d8c861e91b41a2fd2a812090b9c
+      internalID: 2125231909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 8285
+        y: 3415
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4fb6102d7ecec24abf0e45723ef4960
+      internalID: 1315427737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 9164
+        y: 3424
+        width: 29
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa2bd72db2df83408b7d217de3d04f9
+      internalID: -1438244517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 9197
+        y: 2617
+        width: 177
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dc5215953632643ba0d656c0e53879
+      internalID: -1468097707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 3267
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60a29d459db3c646ae506281aa7bb54
+      internalID: 18651673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 2546
+        width: 411
+        height: 759
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116152efbcdb45e47a606466efb3e70c
+      internalID: -1444216677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 2555
+        width: 177
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a9f1723eb29664c97a179fe98ece5c
+      internalID: -1813080920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 2555
+        width: 568
+        height: 831
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d797157e36f2147b8d88f9d9089895
+      internalID: -204282865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 2565
+        width: 569
+        height: 831
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891ca29a683cac94c86aece1ec71d076
+      internalID: 644447084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 2784
+        y: 2574
+        width: 568
+        height: 831
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b817943f2e3d1b34790b16c2bc2a5d3e
+      internalID: 795278285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 3644
+        y: 2584
+        width: 568
+        height: 831
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876d235ea707ebb4099fbdb0d62c96c6
+      internalID: 328781839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 5368
+        y: 2584
+        width: 568
+        height: 831
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf2e4f0c7dd1944bbfca7bde2e59b65
+      internalID: 764722300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 6227
+        y: 2574
+        width: 406
+        height: 760
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8b08ed90269284e8e837a957285353
+      internalID: 1789520301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 6595
+        y: 2584
+        width: 200
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09bdbe8022b89b34399030ea24fc1ec3
+      internalID: 1806687559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 7087
+        y: 2574
+        width: 406
+        height: 760
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa38ae56b5bbbbc42836ef0963afa86f
+      internalID: 1401523620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 7478
+        y: 2584
+        width: 177
+        height: 821
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdaa9295811359499701986028926ec
+      internalID: 173739100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 7946
+        y: 2584
+        width: 406
+        height: 759
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8923111f3d62c4892297ff55a37c18
+      internalID: 507107423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 8338
+        y: 2598
+        width: 177
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1824d8528dd42418c5395405604c08
+      internalID: 264050974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 8806
+        y: 2608
+        width: 406
+        height: 754
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8073e251ecea58e4c8e8521aed9410bb
+      internalID: 433106852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 2226
+        width: 24
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0e4175c4fc4a643830514c511a30f5
+      internalID: 1828963889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1414
+        width: 177
+        height: 831
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112aebf16709083468a0195367ded210
+      internalID: 966043363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 1404
+        width: 177
+        height: 850
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adaacc2366fc6d745ba2203f87a7fa28
+      internalID: -728313883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 2226
+        width: 19
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e4e0b60f5eb4440916cc36db11b348
+      internalID: -935768108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 2226
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f36e907aed41cf4997699c7c076144f
+      internalID: -1524857489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 4045
+        y: 2226
+        width: 28
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377da68000c9ff8499b587badecb37ba
+      internalID: 272524327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 4914
+        y: 2226
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efaee9f3de0698945923bfa5006ec43a
+      internalID: -1626915118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 5797
+        y: 2226
+        width: 29
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30d158fd1f47bf41bea22adcfeaf461
+      internalID: 2036522045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 6218
+        y: 1395
+        width: 568
+        height: 859
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4855a379206038b488b47a2eeb28da12
+      internalID: 451028608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 7464
+        y: 1414
+        width: 181
+        height: 840
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384c4e9ebf6f0ea4b8f71504697cba3c
+      internalID: -2121517971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 8328
+        y: 1428
+        width: 177
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadd7aa94190b784d9b92dc7c1072cde
+      internalID: 387637767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 9188
+        y: 1428
+        width: 177
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d4e0e310b9ce84aa0c0cf5591c1be8
+      internalID: 1252208411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1404
+        width: 406
+        height: 760
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659bb2d8bc7e6c648aaf331887f13cec
+      internalID: -896098403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1395
+        width: 411
+        height: 759
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a877d76e07bc9034abcb48f0faa4492b
+      internalID: -1897101025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1376
+        width: 411
+        height: 759
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c259d1da321a4439b5af4e58db3289
+      internalID: 1420108998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 1385
+        width: 176
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b9c6e22f9dd554db7f6ad53dd09095
+      internalID: 967440045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 1366
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd7d1d28723b8740b306d332922233e
+      internalID: -202126327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 1366
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea63d234ac8f494c9ef4f0793c9cb89
+      internalID: -1661305202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 1376
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f45812abb93084d9c727e500324d4d
+      internalID: -1417107181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 1385
+        width: 568
+        height: 831
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d70013b3a97d2d4aacb1c3029cfd4b8
+      internalID: 1322386571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 7077
+        y: 1404
+        width: 406
+        height: 760
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 951b9f1c53472a14996d69a74c9686a6
+      internalID: 818650513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 7937
+        y: 1414
+        width: 406
+        height: 759
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f70eb77b67db14cb3d936a96574599
+      internalID: 1314261160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 8796
+        y: 1414
+        width: 406
+        height: 759
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7070b69658c52e48ad51b0065508c81
+      internalID: -1212655698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 234
+        width: 177
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04711306fa858da449b4d479406f87d5
+      internalID: -1108983217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_163
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 224
+        width: 177
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d055ab633fe3354d87f94ac3ee942f5
+      internalID: 942231164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_164
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1056
+        width: 29
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc51461f15ad34468b7c91072a91a26
+      internalID: 1853278825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_165
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 234
+        width: 176
+        height: 841
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5775c749a1c3f6e42b15137a92638d90
+      internalID: 24471056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_166
+      rect:
+        serializedVersion: 2
+        x: 2775
+        y: 224
+        width: 568
+        height: 851
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08df95cacf9b4414ea7d0f7e60d49c70
+      internalID: 1013894780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_167
+      rect:
+        serializedVersion: 2
+        x: 4174
+        y: 1046
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957c3fe8f9c635245b262e7a47d7af2f
+      internalID: -1676013105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_168
+      rect:
+        serializedVersion: 2
+        x: 5014
+        y: 1056
+        width: 29
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8afe7e9b278ca654e84ff8418059cb59
+      internalID: -781643260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_169
+      rect:
+        serializedVersion: 2
+        x: 5855
+        y: 1046
+        width: 28
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15b0eee22c5a6b4a8aa2a3c0f1e3ac8
+      internalID: 1445646203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_170
+      rect:
+        serializedVersion: 2
+        x: 6218
+        y: 215
+        width: 568
+        height: 860
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4785c902e4fb7754e90f0eb1afd57ef1
+      internalID: 1610105334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_171
+      rect:
+        serializedVersion: 2
+        x: 7077
+        y: 224
+        width: 568
+        height: 851
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c136f9d823fe4b4ebe226e3d78a9283
+      internalID: 1060018029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_172
+      rect:
+        serializedVersion: 2
+        x: 8328
+        y: 258
+        width: 177
+        height: 817
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba538202fd48b0419d6cb96d019434b
+      internalID: -1534103061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_173
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 224
+        width: 406
+        height: 760
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4788ec40521270459c927c6008e3800
+      internalID: 84060366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_174
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 215
+        width: 411
+        height: 759
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc00844d1bd44114a9954eefe20fc3a4
+      internalID: -85999134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_175
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 224
+        width: 411
+        height: 760
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4c020f27721a8b4ba819d2198fa4cf0
+      internalID: 407829309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_176
+      rect:
+        serializedVersion: 2
+        x: 3634
+        y: 205
+        width: 568
+        height: 827
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aafdad4bfc72f224abf37e6d9d1be509
+      internalID: 1456742222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_177
+      rect:
+        serializedVersion: 2
+        x: 4494
+        y: 196
+        width: 568
+        height: 826
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac5b91a3cf021a448ecbf9421041df2
+      internalID: 1051665735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_178
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 205
+        width: 568
+        height: 827
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88892286f9f4a5643a3f045cbffc5896
+      internalID: -413511693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IDL-Sprite Sheet_179
+      rect:
+        serializedVersion: 2
+        x: 7937
+        y: 248
+        width: 406
+        height: 755
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62de5b21f1321b408eaff3fe24efca8
+      internalID: 257433440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4be7d45c0973df34baf0ac198711f63d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":11.0,"y":7.0},"gridSpriteSize":{"x":889.0,"y":1188.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      IDL-Sprite Sheet_0: 2242254412043883019
+      IDL-Sprite Sheet_1: 7144208860038540203
+      IDL-Sprite Sheet_10: -6766487490357921664
+      IDL-Sprite Sheet_100: -1464754136
+      IDL-Sprite Sheet_101: -1388840199
+      IDL-Sprite Sheet_102: 2035099150
+      IDL-Sprite Sheet_103: -367763761
+      IDL-Sprite Sheet_104: 1469945269
+      IDL-Sprite Sheet_105: -1866600287
+      IDL-Sprite Sheet_106: -82279980
+      IDL-Sprite Sheet_107: -901945616
+      IDL-Sprite Sheet_108: -1646972552
+      IDL-Sprite Sheet_109: -715402108
+      IDL-Sprite Sheet_11: 5640486152679027532
+      IDL-Sprite Sheet_110: 1174191360
+      IDL-Sprite Sheet_111: -841990758
+      IDL-Sprite Sheet_112: 854212674
+      IDL-Sprite Sheet_113: 405177289
+      IDL-Sprite Sheet_114: 708243485
+      IDL-Sprite Sheet_115: -765577502
+      IDL-Sprite Sheet_116: -3004435
+      IDL-Sprite Sheet_117: -910846362
+      IDL-Sprite Sheet_118: -1880549993
+      IDL-Sprite Sheet_119: 1780980939
+      IDL-Sprite Sheet_12: 5947446175043447549
+      IDL-Sprite Sheet_120: 2125231909
+      IDL-Sprite Sheet_121: 1315427737
+      IDL-Sprite Sheet_122: -1438244517
+      IDL-Sprite Sheet_123: -1468097707
+      IDL-Sprite Sheet_124: 18651673
+      IDL-Sprite Sheet_125: -1444216677
+      IDL-Sprite Sheet_126: -1813080920
+      IDL-Sprite Sheet_127: -204282865
+      IDL-Sprite Sheet_128: 644447084
+      IDL-Sprite Sheet_129: 795278285
+      IDL-Sprite Sheet_13: 1627773342339741940
+      IDL-Sprite Sheet_130: 328781839
+      IDL-Sprite Sheet_131: 764722300
+      IDL-Sprite Sheet_132: 1789520301
+      IDL-Sprite Sheet_133: 1806687559
+      IDL-Sprite Sheet_134: 1401523620
+      IDL-Sprite Sheet_135: 173739100
+      IDL-Sprite Sheet_136: 507107423
+      IDL-Sprite Sheet_137: 264050974
+      IDL-Sprite Sheet_138: 433106852
+      IDL-Sprite Sheet_139: 1828963889
+      IDL-Sprite Sheet_14: -4594402107121288292
+      IDL-Sprite Sheet_140: 966043363
+      IDL-Sprite Sheet_141: -728313883
+      IDL-Sprite Sheet_142: -935768108
+      IDL-Sprite Sheet_143: -1524857489
+      IDL-Sprite Sheet_144: 272524327
+      IDL-Sprite Sheet_145: -1626915118
+      IDL-Sprite Sheet_146: 2036522045
+      IDL-Sprite Sheet_147: 451028608
+      IDL-Sprite Sheet_148: -2121517971
+      IDL-Sprite Sheet_149: 387637767
+      IDL-Sprite Sheet_15: -5215978948190908712
+      IDL-Sprite Sheet_150: 1252208411
+      IDL-Sprite Sheet_151: -896098403
+      IDL-Sprite Sheet_152: -1897101025
+      IDL-Sprite Sheet_153: 1420108998
+      IDL-Sprite Sheet_154: 967440045
+      IDL-Sprite Sheet_155: -202126327
+      IDL-Sprite Sheet_156: -1661305202
+      IDL-Sprite Sheet_157: -1417107181
+      IDL-Sprite Sheet_158: 1322386571
+      IDL-Sprite Sheet_159: 818650513
+      IDL-Sprite Sheet_16: -3481264359577220231
+      IDL-Sprite Sheet_160: 1314261160
+      IDL-Sprite Sheet_161: -1212655698
+      IDL-Sprite Sheet_162: -1108983217
+      IDL-Sprite Sheet_163: 942231164
+      IDL-Sprite Sheet_164: 1853278825
+      IDL-Sprite Sheet_165: 24471056
+      IDL-Sprite Sheet_166: 1013894780
+      IDL-Sprite Sheet_167: -1676013105
+      IDL-Sprite Sheet_168: -781643260
+      IDL-Sprite Sheet_169: 1445646203
+      IDL-Sprite Sheet_17: -8055401803949871159
+      IDL-Sprite Sheet_170: 1610105334
+      IDL-Sprite Sheet_171: 1060018029
+      IDL-Sprite Sheet_172: -1534103061
+      IDL-Sprite Sheet_173: 84060366
+      IDL-Sprite Sheet_174: -85999134
+      IDL-Sprite Sheet_175: 407829309
+      IDL-Sprite Sheet_176: 1456742222
+      IDL-Sprite Sheet_177: 1051665735
+      IDL-Sprite Sheet_178: -413511693
+      IDL-Sprite Sheet_179: 257433440
+      IDL-Sprite Sheet_18: -3672439272829161127
+      IDL-Sprite Sheet_19: -2250809777406125455
+      IDL-Sprite Sheet_2: -2019064486312890797
+      IDL-Sprite Sheet_20: -761028736062420907
+      IDL-Sprite Sheet_21: 515169272745750982
+      IDL-Sprite Sheet_22: 5520039068850523642
+      IDL-Sprite Sheet_23: 3522768718039862966
+      IDL-Sprite Sheet_24: -7201665990130318365
+      IDL-Sprite Sheet_25: 3699562362450770330
+      IDL-Sprite Sheet_26: 7708543825907760665
+      IDL-Sprite Sheet_27: -5182214306799073472
+      IDL-Sprite Sheet_28: -2821528666444392991
+      IDL-Sprite Sheet_29: 27049671603252239
+      IDL-Sprite Sheet_3: -8337779685213106110
+      IDL-Sprite Sheet_30: 3482892390664910763
+      IDL-Sprite Sheet_31: -5461057844172890149
+      IDL-Sprite Sheet_32: -5748803437783276339
+      IDL-Sprite Sheet_33: 2537036050474644660
+      IDL-Sprite Sheet_34: 3857544961431363289
+      IDL-Sprite Sheet_35: 7051416400071027063
+      IDL-Sprite Sheet_36: -3716894681328724786
+      IDL-Sprite Sheet_37: 2526121616996513719
+      IDL-Sprite Sheet_38: 4975520532220353167
+      IDL-Sprite Sheet_39: 1144904199254851528
+      IDL-Sprite Sheet_4: -1866549459383535438
+      IDL-Sprite Sheet_40: -2032453688314321111
+      IDL-Sprite Sheet_41: 2242665552258906877
+      IDL-Sprite Sheet_42: -1793326105067741957
+      IDL-Sprite Sheet_43: 607348655573311799
+      IDL-Sprite Sheet_44: -1166339749853518795
+      IDL-Sprite Sheet_45: -7448180508249218667
+      IDL-Sprite Sheet_46: 3252400162632957790
+      IDL-Sprite Sheet_47: -6708879883845473770
+      IDL-Sprite Sheet_48: 5528351103957534640
+      IDL-Sprite Sheet_49: 5160413651802836284
+      IDL-Sprite Sheet_5: 679085890409076257
+      IDL-Sprite Sheet_50: -4005265661981080553
+      IDL-Sprite Sheet_51: 8360253548816053074
+      IDL-Sprite Sheet_52: -554654567671043842
+      IDL-Sprite Sheet_53: -6790257404446365242
+      IDL-Sprite Sheet_54: 3233571145031665125
+      IDL-Sprite Sheet_55: 8860612719163091974
+      IDL-Sprite Sheet_56: -2695124243176839416
+      IDL-Sprite Sheet_57: 6393409307323379907
+      IDL-Sprite Sheet_58: -7003336769913036938
+      IDL-Sprite Sheet_59: -3562920202564425156
+      IDL-Sprite Sheet_6: 5286069096290903996
+      IDL-Sprite Sheet_60: -3486352741258801118
+      IDL-Sprite Sheet_61: -3946212231905048972
+      IDL-Sprite Sheet_62: 738663195481357295
+      IDL-Sprite Sheet_63: -1714200690317806006
+      IDL-Sprite Sheet_64: 1311251757477234893
+      IDL-Sprite Sheet_65: 387064898785000873
+      IDL-Sprite Sheet_66: -1491487691246432672
+      IDL-Sprite Sheet_67: 8475736705384055805
+      IDL-Sprite Sheet_68: -1591404462698046810
+      IDL-Sprite Sheet_69: -7431588975973462301
+      IDL-Sprite Sheet_7: -3321161132291537374
+      IDL-Sprite Sheet_70: 1433835513872178192
+      IDL-Sprite Sheet_71: 5605625932902887756
+      IDL-Sprite Sheet_72: -6380328610563000419
+      IDL-Sprite Sheet_73: 28711581541293667
+      IDL-Sprite Sheet_74: 4900977350271244728
+      IDL-Sprite Sheet_75: -3788675113047198781
+      IDL-Sprite Sheet_76: -427770367
+      IDL-Sprite Sheet_77: -138693955
+      IDL-Sprite Sheet_78: -112368322
+      IDL-Sprite Sheet_79: 1592764336
+      IDL-Sprite Sheet_8: 5414083802593264214
+      IDL-Sprite Sheet_80: 1553310838
+      IDL-Sprite Sheet_81: 1517337656
+      IDL-Sprite Sheet_82: -617653702
+      IDL-Sprite Sheet_83: 1384687252
+      IDL-Sprite Sheet_84: -1557774718
+      IDL-Sprite Sheet_85: -1382589096
+      IDL-Sprite Sheet_86: -1706853604
+      IDL-Sprite Sheet_87: 1568402495
+      IDL-Sprite Sheet_88: 1729879364
+      IDL-Sprite Sheet_89: -1339708305
+      IDL-Sprite Sheet_9: -6809027392281320371
+      IDL-Sprite Sheet_90: 815770191
+      IDL-Sprite Sheet_91: -202025283
+      IDL-Sprite Sheet_92: 864133591
+      IDL-Sprite Sheet_93: 1707312115
+      IDL-Sprite Sheet_94: 1169723706
+      IDL-Sprite Sheet_95: 1328163894
+      IDL-Sprite Sheet_96: 733425910
+      IDL-Sprite Sheet_97: -1227417335
+      IDL-Sprite Sheet_98: -1499686716
+      IDL-Sprite Sheet_99: -1487218609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

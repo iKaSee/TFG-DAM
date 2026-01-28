@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI textoGameOver; // <--- ARRASTRA AQUÍ EL TEXTO DE "GAME OVER"
     public GameObject mensajeReintentar; // El que parpadea
 
+    [Header("Efectos de Reaparición")]
+    public Image flashBlanco; // <--- ARRASTRA AQUÍ LA IMAGEN BLANCA NUEVA
+
     [Header("Ajustes de Tiempo")]
     public float duracionMuerteSegundos = 30f; // <--- PON AQUÍ LOS SEGUNDOS QUE DURA TU ANIMACIÓN
 
@@ -19,11 +22,55 @@ public class GameManager : MonoBehaviour
     public float duracionVibracion = 0.1f;
     public float intensidadVibracion = 0.08f;
 
+    public CanvasGroup fundidoCanvasGroup;
     private bool isGameOver = false;
     private bool puedeReiniciar = false;
 
+
+
+
+    // --- VARIABLE PARA RESETEAR TODO AL ABRIR EL JUEGO ---
+    private static bool primeraVezQueCarga = true;
+
+    void Awake()
+    {
+        // Si es la primera vez que abres el juego, borramos cualquier checkpoint viejo
+        if (primeraVezQueCarga)
+        {
+            PlayerPrefs.DeleteKey("CheckpointX");
+            PlayerPrefs.DeleteKey("CheckpointY");
+            PlayerPrefs.Save();
+            primeraVezQueCarga = false; // Marcamos que ya no es la primera carga
+        }
+    }
+
     void Start()
     {
+        // --- LÓGICA DE REPOSICIONAMIENTO POR CHECKPOINT ---
+        if (PlayerPrefs.HasKey("CheckpointX"))
+        {
+            float x = PlayerPrefs.GetFloat("CheckpointX");
+            float y = PlayerPrefs.GetFloat("CheckpointY");
+
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            if (player != null)
+            {
+                // Movemos al jugador a la posición guardada
+                player.transform.position = new Vector3(x, y, player.transform.position.z);
+
+                // LIMPIAMOS LA OSCURIDAD SI EXISTE (Para que no reaparezca oscuro en el bosque)
+                ZonaOscura scriptOscuridad = FindObjectOfType<ZonaOscura>();
+                if (scriptOscuridad != null)
+                {
+                    scriptOscuridad.LimpiarOscuridadAlInstante();
+                }
+
+                // LANZAMOS EL FLASH BLANCO
+                StartCoroutine(EfectoFlashReaparecer());
+            }
+        }
+        // --------------------------------------------------
+
         gameOverPanel.SetActive(false);
         if (mensajeReintentar != null) mensajeReintentar.SetActive(false);
 
@@ -45,6 +92,25 @@ public class GameManager : MonoBehaviour
         if (isGameOver && puedeReiniciar && Input.anyKeyDown)
         {
             RestartGame();
+        }
+    }
+
+    // --- FUNCIÓN PARA EL FLASH DE REAPARICIÓN ---
+    IEnumerator EfectoFlashReaparecer()
+    {
+        if (flashBlanco == null) yield break;
+
+        Color c = flashBlanco.color;
+        c.a = 1f; // Aparece de golpe
+        flashBlanco.color = c;
+
+        float tiempo = 0;
+        while (tiempo < 0.5f) // Se desvanece en medio segundo
+        {
+            tiempo += Time.deltaTime;
+            c.a = Mathf.Lerp(1f, 0f, tiempo / 0.5f);
+            flashBlanco.color = c;
+            yield return null;
         }
     }
 
@@ -127,5 +193,31 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+
+    public void TerminarJuego()
+    {
+        StartCoroutine(EsperarYCambiarEscena());
+    }
+
+    IEnumerator EsperarYCambiarEscena()
+    {
+        Debug.Log("Boss derrotado. Esperando para el fundido...");
+        yield return new WaitForSeconds(6f); // Esperamos 6 segundos de los 10
+
+        // Empezamos el fundido los últimos 4 segundos
+        float duracionFade = 4f;
+        float tiempo = 0;
+
+        while (tiempo < duracionFade)
+        {
+            tiempo += Time.deltaTime;
+            if (fundidoCanvasGroup != null)
+                fundidoCanvasGroup.alpha = tiempo / duracionFade;
+            yield return null;
+        }
+
+        SceneManager.LoadScene("EscenaFinal");
     }
 }

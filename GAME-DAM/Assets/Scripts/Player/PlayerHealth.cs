@@ -56,6 +56,31 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    // --- NUEVA FUNCIÓN PARA CURAR ---
+    public void Heal(int cantidad)
+    {
+        if (isDead) return;
+
+        currentHealth += cantidad;
+        if (currentHealth > maxHealth) currentHealth = maxHealth;
+
+        // Actualizamos la barra visual
+        if (healthBar != null)
+        {
+            healthBar.ActualizarVida(currentHealth);
+        }
+
+        // Efecto visual: si quieres que brille verde, podrías pasarle un color al Flash
+        // Por ahora usamos el mismo flash para indicar que algo cambió en la vida
+        if (damageFlash != null)
+        {
+            damageFlash.Flash();
+        }
+
+        Debug.Log("Jotem curado. Vida actual: " + currentHealth);
+    }
+    // --------------------------------
+
     void Die()
     {
         isDead = true;
@@ -88,8 +113,4 @@ public class PlayerHealth : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
-
-
-
 }

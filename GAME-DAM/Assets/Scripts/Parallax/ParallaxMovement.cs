@@ -6,7 +6,8 @@ public class ParallaxMovement : MonoBehaviour
 {
     Transform cam; //Main Camera
     Vector3 camStartPos;
-    float distance; //jarak antara start camera posisi dan current posisi
+    float distanceX;
+    float distanceY; // Añadimos distancia vertical para la caída
 
     GameObject[] backgrounds;
     Material[] mat;
@@ -16,6 +17,9 @@ public class ParallaxMovement : MonoBehaviour
 
     [Range(0.01f, 0.05f)]
     public float parallaxSpeed;
+
+    [Header("Control de Activación")]
+    public bool estaActivo = false; // El interruptor para el bosque
 
     // Start is called before the first frame update
     void Start()
@@ -55,13 +59,34 @@ public class ParallaxMovement : MonoBehaviour
 
     private void LateUpdate()
     {
-        distance = cam.position.x - camStartPos.x;
-        transform.position = new Vector3(cam.position.x - 1, transform.position.y, 9.92f);
+        // Si no está activo (estás en el túnel), el fondo se queda quieto
+        if (!estaActivo)
+        {
+            // Opcional: Mantener el fondo centrado con la cámara pero sin mover textura
+            transform.position = new Vector3(cam.position.x, cam.position.y, 9.92f);
+            return;
+        }
+
+        // Calculamos la distancia recorrida desde que se activó o desde el inicio
+        distanceX = cam.position.x - camStartPos.x;
+        distanceY = cam.position.y - camStartPos.y;
+
+        // El contenedor del fondo sigue a la cámara
+        transform.position = new Vector3(cam.position.x, cam.position.y, 9.92f);
 
         for (int i = 0; i < backgrounds.Length; i++)
         {
             float speed = backSpeed[i] * parallaxSpeed;
-            mat[i].SetTextureOffset("_MainTex", new Vector2(distance, 0) * speed);
+            // Aplicamos el movimiento de textura en X y en Y para la transición del bosque
+            mat[i].SetTextureOffset("_MainTex", new Vector2(distanceX, distanceY) * speed);
         }
+    }
+
+    // Función para activar el efecto desde un Trigger
+    public void ActivarParallax()
+    {
+        estaActivo = true;
+        // Reseteamos el punto de inicio para que el movimiento sea fluido al empezar
+        camStartPos = cam.position;
     }
 }

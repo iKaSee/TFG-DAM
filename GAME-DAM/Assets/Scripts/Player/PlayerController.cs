@@ -11,6 +11,15 @@ public class PlayerController : MonoBehaviour
     public float coyoteTime = 0.15f;
     private float coyoteTimeCounter;
 
+    [Header("Jump Refined (Nuevo)")]
+    public float jumpInputBufferTime = 0.1f; // Tiempo que se guarda la pulsación antes de tocar suelo
+    private float lastPressedJumpTime;
+    private bool isJumping;
+    private bool isJumpCut;
+    [SerializeField] private float jumpCutGravityMult = 2f; // Gravedad extra al soltar el botón
+    [SerializeField] private float fallGravityMult = 3f;    // Gravedad al caer
+    private float defaultGravityScale;
+
     [Header("Dash")]
     public float dashSpeed = 15f; // Velocidad normal del dash
     public float dashSpeedCombate = 10f; // <--- NUEVO: Velocidad del dash en modo combate
@@ -43,6 +52,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         combat = GetComponent<PlayerCombat>();
         defaultSpeed = moveSpeed;
+        defaultGravityScale = rb.gravityScale; // Guardamos la gravedad inicial
     }
 
     void Update()
@@ -59,16 +69,45 @@ public class PlayerController : MonoBehaviour
 
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        // Lógica de Coyote Time
-        if (isGrounded) coyoteTimeCounter = coyoteTime;
-        else coyoteTimeCounter -= Time.deltaTime;
+        #region JUMP LOGIC
+        // Timers de salto
+        coyoteTimeCounter -= Time.deltaTime;
+        lastPressedJumpTime -= Time.deltaTime;
 
-        // Salto
-        if (Input.GetButtonDown("Jump") && coyoteTimeCounter > 0f)
+        // Lógica de Coyote Time
+        if (isGrounded) 
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-            coyoteTimeCounter = 0f;
+            coyoteTimeCounter = coyoteTime;
+            isJumping = false; // Reset de estado al tocar suelo
+            isJumpCut = false;
         }
+
+        // Detección de entrada de salto (Buffer)
+        if (Input.GetButtonDown("Jump"))
+        {
+            lastPressedJumpTime = jumpInputBufferTime;
+        }
+
+        // Salto variable: Si soltamos el botón mientras subimos
+        if (Input.GetButtonUp("Jump"))
+        {
+            if (rb.linearVelocity.y > 0 && isJumping)
+            {
+                isJumpCut = true;
+            }
+        }
+
+        // Ejecución del Salto
+        if (lastPressedJumpTime > 0f && coyoteTimeCounter > 0f && !isJumping)
+        {
+            isJumping = true;
+            isJumpCut = false;
+            Jump();
+        }
+
+        // Ajuste de Gravedad dinámico
+        ModifyGravity();
+        #endregion
 
         // Botón del Dash
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
@@ -111,6 +150,40 @@ public class PlayerController : MonoBehaviour
 
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
         isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(checkWidth, checkHeight), 0f, groundLayer);
+    }
+
+    private void Jump()
+    {
+        // Aplicamos el salto usando fuerza de impulso como en el script de Dawnosaur
+        float force = jumpForce;
+        if (rb.linearVelocity.y < 0)
+            force -= rb.linearVelocity.y;
+
+        rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
+        
+        lastPressedJumpTime = 0;
+        coyoteTimeCounter = 0;
+    }
+
+    private void ModifyGravity()
+    {
+        if (isDashing) return; // No tocar gravedad en dash
+
+        if (rb.linearVelocity.y < 0)
+        {
+            // Mucho más pesado al caer
+            rb.gravityScale = defaultGravityScale * fallGravityMult;
+        }
+        else if (isJumpCut)
+        {
+            // Peso extra si soltamos el botón antes de tiempo
+            rb.gravityScale = defaultGravityScale * jumpCutGravityMult;
+        }
+        else
+        {
+            // Gravedad normal subiendo o en suelo
+            rb.gravityScale = defaultGravityScale;
+        }
     }
 
     void OnDrawGizmos()

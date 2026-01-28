@@ -7,6 +7,8 @@ TagManager:
   - Ground
   - Ememie
   - Enemy
+  - Trap
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -46,6 +48,9 @@ TagManager:
     locked: 0
   - name: Fondo
     uniqueID: 538909933
+    locked: 0
+  - name: Background
+    uniqueID: 2471283731
     locked: 0
   - name: Juego
     uniqueID: 1466253339
