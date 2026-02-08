@@ -7,26 +7,14 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 8f;
     public float jumpForce = 12f;
 
-    [Header("Coyote Time")]
-    public float coyoteTime = 0.15f;
-    private float coyoteTimeCounter;
-
     [Header("Jump Refined (Nuevo)")]
     public float jumpInputBufferTime = 0.1f; // Tiempo que se guarda la pulsación antes de tocar suelo
     private float lastPressedJumpTime;
     private bool isJumping;
     private bool isJumpCut;
-    [SerializeField] private float jumpCutGravityMult = 2f; // Gravedad extra al soltar el botón
-    [SerializeField] private float fallGravityMult = 3f;    // Gravedad al caer
+    [SerializeField] private float jumpCutGravityMult = 6f; // MODIFICADO: Subir a 6 para salto pesado
+    [SerializeField] private float fallGravityMult = 4f;    // MODIFICADO: Subir a 4 para caída rápida
     private float defaultGravityScale;
-
-    [Header("Dash")]
-    public float dashSpeed = 15f; // Velocidad normal del dash
-    public float dashSpeedCombate = 10f; // <--- NUEVO: Velocidad del dash en modo combate
-    public float dashDuration = 0.35f; // Ajustada para que coincida con el sprite
-    public float dashCooldown = 1f;
-    private bool canDash = true;
-    private bool isDashing;
 
     [Header("Detección de Suelo")]
     public Transform groundCheck;
@@ -39,12 +27,32 @@ public class PlayerController : MonoBehaviour
     public float combatSpeedPenalty = 4f;
     private float defaultSpeed;
 
+    [Header("Roll / Rodar")]
+    public float rollSpeed = 12f;
+    public float rollDuration = 0.5f;
+    public float rollCooldown = 0.8f;
+    private bool isRolling = false;
+    private bool canRoll = true;
+
+
+    [Header("Crouch / Agacharse")]
+    public float crouchSpeedMult = 0.5f; // Irá a la mitad de velocidad
+    private bool isCrouching = false;
+
+
+    [Header("Hitbox de Agachado")]
+    private CapsuleCollider2D col; // Usamos CapsuleCollider2D
+    private Vector2 originalSize;
+    private Vector2 originalOffset;
+    [SerializeField] private float crouchSizeMultiplier = 0.6f; // El colisionador medirá el 60% al agacharse
+
     private Rigidbody2D rb;
     private Animator anim;
     private PlayerCombat combat;
     public bool isGrounded;
     private float moveInput;
     private bool facingRight = true;
+
 
     void Awake()
     {
@@ -53,12 +61,39 @@ public class PlayerController : MonoBehaviour
         combat = GetComponent<PlayerCombat>();
         defaultSpeed = moveSpeed;
         defaultGravityScale = rb.gravityScale; // Guardamos la gravedad inicial
+
+
+        col = GetComponent<CapsuleCollider2D>();
+        originalSize = col.size;
+        originalOffset = col.offset;
     }
 
     void Update()
     {
-        // Si estamos dasheando, no procesamos más inputs
-        if (isDashing) return;
+
+        if (isRolling) return;
+
+
+        // Detectar si pulsamos control para agacharnos, pero solo si estamos en el suelo
+        if (isGrounded && Input.GetKey(KeyCode.LeftControl))
+        {
+            isCrouching = true;
+        }
+        else if (!Input.GetKey(KeyCode.LeftControl))
+        {
+            // Lanzamos un pequeño rayo o círculo hacia arriba para ver si hay techo
+            bool hayTecho = Physics2D.OverlapCircle(transform.position + Vector3.up * 1f, 0.2f, groundLayer);
+
+            if (!hayTecho)
+            {
+                isCrouching = false;
+            }
+            // Si hay techo, isCrouching se queda en true aunque sueltes la tecla
+        }
+
+        anim.SetBool("isCrouching", isCrouching);
+
+        HandleHitbox();
 
         // MODIFICADO: Eliminado el bloqueo de Vector2.zero para que Jotem se mueva mientras ataca
         if (combat != null && combat.isAttacking)
@@ -69,39 +104,40 @@ public class PlayerController : MonoBehaviour
 
         moveInput = Input.GetAxisRaw("Horizontal");
 
+        // 'moveInput' es la variable donde guardas el Input.GetAxisRaw("Horizontal")
+        bool moviendose = Mathf.Abs(moveInput) > 0.01f;
+        anim.SetBool("isMoving", moviendose);
+
         #region JUMP LOGIC
-        // Timers de salto
-        coyoteTimeCounter -= Time.deltaTime;
+        // Timers
         lastPressedJumpTime -= Time.deltaTime;
 
-        // Lógica de Coyote Time
-        if (isGrounded) 
+        if (isGrounded)
         {
-            coyoteTimeCounter = coyoteTime;
-            isJumping = false; // Reset de estado al tocar suelo
+            isJumping = false;
             isJumpCut = false;
         }
 
-        // Detección de entrada de salto (Buffer)
-        if (Input.GetButtonDown("Jump"))
+        // DETECCIÓN DE SALTO (AQUÍ ESTABA EL ERROR)
+        if (Input.GetButtonDown("Jump") && !isCrouching)
         {
             lastPressedJumpTime = jumpInputBufferTime;
         }
 
-        // Salto variable: Si soltamos el botón mientras subimos
+        // Salto variable
         if (Input.GetButtonUp("Jump"))
         {
-            if (rb.linearVelocity.y > 0 && isJumping)
+            if (rb.linearVelocity.y > 0.1f && isJumping)
             {
                 isJumpCut = true;
+                // Frenazo manual de velocidad para que el salto corto sea real
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
             }
         }
 
-        // Ejecución del Salto
-        if (lastPressedJumpTime > 0f && coyoteTimeCounter > 0f && !isJumping)
+        // Ejecución del Salto (Solo si hay buffer de tiempo y estamos en el suelo)
+        if (lastPressedJumpTime > 0f && isGrounded && !isJumping)
         {
-            isJumping = true;
-            isJumpCut = false;
             Jump();
         }
 
@@ -109,85 +145,72 @@ public class PlayerController : MonoBehaviour
         ModifyGravity();
         #endregion
 
-        // Botón del Dash
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
-        {
-            StartCoroutine(PerformDash());
-        }
-
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            bool currentMode = anim.GetBool("IsCombatMode");
-            bool newMode = !currentMode;
-
-            anim.SetBool("IsCombatMode", newMode);
-
-            // 2. Aplicar el cambio de velocidad (Invertido: En combate va más LENTO)
-            if (newMode)
-            {
-                // Ahora restamos la penalización
-                moveSpeed = defaultSpeed - combatSpeedPenalty;
-            }
-            else
-            {
-                moveSpeed = defaultSpeed;
-            }
-        }
-
-
         // Girar personaje (Tu método original)
         if (moveInput > 0 && !facingRight) Flip();
         else if (moveInput < 0 && facingRight) Flip();
+
+
+        // Bloqueamos inputs si está rodando
+
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canRoll && isGrounded)
+        {
+            StartCoroutine(ExecuteRoll());
+        }
 
         UpdateAnimator();
     }
 
     void FixedUpdate()
     {
-        // Si estamos dasheando, no aplicamos movimiento de caminata
         // MODIFICADO: Eliminada la condición de ataque para permitir movimiento fluido
-        if (isDashing) return;
-
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
         isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(checkWidth, checkHeight), 0f, groundLayer);
+
+        // Aplicamos movimiento manteniendo la Y del Rigidbody
+        // Corregido: Ahora solo aplicamos la velocidad una vez calculando si está agachado
+        float currentSpeed = isCrouching ? moveSpeed * crouchSpeedMult : moveSpeed;
+        rb.linearVelocity = new Vector2(moveInput * currentSpeed, rb.linearVelocity.y);
     }
 
     private void Jump()
     {
+        if (isRolling) return; // No saltar mientras se rueda
+
+        isJumping = true;
+        isJumpCut = false;
+
+        // Reset de velocidad vertical para un salto consistente
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+
         // Aplicamos el salto usando fuerza de impulso como en el script de Dawnosaur
         float force = jumpForce;
-        if (rb.linearVelocity.y < 0)
-            force -= rb.linearVelocity.y;
-
         rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
-        
+
         lastPressedJumpTime = 0;
-        coyoteTimeCounter = 0;
     }
 
     private void ModifyGravity()
     {
-        if (isDashing) return; // No tocar gravedad en dash
-
-        if (rb.linearVelocity.y < 0)
+        // CASO 1: Estamos cayendo (Velocidad negativa)
+        if (rb.linearVelocity.y < -0.1f)
         {
-            // Mucho más pesado al caer
             rb.gravityScale = defaultGravityScale * fallGravityMult;
         }
-        else if (isJumpCut)
+        // CASO 2: Estamos subiendo pero HEMOS SOLTADO el botón (Salto corto)
+        else if (rb.linearVelocity.y > 0.1f && isJumpCut)
         {
-            // Peso extra si soltamos el botón antes de tiempo
+            // Aplicamos una gravedad muy alta para que deje de subir inmediatamente
             rb.gravityScale = defaultGravityScale * jumpCutGravityMult;
         }
+        // CASO 3: Subida normal (botón pulsado) o estamos en el suelo
         else
         {
-            // Gravedad normal subiendo o en suelo
             rb.gravityScale = defaultGravityScale;
         }
     }
-
     void OnDrawGizmos()
     {
+        if (groundCheck == null) return;
         Gizmos.color = Color.green;
         Gizmos.DrawWireCube(
             groundCheck.position,
@@ -195,41 +218,13 @@ public class PlayerController : MonoBehaviour
         );
     }
 
-
-    private IEnumerator PerformDash()
-    {
-        canDash = false;
-        isDashing = true;
-
-        float originalGravity = rb.gravityScale;
-        rb.gravityScale = 0f;
-
-        // --- DINÁMICO: Elegimos la velocidad del dash según el modo ---
-        bool enCombate = anim.GetBool("IsCombatMode");
-        float velocidadDashActual = enCombate ? dashSpeedCombate : dashSpeed;
-
-        // Aplicamos la velocidad elegida
-        rb.linearVelocity = new Vector2((facingRight ? 1 : -1) * velocidadDashActual, 0f);
-        anim.SetTrigger("Dash");
-
-        // Esperamos la duración exacta
-        yield return new WaitForSeconds(dashDuration);
-
-        // --- EL CORTE MAESTRO ---
-        rb.linearVelocity = Vector2.zero; // Frenazo total
-        rb.gravityScale = originalGravity;
-        isDashing = false;
-
-        // Esperar al cooldown
-        yield return new WaitForSeconds(dashCooldown);
-        canDash = true;
-    }
-
     void UpdateAnimator()
     {
         anim.SetFloat("HorizontalSpeed", Mathf.Abs(moveInput));
         anim.SetFloat("VerticalVelocity", rb.linearVelocity.y);
         anim.SetBool("isGrounded", isGrounded);
+        // IMPORTANTE: Asegúrate de que el parámetro en el Animator se llame exactamente "isCrouching"
+        anim.SetBool("isCrouching", isCrouching);
     }
 
     void Flip()
@@ -238,5 +233,44 @@ public class PlayerController : MonoBehaviour
         Vector3 scaler = transform.localScale;
         scaler.x *= -1;
         transform.localScale = scaler;
+    }
+
+    private IEnumerator ExecuteRoll()
+    {
+        canRoll = false;
+        isRolling = true;
+
+        // Activamos la animación
+        anim.SetTrigger("Roll");
+
+        // Aplicamos velocidad constante hacia donde mira
+        rb.linearVelocity = new Vector2((facingRight ? 1 : -1) * rollSpeed, rb.linearVelocity.y);
+
+        yield return new WaitForSeconds(rollDuration);
+
+        isRolling = false;
+
+        // Cooldown para no spamear el roll
+        yield return new WaitForSeconds(rollCooldown);
+        canRoll = true;
+    }
+
+    private void HandleHitbox()
+    {
+        if (isCrouching)
+        {
+            // Reducimos el tamaño en Y
+            col.size = new Vector2(originalSize.x, originalSize.y * crouchSizeMultiplier);
+
+            // Bajamos el centro (Offset) para que la base del colisionador siga en los pies
+            float diferencia = (originalSize.y - col.size.y) / 2f;
+            col.offset = new Vector2(originalOffset.x, originalOffset.y - diferencia);
+        }
+        else
+        {
+            // Restauramos valores originales
+            col.size = originalSize;
+            col.offset = originalOffset;
+        }
     }
 }

@@ -3,48 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\MenuFinal\\MenuFinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MenuFinal\\MenuFinal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Menu\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\EnemyHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy\\EnemyHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\chest\\CofreVida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\chest\\CofreVida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Wetlands-bos\\BossAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\Enemy_Bat\\BatAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy\\Enemy_Bat\\BatAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossDamageArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Wetlands-bos\\BossDamageArea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Wetlands-bos\\BossHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Wetlands-bos\\BossController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\VFX\\DeleteVFX.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\VFX\\DeleteVFX.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -59,136 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerCombat.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ViewState": "AgIAABoAAACA5MzMzMwXwEwAAAAmAAAAAAAAAA==",
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AgIAAOsAAAAAAAAAAADwvxMBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-29T16:02:00.915Z",
+              "WhenOpened": "2026-02-08T10:08:31.761Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MenuFinal.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\MenuFinal\\MenuFinal.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MenuFinal\\MenuFinal.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\MenuFinal\\MenuFinal.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MenuFinal\\MenuFinal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Title": "DeleteVFX.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\VFX\\DeleteVFX.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VFX\\DeleteVFX.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\VFX\\DeleteVFX.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VFX\\DeleteVFX.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T22:46:18.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Menu\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\GameManager.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Menu\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Menu\\GameManager.cs",
-              "ViewState": "AgIAALoAAAAAAAAAAAAAANEAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T22:23:41.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CofreVida.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\chest\\CofreVida.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\chest\\CofreVida.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\chest\\CofreVida.cs",
-              "RelativeToolTip": "Assets\\Scripts\\chest\\CofreVida.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwEIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T21:38:07.227Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerHealth.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAkwHMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T21:36:55.187Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnemyHealth.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\EnemyHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\EnemyHealth.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAcwJQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T20:28:33.01Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BossAI.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossAI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Wetlands-bos\\BossAI.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossAI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Wetlands-bos\\BossAI.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAAwJUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T20:26:53.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BatAI.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\Enemy_Bat\\BatAI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Bat\\BatAI.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\Enemy_Bat\\BatAI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Bat\\BatAI.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAAwKQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T20:24:21.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "BossDamageArea.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossDamageArea.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Wetlands-bos\\BossDamageArea.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossDamageArea.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Wetlands-bos\\BossDamageArea.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T20:21:52.117Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BossHealth.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossHealth.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Wetlands-bos\\BossHealth.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossHealth.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Wetlands-bos\\BossHealth.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwCQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T20:21:26.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "BossController.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Wetlands-bos\\BossController.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Wetlands-bos\\BossController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Wetlands-bos\\BossController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAwEMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-28T20:21:05.918Z"
+              "WhenOpened": "2026-02-08T10:07:41.312Z"
             }
           ]
         }
