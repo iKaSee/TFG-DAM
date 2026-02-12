@@ -1,0 +1,418 @@
+fileFormatVersion: 2
+guid: b34e1dda905d725408a4200fb57e6a30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3400491782204648127
+    second: Knight_MainCharacter_Crouch_Attack_0
+  - first:
+      213: 2922844708364778807
+    second: Knight_MainCharacter_Crouch_Attack_1
+  - first:
+      213: 1057621288423655722
+    second: Knight_MainCharacter_Crouch_Attack_2
+  - first:
+      213: 1786444596234047225
+    second: Knight_MainCharacter_Crouch_Attack_3
+  - first:
+      213: -4896861998593801464
+    second: Knight_MainCharacter_Crouch_Attack_4
+  - first:
+      213: -9052084653633348698
+    second: Knight_MainCharacter_Crouch_Attack_5
+  - first:
+      213: -7670329331059411010
+    second: Knight_MainCharacter_Crouch_Attack_6
+  - first:
+      213: -8959697034697091324
+    second: Knight_MainCharacter_Crouch_Attack_7
+  - first:
+      213: -580636875616007896
+    second: Knight_MainCharacter_Crouch_Attack_8
+  - first:
+      213: 334497201484398376
+    second: Knight_MainCharacter_Crouch_Attack_9
+  - first:
+      213: 5098847658038756672
+    second: Knight_MainCharacter_Crouch_Attack_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 40
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1459e0c9db60fc0d0800000000000000
+      internalID: -3400491782204648127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 43
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d76bfb6c7009820800000000000000
+      internalID: 2922844708364778807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 0
+        width: 43
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29026355fc6dae00800000000000000
+      internalID: 1057621288423655722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 0
+        width: 42
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe427135e9bac810800000000000000
+      internalID: 1786444596234047225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 0
+        width: 53
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80305bbf4f9da0cb0800000000000000
+      internalID: -4896861998593801464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 56
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab5b6fa7f8806280800000000000000
+      internalID: -9052084653633348698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 0
+        width: 57
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb7b1ffcc148d8590800000000000000
+      internalID: -7670329331059411010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 0
+        width: 57
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40752c77403c8a380800000000000000
+      internalID: -8959697034697091324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 0
+        width: 41
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8294a6586d921f7f0800000000000000
+      internalID: -580636875616007896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 0
+        width: 37
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ff6d8be6f54a400800000000000000
+      internalID: 334497201484398376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Knight_MainCharacter_Crouch_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 0
+        width: 39
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0458b3d1eeeb2c640800000000000000
+      internalID: 5098847658038756672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 835fbd6c4aa9fef418cfccc725ab8dca
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Knight_MainCharacter_Crouch_Attack_0: -3400491782204648127
+      Knight_MainCharacter_Crouch_Attack_1: 2922844708364778807
+      Knight_MainCharacter_Crouch_Attack_10: 5098847658038756672
+      Knight_MainCharacter_Crouch_Attack_2: 1057621288423655722
+      Knight_MainCharacter_Crouch_Attack_3: 1786444596234047225
+      Knight_MainCharacter_Crouch_Attack_4: -4896861998593801464
+      Knight_MainCharacter_Crouch_Attack_5: -9052084653633348698
+      Knight_MainCharacter_Crouch_Attack_6: -7670329331059411010
+      Knight_MainCharacter_Crouch_Attack_7: -8959697034697091324
+      Knight_MainCharacter_Crouch_Attack_8: -580636875616007896
+      Knight_MainCharacter_Crouch_Attack_9: 334497201484398376
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

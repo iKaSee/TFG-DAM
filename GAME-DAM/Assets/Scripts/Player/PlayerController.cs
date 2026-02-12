@@ -46,6 +46,14 @@ public class PlayerController : MonoBehaviour
     private Vector2 originalOffset;
     [SerializeField] private float crouchSizeMultiplier = 0.6f; // El colisionador medirá el 60% al agacharse
 
+
+    [Header("VFX")]
+    public GameObject prefabPolvo; // Aquí arrastraremos el Prefab que hicimos 
+    public Transform puntoPies;    // Aquí arrastraremos el objeto PosicionPies
+
+
+
+
     private Rigidbody2D rb;
     private Animator anim;
     private PlayerCombat combat;
@@ -235,6 +243,15 @@ public class PlayerController : MonoBehaviour
         transform.localScale = scaler;
     }
 
+
+    public void CrearPolvo()
+    {
+        // Esto crea el polvo en la posición de los pies
+        Instantiate(prefabPolvo, puntoPies.position, Quaternion.identity);
+    }
+
+
+
     private IEnumerator ExecuteRoll()
     {
         canRoll = false;
@@ -273,4 +290,8 @@ public class PlayerController : MonoBehaviour
             col.offset = originalOffset;
         }
     }
+
+
+
+
 }

@@ -1,9 +1,10 @@
 using UnityEngine;
-public class DeleteVFX : MonoBehaviour
+
+public class DestroyVFX : MonoBehaviour
 {
     void Start()
     {
-        // Se destruye a los 0.5 segundos (ajusta al tiempo de tu animación)
-        Destroy(gameObject, 0.5f);
+        // Se borra a los 0.4 segundos (lo que duran los 4 frames)
+        Destroy(gameObject, 0.4f);
     }
 }
