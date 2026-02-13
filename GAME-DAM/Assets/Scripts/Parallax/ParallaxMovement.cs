@@ -1,3 +1,4 @@
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -90,3 +91,4 @@ public class ParallaxMovement : MonoBehaviour
         camStartPos = cam.position;
     }
 }
+

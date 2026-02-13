@@ -47,11 +47,13 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float crouchSizeMultiplier = 0.6f; // El colisionador medirá el 60% al agacharse
 
 
-    [Header("VFX")]
-    public GameObject prefabPolvo; // Aquí arrastraremos el Prefab que hicimos 
+    [Header("Run VFX")]
+    public GameObject prefabPolvo; // Aquí arrastraremos el Prefab 
     public Transform puntoPies;    // Aquí arrastraremos el objeto PosicionPies
 
-
+    [Header("Landing VFX")]
+    public GameObject landingPrefab; //  Aquí arrastraremos el Prefab 
+    private bool wasInAir; // Para saber si venimos de una caída
 
 
     private Rigidbody2D rb;
@@ -167,6 +169,23 @@ public class PlayerController : MonoBehaviour
         }
 
         UpdateAnimator();
+
+        if (!wasInAir && !isGrounded)
+        {
+            // Si no estábamos en el aire pero ahora isGrounded es false, es que acabamos de saltar o caer
+            wasInAir = true;
+        }
+
+        if (wasInAir && isGrounded)
+        {
+            // ¡MOMENTO MÁGICO!: Estábamos en el aire y acabamos de tocar suelo
+            CrearEfectoAterrizaje();
+            wasInAir = false;
+        }
+
+
+
+
     }
 
     void FixedUpdate()
@@ -250,7 +269,13 @@ public class PlayerController : MonoBehaviour
         Instantiate(prefabPolvo, puntoPies.position, Quaternion.identity);
     }
 
-
+    public void CrearEfectoAterrizaje()
+    {
+        if (landingPrefab != null && puntoPies != null)
+        {
+            Instantiate(landingPrefab, puntoPies.position, Quaternion.identity);
+        }
+    }
 
     private IEnumerator ExecuteRoll()
     {
