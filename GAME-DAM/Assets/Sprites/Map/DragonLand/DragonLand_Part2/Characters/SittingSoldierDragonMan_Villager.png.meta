@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 9db862c0c9dc815489eb58795316cd7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1994618941537867472
+    second: SittingSoldierDragonMan_Villager_0
+  - first:
+      213: 5806675716404499647
+    second: SittingSoldierDragonMan_Villager_1
+  - first:
+      213: -505672815625608654
+    second: SittingSoldierDragonMan_Villager_2
+  - first:
+      213: -8381107639130864895
+    second: SittingSoldierDragonMan_Villager_3
+  - first:
+      213: 6200157553913226803
+    second: SittingSoldierDragonMan_Villager_4
+  - first:
+      213: -1832928253790080674
+    second: SittingSoldierDragonMan_Villager_5
+  - first:
+      213: 4784096802731297395
+    second: SittingSoldierDragonMan_Villager_6
+  - first:
+      213: -4898619790631956917
+    second: SittingSoldierDragonMan_Villager_7
+  - first:
+      213: -6142149547074389271
+    second: SittingSoldierDragonMan_Villager_8
+  - first:
+      213: -3036460823236388122
+    second: SittingSoldierDragonMan_Villager_9
+  - first:
+      213: 8990194875098938078
+    second: SittingSoldierDragonMan_Villager_10
+  - first:
+      213: -6156653125253902840
+    second: SittingSoldierDragonMan_Villager_11
+  - first:
+      213: 4567893531862007890
+    second: SittingSoldierDragonMan_Villager_12
+  - first:
+      213: -952482766689898746
+    second: SittingSoldierDragonMan_Villager_13
+  - first:
+      213: -2434620063962333349
+    second: SittingSoldierDragonMan_Villager_14
+  - first:
+      213: 8412560827829554286
+    second: SittingSoldierDragonMan_Villager_15
+  - first:
+      213: 9201125080488214063
+    second: SittingSoldierDragonMan_Villager_16
+  - first:
+      213: 3299898752735797406
+    second: SittingSoldierDragonMan_Villager_17
+  - first:
+      213: -5590947568104369176
+    second: SittingSoldierDragonMan_Villager_18
+  - first:
+      213: -6864973135869189515
+    second: SittingSoldierDragonMan_Villager_19
+  - first:
+      213: 524070454421969265
+    second: SittingSoldierDragonMan_Villager_20
+  - first:
+      213: 7006303757683187670
+    second: SittingSoldierDragonMan_Villager_21
+  - first:
+      213: 7261432817763564070
+    second: SittingSoldierDragonMan_Villager_22
+  - first:
+      213: 4238350988960519970
+    second: SittingSoldierDragonMan_Villager_23
+  - first:
+      213: 7631933828441553354
+    second: SittingSoldierDragonMan_Villager_24
+  - first:
+      213: -8036197098662034707
+    second: SittingSoldierDragonMan_Villager_25
+  - first:
+      213: 7618359924946269199
+    second: SittingSoldierDragonMan_Villager_26
+  - first:
+      213: -5754008251338988180
+    second: SittingSoldierDragonMan_Villager_27
+  - first:
+      213: 1414429345616553291
+    second: SittingSoldierDragonMan_Villager_28
+  - first:
+      213: 4870132221364169334
+    second: SittingSoldierDragonMan_Villager_29
+  - first:
+      213: 2051263191392603028
+    second: SittingSoldierDragonMan_Villager_30
+  - first:
+      213: 5379129497437521107
+    second: SittingSoldierDragonMan_Villager_31
+  - first:
+      213: -7989733004716310804
+    second: SittingSoldierDragonMan_Villager_32
+  - first:
+      213: -1229551803951212534
+    second: SittingSoldierDragonMan_Villager_33
+  - first:
+      213: 7100577592680607146
+    second: SittingSoldierDragonMan_Villager_34
+  - first:
+      213: 4872080660097867554
+    second: SittingSoldierDragonMan_Villager_35
+  - first:
+      213: -7496876450733201169
+    second: SittingSoldierDragonMan_Villager_36
+  - first:
+      213: 2845516571369864364
+    second: SittingSoldierDragonMan_Villager_37
+  - first:
+      213: 2959489628652466897
+    second: SittingSoldierDragonMan_Villager_38
+  - first:
+      213: -2529909967940539773
+    second: SittingSoldierDragonMan_Villager_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039ae5ff3a0b154e0800000000000000
+      internalID: -1994618941537867472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb45d2a8cc4759050800000000000000
+      internalID: 5806675716404499647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_2
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232601cd04d7bf8f0800000000000000
+      internalID: -505672815625608654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103ca49d10350bb80800000000000000
+      internalID: -8381107639130864895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_4
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336e37802726b0650800000000000000
+      internalID: 6200157553913226803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51b016e6712096e0800000000000000
+      internalID: -1832928253790080674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_6
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a81e1e1b6846240800000000000000
+      internalID: 4784096802731297395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_7
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e0fa1214b940cb0800000000000000
+      internalID: -4898619790631956917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eafd498783b2caa0800000000000000
+      internalID: -6142149547074389271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_9
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eada9818f25cd5d0800000000000000
+      internalID: -3036460823236388122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_10
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda3fc75b9693cc70800000000000000
+      internalID: 8990194875098938078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_11
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e41f71a9c2f8aa0800000000000000
+      internalID: -6156653125253902840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_12
+      rect:
+        serializedVersion: 2
+        x: 1306
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250807a27fa646f30800000000000000
+      internalID: 4567893531862007890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_13
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f64cc58f918c2f0800000000000000
+      internalID: -952482766689898746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_14
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f7c7473fd763ed0800000000000000
+      internalID: -2434620063962333349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_15
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c8522508b6fb470800000000000000
+      internalID: 8412560827829554286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_16
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2eff64d286f0bf70800000000000000
+      internalID: 9201125080488214063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_17
+      rect:
+        serializedVersion: 2
+        x: 1741
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9062979e689bcd20800000000000000
+      internalID: 3299898752735797406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_18
+      rect:
+        serializedVersion: 2
+        x: 1930
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e31e451fc6f862b0800000000000000
+      internalID: -5590947568104369176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_19
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572eaeb1e47bab0a0800000000000000
+      internalID: -6864973135869189515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_20
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17959193d4fd54700800000000000000
+      internalID: 524070454421969265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_21
+      rect:
+        serializedVersion: 2
+        x: 2157
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfd03985246b3160800000000000000
+      internalID: 7006303757683187670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_22
+      rect:
+        serializedVersion: 2
+        x: 2346
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a392fccaac5c460800000000000000
+      internalID: 7261432817763564070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_23
+      rect:
+        serializedVersion: 2
+        x: 2364
+        y: 26
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227da6ac4c5a1da30800000000000000
+      internalID: 4238350988960519970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_24
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9bb8991631ae960800000000000000
+      internalID: 7631933828441553354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_25
+      rect:
+        serializedVersion: 2
+        x: 2554
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2893df051b97090800000000000000
+      internalID: -8036197098662034707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_26
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 27
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f047e79ecf9d9b960800000000000000
+      internalID: 7618359924946269199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_27
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65e5404bf7a520b0800000000000000
+      internalID: -5754008251338988180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_28
+      rect:
+        serializedVersion: 2
+        x: 2762
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45ec51feff01a310800000000000000
+      internalID: 1414429345616553291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_29
+      rect:
+        serializedVersion: 2
+        x: 2780
+        y: 0
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a6897c37f269340800000000000000
+      internalID: 4870132221364169334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_30
+      rect:
+        serializedVersion: 2
+        x: 2970
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b4ac7210d877c10800000000000000
+      internalID: 2051263191392603028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_31
+      rect:
+        serializedVersion: 2
+        x: 2989
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4c69f27c186aa40800000000000000
+      internalID: 5379129497437521107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_32
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee7ba3e924ce1190800000000000000
+      internalID: -7989733004716310804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_33
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a081c841621cfeee0800000000000000
+      internalID: -1229551803951212534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_34
+      rect:
+        serializedVersion: 2
+        x: 3386
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad63d733b15a8260800000000000000
+      internalID: 7100577592680607146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_35
+      rect:
+        serializedVersion: 2
+        x: 3405
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f1f260c8b1d9340800000000000000
+      internalID: 4872080660097867554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_36
+      rect:
+        serializedVersion: 2
+        x: 3594
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe86e05969eb5f790800000000000000
+      internalID: -7496876450733201169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_37
+      rect:
+        serializedVersion: 2
+        x: 3613
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacfcf6de3e4d7720800000000000000
+      internalID: 2845516571369864364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_38
+      rect:
+        serializedVersion: 2
+        x: 3802
+        y: 0
+        width: 18
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d278402328321920800000000000000
+      internalID: 2959489628652466897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SittingSoldierDragonMan_Villager_39
+      rect:
+        serializedVersion: 2
+        x: 3821
+        y: 0
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a2f27c944f3ecd0800000000000000
+      internalID: -2529909967940539773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SittingSoldierDragonMan_Villager_0: -1994618941537867472
+      SittingSoldierDragonMan_Villager_1: 5806675716404499647
+      SittingSoldierDragonMan_Villager_10: 8990194875098938078
+      SittingSoldierDragonMan_Villager_11: -6156653125253902840
+      SittingSoldierDragonMan_Villager_12: 4567893531862007890
+      SittingSoldierDragonMan_Villager_13: -952482766689898746
+      SittingSoldierDragonMan_Villager_14: -2434620063962333349
+      SittingSoldierDragonMan_Villager_15: 8412560827829554286
+      SittingSoldierDragonMan_Villager_16: 9201125080488214063
+      SittingSoldierDragonMan_Villager_17: 3299898752735797406
+      SittingSoldierDragonMan_Villager_18: -5590947568104369176
+      SittingSoldierDragonMan_Villager_19: -6864973135869189515
+      SittingSoldierDragonMan_Villager_2: -505672815625608654
+      SittingSoldierDragonMan_Villager_20: 524070454421969265
+      SittingSoldierDragonMan_Villager_21: 7006303757683187670
+      SittingSoldierDragonMan_Villager_22: 7261432817763564070
+      SittingSoldierDragonMan_Villager_23: 4238350988960519970
+      SittingSoldierDragonMan_Villager_24: 7631933828441553354
+      SittingSoldierDragonMan_Villager_25: -8036197098662034707
+      SittingSoldierDragonMan_Villager_26: 7618359924946269199
+      SittingSoldierDragonMan_Villager_27: -5754008251338988180
+      SittingSoldierDragonMan_Villager_28: 1414429345616553291
+      SittingSoldierDragonMan_Villager_29: 4870132221364169334
+      SittingSoldierDragonMan_Villager_3: -8381107639130864895
+      SittingSoldierDragonMan_Villager_30: 2051263191392603028
+      SittingSoldierDragonMan_Villager_31: 5379129497437521107
+      SittingSoldierDragonMan_Villager_32: -7989733004716310804
+      SittingSoldierDragonMan_Villager_33: -1229551803951212534
+      SittingSoldierDragonMan_Villager_34: 7100577592680607146
+      SittingSoldierDragonMan_Villager_35: 4872080660097867554
+      SittingSoldierDragonMan_Villager_36: -7496876450733201169
+      SittingSoldierDragonMan_Villager_37: 2845516571369864364
+      SittingSoldierDragonMan_Villager_38: 2959489628652466897
+      SittingSoldierDragonMan_Villager_39: -2529909967940539773
+      SittingSoldierDragonMan_Villager_4: 6200157553913226803
+      SittingSoldierDragonMan_Villager_5: -1832928253790080674
+      SittingSoldierDragonMan_Villager_6: 4784096802731297395
+      SittingSoldierDragonMan_Villager_7: -4898619790631956917
+      SittingSoldierDragonMan_Villager_8: -6142149547074389271
+      SittingSoldierDragonMan_Villager_9: -3036460823236388122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

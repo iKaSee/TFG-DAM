@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 3322f137434586a4f820c1afc0a8a5fc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8060916439254590112
+    second: SmallChest_Open_0
+  - first:
+      213: 2955725945713566954
+    second: SmallChest_Open_1
+  - first:
+      213: 7472262805009742362
+    second: SmallChest_Open_2
+  - first:
+      213: -2542744332447933269
+    second: SmallChest_Open_3
+  - first:
+      213: 9085613592779970760
+    second: SmallChest_Open_4
+  - first:
+      213: -1613736520218167968
+    second: SmallChest_Open_5
+  - first:
+      213: 3665617199088396891
+    second: SmallChest_Open_6
+  - first:
+      213: 8215172450835408251
+    second: SmallChest_Open_7
+  - first:
+      213: 7191904159123273523
+    second: SmallChest_Open_8
+  - first:
+      213: -7429252260136299875
+    second: SmallChest_Open_9
+  - first:
+      213: -6835024744055313830
+    second: SmallChest_Open_10
+  - first:
+      213: -9137140229898151341
+    second: SmallChest_Open_11
+  - first:
+      213: -6513841610192688892
+    second: SmallChest_Open_12
+  - first:
+      213: -7114217408410099863
+    second: SmallChest_Open_13
+  - first:
+      213: 2333696649511482232
+    second: SmallChest_Open_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SmallChest_Open_0
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 15
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d9f12053fd12090800000000000000
+      internalID: -8060916439254590112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_1
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 15
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4a9a76619d40920800000000000000
+      internalID: 2955725945713566954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 15
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a38f07e6fc2b760800000000000000
+      internalID: 7472262805009742362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_3
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 15
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac9dcd608b56bcd0800000000000000
+      internalID: -2542744332447933269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_4
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 15
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c85c1ccc65961e70800000000000000
+      internalID: 9085613592779970760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_5
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 15
+        width: 38
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065325f4f2bda99e0800000000000000
+      internalID: -1613736520218167968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_6
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 33
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ae93adb63eed230800000000000000
+      internalID: 3665617199088396891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_7
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 15
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75ae9471d7220270800000000000000
+      internalID: 8215172450835408251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_8
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 15
+        width: 40
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33772377ab6cec360800000000000000
+      internalID: 7191904159123273523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_9
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 15
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92dec76e6ef5e890800000000000000
+      internalID: -7429252260136299875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_10
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 15
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5ae393753d1521a0800000000000000
+      internalID: -6835024744055313830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_11
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 15
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a5dfd1f5b523180800000000000000
+      internalID: -9137140229898151341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_12
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 15
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4096e4d319f2a95a0800000000000000
+      internalID: -6513841610192688892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_13
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 15
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fd0d4b5f8354d90800000000000000
+      internalID: -7114217408410099863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallChest_Open_14
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 15
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873b6affcb4f26020800000000000000
+      internalID: 2333696649511482232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SmallChest_Open_0: -8060916439254590112
+      SmallChest_Open_1: 2955725945713566954
+      SmallChest_Open_10: -6835024744055313830
+      SmallChest_Open_11: -9137140229898151341
+      SmallChest_Open_12: -6513841610192688892
+      SmallChest_Open_13: -7114217408410099863
+      SmallChest_Open_14: 2333696649511482232
+      SmallChest_Open_2: 7472262805009742362
+      SmallChest_Open_3: -2542744332447933269
+      SmallChest_Open_4: 9085613592779970760
+      SmallChest_Open_5: -1613736520218167968
+      SmallChest_Open_6: 3665617199088396891
+      SmallChest_Open_7: 8215172450835408251
+      SmallChest_Open_8: 7191904159123273523
+      SmallChest_Open_9: -7429252260136299875
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

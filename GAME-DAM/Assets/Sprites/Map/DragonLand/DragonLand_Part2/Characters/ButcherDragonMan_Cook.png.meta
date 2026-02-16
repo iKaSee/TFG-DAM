@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 6bc418ec3e3713841b4054b7033ce3f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2294186357213669356
+    second: ButcherDragonMan_Cook_0
+  - first:
+      213: -208942496799019646
+    second: ButcherDragonMan_Cook_1
+  - first:
+      213: 6371408623430327967
+    second: ButcherDragonMan_Cook_2
+  - first:
+      213: 2465496848006306753
+    second: ButcherDragonMan_Cook_3
+  - first:
+      213: 8266304848522468698
+    second: ButcherDragonMan_Cook_4
+  - first:
+      213: -6043011985254386078
+    second: ButcherDragonMan_Cook_5
+  - first:
+      213: -5383293549350122501
+    second: ButcherDragonMan_Cook_6
+  - first:
+      213: 5262202253474231511
+    second: ButcherDragonMan_Cook_7
+  - first:
+      213: -8783000227777752815
+    second: ButcherDragonMan_Cook_8
+  - first:
+      213: -2171192546818679823
+    second: ButcherDragonMan_Cook_9
+  - first:
+      213: -1012827982870760251
+    second: ButcherDragonMan_Cook_10
+  - first:
+      213: 7964141301376355189
+    second: ButcherDragonMan_Cook_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 0
+        width: 89
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7a446365696df10800000000000000
+      internalID: 2294186357213669356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dafcbf7efa91df0800000000000000
+      internalID: -208942496799019646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_2
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 0
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9edc66c26acb6850800000000000000
+      internalID: 6371408623430327967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_3
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 0
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbd24c0254373220800000000000000
+      internalID: 2465496848006306753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_4
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 0
+        width: 89
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d55458670d7b270800000000000000
+      internalID: 8266304848522468698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_5
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 0
+        width: 89
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266fb7ddd98e22ca0800000000000000
+      internalID: -6043011985254386078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_6
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 0
+        width: 90
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb855de903ba45b0800000000000000
+      internalID: -5383293549350122501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_7
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 0
+        width: 90
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d47796b119170940800000000000000
+      internalID: 5262202253474231511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_8
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 0
+        width: 89
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111d121c3d38c1680800000000000000
+      internalID: -8783000227777752815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_9
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 0
+        width: 89
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb95e3d1ef5ed1e0800000000000000
+      internalID: -2171192546818679823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_10
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 0
+        width: 89
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4b966d056b1f1f0800000000000000
+      internalID: -1012827982870760251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ButcherDragonMan_Cook_11
+      rect:
+        serializedVersion: 2
+        x: 2361
+        y: 0
+        width: 89
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b0e895150568e60800000000000000
+      internalID: 7964141301376355189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ButcherDragonMan_Cook_0: 2294186357213669356
+      ButcherDragonMan_Cook_1: -208942496799019646
+      ButcherDragonMan_Cook_10: -1012827982870760251
+      ButcherDragonMan_Cook_11: 7964141301376355189
+      ButcherDragonMan_Cook_2: 6371408623430327967
+      ButcherDragonMan_Cook_3: 2465496848006306753
+      ButcherDragonMan_Cook_4: 8266304848522468698
+      ButcherDragonMan_Cook_5: -6043011985254386078
+      ButcherDragonMan_Cook_6: -5383293549350122501
+      ButcherDragonMan_Cook_7: 5262202253474231511
+      ButcherDragonMan_Cook_8: -8783000227777752815
+      ButcherDragonMan_Cook_9: -2171192546818679823
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

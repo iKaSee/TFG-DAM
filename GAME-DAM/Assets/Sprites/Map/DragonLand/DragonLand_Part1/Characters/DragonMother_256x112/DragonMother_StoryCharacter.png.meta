@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: fe951a54c3180c24fbfbd1030a5aaecd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1772313974393963358
+    second: DragonMother_StoryCharacter_0
+  - first:
+      213: -5879127952312639422
+    second: DragonMother_StoryCharacter_1
+  - first:
+      213: -1689183792682731778
+    second: DragonMother_StoryCharacter_2
+  - first:
+      213: -1911424027318394338
+    second: DragonMother_StoryCharacter_3
+  - first:
+      213: 1332054104797886346
+    second: DragonMother_StoryCharacter_4
+  - first:
+      213: -7639288908643482135
+    second: DragonMother_StoryCharacter_5
+  - first:
+      213: -4895876904358198784
+    second: DragonMother_StoryCharacter_6
+  - first:
+      213: -1383379960555221002
+    second: DragonMother_StoryCharacter_7
+  - first:
+      213: -6234616771007787561
+    second: DragonMother_StoryCharacter_8
+  - first:
+      213: -9214149085984274564
+    second: DragonMother_StoryCharacter_9
+  - first:
+      213: 5843035923608859522
+    second: DragonMother_StoryCharacter_10
+  - first:
+      213: -2061226731107122691
+    second: DragonMother_StoryCharacter_11
+  - first:
+      213: 6427225587519230741
+    second: DragonMother_StoryCharacter_12
+  - first:
+      213: 3977125751434108075
+    second: DragonMother_StoryCharacter_13
+  - first:
+      213: -9078274233531705106
+    second: DragonMother_StoryCharacter_14
+  - first:
+      213: -4907467415934130038
+    second: DragonMother_StoryCharacter_15
+  - first:
+      213: 3246512893799580390
+    second: DragonMother_StoryCharacter_16
+  - first:
+      213: 1996976506130001640
+    second: DragonMother_StoryCharacter_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53863a6b26889810800000000000000
+      internalID: 1772313974393963358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240e55db644296ea0800000000000000
+      internalID: -5879127952312639422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef67ccc4a40de88e0800000000000000
+      internalID: -1689183792682731778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_3
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e126a8c69f14975e0800000000000000
+      internalID: -1911424027318394338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_4
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87341a96286c7210800000000000000
+      internalID: 1332054104797886346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_5
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e549b7563bcbf590800000000000000
+      internalID: -7639288908643482135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_6
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002c0bb15e95e0cb0800000000000000
+      internalID: -4895876904358198784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_7
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff46bd514f3dcce0800000000000000
+      internalID: -1383379960555221002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_8
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd436544113a79a0800000000000000
+      internalID: -6234616771007787561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_9
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77ca669934c02080800000000000000
+      internalID: -9214149085984274564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_10
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2837d8cf632a61150800000000000000
+      internalID: 5843035923608859522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_11
+      rect:
+        serializedVersion: 2
+        x: 2851
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df102da753d0563e0800000000000000
+      internalID: -2061226731107122691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_12
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51392637e97123950800000000000000
+      internalID: 6427225587519230741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_13
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bacd9499cc6913730800000000000000
+      internalID: 3977125751434108075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_14
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8d2c0fead730280800000000000000
+      internalID: -9078274233531705106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_15
+      rect:
+        serializedVersion: 2
+        x: 3875
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a882176d26c25ebb0800000000000000
+      internalID: -4907467415934130038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_16
+      rect:
+        serializedVersion: 2
+        x: 4131
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e246a1b64eed0d20800000000000000
+      internalID: 3246512893799580390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DragonMother_StoryCharacter_17
+      rect:
+        serializedVersion: 2
+        x: 4387
+        y: 0
+        width: 180
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eeeda84d8fa6bb10800000000000000
+      internalID: 1996976506130001640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DragonMother_StoryCharacter_0: 1772313974393963358
+      DragonMother_StoryCharacter_1: -5879127952312639422
+      DragonMother_StoryCharacter_10: 5843035923608859522
+      DragonMother_StoryCharacter_11: -2061226731107122691
+      DragonMother_StoryCharacter_12: 6427225587519230741
+      DragonMother_StoryCharacter_13: 3977125751434108075
+      DragonMother_StoryCharacter_14: -9078274233531705106
+      DragonMother_StoryCharacter_15: -4907467415934130038
+      DragonMother_StoryCharacter_16: 3246512893799580390
+      DragonMother_StoryCharacter_17: 1996976506130001640
+      DragonMother_StoryCharacter_2: -1689183792682731778
+      DragonMother_StoryCharacter_3: -1911424027318394338
+      DragonMother_StoryCharacter_4: 1332054104797886346
+      DragonMother_StoryCharacter_5: -7639288908643482135
+      DragonMother_StoryCharacter_6: -4895876904358198784
+      DragonMother_StoryCharacter_7: -1383379960555221002
+      DragonMother_StoryCharacter_8: -6234616771007787561
+      DragonMother_StoryCharacter_9: -9214149085984274564
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

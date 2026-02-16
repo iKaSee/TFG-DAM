@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: 1efa355bbd8bf5549bf285620cfcba84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1104124604939960859
+    second: ElderDragonMan_Herbalist_0
+  - first:
+      213: 8830057623870811422
+    second: ElderDragonMan_Herbalist_1
+  - first:
+      213: -3454014510533770122
+    second: ElderDragonMan_Herbalist_2
+  - first:
+      213: 6483014617849116097
+    second: ElderDragonMan_Herbalist_3
+  - first:
+      213: -3186242304833768419
+    second: ElderDragonMan_Herbalist_4
+  - first:
+      213: -4498789078063530129
+    second: ElderDragonMan_Herbalist_5
+  - first:
+      213: -8276951110561978126
+    second: ElderDragonMan_Herbalist_6
+  - first:
+      213: -2639163633710138951
+    second: ElderDragonMan_Herbalist_7
+  - first:
+      213: -2873974603989873684
+    second: ElderDragonMan_Herbalist_8
+  - first:
+      213: 7330858275402234788
+    second: ElderDragonMan_Herbalist_9
+  - first:
+      213: -3687508404381261090
+    second: ElderDragonMan_Herbalist_10
+  - first:
+      213: 414425882550617751
+    second: ElderDragonMan_Herbalist_11
+  - first:
+      213: 1892645751407904108
+    second: ElderDragonMan_Herbalist_12
+  - first:
+      213: 4075038143534251631
+    second: ElderDragonMan_Herbalist_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_0
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1207317a73a25f00800000000000000
+      internalID: 1104124604939960859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1dac0110aaaa8a70800000000000000
+      internalID: 8830057623870811422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67407925a10e010d0800000000000000
+      internalID: -3454014510533770122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5bf8a427b48f950800000000000000
+      internalID: 6483014617849116097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_4
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14bf04518138c3d0800000000000000
+      internalID: -3186242304833768419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_5
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fbd9a4b271191c0800000000000000
+      internalID: -4498789078063530129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_6
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8adaf61dc522d80800000000000000
+      internalID: -8276951110561978126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_7
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9f39478aecf5bd0800000000000000
+      internalID: -2639163633710138951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_8
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb80bb13579d18d0800000000000000
+      internalID: -2873974603989873684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_9
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab351cc2c07cb560800000000000000
+      internalID: 7330858275402234788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_10
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2669ab4a653dcc0800000000000000
+      internalID: -3687508404381261090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_11
+      rect:
+        serializedVersion: 2
+        x: 2327
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796482bf42650c500800000000000000
+      internalID: 414425882550617751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_12
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6502528847044a10800000000000000
+      internalID: 1892645751407904108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ElderDragonMan_Herbalist_13
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 0
+        width: 138
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eb68fd9917d8830800000000000000
+      internalID: 4075038143534251631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ElderDragonMan_Herbalist_0: 1104124604939960859
+      ElderDragonMan_Herbalist_1: 8830057623870811422
+      ElderDragonMan_Herbalist_10: -3687508404381261090
+      ElderDragonMan_Herbalist_11: 414425882550617751
+      ElderDragonMan_Herbalist_12: 1892645751407904108
+      ElderDragonMan_Herbalist_13: 4075038143534251631
+      ElderDragonMan_Herbalist_2: -3454014510533770122
+      ElderDragonMan_Herbalist_3: 6483014617849116097
+      ElderDragonMan_Herbalist_4: -3186242304833768419
+      ElderDragonMan_Herbalist_5: -4498789078063530129
+      ElderDragonMan_Herbalist_6: -8276951110561978126
+      ElderDragonMan_Herbalist_7: -2639163633710138951
+      ElderDragonMan_Herbalist_8: -2873974603989873684
+      ElderDragonMan_Herbalist_9: 7330858275402234788
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

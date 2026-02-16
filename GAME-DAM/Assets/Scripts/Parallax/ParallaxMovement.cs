@@ -1,4 +1,3 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,6 +20,10 @@ public class ParallaxMovement : MonoBehaviour
 
     [Header("Control de Activación")]
     public bool estaActivo = false; // El interruptor para el bosque
+
+    [Header("Ajuste de Desplazamiento")]
+    [Range(0, 1)]
+    public float intensidadVertical = 0f; // Ponlo en 0 para que el fondo NO se desplace hacia abajo
 
     // Start is called before the first frame update
     void Start()
@@ -72,14 +75,18 @@ public class ParallaxMovement : MonoBehaviour
         distanceX = cam.position.x - camStartPos.x;
         distanceY = cam.position.y - camStartPos.y;
 
-        // El contenedor del fondo sigue a la cámara
-        transform.position = new Vector3(cam.position.x, cam.position.y, 9.92f);
+
+        float alturaFija = 2.3f; // Ajustar este número según dónde se quiera el fondo
+        transform.position = new Vector3(cam.position.x, alturaFija, 9.92f);
 
         for (int i = 0; i < backgrounds.Length; i++)
         {
             float speed = backSpeed[i] * parallaxSpeed;
-            // Aplicamos el movimiento de textura en X y en Y para la transición del bosque
-            mat[i].SetTextureOffset("_MainTex", new Vector2(distanceX, distanceY) * speed);
+
+            // Aplicamos el desplazamiento de la textura. 
+            // Multiplicamos distanceY por intensidadVertical para que no se desplace hacia abajo si no queremos.
+            Vector2 offset = new Vector2(distanceX * speed, 0);
+            mat[i].SetTextureOffset("_MainTex", offset);
         }
     }
 
@@ -91,4 +98,3 @@ public class ParallaxMovement : MonoBehaviour
         camStartPos = cam.position;
     }
 }
-

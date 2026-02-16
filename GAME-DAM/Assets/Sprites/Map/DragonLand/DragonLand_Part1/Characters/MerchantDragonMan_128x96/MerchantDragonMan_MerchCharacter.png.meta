@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 8c79f372992a8044a8451ac211c4e9e2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6448915197124336003
+    second: MerchantDragonMan_MerchCharacter_0
+  - first:
+      213: 7209835509554896895
+    second: MerchantDragonMan_MerchCharacter_1
+  - first:
+      213: 2220680512400805321
+    second: MerchantDragonMan_MerchCharacter_2
+  - first:
+      213: 8759122014828542516
+    second: MerchantDragonMan_MerchCharacter_3
+  - first:
+      213: 4603619969318057291
+    second: MerchantDragonMan_MerchCharacter_4
+  - first:
+      213: 8661080174136062614
+    second: MerchantDragonMan_MerchCharacter_5
+  - first:
+      213: -3694104127468659758
+    second: MerchantDragonMan_MerchCharacter_6
+  - first:
+      213: 5774819165981034844
+    second: MerchantDragonMan_MerchCharacter_7
+  - first:
+      213: -1968812084717856493
+    second: MerchantDragonMan_MerchCharacter_8
+  - first:
+      213: -2193138185991527890
+    second: MerchantDragonMan_MerchCharacter_9
+  - first:
+      213: -7932349075170438729
+    second: MerchantDragonMan_MerchCharacter_10
+  - first:
+      213: -1561188025753329574
+    second: MerchantDragonMan_MerchCharacter_11
+  - first:
+      213: 4651340384121148807
+    second: MerchantDragonMan_MerchCharacter_12
+  - first:
+      213: 8240253010955867762
+    second: MerchantDragonMan_MerchCharacter_13
+  - first:
+      213: -5644291193397104257
+    second: MerchantDragonMan_MerchCharacter_14
+  - first:
+      213: 9116904264292580462
+    second: MerchantDragonMan_MerchCharacter_15
+  - first:
+      213: 3691468604166147036
+    second: MerchantDragonMan_MerchCharacter_16
+  - first:
+      213: -6510535652564013843
+    second: MerchantDragonMan_MerchCharacter_17
+  - first:
+      213: -7845173409384048272
+    second: MerchantDragonMan_MerchCharacter_18
+  - first:
+      213: 3105155905245927047
+    second: MerchantDragonMan_MerchCharacter_19
+  - first:
+      213: -9077803982181770573
+    second: MerchantDragonMan_MerchCharacter_20
+  - first:
+      213: 1897112673628255150
+    second: MerchantDragonMan_MerchCharacter_21
+  - first:
+      213: 3072635826080521083
+    second: MerchantDragonMan_MerchCharacter_22
+  - first:
+      213: 3279050707181886600
+    second: MerchantDragonMan_MerchCharacter_23
+  - first:
+      213: -3893324838086099718
+    second: MerchantDragonMan_MerchCharacter_24
+  - first:
+      213: 7768861814722671897
+    second: MerchantDragonMan_MerchCharacter_25
+  - first:
+      213: -2371252297081753615
+    second: MerchantDragonMan_MerchCharacter_26
+  - first:
+      213: -2433875612398913391
+    second: MerchantDragonMan_MerchCharacter_27
+  - first:
+      213: -6020026613738200308
+    second: MerchantDragonMan_MerchCharacter_28
+  - first:
+      213: 2581912180723362972
+    second: MerchantDragonMan_MerchCharacter_29
+  - first:
+      213: 4386956188156071587
+    second: MerchantDragonMan_MerchCharacter_30
+  - first:
+      213: 6050586335082903613
+    second: MerchantDragonMan_MerchCharacter_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7629c8cbc9d086a0800000000000000
+      internalID: -6448915197124336003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff5404523b7e0460800000000000000
+      internalID: 7209835509554896895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd484d092171de10800000000000000
+      internalID: 2220680512400805321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_3
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ab82e8017ae8970800000000000000
+      internalID: 8759122014828542516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_4
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45f81898f753ef30800000000000000
+      internalID: 4603619969318057291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_5
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692fe8ea786523870800000000000000
+      internalID: 8661080174136062614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db1de64ed7ebbcc0800000000000000
+      internalID: -3694104127468659758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_7
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59ca666f67442050800000000000000
+      internalID: 5774819165981034844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_8
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31955e417df5da4e0800000000000000
+      internalID: -1968812084717856493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2261a880786091e0800000000000000
+      internalID: -2193138185991527890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_10
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b151142b82aae190800000000000000
+      internalID: -7932349075170438729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_11
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50216913cb855ae0800000000000000
+      internalID: -1561188025753329574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_12
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78558fc7f61ec8040800000000000000
+      internalID: 4651340384121148807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_13
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2761e5964724b5270800000000000000
+      internalID: 8240253010955867762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_14
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7133b870137ba1b0800000000000000
+      internalID: -5644291193397104257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_15
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c376cff10c58e70800000000000000
+      internalID: 9116904264292580462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_16
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb84d2232bba3330800000000000000
+      internalID: 3691468604166147036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_17
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dece76b715ee5a5a0800000000000000
+      internalID: -6510535652564013843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_18
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079d2548958502390800000000000000
+      internalID: -7845173409384048272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_19
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786d36018dab71b20800000000000000
+      internalID: 3105155905245927047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_20
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3badd6ddf59250280800000000000000
+      internalID: -9077803982181770573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_21
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3f082ece5e35a10800000000000000
+      internalID: 1897112673628255150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_22
+      rect:
+        serializedVersion: 2
+        x: 2834
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b1ba9110234aa20800000000000000
+      internalID: 3072635826080521083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_23
+      rect:
+        serializedVersion: 2
+        x: 2962
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cd11abe37818d20800000000000000
+      internalID: 3279050707181886600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_24
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc3caeffa128f9c0800000000000000
+      internalID: -3893324838086099718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_25
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91534a7c8aa80db60800000000000000
+      internalID: 7768861814722671897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_26
+      rect:
+        serializedVersion: 2
+        x: 3346
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffec97699e971fd0800000000000000
+      internalID: -2371252297081753615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_27
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198f9779603293ed0800000000000000
+      internalID: -2433875612398913391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_28
+      rect:
+        serializedVersion: 2
+        x: 3602
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c03acb5b0b1947ca0800000000000000
+      internalID: -6020026613738200308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_29
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c2545e27bc4d320800000000000000
+      internalID: 2581912180723362972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_30
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae8e38f86991ec30800000000000000
+      internalID: 4386956188156071587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MerchantDragonMan_MerchCharacter_31
+      rect:
+        serializedVersion: 2
+        x: 3986
+        y: 0
+        width: 99
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38f271e63008f350800000000000000
+      internalID: 6050586335082903613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MerchantDragonMan_MerchCharacter_0: -6448915197124336003
+      MerchantDragonMan_MerchCharacter_1: 7209835509554896895
+      MerchantDragonMan_MerchCharacter_10: -7932349075170438729
+      MerchantDragonMan_MerchCharacter_11: -1561188025753329574
+      MerchantDragonMan_MerchCharacter_12: 4651340384121148807
+      MerchantDragonMan_MerchCharacter_13: 8240253010955867762
+      MerchantDragonMan_MerchCharacter_14: -5644291193397104257
+      MerchantDragonMan_MerchCharacter_15: 9116904264292580462
+      MerchantDragonMan_MerchCharacter_16: 3691468604166147036
+      MerchantDragonMan_MerchCharacter_17: -6510535652564013843
+      MerchantDragonMan_MerchCharacter_18: -7845173409384048272
+      MerchantDragonMan_MerchCharacter_19: 3105155905245927047
+      MerchantDragonMan_MerchCharacter_2: 2220680512400805321
+      MerchantDragonMan_MerchCharacter_20: -9077803982181770573
+      MerchantDragonMan_MerchCharacter_21: 1897112673628255150
+      MerchantDragonMan_MerchCharacter_22: 3072635826080521083
+      MerchantDragonMan_MerchCharacter_23: 3279050707181886600
+      MerchantDragonMan_MerchCharacter_24: -3893324838086099718
+      MerchantDragonMan_MerchCharacter_25: 7768861814722671897
+      MerchantDragonMan_MerchCharacter_26: -2371252297081753615
+      MerchantDragonMan_MerchCharacter_27: -2433875612398913391
+      MerchantDragonMan_MerchCharacter_28: -6020026613738200308
+      MerchantDragonMan_MerchCharacter_29: 2581912180723362972
+      MerchantDragonMan_MerchCharacter_3: 8759122014828542516
+      MerchantDragonMan_MerchCharacter_30: 4386956188156071587
+      MerchantDragonMan_MerchCharacter_31: 6050586335082903613
+      MerchantDragonMan_MerchCharacter_4: 4603619969318057291
+      MerchantDragonMan_MerchCharacter_5: 8661080174136062614
+      MerchantDragonMan_MerchCharacter_6: -3694104127468659758
+      MerchantDragonMan_MerchCharacter_7: 5774819165981034844
+      MerchantDragonMan_MerchCharacter_8: -1968812084717856493
+      MerchantDragonMan_MerchCharacter_9: -2193138185991527890
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

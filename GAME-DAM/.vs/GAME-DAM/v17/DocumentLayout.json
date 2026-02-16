@@ -35,8 +35,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T07:50:54.414Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -46,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Parallax\\ParallaxMovement.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Parallax\\ParallaxMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Parallax\\ParallaxMovement.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAFEAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwE4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-12T12:38:52.72Z",
               "EditorCaption": ""

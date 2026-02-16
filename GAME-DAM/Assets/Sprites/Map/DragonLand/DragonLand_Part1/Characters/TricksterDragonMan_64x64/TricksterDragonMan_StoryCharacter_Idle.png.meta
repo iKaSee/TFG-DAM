@@ -1,0 +1,338 @@
+fileFormatVersion: 2
+guid: 828f87cf289e57d4e8d1857aafb7a664
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -896408727789292335
+    second: TricksterDragonMan_StoryCharacter_Idle_0
+  - first:
+      213: 5654060153196186193
+    second: TricksterDragonMan_StoryCharacter_Idle_1
+  - first:
+      213: -5619140199152370912
+    second: TricksterDragonMan_StoryCharacter_Idle_2
+  - first:
+      213: 9104519485375151218
+    second: TricksterDragonMan_StoryCharacter_Idle_3
+  - first:
+      213: -1314493526707676853
+    second: TricksterDragonMan_StoryCharacter_Idle_4
+  - first:
+      213: -7565297066236559018
+    second: TricksterDragonMan_StoryCharacter_Idle_5
+  - first:
+      213: -6922278608018668479
+    second: TricksterDragonMan_StoryCharacter_Idle_6
+  - first:
+      213: -145168928205187422
+    second: TricksterDragonMan_StoryCharacter_Idle_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TricksterDragonMan_StoryCharacter_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d43f8ee2015f83f0800000000000000
+      internalID: -896408727789292335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TricksterDragonMan_StoryCharacter_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 0
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a03f9b0c1477e40800000000000000
+      internalID: 5654060153196186193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TricksterDragonMan_StoryCharacter_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02bb766a2cdc402b0800000000000000
+      internalID: -5619140199152370912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TricksterDragonMan_StoryCharacter_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c7860fb30c95e70800000000000000
+      internalID: 9104519485375151218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TricksterDragonMan_StoryCharacter_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 0
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49d9091a1bf1cde0800000000000000
+      internalID: -1314493526707676853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TricksterDragonMan_StoryCharacter_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6514aa2a66aa20790800000000000000
+      internalID: -7565297066236559018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TricksterDragonMan_StoryCharacter_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 0
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14403c428402fef90800000000000000
+      internalID: -6922278608018668479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TricksterDragonMan_StoryCharacter_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 0
+        width: 49
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6d7e101a14cfdf0800000000000000
+      internalID: -145168928205187422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TricksterDragonMan_StoryCharacter_Idle_0: -896408727789292335
+      TricksterDragonMan_StoryCharacter_Idle_1: 5654060153196186193
+      TricksterDragonMan_StoryCharacter_Idle_2: -5619140199152370912
+      TricksterDragonMan_StoryCharacter_Idle_3: 9104519485375151218
+      TricksterDragonMan_StoryCharacter_Idle_4: -1314493526707676853
+      TricksterDragonMan_StoryCharacter_Idle_5: -7565297066236559018
+      TricksterDragonMan_StoryCharacter_Idle_6: -6922278608018668479
+      TricksterDragonMan_StoryCharacter_Idle_7: -145168928205187422
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

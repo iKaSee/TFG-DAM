@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 872602f115d5d534ca48dc1d191a75a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3320576549099475580
+    second: BigChest_Open_0
+  - first:
+      213: 3226130884315095271
+    second: BigChest_Open_1
+  - first:
+      213: 7539617811742558828
+    second: BigChest_Open_2
+  - first:
+      213: 1831101451710030930
+    second: BigChest_Open_3
+  - first:
+      213: 1268346177498042065
+    second: BigChest_Open_4
+  - first:
+      213: -3178232356686045087
+    second: BigChest_Open_5
+  - first:
+      213: -5631922200944251850
+    second: BigChest_Open_6
+  - first:
+      213: 3272888335204139791
+    second: BigChest_Open_7
+  - first:
+      213: 9014097962005784812
+    second: BigChest_Open_8
+  - first:
+      213: -588527501191960922
+    second: BigChest_Open_9
+  - first:
+      213: 8334980715608627609
+    second: BigChest_Open_10
+  - first:
+      213: 387557211896300717
+    second: BigChest_Open_11
+  - first:
+      213: -7043202075185823258
+    second: BigChest_Open_12
+  - first:
+      213: 7628473475187201824
+    second: BigChest_Open_13
+  - first:
+      213: -1709795498234276916
+    second: BigChest_Open_14
+  - first:
+      213: 9009437908235486720
+    second: BigChest_Open_15
+  - first:
+      213: -3512927391660833524
+    second: BigChest_Open_16
+  - first:
+      213: -8702174012296463229
+    second: BigChest_Open_17
+  - first:
+      213: -7685337586257335542
+    second: BigChest_Open_18
+  - first:
+      213: -2122483419563565463
+    second: BigChest_Open_19
+  - first:
+      213: 5878177871627600015
+    second: BigChest_Open_20
+  - first:
+      213: -5293552009125525624
+    second: BigChest_Open_21
+  - first:
+      213: 9076577392274904360
+    second: BigChest_Open_22
+  - first:
+      213: -4899493230817713650
+    second: BigChest_Open_23
+  - first:
+      213: 2561050607510889193
+    second: BigChest_Open_24
+  - first:
+      213: -1714151487487435966
+    second: BigChest_Open_25
+  - first:
+      213: 7543024824078464492
+    second: BigChest_Open_26
+  - first:
+      213: -2231846723559662149
+    second: BigChest_Open_27
+  - first:
+      213: -5202941274100798967
+    second: BigChest_Open_28
+  - first:
+      213: 5283647698603054050
+    second: BigChest_Open_29
+  - first:
+      213: -2476163032612904768
+    second: BigChest_Open_30
+  - first:
+      213: -3272717083575582518
+    second: BigChest_Open_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BigChest_Open_0
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 15
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dee65c831fae1d0800000000000000
+      internalID: -3320576549099475580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_1
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 15
+        width: 48
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0a48e42f485cc20800000000000000
+      internalID: 3226130884315095271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 51
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a8f13047a12a860800000000000000
+      internalID: 7539617811742558828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_3
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254e0e89111696910800000000000000
+      internalID: 1831101451710030930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 45
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1decef1e0221a9110800000000000000
+      internalID: 1268346177498042065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_5
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 15
+        width: 52
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1606316b286a4e3d0800000000000000
+      internalID: -3178232356686045087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_6
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 15
+        width: 53
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ce412f89467d1b0800000000000000
+      internalID: -5631922200944251850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_7
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 15
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03cc51b992ab6d20800000000000000
+      internalID: 3272888335204139791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_8
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 15
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce86de37652881d70800000000000000
+      internalID: 9014097962005784812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_9
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 44
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6a7e61b5125d7f0800000000000000
+      internalID: -588527501191960922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_10
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 46
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999559bdccccba370800000000000000
+      internalID: 8334980715608627609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 46
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da448391b31e06500800000000000000
+      internalID: 387557211896300717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_12
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 35
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e141437705814e90800000000000000
+      internalID: -7043202075185823258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_13
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 27
+        width: 6
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 027d5035538cdd960800000000000000
+      internalID: 7628473475187201824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_14
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 15
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc31f21ad069548e0800000000000000
+      internalID: -1709795498234276916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_15
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 15
+        width: 55
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00680522b04f70d70800000000000000
+      internalID: 9009437908235486720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_16
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 39
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05015a46239f3fc0800000000000000
+      internalID: -3512927391660833524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_17
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 15
+        width: 74
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cfe6787daab3780800000000000000
+      internalID: -8702174012296463229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_18
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 40
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b6c281f22385590800000000000000
+      internalID: -7685337586257335542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_19
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 15
+        width: 56
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ed147439c6b82e0800000000000000
+      internalID: -2122483419563565463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_20
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 38
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80ccec51ab739150800000000000000
+      internalID: 5878177871627600015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_21
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 15
+        width: 70
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88784008e768986b0800000000000000
+      internalID: -5293552009125525624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_22
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 15
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82513ea6c0b76fd70800000000000000
+      internalID: 9076577392274904360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_23
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 15
+        width: 78
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02edad7dd0810cb0800000000000000
+      internalID: -4899493230817713650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_24
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 15
+        width: 81
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e22c7065fdaa8320800000000000000
+      internalID: 2561050607510889193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_25
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 15
+        width: 63
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b9a19dd4c1638e0800000000000000
+      internalID: -1714151487487435966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_26
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 15
+        width: 81
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce57623ec153ea860800000000000000
+      internalID: 7543024824078464492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_27
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 15
+        width: 80
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd5b11da33e601e0800000000000000
+      internalID: -2231846723559662149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_28
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 15
+        width: 100
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ae0024a707bc7b0800000000000000
+      internalID: -5202941274100798967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_29
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 15
+        width: 51
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e39b818699435940800000000000000
+      internalID: 5283647698603054050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_30
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 15
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c0672357d6e2add0800000000000000
+      internalID: -2476163032612904768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BigChest_Open_31
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 16
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0002fe629f492d0800000000000000
+      internalID: -3272717083575582518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BigChest_Open_0: -3320576549099475580
+      BigChest_Open_1: 3226130884315095271
+      BigChest_Open_10: 8334980715608627609
+      BigChest_Open_11: 387557211896300717
+      BigChest_Open_12: -7043202075185823258
+      BigChest_Open_13: 7628473475187201824
+      BigChest_Open_14: -1709795498234276916
+      BigChest_Open_15: 9009437908235486720
+      BigChest_Open_16: -3512927391660833524
+      BigChest_Open_17: -8702174012296463229
+      BigChest_Open_18: -7685337586257335542
+      BigChest_Open_19: -2122483419563565463
+      BigChest_Open_2: 7539617811742558828
+      BigChest_Open_20: 5878177871627600015
+      BigChest_Open_21: -5293552009125525624
+      BigChest_Open_22: 9076577392274904360
+      BigChest_Open_23: -4899493230817713650
+      BigChest_Open_24: 2561050607510889193
+      BigChest_Open_25: -1714151487487435966
+      BigChest_Open_26: 7543024824078464492
+      BigChest_Open_27: -2231846723559662149
+      BigChest_Open_28: -5202941274100798967
+      BigChest_Open_29: 5283647698603054050
+      BigChest_Open_3: 1831101451710030930
+      BigChest_Open_30: -2476163032612904768
+      BigChest_Open_31: -3272717083575582518
+      BigChest_Open_4: 1268346177498042065
+      BigChest_Open_5: -3178232356686045087
+      BigChest_Open_6: -5631922200944251850
+      BigChest_Open_7: 3272888335204139791
+      BigChest_Open_8: 9014097962005784812
+      BigChest_Open_9: -588527501191960922
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
