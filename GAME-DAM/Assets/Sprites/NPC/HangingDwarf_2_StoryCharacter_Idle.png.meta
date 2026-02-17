@@ -1,0 +1,468 @@
+fileFormatVersion: 2
+guid: 2dd558dba9992db42ac60bbd992087c7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3761661536402571948
+    second: HangingDwarf_2_StoryCharacter_Idle_0
+  - first:
+      213: -5653844783732606017
+    second: HangingDwarf_2_StoryCharacter_Idle_1
+  - first:
+      213: -3230956239024732838
+    second: HangingDwarf_2_StoryCharacter_Idle_2
+  - first:
+      213: 623160254062240226
+    second: HangingDwarf_2_StoryCharacter_Idle_3
+  - first:
+      213: 7969707463606043028
+    second: HangingDwarf_2_StoryCharacter_Idle_4
+  - first:
+      213: -8610042523268265294
+    second: HangingDwarf_2_StoryCharacter_Idle_5
+  - first:
+      213: 2464928322443641974
+    second: HangingDwarf_2_StoryCharacter_Idle_6
+  - first:
+      213: -1896414829864135560
+    second: HangingDwarf_2_StoryCharacter_Idle_7
+  - first:
+      213: -3519058357088836055
+    second: HangingDwarf_2_StoryCharacter_Idle_8
+  - first:
+      213: -297253078152637213
+    second: HangingDwarf_2_StoryCharacter_Idle_9
+  - first:
+      213: 1327919549079761467
+    second: HangingDwarf_2_StoryCharacter_Idle_10
+  - first:
+      213: -203467309271339608
+    second: HangingDwarf_2_StoryCharacter_Idle_11
+  - first:
+      213: 5225962061713461523
+    second: HangingDwarf_2_StoryCharacter_Idle_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d797543c4ebcbc0800000000000000
+      internalID: -3761661536402571948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb3c62ef128981b0800000000000000
+      internalID: -5653844783732606017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5549104b665923d0800000000000000
+      internalID: -3230956239024732838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1a58d03f8e5a800800000000000000
+      internalID: 623160254062240226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491840c76b61a9e60800000000000000
+      internalID: 7969707463606043028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba469b61fbf28880800000000000000
+      internalID: -8610042523268265294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6748d00ef3f253220800000000000000
+      internalID: 2464928322443641974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8745a2782c49ea5e0800000000000000
+      internalID: -1896414829864135560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926a9d9a11bc92fc0800000000000000
+      internalID: -3519058357088836055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4125c76e1ffdbf0800000000000000
+      internalID: -297253078152637213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3232355bc7bd6210800000000000000
+      internalID: 1327919549079761467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad2a7b6f832d2df0800000000000000
+      internalID: -203467309271339608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HangingDwarf_2_StoryCharacter_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 0
+        width: 23
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311591a8ec8568840800000000000000
+      internalID: 5225962061713461523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HangingDwarf_2_StoryCharacter_Idle_0: -3761661536402571948
+      HangingDwarf_2_StoryCharacter_Idle_1: -5653844783732606017
+      HangingDwarf_2_StoryCharacter_Idle_10: 1327919549079761467
+      HangingDwarf_2_StoryCharacter_Idle_11: -203467309271339608
+      HangingDwarf_2_StoryCharacter_Idle_12: 5225962061713461523
+      HangingDwarf_2_StoryCharacter_Idle_2: -3230956239024732838
+      HangingDwarf_2_StoryCharacter_Idle_3: 623160254062240226
+      HangingDwarf_2_StoryCharacter_Idle_4: 7969707463606043028
+      HangingDwarf_2_StoryCharacter_Idle_5: -8610042523268265294
+      HangingDwarf_2_StoryCharacter_Idle_6: 2464928322443641974
+      HangingDwarf_2_StoryCharacter_Idle_7: -1896414829864135560
+      HangingDwarf_2_StoryCharacter_Idle_8: -3519058357088836055
+      HangingDwarf_2_StoryCharacter_Idle_9: -297253078152637213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

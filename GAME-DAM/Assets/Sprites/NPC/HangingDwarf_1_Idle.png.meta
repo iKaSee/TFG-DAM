@@ -1,43 +1,61 @@
 fileFormatVersion: 2
-guid: 2e06e9ce3773a4446bb6b72023807587
+guid: 3ed06e519d94ee641bee7fcf3feced45
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5744419423866906403
-    second: GreyStoneTile_0
+      213: -4812405495847220376
+    second: HangingDwarf_1_Idle_0
   - first:
-      213: 4375217469119622855
-    second: GreyStoneTile_1
+      213: -2262724060374744528
+    second: HangingDwarf_1_Idle_1
   - first:
-      213: 3586932109424230836
-    second: GreyStoneTile_2
+      213: -7699470824771023832
+    second: HangingDwarf_1_Idle_2
   - first:
-      213: 6385725073568708895
-    second: GreyStoneTile_3
+      213: -1197553276277615486
+    second: HangingDwarf_1_Idle_3
   - first:
-      213: 6483710185559783760
-    second: GreyStoneTile_4
+      213: 2751721110492369802
+    second: HangingDwarf_1_Idle_4
   - first:
-      213: -6599835090260577188
-    second: GreyStoneTile_5
+      213: 5769416551084217486
+    second: HangingDwarf_1_Idle_5
   - first:
-      213: -4770063969886638662
-    second: GreyStoneTile_6
+      213: 7042894340698452847
+    second: HangingDwarf_1_Idle_6
   - first:
-      213: 1826194185276071871
-    second: GreyStoneTile_7
+      213: 326769140415214162
+    second: HangingDwarf_1_Idle_7
   - first:
-      213: 6379379674193482738
-    second: GreyStoneTile_8
+      213: -170386662080820085
+    second: HangingDwarf_1_Idle_8
   - first:
-      213: 7160926179607620613
-    second: GreyStoneTile_9
+      213: 5732205254280936293
+    second: HangingDwarf_1_Idle_9
   - first:
-      213: 6170366335522599553
-    second: GreyStoneTile_10
+      213: 8247581119263758069
+    second: HangingDwarf_1_Idle_10
   - first:
-      213: 160200079877515378
-    second: GreyStoneTile_11
+      213: 5226303106452215098
+    second: HangingDwarf_1_Idle_11
+  - first:
+      213: -4330720947776087672
+    second: HangingDwarf_1_Idle_12
+  - first:
+      213: -5748124861826980495
+    second: HangingDwarf_1_Idle_13
+  - first:
+      213: -1956274036795074962
+    second: HangingDwarf_1_Idle_14
+  - first:
+      213: 7537512297398947308
+    second: HangingDwarf_1_Idle_15
+  - first:
+      213: -6676914715908837452
+    second: HangingDwarf_1_Idle_16
+  - first:
+      213: -1098475789479825674
+    second: HangingDwarf_1_Idle_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -146,463 +164,397 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GreyStoneTile_0
+      name: HangingDwarf_1_Idle_0
       rect:
         serializedVersion: 2
-        x: 24
+        x: 26
         y: 0
-        width: 24
-        height: 23
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd81f8f18f8b740b0800000000000000
-      internalID: -5744419423866906403
+      spriteID: 86b83e0e2b6e63db0800000000000000
+      internalID: -4812405495847220376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_1
+      name: HangingDwarf_1_Idle_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 106
         y: 0
-        width: 24
-        height: 22
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ce65f57b15e7bc30800000000000000
-      internalID: 4375217469119622855
+      spriteID: 03242ac94703990e0800000000000000
+      internalID: -2262724060374744528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_2
+      name: HangingDwarf_1_Idle_2
       rect:
         serializedVersion: 2
-        x: 72
+        x: 186
         y: 0
-        width: 24
-        height: 23
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4b18ca7cfb757c130800000000000000
-      internalID: 3586932109424230836
+      spriteID: 82c0a03141cf52590800000000000000
+      internalID: -7699470824771023832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_3
+      name: HangingDwarf_1_Idle_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 266
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f193e531f17ae9850800000000000000
-      internalID: 6385725073568708895
+      spriteID: 2841edfd3af616fe0800000000000000
+      internalID: -1197553276277615486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_4
+      name: HangingDwarf_1_Idle_4
       rect:
         serializedVersion: 2
-        x: 120
+        x: 346
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0597fd4cf04caf950800000000000000
-      internalID: 6483710185559783760
+      spriteID: a8357df45c3103620800000000000000
+      internalID: 2751721110492369802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_5
+      name: HangingDwarf_1_Idle_5
       rect:
         serializedVersion: 2
-        x: 144
+        x: 426
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c543cdce3fca864a0800000000000000
-      internalID: -6599835090260577188
+      spriteID: e8452a819c5111050800000000000000
+      internalID: 5769416551084217486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_6
+      name: HangingDwarf_1_Idle_6
       rect:
         serializedVersion: 2
-        x: 168
+        x: 506
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: abd640f97145dcdb0800000000000000
-      internalID: -4770063969886638662
+      spriteID: f63b0f786136db160800000000000000
+      internalID: 7042894340698452847
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_7
+      name: HangingDwarf_1_Idle_7
       rect:
         serializedVersion: 2
-        x: 192
+        x: 586
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fbf93489fe1f75910800000000000000
-      internalID: 1826194185276071871
+      spriteID: 252320a4dcae88400800000000000000
+      internalID: 326769140415214162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_8
+      name: HangingDwarf_1_Idle_8
       rect:
         serializedVersion: 2
-        x: 216
+        x: 666
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2f356a7a30c188850800000000000000
-      internalID: 6379379674193482738
+      spriteID: b8c453ccb3aa2adf0800000000000000
+      internalID: -170386662080820085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_9
+      name: HangingDwarf_1_Idle_9
       rect:
         serializedVersion: 2
-        x: 240
+        x: 746
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 50cae4e8b68b06360800000000000000
-      internalID: 7160926179607620613
+      spriteID: 56bfa09ee42ec8f40800000000000000
+      internalID: 5732205254280936293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_10
+      name: HangingDwarf_1_Idle_10
       rect:
         serializedVersion: 2
-        x: 264
+        x: 826
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1827ada7d7b81a550800000000000000
-      internalID: 6170366335522599553
+      spriteID: 5f65fe5945b457270800000000000000
+      internalID: 8247581119263758069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_11
+      name: HangingDwarf_1_Idle_11
       rect:
         serializedVersion: 2
-        x: 288
+        x: 906
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 278a616bf15293200800000000000000
-      internalID: 160200079877515378
+      spriteID: a35da943cfe878840800000000000000
+      internalID: 5226303106452215098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_12
+      name: HangingDwarf_1_Idle_12
       rect:
         serializedVersion: 2
-        x: 312
+        x: 986
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 1f396a7f06779054399bec6b652cef2e
-      internalID: 382639988
+      spriteID: 889967e3e3036e3c0800000000000000
+      internalID: -4330720947776087672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_13
+      name: HangingDwarf_1_Idle_13
       rect:
         serializedVersion: 2
-        x: 336
+        x: 1066
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9fc628c05ab00f947996eb2f12bc1c76
-      internalID: -1108237686
+      spriteID: 175263e94ee8a30b0800000000000000
+      internalID: -5748124861826980495
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_14
+      name: HangingDwarf_1_Idle_14
       rect:
         serializedVersion: 2
-        x: 360
+        x: 1146
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 77cf2197b5af4774e928cd440052d316
-      internalID: -763686218
+      spriteID: e669289d02be9d4e0800000000000000
+      internalID: -1956274036795074962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_15
+      name: HangingDwarf_1_Idle_15
       rect:
         serializedVersion: 2
-        x: 384
+        x: 1226
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 66828fe91395fb24dbcf1ff236d96a1c
-      internalID: 1842871733
+      spriteID: ced4a90cf7f9a9860800000000000000
+      internalID: 7537512297398947308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_16
+      name: HangingDwarf_1_Idle_16
       rect:
         serializedVersion: 2
-        x: 408
+        x: 1306
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e100ca6cd2780f343ab6659e76d4d5a0
-      internalID: 1866073979
+      spriteID: 4bfeca21175d653a0800000000000000
+      internalID: -6676914715908837452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GreyStoneTile_17
+      name: HangingDwarf_1_Idle_17
       rect:
         serializedVersion: 2
-        x: 432
+        x: 1386
         y: 0
-        width: 24
-        height: 24
+        width: 26
+        height: 78
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: eb5780bc4841c11468d2fcc9ea5fe4fd
-      internalID: 2123869858
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreyStoneTile_18
-      rect:
-        serializedVersion: 2
-        x: 456
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 35dae25a2fdbc6349ae98bbf799806a1
-      internalID: 2005903391
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreyStoneTile_19
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b1b19da67f757240950511aaa202946
-      internalID: 651267718
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: GreyStoneTile_20
-      rect:
-        serializedVersion: 2
-        x: 504
-        y: 0
-        width: 24
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ccaaad07130d59a41be82ace33100445
-      internalID: -230409365
+      spriteID: 6fe20b5e61e61c0f0800000000000000
+      internalID: -1098475789479825674
       vertices: []
       indices: 
       edges: []
@@ -611,7 +563,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e071b4caa33a70d4bb91cd1d819179b7
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -619,31 +571,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      GreyStoneTile_0: -5744419423866906403
-      GreyStoneTile_1: 4375217469119622855
-      GreyStoneTile_10: 6170366335522599553
-      GreyStoneTile_11: 160200079877515378
-      GreyStoneTile_12: 382639988
-      GreyStoneTile_13: -1108237686
-      GreyStoneTile_14: -763686218
-      GreyStoneTile_15: 1842871733
-      GreyStoneTile_16: 1866073979
-      GreyStoneTile_17: 2123869858
-      GreyStoneTile_18: 2005903391
-      GreyStoneTile_19: 651267718
-      GreyStoneTile_2: 3586932109424230836
-      GreyStoneTile_20: -230409365
-      GreyStoneTile_3: 6385725073568708895
-      GreyStoneTile_4: 6483710185559783760
-      GreyStoneTile_5: -6599835090260577188
-      GreyStoneTile_6: -4770063969886638662
-      GreyStoneTile_7: 1826194185276071871
-      GreyStoneTile_8: 6379379674193482738
-      GreyStoneTile_9: 7160926179607620613
+      HangingDwarf_1_Idle_0: -4812405495847220376
+      HangingDwarf_1_Idle_1: -2262724060374744528
+      HangingDwarf_1_Idle_10: 8247581119263758069
+      HangingDwarf_1_Idle_11: 5226303106452215098
+      HangingDwarf_1_Idle_12: -4330720947776087672
+      HangingDwarf_1_Idle_13: -5748124861826980495
+      HangingDwarf_1_Idle_14: -1956274036795074962
+      HangingDwarf_1_Idle_15: 7537512297398947308
+      HangingDwarf_1_Idle_16: -6676914715908837452
+      HangingDwarf_1_Idle_17: -1098475789479825674
+      HangingDwarf_1_Idle_2: -7699470824771023832
+      HangingDwarf_1_Idle_3: -1197553276277615486
+      HangingDwarf_1_Idle_4: 2751721110492369802
+      HangingDwarf_1_Idle_5: 5769416551084217486
+      HangingDwarf_1_Idle_6: 7042894340698452847
+      HangingDwarf_1_Idle_7: 326769140415214162
+      HangingDwarf_1_Idle_8: -170386662080820085
+      HangingDwarf_1_Idle_9: 5732205254280936293
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
