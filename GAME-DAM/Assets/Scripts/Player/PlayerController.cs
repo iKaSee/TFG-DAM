@@ -33,6 +33,7 @@ public class PlayerController : MonoBehaviour
     public float rollCooldown = 0.8f;
     private bool isRolling = false;
     private bool canRoll = true;
+    public bool invulnerable = false;
 
 
     [Header("Crouch / Agacharse")]
@@ -281,18 +282,41 @@ public class PlayerController : MonoBehaviour
     {
         canRoll = false;
         isRolling = true;
+        invulnerable = true; // Empieza invulnerabilidad
 
-        // Activamos la animación
+        // 1. ATRAVESAR ENEMIGOS
+        // Cambiamos la capa del jugador a una que no choque con enemigos (si tienes capas)
+        // O simplemente ignoramos colisiones con la capa "Enemy"
+        int playerLayer = gameObject.layer;
+        int enemyLayer = LayerMask.NameToLayer("Enemies"); // Asegúrate de que tu Boss tenga esta Layer
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
+
+        // 2. ACTIVAR ANIMACIÓN
         anim.SetTrigger("Roll");
 
-        // Aplicamos velocidad constante hacia donde mira
-        rb.linearVelocity = new Vector2((facingRight ? 1 : -1) * rollSpeed, rb.linearVelocity.y);
+        // 3. MOVIMIENTO (Aumentamos distancia aplicando velocidad constante)
+        float rollDir = facingRight ? 1 : -1;
 
-        yield return new WaitForSeconds(rollDuration);
+        // Guardamos la gravedad para que no se caiga a plomo si rueda en un borde
+        float currentGravity = rb.gravityScale;
+        rb.gravityScale = 0;
 
+        float timer = 0;
+        while (timer < rollDuration)
+        {
+            // Usamos rollSpeed. Te recomiendo subirla a 18 o 20 en el Inspector para más distancia.
+            rb.linearVelocity = new Vector2(rollDir * rollSpeed, 0);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+
+        // 4. FINALIZAR ROLL
+        rb.gravityScale = currentGravity;
+        invulnerable = false; // Termina invulnerabilidad
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false); // Vuelve a chocar
         isRolling = false;
 
-        // Cooldown para no spamear el roll
+        // Cooldown
         yield return new WaitForSeconds(rollCooldown);
         canRoll = true;
     }

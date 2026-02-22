@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 083b11db76365c241a3259a5bb1c57e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4909926786387192044
+    second: Death_WithoutEffect_0
+  - first:
+      213: -5872922825347997597
+    second: Death_WithoutEffect_1
+  - first:
+      213: 3074874154981994868
+    second: Death_WithoutEffect_2
+  - first:
+      213: 1927040040713881740
+    second: Death_WithoutEffect_3
+  - first:
+      213: -3245885610614988161
+    second: Death_WithoutEffect_4
+  - first:
+      213: -6523327783495016326
+    second: Death_WithoutEffect_5
+  - first:
+      213: -8978875668681302442
+    second: Death_WithoutEffect_6
+  - first:
+      213: -2481678091077999941
+    second: Death_WithoutEffect_7
+  - first:
+      213: 2078758359996566998
+    second: Death_WithoutEffect_8
+  - first:
+      213: 7170220625172872109
+    second: Death_WithoutEffect_9
+  - first:
+      213: -6421879424936058547
+    second: Death_WithoutEffect_10
+  - first:
+      213: 3120722195719299799
+    second: Death_WithoutEffect_11
+  - first:
+      213: -3665936652313898636
+    second: Death_WithoutEffect_12
+  - first:
+      213: 5020299795304941358
+    second: Death_WithoutEffect_13
+  - first:
+      213: 7525409869653422689
+    second: Death_WithoutEffect_14
+  - first:
+      213: 5716623220500603473
+    second: Death_WithoutEffect_15
+  - first:
+      213: -5825485241224413426
+    second: Death_WithoutEffect_16
+  - first:
+      213: -8536594755402327467
+    second: Death_WithoutEffect_17
+  - first:
+      213: 2020907157470765805
+    second: Death_WithoutEffect_18
+  - first:
+      213: -6618926671573125652
+    second: Death_WithoutEffect_19
+  - first:
+      213: 5030252537792074634
+    second: Death_WithoutEffect_20
+  - first:
+      213: -7366310915628537593
+    second: Death_WithoutEffect_21
+  - first:
+      213: -7029054908331709182
+    second: Death_WithoutEffect_22
+  - first:
+      213: -2438410739599406651
+    second: Death_WithoutEffect_23
+  - first:
+      213: 7893642399929642936
+    second: Death_WithoutEffect_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 18
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Death_WithoutEffect_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 15
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce8a8c7f560932440800000000000000
+      internalID: 4909926786387192044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 15
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36069d17ecf2f7ea0800000000000000
+      internalID: -5872922825347997597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 52
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4713bb8a0c52caa20800000000000000
+      internalID: 3074874154981994868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_3
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 15
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8884b605b83eba10800000000000000
+      internalID: 1927040040713881740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_4
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 15
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72edbd0c3c44f2d0800000000000000
+      internalID: -3245885610614988161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_5
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 15
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a70e75761fb7875a0800000000000000
+      internalID: -6523327783495016326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_6
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 15
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e5ad5c620a46380800000000000000
+      internalID: -8978875668681302442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_7
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 15
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb22d66bcee4f8dd0800000000000000
+      internalID: -2481678091077999941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_8
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 15
+        width: 37
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd0875f6bb39dc10800000000000000
+      internalID: 2078758359996566998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_9
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 15
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabbb9c4badb18360800000000000000
+      internalID: 7170220625172872109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_10
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 15
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41eb4600b6e0e6a0800000000000000
+      internalID: -6421879424936058547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_11
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 15
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2a68e7d480f4b20800000000000000
+      internalID: 3120722195719299799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_12
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 15
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471deb5a90aff1dc0800000000000000
+      internalID: -3665936652313898636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_13
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 15
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e270e1da010bba540800000000000000
+      internalID: 5020299795304941358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_14
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 15
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16239e5b760af6860800000000000000
+      internalID: 7525409869653422689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_15
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 15
+        width: 31
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15220b4f786855f40800000000000000
+      internalID: 5716623220500603473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_16
+      rect:
+        serializedVersion: 2
+        x: 1957
+        y: 15
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fb980b908b72fa0800000000000000
+      internalID: -5825485241224413426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_17
+      rect:
+        serializedVersion: 2
+        x: 2085
+        y: 15
+        width: 36
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a18cc7c4ce78980800000000000000
+      internalID: -8536594755402327467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_18
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 15
+        width: 45
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2e61d3a54bb0c10800000000000000
+      internalID: 2020907157470765805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_19
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 15
+        width: 45
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce57682c249d424a0800000000000000
+      internalID: -6618926671573125652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_20
+      rect:
+        serializedVersion: 2
+        x: 2469
+        y: 15
+        width: 47
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a839a9d180c0fc540800000000000000
+      internalID: 5030252537792074634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_21
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 15
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709e0e8204b95c990800000000000000
+      internalID: -7366310915628537593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_22
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 15
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d2c2a6dc7c37e90800000000000000
+      internalID: -7029054908331709182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_23
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 15
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c90ea10a56092ed0800000000000000
+      internalID: -2438410739599406651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_WithoutEffect_24
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 15
+        width: 43
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfa4cfb0f9db8d60800000000000000
+      internalID: 7893642399929642936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Death_WithoutEffect_0: 4909926786387192044
+      Death_WithoutEffect_1: -5872922825347997597
+      Death_WithoutEffect_10: -6421879424936058547
+      Death_WithoutEffect_11: 3120722195719299799
+      Death_WithoutEffect_12: -3665936652313898636
+      Death_WithoutEffect_13: 5020299795304941358
+      Death_WithoutEffect_14: 7525409869653422689
+      Death_WithoutEffect_15: 5716623220500603473
+      Death_WithoutEffect_16: -5825485241224413426
+      Death_WithoutEffect_17: -8536594755402327467
+      Death_WithoutEffect_18: 2020907157470765805
+      Death_WithoutEffect_19: -6618926671573125652
+      Death_WithoutEffect_2: 3074874154981994868
+      Death_WithoutEffect_20: 5030252537792074634
+      Death_WithoutEffect_21: -7366310915628537593
+      Death_WithoutEffect_22: -7029054908331709182
+      Death_WithoutEffect_23: -2438410739599406651
+      Death_WithoutEffect_24: 7893642399929642936
+      Death_WithoutEffect_3: 1927040040713881740
+      Death_WithoutEffect_4: -3245885610614988161
+      Death_WithoutEffect_5: -6523327783495016326
+      Death_WithoutEffect_6: -8978875668681302442
+      Death_WithoutEffect_7: -2481678091077999941
+      Death_WithoutEffect_8: 2078758359996566998
+      Death_WithoutEffect_9: 7170220625172872109
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -29,6 +29,13 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        PlayerController controller = GetComponent<PlayerController>();
+
+        // SI ESTÁ RODANDO, NO RECIBE DAÑO
+        if (controller != null && controller.invulnerable)
+        {
+            return;
+        }
         if (isDead) return;
 
         currentHealth -= damage;

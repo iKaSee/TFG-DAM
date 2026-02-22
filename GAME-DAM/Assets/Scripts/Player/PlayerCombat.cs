@@ -10,20 +10,19 @@ public class PlayerCombat : MonoBehaviour
     public bool isAttacking;
 
     [Header("Deteccion de Daño")]
-    public Transform attackPoint;    // Arrastra aqui el objeto AttackPoint
-    public float attackRange = 0.5f; // El tamaño del circulo de golpe
-    public LayerMask enemyLayers;    // Seleccionaremos la capa "Enemy"
-    public int attackDamage = 40;    // El daño que harás (Normal)
-    public int attackDamageCombate = 60; // Daño en modo combate
+    public Transform attackPoint;
+    public float attackRange = 0.5f;
+    public LayerMask enemyLayers;
+    public int attackDamage = 40;
+    public int attackDamageCombate = 60;
 
     [Header("Audio")]
     public AudioSource audioSource;
-    public AudioClip swingSound; // El sonido de la espada en el aire
-
+    public AudioClip swingSound;
 
     [Header("Ajustes de Combo")]
     public int comboStep = 0;
-    public float comboResetTime = 0.5f; // Tiempo máximo entre clics para seguir el combo
+    public float comboResetTime = 0.5f;
     private float lastClickTime;
 
     void Awake()
@@ -33,15 +32,10 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
-        // Lógica para reiniciar el combo si pasa mucho tiempo sin atacar
+        // Lógica para reiniciar el combo
         if (Time.time - lastClickTime > comboResetTime)
         {
-            comboStep = 0;
-            anim.SetInteger("ComboStep", 0);
-
-            // Esta línea es el "seguro de vida": si el evento falla, 
-            // el tiempo te devolverá el movimiento.
-            isAttacking = false;
+            ResetCombo();
         }
 
         if (Time.time >= nextAttackTime)
@@ -54,39 +48,38 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
+    // 1. Esta función SOLO lanza la animación
     void Attack()
     {
         isAttacking = true;
-
-        // Guardamos el momento del clic para el temporizador
         lastClickTime = Time.time;
 
-        // Avisamos al Animator en qué paso del combo estamos antes de disparar el Trigger
         anim.SetInteger("ComboStep", comboStep);
         anim.SetTrigger("Attack");
-
-        // Detectamos si estamos en modo combate para el daño y la cámara
-        bool enModoCombate = anim.GetBool("IsCombatMode");
-        int dañoFinal = enModoCombate ? attackDamageCombate : attackDamage;
-
-        // Esta linea crea un circulo invisible y guarda todo lo que sea "Enemy" dentro de el
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         if (audioSource != null && swingSound != null)
         {
             audioSource.PlayOneShot(swingSound);
         }
+    }
 
-        // Por cada enemigo que hayamos golpeado...
+    // 2. NUEVA FUNCIÓN: Conéctala al Animation Event en el frame de impacto
+    public void PerformHitDetection()
+    {
+        bool enModoCombate = anim.GetBool("IsCombatMode");
+        int dañoFinal = enModoCombate ? attackDamageCombate : attackDamage;
+
+        // Detectamos enemigos en el frame exacto de la animación
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
         foreach (Collider2D enemy in hitEnemies)
         {
-            EnemyHealth enemyHealth = enemy.GetComponent<EnemyHealth>();
+            BoosHealth enemyHealth = enemy.GetComponent<BoosHealth>();
+
             if (enemyHealth != null)
             {
-                // Pasamos el daño Y la posición actual del jugador (transform.position)
                 enemyHealth.TakeDamage(dañoFinal, transform.position);
 
-                // Sacudida de cámara solo en modo combate al impactar
                 if (enModoCombate)
                 {
                     GameManager gm = FindObjectOfType<GameManager>();
@@ -95,18 +88,21 @@ public class PlayerCombat : MonoBehaviour
             }
         }
 
-        // Avanzamos el combo para el siguiente clic
+        // Avanzamos el combo aquí, justo cuando el golpe es efectivo
         comboStep++;
-        if (comboStep > 2) // Si ya hicimos el tercer ataque (0, 1, 2), volvemos a empezar
-        {
-            comboStep = 0;
-        }
+        if (comboStep > 2) comboStep = 0;
     }
 
-    public void EndAttack() { isAttacking = false; }
-    public void DisableHitboxAndEndAttack() { isAttacking = false; }
+    public void ResetCombo()
+    {
+        comboStep = 0;
+        if (anim != null) anim.SetInteger("ComboStep", 0);
+        isAttacking = false;
+    }
 
-    // Dibuja el circulo rojo en la ventana Scene para ayudarte a configurar
+    // Funciones para llamar desde el final de las animaciones
+    public void EndAttack() { isAttacking = false; }
+
     void OnDrawGizmosSelected()
     {
         if (attackPoint == null) return;
