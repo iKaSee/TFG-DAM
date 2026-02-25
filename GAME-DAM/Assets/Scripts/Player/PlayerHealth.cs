@@ -36,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
         {
             return;
         }
+
         if (isDead) return;
 
         currentHealth -= damage;
