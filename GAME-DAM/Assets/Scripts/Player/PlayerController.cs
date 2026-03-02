@@ -8,12 +8,12 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 12f;
 
     [Header("Jump Refined (Nuevo)")]
-    public float jumpInputBufferTime = 0.1f; // Tiempo que se guarda la pulsación antes de tocar suelo
+    public float jumpInputBufferTime = 0.1f;
     private float lastPressedJumpTime;
     private bool isJumping;
     private bool isJumpCut;
-    [SerializeField] private float jumpCutGravityMult = 6f; // MODIFICADO: Subir a 6 para salto pesado
-    [SerializeField] private float fallGravityMult = 4f;    // MODIFICADO: Subir a 4 para caída rápida
+    [SerializeField] private float jumpCutGravityMult = 6f;
+    [SerializeField] private float fallGravityMult = 6f;
     private float defaultGravityScale;
 
     [Header("Detección de Suelo")]
@@ -23,7 +23,6 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundLayer;
 
     [Header("Ajustes de Combate")]
-    // MODIFICADO: Ahora es una penalización (resta velocidad) en lugar de un boost
     public float combatSpeedPenalty = 4f;
     private float defaultSpeed;
 
@@ -35,37 +34,48 @@ public class PlayerController : MonoBehaviour
     private bool canRoll = true;
     public bool invulnerable = false;
 
-
     [Header("Crouch / Agacharse")]
-    public float crouchSpeedMult = 0.5f; // Irá a la mitad de velocidad
+    public float crouchSpeedMult = 0.5f;
     private bool isCrouching = false;
 
-
     [Header("Hitbox de Agachado")]
-    private CapsuleCollider2D col; // Usamos CapsuleCollider2D
+    private CapsuleCollider2D col;
     private Vector2 originalSize;
     private Vector2 originalOffset;
-    [SerializeField] private float crouchSizeMultiplier = 0.6f; // El colisionador medirá el 60% al agacharse
-
+    [SerializeField] private float crouchSizeMultiplier = 0.6f;
 
     [Header("Run VFX")]
-    public GameObject prefabPolvo; // Aquí arrastraremos el Prefab 
-    public Transform puntoPies;    // Aquí arrastraremos el objeto PosicionPies
+    public GameObject prefabPolvo;
+    public Transform puntoPies;
+
+    [Header("Jump VFX (Artista)")]
+    public GameObject jumpVFX;
 
     [Header("Landing VFX")]
-    public GameObject landingPrefab; //  Aquí arrastraremos el Prefab 
-    private bool wasInAir; // Para saber si venimos de una caída
+    public GameObject landingPrefab;
+    private bool wasInAir;
 
     [Header("Detección de Bordes")]
-    public Transform edgeCheckPared; // Un punto a la altura del pecho
-    public Transform edgeCheckVacio; // Un punto un poco por encima de la cabeza
+    public Transform edgeCheckPared;
+    public Transform edgeCheckVacio;
     public float checkDistancia = 0.5f;
-    private bool canGrabEdge = true; // Cambiado a true por defecto para que funcione
+    private bool canGrabEdge = true;
     private bool isGrabbingEdge = false;
 
     [Header("Escalado de Borde")]
-    public Vector2 offsetFinalEscalado; // Cuánto se desplaza al terminar de subir
+    public Vector2 offsetFinalEscalado;
     private bool isClimbing = false;
+
+    [Header("Wall Movement (Nuevo)")]
+    public Transform wallCheck;
+    public float wallCheckDistance = 0.5f;
+    public float wallSlidingSpeed = 2f;
+    private bool isWallSliding;
+
+    [Header("Wall Jump")]
+    public Vector2 wallJumpForce = new Vector2(10f, 20f);
+    public float wallJumpTime = 0.2f;
+    private float wallJumpCounter;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -74,15 +84,13 @@ public class PlayerController : MonoBehaviour
     private float moveInput;
     private bool facingRight = true;
 
-
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         combat = GetComponent<PlayerCombat>();
         defaultSpeed = moveSpeed;
-        defaultGravityScale = rb.gravityScale; // Guardamos la gravedad inicial
-
+        defaultGravityScale = rb.gravityScale;
 
         col = GetComponent<CapsuleCollider2D>();
         originalSize = col.size;
@@ -91,18 +99,28 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        // CORREGIDO: "isClabbing" era una errata, es "isClimbing"
-        if (isClimbing) return; // Si está escalando, no puede hacer nada más
+        if (isClimbing) return;
+
+        // --- CORRECCIÓN DE GIRO ---
+        // Solo giramos si NO estamos deslizando y NO estamos en el impulso del salto de pared
+        if (!isWallSliding && wallJumpCounter <= 0 && !isRolling)
+        {
+            if (moveInput > 0 && !facingRight) Flip();
+            else if (moveInput < 0 && facingRight) Flip();
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canRoll && isGrounded && !isWallSliding)
+        {
+            StartCoroutine(ExecuteRoll());
+        }
 
         if (isGrabbingEdge)
         {
-            // Opción A: SUBIR AL BORDE (Espacio / Jump)
             if (Input.GetButtonDown("Jump"))
             {
                 StartCoroutine(ClimbEdge());
             }
 
-            // Opción B: SOLTARSE (S o Abajo)
             if (Input.GetAxisRaw("Vertical") < -0.1f)
             {
                 isGrabbingEdge = false;
@@ -110,109 +128,77 @@ public class PlayerController : MonoBehaviour
                 anim.SetBool("isEdgeGrabbing", false);
                 StartCoroutine(TemporaryDisableEdgeGrab());
             }
-            return; // Bloquea el resto del movimiento
+            return;
         }
 
         CheckForEdge();
+        WallSlide(); // Lógica de deslizamiento corregida
+        WallJump();  // Lógica de salto en pared
 
-        if (isRolling) return;
+        if (isRolling || wallJumpCounter > 0) return;
 
-
-        // Detectar si pulsamos control para agacharnos, pero solo si estamos en el suelo
         if (isGrounded && Input.GetKey(KeyCode.LeftControl))
         {
             isCrouching = true;
         }
         else if (!Input.GetKey(KeyCode.LeftControl))
         {
-            // Lanzamos un pequeño rayo o círculo hacia arriba para ver si hay techo
             bool hayTecho = Physics2D.OverlapCircle(transform.position + Vector3.up * 1f, 0.2f, groundLayer);
-
-            if (!hayTecho)
-            {
-                isCrouching = false;
-            }
-            // Si hay techo, isCrouching se queda en true aunque sueltes la tecla
+            if (!hayTecho) isCrouching = false;
         }
 
         anim.SetBool("isCrouching", isCrouching);
-
         HandleHitbox();
 
-        // MODIFICADO: Eliminado el bloqueo de Vector2.zero para que Jotem se mueva mientras ataca
         if (combat != null && combat.isAttacking)
         {
-            // Ya no frenamos a cero, dejamos que UpdateAnimator siga fluyendo
             UpdateAnimator();
         }
 
         moveInput = Input.GetAxisRaw("Horizontal");
 
-        // 'moveInput' es la variable donde guardas el Input.GetAxisRaw("Horizontal")
         bool moviendose = Mathf.Abs(moveInput) > 0.01f;
         anim.SetBool("isMoving", moviendose);
 
         #region JUMP LOGIC
-        // Timers
-        lastPressedJumpTime -= Time.deltaTime;
 
         if (isGrounded)
         {
             isJumping = false;
             isJumpCut = false;
+            wallJumpCounter = 0;
         }
 
-        // DETECCIÓN DE SALTO (AQUÍ ESTABA EL ERROR)
         if (Input.GetButtonDown("Jump") && !isCrouching)
         {
             lastPressedJumpTime = jumpInputBufferTime;
         }
 
-        // Salto variable
-        if (Input.GetButtonUp("Jump"))
+        // --- CAMBIO CLAVE AQUÍ ---
+        if (lastPressedJumpTime > 0f)
         {
-            if (rb.linearVelocity.y > 0.1f && isJumping)
+            // 1. Si estamos en la pared, PRIORIDAD al WallJump
+            if (wallJumpCounter > 0)
             {
-                isJumpCut = true;
-                // Frenazo manual de velocidad para que el salto corto sea real
-                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.5f);
+                ExecuteWallJump(); // Llamamos a una función limpia
+            }
+            // 2. Si NO estamos en la pared pero SÍ en el suelo, salto normal
+            else if (isGrounded && !isJumping)
+            {
+                Jump();
             }
         }
 
-        // Ejecución del Salto (Solo si hay buffer de tiempo y estamos en el suelo)
-        if (lastPressedJumpTime > 0f && isGrounded && !isJumping)
-        {
-            Jump();
-        }
-
-        // Ajuste de Gravedad dinámico
         ModifyGravity();
+
+
         #endregion
-
-        // Girar personaje (Tu método original)
-        if (moveInput > 0 && !facingRight) Flip();
-        else if (moveInput < 0 && facingRight) Flip();
-
-
-        // Bloqueamos inputs si está rodando
-
-
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canRoll && isGrounded)
-        {
-            StartCoroutine(ExecuteRoll());
-        }
 
         UpdateAnimator();
 
-        if (!wasInAir && !isGrounded)
-        {
-            // Si no estábamos en el aire pero ahora isGrounded es false, es que acabamos de saltar o caer
-            wasInAir = true;
-        }
-
+        if (!wasInAir && !isGrounded) wasInAir = true;
         if (wasInAir && isGrounded)
         {
-            // ¡MOMENTO MÁGICO!: Estábamos en el aire y acabamos de tocar suelo
             CrearEfectoAterrizaje();
             wasInAir = false;
         }
@@ -220,54 +206,161 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isGrabbingEdge || isClimbing) return;
+        // Si estamos escalando o en el impulso del salto de pared, no tocamos nada
+        if (isGrabbingEdge || isClimbing || wallJumpCounter > 0) return;
 
-        // MODIFICADO: Eliminada la condición de ataque para permitir movimiento fluido
+        // Detectamos suelo
         isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(checkWidth, checkHeight), 0f, groundLayer);
 
-        // Aplicamos movimiento manteniendo la Y del Rigidbody
-        // Corregido: Ahora solo aplicamos la velocidad una vez calculando si está agachado
-        float currentSpeed = isCrouching ? moveSpeed * crouchSpeedMult : moveSpeed;
-        rb.linearVelocity = new Vector2(moveInput * currentSpeed, rb.linearVelocity.y);
+        float velocidadX;
+
+        if (isWallSliding)
+        {
+            // FUERZA BRUTA: Si desliza, la velocidad horizontal es 0.
+            // Esto evita que se separe y que "atraviese" la pared al empujar.
+            velocidadX = 0;
+
+            // Opcional: Esto pega al personaje a la pared si notas que se separa un milímetro
+            // rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); 
+        }
+        else
+        {
+            float currentSpeed = isCrouching ? moveSpeed * crouchSpeedMult : moveSpeed;
+            velocidadX = moveInput * currentSpeed;
+        }
+
+        rb.linearVelocity = new Vector2(velocidadX, rb.linearVelocity.y);
     }
 
-    private void Jump()
+    private void WallSlide()
     {
-        if (isRolling) return; // No saltar mientras se rueda
+        // --- SOLUCIÓN DETECCIÓN (PUNTO 4) ---
+        // Aumentamos el ancho del rayo solo para la detección 
+        // y usamos una pequeña compensación (0.1f) para que no detecte "dentro" del cuerpo
+        Vector2 rayOrigin = wallCheck.position;
+        float laserRange = wallCheckDistance + 0.2f;
 
+        RaycastHit2D hitRight = Physics2D.Raycast(rayOrigin, Vector2.right, laserRange, groundLayer);
+        RaycastHit2D hitLeft = Physics2D.Raycast(rayOrigin, Vector2.left, laserRange, groundLayer);
+
+        bool wallRight = hitRight.collider != null;
+        bool wallLeft = hitLeft.collider != null;
+        bool isTouchingWall = wallRight || wallLeft;
+
+        if (isTouchingWall && !isGrounded && rb.linearVelocity.y < 0 && !isGrabbingEdge)
+        {
+            isWallSliding = true;
+
+            RaycastHit2D hitActivo = wallRight ? hitRight : hitLeft;
+            float direccionPared = wallRight ? 1 : -1;
+
+            float radioCuerpo = col.size.x / 2f;
+            float posicionXFija = hitActivo.point.x - (radioCuerpo * direccionPared);
+
+            transform.position = new Vector2(posicionXFija, transform.position.y);
+            rb.linearVelocity = new Vector2(0, Mathf.Max(rb.linearVelocity.y, -wallSlidingSpeed));
+
+            if (wallRight && facingRight) Flip();
+            else if (wallLeft && !facingRight) Flip();
+        }
+        else
+        {
+            isWallSliding = false;
+        }
+
+        anim.SetBool("isWallSliding", isWallSliding);
+    }
+
+    private void WallJump()
+    {
+        if (isWallSliding)
+        {
+            wallJumpCounter = wallJumpTime;
+        }
+        else if (!isGrounded) // Solo restamos si NO estamos en el suelo
+        {
+            wallJumpCounter -= Time.deltaTime;
+        }
+
+        if (Input.GetButtonDown("Jump") && wallJumpCounter > 0 && !isGrounded) // Añadimos !isGrounded por seguridad
+        {
+            isJumping = true;
+            isJumpCut = false;
+
+            anim.SetTrigger("WallJumpTrigger");
+
+            rb.linearVelocity = Vector2.zero;
+            float jumpDir = facingRight ? 1 : -1;
+
+            // Aplicamos la fuerza
+            rb.AddForce(new Vector2(wallJumpForce.x * jumpDir, wallJumpForce.y), ForceMode2D.Impulse);
+
+            wallJumpCounter = 0;
+            // Reiniciamos el buffer de salto normal para que no salte otra vez al caer
+            lastPressedJumpTime = 0;
+        }
+    }
+
+
+    private bool isWallJumping;
+    private void ExecuteWallJump()
+    {
+        isWallJumping = true; // Bloqueamos otras animaciones un momento
         isJumping = true;
         isJumpCut = false;
 
-        // Reset de velocidad vertical para un salto consistente
-        rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);
+        // 1. Limpiamos cualquier rastro de otros saltos
+        anim.ResetTrigger("WallJumpTrigger");
 
-        // Aplicamos el salto usando fuerza de impulso como en el script de Dawnosaur
-        float force = jumpForce;
-        rb.AddForce(Vector2.up * force, ForceMode2D.Impulse);
+        // 2. Disparamos el Trigger (asegúrate de que se llame exactamente así en Unity)
+        anim.SetTrigger("WallJumpTrigger");
+
+        // 3. Física (Punto 2 y 4)
+        rb.linearVelocity = Vector2.zero;
+        float jumpDir = facingRight ? 1 : -1;
+        rb.AddForce(new Vector2(wallJumpForce.x * jumpDir, wallJumpForce.y), ForceMode2D.Impulse);
+
+        wallJumpCounter = 0;
+        lastPressedJumpTime = 0;
+
+        // 4. Desbloqueamos después de un pequeño tiempo (lo que dura el impulso)
+        Invoke("ResetWallJumpAnim", 0.3f);
+    }
+    private void ResetWallJumpAnim() { isWallJumping = false; }
+
+
+    private void Jump()
+    {
+        if (isRolling) return;
+
+        isJumping = true;
+        isJumpCut = false;
+        rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+
+        if (jumpVFX != null && puntoPies != null)
+        {
+            Instantiate(jumpVFX, puntoPies.position, Quaternion.identity);
+        }
 
         lastPressedJumpTime = 0;
     }
 
     private void ModifyGravity()
     {
-        if (isGrabbingEdge || isClimbing)
+        if (isGrabbingEdge || isClimbing || isWallSliding)
         {
-            rb.gravityScale = 0;
+            rb.gravityScale = isWallSliding ? defaultGravityScale : 0;
             return;
         }
 
-        // CASO 1: Estamos cayendo (Velocidad negativa)
         if (rb.linearVelocity.y < -0.1f)
         {
             rb.gravityScale = defaultGravityScale * fallGravityMult;
         }
-        // CASO 2: Estamos subiendo pero HEMOS SOLTADO el botón (Salto corto)
         else if (rb.linearVelocity.y > 0.1f && isJumpCut)
         {
-            // Aplicamos una gravedad muy alta para que deje de subir inmediatamente
             rb.gravityScale = defaultGravityScale * jumpCutGravityMult;
         }
-        // CASO 3: Subida normal (botón pulsado) o estamos en el suelo
         else
         {
             rb.gravityScale = defaultGravityScale;
@@ -276,41 +369,45 @@ public class PlayerController : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        if (groundCheck == null) return;
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireCube(
-            groundCheck.position,
-            new Vector3(checkWidth, checkHeight, 0f)
-        );
-
-        if (edgeCheckPared != null && edgeCheckVacio != null)
+        if (groundCheck != null)
         {
-            Gizmos.color = Color.red;
-            Gizmos.DrawRay(edgeCheckPared.position, transform.right * transform.localScale.x * checkDistancia);
-            Gizmos.DrawRay(edgeCheckVacio.position, transform.right * transform.localScale.x * checkDistancia);
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireCube(groundCheck.position, new Vector3(checkWidth, checkHeight, 0f));
+        }
+
+        if (wallCheck != null)
+        {
+            Gizmos.color = Color.blue;
+            // Dibujamos rayos a ambos lados en el editor
+            Gizmos.DrawRay(wallCheck.position, Vector2.right * wallCheckDistance);
+            Gizmos.DrawRay(wallCheck.position, Vector2.left * wallCheckDistance);
         }
     }
 
     void UpdateAnimator()
     {
-        // Si estamos agarrados, no dejamos que la velocidad vertical o el suelo 
-        // cambien la animación de agarre
-        // Si está escalando, NO TOCAMOS NADA. El Animator se queda bloqueado en Climb.
-        if (isClimbing) return;
+        if (isClimbing || isGrabbingEdge) return;
 
-        if (isGrabbingEdge)
+        // --- PRIORIDAD ABSOLUTA (Punto 3) ---
+        // Si estamos haciendo el salto de pared, no dejamos que entre ninguna otra animación
+        if (isWallJumping) return;
+
+        anim.SetBool("isWallSliding", isWallSliding);
+
+        if (isWallSliding)
         {
-            anim.SetBool("isEdgeGrabbing", true);
+            anim.SetBool("isGrounded", false);
+            anim.SetFloat("VerticalVelocity", rb.linearVelocity.y);
             return;
         }
 
+
+        anim.SetBool("isWallSliding", false);
         anim.SetFloat("HorizontalSpeed", Mathf.Abs(moveInput));
         anim.SetFloat("VerticalVelocity", rb.linearVelocity.y);
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isCrouching", isCrouching);
-        // Aseguramos que si no estamos agarrados, el bool del animator sea false
-        anim.SetBool("isEdgeGrabbing", false);
-        anim.SetBool("isClimbing", false);
+        anim.SetBool("isMoving", Mathf.Abs(moveInput) > 0.01f);
     }
 
     void Flip()
@@ -323,15 +420,11 @@ public class PlayerController : MonoBehaviour
 
     void CheckForEdge()
     {
-        // Solo intentamos agarrarnos si estamos cayendo o saltando (en el aire)
         if (!isGrounded && !isGrabbingEdge && canGrabEdge)
         {
-            // Lanzamos un rayo desde el pecho
             bool tocaPared = Physics2D.Raycast(edgeCheckPared.position, transform.right * transform.localScale.x, checkDistancia, groundLayer);
-            // Lanzamos un rayo desde arriba de la cabeza
             bool tocaArriba = Physics2D.Raycast(edgeCheckVacio.position, transform.right * transform.localScale.x, checkDistancia, groundLayer);
 
-            // Si el de abajo toca pared pero el de arriba NO, hemos encontrado un borde
             if (tocaPared && !tocaArriba && rb.linearVelocity.y < 0)
             {
                 SetEdgeGrab();
@@ -342,16 +435,16 @@ public class PlayerController : MonoBehaviour
     void SetEdgeGrab()
     {
         isGrabbingEdge = true;
+        isWallSliding = false;
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic;
 
-        // --- AJUSTE DE POSICIÓN ---
         RaycastHit2D hit = Physics2D.Raycast(edgeCheckPared.position, transform.right * transform.localScale.x, checkDistancia, groundLayer);
 
         if (hit.collider != null)
         {
             float offsetHorizontal = 0.65f;
-            float offsetVertical = -0.5f;
+            float offsetVertical = -0.55f;
             Vector2 nuevaPos = new Vector2(hit.point.x - (offsetHorizontal * transform.localScale.x), transform.position.y + offsetVertical);
             transform.position = nuevaPos;
         }
@@ -364,28 +457,13 @@ public class PlayerController : MonoBehaviour
     {
         isClimbing = true;
         isGrabbingEdge = false;
-
-        // Avisamos al Animator que empiece la subida
         anim.SetBool("isClimbing", true);
         anim.SetBool("isEdgeGrabbing", false);
-
-        // Reproducimos la animación
         anim.Play("Edge_Grab_Climb");
-
-        // Esperamos a que la animación termine visualmente
         yield return new WaitForSeconds(0.6f);
-
-        // Posicionamiento final
-        Vector2 posFinal = new Vector2(
-            transform.position.x + (offsetFinalEscalado.x * (facingRight ? 1 : -1)),
-            transform.position.y + offsetFinalEscalado.y
-        );
+        Vector2 posFinal = new Vector2(transform.position.x + (offsetFinalEscalado.x * (facingRight ? 1 : -1)), transform.position.y + offsetFinalEscalado.y);
         transform.position = posFinal;
-
-        // Restaurar físicas
         rb.bodyType = RigidbodyType2D.Dynamic;
-
-        // Avisamos que ya terminó de escalar
         isClimbing = false;
         anim.SetBool("isClimbing", false);
     }
@@ -402,17 +480,13 @@ public class PlayerController : MonoBehaviour
         canRoll = false;
         isRolling = true;
         invulnerable = true;
-
         int playerLayer = gameObject.layer;
         int enemyLayer = LayerMask.NameToLayer("Enemies");
         Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
-
         anim.SetTrigger("Roll");
-
         float rollDir = facingRight ? 1 : -1;
         float currentGravity = rb.gravityScale;
         rb.gravityScale = 0;
-
         float timer = 0;
         while (timer < rollDuration)
         {
@@ -420,28 +494,16 @@ public class PlayerController : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
-
         rb.gravityScale = currentGravity;
         invulnerable = false;
         Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
         isRolling = false;
-
         yield return new WaitForSeconds(rollCooldown);
         canRoll = true;
     }
 
-    public void CrearPolvo()
-    {
-        Instantiate(prefabPolvo, puntoPies.position, Quaternion.identity);
-    }
-
-    public void CrearEfectoAterrizaje()
-    {
-        if (landingPrefab != null && puntoPies != null)
-        {
-            Instantiate(landingPrefab, puntoPies.position, Quaternion.identity);
-        }
-    }
+    public void CrearPolvo() { if (prefabPolvo != null) Instantiate(prefabPolvo, puntoPies.position, Quaternion.identity); }
+    public void CrearEfectoAterrizaje() { if (landingPrefab != null) Instantiate(landingPrefab, puntoPies.position, Quaternion.identity); }
 
     private void HandleHitbox()
     {

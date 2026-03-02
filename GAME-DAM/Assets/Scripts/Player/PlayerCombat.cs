@@ -14,7 +14,6 @@ public class PlayerCombat : MonoBehaviour
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public int attackDamage = 40;
-    public int attackDamageCombate = 60;
 
     [Header("Audio")]
     public AudioSource audioSource;
@@ -66,25 +65,21 @@ public class PlayerCombat : MonoBehaviour
     // 2. NUEVA FUNCIÓN: Conéctala al Animation Event en el frame de impacto
     public void PerformHitDetection()
     {
-        bool enModoCombate = anim.GetBool("IsCombatMode");
-        int dañoFinal = enModoCombate ? attackDamageCombate : attackDamage;
-
         // Detectamos enemigos en el frame exacto de la animación
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         foreach (Collider2D enemy in hitEnemies)
         {
+            // Nota: Asegúrate de que el nombre de la clase sea BoosHealth o BossHealth según tu script
             BoosHealth enemyHealth = enemy.GetComponent<BoosHealth>();
 
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(dañoFinal, transform.position);
+                enemyHealth.TakeDamage(attackDamage, transform.position);
 
-                if (enModoCombate)
-                {
-                    GameManager gm = FindObjectOfType<GameManager>();
-                    if (gm != null) gm.SacudirCamara();
-                }
+                // Sacudida de cámara opcional al golpear
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara();
             }
         }
 
