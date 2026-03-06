@@ -3,6 +3,10 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("Cinemática Inicial")]
+    public bool empezarTumbado = false;
+    private bool controlsEnabled = true;
+
     [Header("Movimiento")]
     public float moveSpeed = 8f;
     public float jumpForce = 12f;
@@ -77,6 +81,11 @@ public class PlayerController : MonoBehaviour
     public float wallJumpTime = 0.2f;
     private float wallJumpCounter;
 
+
+
+    [Header("Fricción de Aire")]
+    public float airControlForce = 5f;
+
     private Rigidbody2D rb;
     private Animator anim;
     private PlayerCombat combat;
@@ -97,8 +106,61 @@ public class PlayerController : MonoBehaviour
         originalOffset = col.offset;
     }
 
+    void Start()
+    {
+        if (empezarTumbado)
+        {
+            controlsEnabled = false;
+            rb.bodyType = RigidbodyType2D.Kinematic;
+
+            // Forzamos el estado de tumbado y cerramos la llave en el Animator
+            anim.Play("Start_Lying");
+            anim.SetBool("YaDespierto", false);
+        }
+    }
+
+    IEnumerator Levantarse()
+    {
+        anim.speed = 1;
+        anim.Play("Get_Up");
+
+        // 1. Esperamos a que la animación de levantarse casi termine
+        yield return new WaitForSeconds(1.1f); // Un pelín menos del tiempo total
+
+        // 2. PREPARACIÓN: Forzamos los parámetros para que no pueda caer
+        anim.SetBool("isGrounded", true);
+        anim.SetFloat("VerticalVelocity", 0);
+        anim.SetBool("YaDespierto", true);
+
+        // 3. Forzamos el paso a Idle manualmente para saltarnos cualquier transición
+        anim.Play("idle_Jotem");
+
+        // 4. Activamos la física al final de todo
+        rb.bodyType = RigidbodyType2D.Dynamic;
+        controlsEnabled = true;
+        empezarTumbado = false;
+    }
+
+
+
+
     void Update()
     {
+
+        if (!controlsEnabled)
+        {
+            // Mientras no estemos despiertos, bloqueamos el Animator para que no se mueva
+            if (anim.GetCurrentAnimatorStateInfo(0).IsName("Start_Lying"))
+            {
+                anim.speed = 0;
+            }
+
+            if (Input.anyKeyDown)
+            {
+                StartCoroutine(Levantarse());
+            }
+            return;
+        }
         if (isClimbing) return;
 
         // --- CORRECCIÓN DE GIRO ---
@@ -167,6 +229,10 @@ public class PlayerController : MonoBehaviour
             isJumping = false;
             isJumpCut = false;
             wallJumpCounter = 0;
+
+            // --- ADAPTACIÓN AL ARTISTA ---
+            // Cuando Jotem toca el suelo, apagamos el booleano de salto
+            anim.SetBool("Jump", false);
         }
 
         if (Input.GetButtonDown("Jump") && !isCrouching)
@@ -189,6 +255,18 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+        if (Input.GetButtonUp("Jump"))
+        {
+            // Si soltamos el botón y aún estamos subiendo...
+            if (rb.linearVelocity.y > 0 && isJumping)
+            {
+                isJumpCut = true;
+                // Aplicamos un frenazo inmediato hacia abajo para que el salto sea corto
+                // Esto NO cambia tu fórmula de gravedad, solo le da un "empujón" inicial
+                rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.4f);
+            }
+        }
+
         ModifyGravity();
 
 
@@ -204,32 +282,40 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    
+
+
+
     void FixedUpdate()
     {
-        // Si estamos escalando o en el impulso del salto de pared, no tocamos nada
-        if (isGrabbingEdge || isClimbing || wallJumpCounter > 0) return;
+        if (isGrabbingEdge || isClimbing || wallJumpCounter > 0 || isRolling) return;
 
-        // Detectamos suelo
         isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(checkWidth, checkHeight), 0f, groundLayer);
 
-        float velocidadX;
-
+        float velocidadTarget;
         if (isWallSliding)
         {
-            // FUERZA BRUTA: Si desliza, la velocidad horizontal es 0.
-            // Esto evita que se separe y que "atraviese" la pared al empujar.
-            velocidadX = 0;
-
-            // Opcional: Esto pega al personaje a la pared si notas que se separa un milímetro
-            // rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); 
+            velocidadTarget = 0;
         }
         else
         {
             float currentSpeed = isCrouching ? moveSpeed * crouchSpeedMult : moveSpeed;
-            velocidadX = moveInput * currentSpeed;
+            velocidadTarget = moveInput * currentSpeed;
         }
 
-        rb.linearVelocity = new Vector2(velocidadX, rb.linearVelocity.y);
+        // --- CAMBIO PARA LA FRICCIÓN DE AIRE ---
+        if (isGrounded)
+        {
+            // En el suelo, el movimiento es instantáneo (como hasta ahora)
+            rb.linearVelocity = new Vector2(velocidadTarget, rb.linearVelocity.y);
+        }
+        else
+        {
+            // En el aire, usamos Lerp para que la velocidad cambie poco a poco
+            // Esto crea esa sensación de "inercia" o fricción de aire
+            float velocidadSuave = Mathf.Lerp(rb.linearVelocity.x, velocidadTarget, Time.fixedDeltaTime * airControlForce);
+            rb.linearVelocity = new Vector2(velocidadSuave, rb.linearVelocity.y);
+        }
     }
 
     private void WallSlide()
@@ -301,8 +387,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
     private bool isWallJumping;
+
     private void ExecuteWallJump()
     {
         isWallJumping = true; // Bloqueamos otras animaciones un momento
@@ -326,8 +412,8 @@ public class PlayerController : MonoBehaviour
         // 4. Desbloqueamos después de un pequeño tiempo (lo que dura el impulso)
         Invoke("ResetWallJumpAnim", 0.3f);
     }
-    private void ResetWallJumpAnim() { isWallJumping = false; }
 
+    private void ResetWallJumpAnim() { isWallJumping = false; }
 
     private void Jump()
     {
@@ -335,7 +421,13 @@ public class PlayerController : MonoBehaviour
 
         isJumping = true;
         isJumpCut = false;
+
+        // Aplicamos la fuerza igual que él
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+
+        // --- ADAPTACIÓN AL ARTISTA ---
+        // Activamos el booleano que sus animaciones necesitan
+        anim.SetBool("Jump", true);
 
         if (jumpVFX != null && puntoPies != null)
         {
@@ -355,10 +447,12 @@ public class PlayerController : MonoBehaviour
 
         if (rb.linearVelocity.y < -0.1f)
         {
+            // Tu fórmula de caída normal que te gusta
             rb.gravityScale = defaultGravityScale * fallGravityMult;
         }
         else if (rb.linearVelocity.y > 0.1f && isJumpCut)
         {
+            // Si ha soltado el botón, aplicamos más gravedad para que suba menos
             rb.gravityScale = defaultGravityScale * jumpCutGravityMult;
         }
         else
@@ -386,6 +480,14 @@ public class PlayerController : MonoBehaviour
 
     void UpdateAnimator()
     {
+        // --- BLOQUEO TOTAL DURANTE EL INICIO (Punto clave) ---
+        if (!controlsEnabled && empezarTumbado)
+        {
+            // Forzamos a que el Animator se quede en el estado de tumbado
+            // y no lea nada de lo que viene abajo (isGrounded, Velocidad, etc.)
+            return;
+        }
+
         if (isClimbing || isGrabbingEdge) return;
 
         // --- PRIORIDAD ABSOLUTA (Punto 3) ---
@@ -503,6 +605,7 @@ public class PlayerController : MonoBehaviour
     }
 
     public void CrearPolvo() { if (prefabPolvo != null) Instantiate(prefabPolvo, puntoPies.position, Quaternion.identity); }
+
     public void CrearEfectoAterrizaje() { if (landingPrefab != null) Instantiate(landingPrefab, puntoPies.position, Quaternion.identity); }
 
     private void HandleHitbox()

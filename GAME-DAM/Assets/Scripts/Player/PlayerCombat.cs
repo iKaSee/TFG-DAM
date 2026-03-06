@@ -81,12 +81,30 @@ public class PlayerCombat : MonoBehaviour
                 GameManager gm = Object.FindFirstObjectByType<GameManager>();
                 if (gm != null) gm.SacudirCamara();
             }
-        }
 
+            Chest chest = enemy.GetComponent<Chest>();
+            if (chest != null)
+            {
+                chest.TakeDamage(1);
+            }
+
+            EnemySkeleton skeleton = enemy.GetComponent<EnemySkeleton>();
+            if (skeleton != null)
+            {
+                // Llamamos a la función TakeDamage del esqueleto
+                skeleton.TakeDamage(1); // Le quitamos 1 punto de vida
+
+                // Efectos visuales de impacto
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara();
+            }
+            
+        }
         // Avanzamos el combo aquí, justo cuando el golpe es efectivo
         comboStep++;
         if (comboStep > 2) comboStep = 0;
     }
+
 
     public void ResetCombo()
     {
@@ -95,8 +113,11 @@ public class PlayerCombat : MonoBehaviour
         isAttacking = false;
     }
 
+
     // Funciones para llamar desde el final de las animaciones
     public void EndAttack() { isAttacking = false; }
+
+
 
     void OnDrawGizmosSelected()
     {

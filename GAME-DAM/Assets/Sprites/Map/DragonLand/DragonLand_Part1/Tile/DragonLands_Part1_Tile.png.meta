@@ -116,10 +116,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 10
-        width: 16
-        height: 14
+        x: 24
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,10 +138,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 10
-        width: 16
-        height: 14
+        x: 48
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,10 +160,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_2
       rect:
         serializedVersion: 2
-        x: 48
-        y: 10
-        width: 16
-        height: 14
+        x: 72
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,10 +182,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_3
       rect:
         serializedVersion: 2
-        x: 64
-        y: 10
-        width: 16
-        height: 14
+        x: 96
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +204,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_4
       rect:
         serializedVersion: 2
-        x: 80
-        y: 10
-        width: 16
-        height: 14
+        x: 120
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_5
       rect:
         serializedVersion: 2
-        x: 96
-        y: 10
-        width: 16
-        height: 14
+        x: 144
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +248,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_6
       rect:
         serializedVersion: 2
-        x: 112
-        y: 10
-        width: 16
-        height: 14
+        x: 168
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_7
       rect:
         serializedVersion: 2
-        x: 128
-        y: 10
-        width: 16
-        height: 14
+        x: 192
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_8
       rect:
         serializedVersion: 2
-        x: 144
-        y: 10
-        width: 16
-        height: 14
+        x: 216
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +314,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_9
       rect:
         serializedVersion: 2
-        x: 160
-        y: 10
-        width: 16
-        height: 14
+        x: 240
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +336,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_10
       rect:
         serializedVersion: 2
-        x: 176
-        y: 10
-        width: 16
-        height: 14
+        x: 264
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +358,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_11
       rect:
         serializedVersion: 2
-        x: 192
-        y: 10
-        width: 16
-        height: 14
+        x: 288
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,10 +380,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_12
       rect:
         serializedVersion: 2
-        x: 208
-        y: 10
-        width: 16
-        height: 14
+        x: 312
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_13
       rect:
         serializedVersion: 2
-        x: 224
-        y: 10
-        width: 16
-        height: 14
+        x: 336
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_14
       rect:
         serializedVersion: 2
-        x: 240
-        y: 10
-        width: 16
-        height: 14
+        x: 360
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +446,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_15
       rect:
         serializedVersion: 2
-        x: 256
-        y: 10
-        width: 16
-        height: 14
+        x: 384
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +468,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_16
       rect:
         serializedVersion: 2
-        x: 272
-        y: 10
-        width: 16
-        height: 14
+        x: 408
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_17
       rect:
         serializedVersion: 2
-        x: 288
-        y: 10
-        width: 16
-        height: 14
+        x: 432
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -512,10 +512,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_18
       rect:
         serializedVersion: 2
-        x: 304
-        y: 10
-        width: 16
-        height: 14
+        x: 456
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +534,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_19
       rect:
         serializedVersion: 2
-        x: 320
-        y: 10
-        width: 16
-        height: 14
+        x: 480
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: DragonLands_Part1_Tile_20
       rect:
         serializedVersion: 2
-        x: 336
-        y: 10
-        width: 16
-        height: 14
+        x: 504
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -570,248 +570,6 @@ TextureImporter:
       bones: []
       spriteID: 16bf380376c4c644aad2fea4f7a1bc16
       internalID: -1361118857
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_21
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4d69b4340ee4064ba6e0f8a641ae445
-      internalID: -1808588426
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_22
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c79b8a1a6961dcd47b9101a33afd7f87
-      internalID: 608890946
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_23
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d023854dc8c6e344bd8e61f3178a456
-      internalID: 913584210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_24
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bd7ce1c541ef59e48b8ac31b75dfc2a8
-      internalID: 1608672540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_25
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 254dc4073b992234c9167858d5061318
-      internalID: 1755920088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_26
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 027653a539c2f0a48b3d788a982cbcc7
-      internalID: 172227050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_27
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 788c2de6f4eaa794cbd05f3683a40510
-      internalID: -1869106592
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_28
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b90a46be6bfd47c48b05033d6676e931
-      internalID: -1839784721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_29
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6d723adb53a45b4fb9ef25355b3b6f3
-      internalID: 1132131502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_30
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19e17f54b60797640b48435e6066d8b2
-      internalID: 1942425136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DragonLands_Part1_Tile_31
-      rect:
-        serializedVersion: 2
-        x: 512
-        y: 10
-        width: 16
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c5fd127fd2cc9a4c999c8c6c81cd1d2
-      internalID: 1429314383
       vertices: []
       indices: 
       edges: []
@@ -830,7 +588,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":16.0,"y":14.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":24.0,"y":24.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       DragonLands_Part1_Tile_0: 4786246883022658628
       DragonLands_Part1_Tile_1: -1021361003
@@ -846,18 +604,7 @@ TextureImporter:
       DragonLands_Part1_Tile_19: -213272872
       DragonLands_Part1_Tile_2: 807226361
       DragonLands_Part1_Tile_20: -1361118857
-      DragonLands_Part1_Tile_21: -1808588426
-      DragonLands_Part1_Tile_22: 608890946
-      DragonLands_Part1_Tile_23: 913584210
-      DragonLands_Part1_Tile_24: 1608672540
-      DragonLands_Part1_Tile_25: 1755920088
-      DragonLands_Part1_Tile_26: 172227050
-      DragonLands_Part1_Tile_27: -1869106592
-      DragonLands_Part1_Tile_28: -1839784721
-      DragonLands_Part1_Tile_29: 1132131502
       DragonLands_Part1_Tile_3: 133808153
-      DragonLands_Part1_Tile_30: 1942425136
-      DragonLands_Part1_Tile_31: 1429314383
       DragonLands_Part1_Tile_4: -2120593652
       DragonLands_Part1_Tile_5: -500201041
       DragonLands_Part1_Tile_6: -546824728

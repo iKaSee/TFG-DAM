@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: c84b80c70590a9e4685121d3524c7f7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6855515457988419716
+    second: DigOut_0
+  - first:
+      213: -3104281990450762821
+    second: DigOut_1
+  - first:
+      213: -3000084210693298808
+    second: DigOut_2
+  - first:
+      213: -1023190818994266400
+    second: DigOut_3
+  - first:
+      213: -1493510833314147509
+    second: DigOut_4
+  - first:
+      213: -2817172108426579440
+    second: DigOut_5
+  - first:
+      213: -6131333483419068665
+    second: DigOut_6
+  - first:
+      213: 8326436212294707726
+    second: DigOut_7
+  - first:
+      213: 1861409617081630390
+    second: DigOut_8
+  - first:
+      213: -1285995059429345535
+    second: DigOut_9
+  - first:
+      213: -5408792421072518659
+    second: DigOut_10
+  - first:
+      213: 1393551841201419746
+    second: DigOut_11
+  - first:
+      213: -7750477817678523894
+    second: DigOut_12
+  - first:
+      213: 2500506669791146877
+    second: DigOut_13
+  - first:
+      213: -1876433542647645199
+    second: DigOut_14
+  - first:
+      213: -6590901936025789252
+    second: DigOut_15
+  - first:
+      213: -7758073800702405234
+    second: DigOut_16
+  - first:
+      213: -4978470085560802661
+    second: DigOut_17
+  - first:
+      213: -4377849176229091546
+    second: DigOut_18
+  - first:
+      213: 837588781234729524
+    second: DigOut_19
+  - first:
+      213: -6732568243988887512
+    second: DigOut_20
+  - first:
+      213: -3158328965148141036
+    second: DigOut_21
+  - first:
+      213: 3882550303054950634
+    second: DigOut_22
+  - first:
+      213: 3556021846655275252
+    second: DigOut_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DigOut_0
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 32
+        width: 38
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f966653015cd0a0800000000000000
+      internalID: -6855515457988419716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_2
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 32
+        width: 40
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8852e553e4f8d56d0800000000000000
+      internalID: -3000084210693298808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_4
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 32
+        width: 44
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43dc106fcbf54be0800000000000000
+      internalID: -1493510833314147509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_5
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 32
+        width: 51
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0127816b4e467e8d0800000000000000
+      internalID: -2817172108426579440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_6
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 32
+        width: 54
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70719599ea029eaa0800000000000000
+      internalID: -6131333483419068665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_7
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 32
+        width: 57
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a66c6ae917d8370800000000000000
+      internalID: 8326436212294707726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_8
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 32
+        width: 58
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be75af3f2e05d910800000000000000
+      internalID: 1861409617081630390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_9
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 32
+        width: 59
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1077ec39e4a372ee0800000000000000
+      internalID: -1285995059429345535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_10
+      rect:
+        serializedVersion: 2
+        x: 1947
+        y: 32
+        width: 59
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1c52633fb10f4b0800000000000000
+      internalID: -5408792421072518659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_11
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 32
+        width: 32
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5f6e62404e65310800000000000000
+      internalID: 1393551841201419746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_12
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 32
+        width: 35
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a021ab51d75c07490800000000000000
+      internalID: -7750477817678523894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_13
+      rect:
+        serializedVersion: 2
+        x: 2336
+        y: 32
+        width: 37
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d737563619593b220800000000000000
+      internalID: 2500506669791146877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_14
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 32
+        width: 10
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fbfbdd72a195f5e0800000000000000
+      internalID: -1876433542647645199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_15
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 32
+        width: 12
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc9fb9fb996884a0800000000000000
+      internalID: -6590901936025789252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_16
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 32
+        width: 16
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e855ed77bf8c55490800000000000000
+      internalID: -7758073800702405234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_17
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 32
+        width: 20
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b926d3195dbe8eab0800000000000000
+      internalID: -4978470085560802661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_18
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 32
+        width: 22
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627e0aa7e51ce33c0800000000000000
+      internalID: -4377849176229091546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_19
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 32
+        width: 24
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432395d0f86bf9b00800000000000000
+      internalID: 837588781234729524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DigOut_20
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 32
+        width: 25
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82887fe4adc1192a0800000000000000
+      internalID: -6732568243988887512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 1b8d09f0e38c0864dbf81a34ab8df8ad
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      DigOut_0: -6855515457988419716
+      DigOut_1: -3104281990450762821
+      DigOut_10: -5408792421072518659
+      DigOut_11: 1393551841201419746
+      DigOut_12: -7750477817678523894
+      DigOut_13: 2500506669791146877
+      DigOut_14: -1876433542647645199
+      DigOut_15: -6590901936025789252
+      DigOut_16: -7758073800702405234
+      DigOut_17: -4978470085560802661
+      DigOut_18: -4377849176229091546
+      DigOut_19: 837588781234729524
+      DigOut_2: -3000084210693298808
+      DigOut_20: -6732568243988887512
+      DigOut_21: -3158328965148141036
+      DigOut_22: 3882550303054950634
+      DigOut_23: 3556021846655275252
+      DigOut_3: -1023190818994266400
+      DigOut_4: -1493510833314147509
+      DigOut_5: -2817172108426579440
+      DigOut_6: -6131333483419068665
+      DigOut_7: 8326436212294707726
+      DigOut_8: 1861409617081630390
+      DigOut_9: -1285995059429345535
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
