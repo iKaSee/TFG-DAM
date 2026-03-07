@@ -55,5 +55,8 @@ TagManager:
   - name: Juego
     uniqueID: 1466253339
     locked: 0
+  - name: Componentes
+    uniqueID: 1291484213
+    locked: 0
   m_RenderingLayers:
   - Default

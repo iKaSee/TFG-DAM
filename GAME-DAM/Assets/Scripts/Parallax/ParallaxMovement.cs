@@ -18,6 +18,9 @@ public class ParallaxMovement : MonoBehaviour
     [Range(0.01f, 0.05f)]
     public float parallaxSpeed;
 
+    [Header("Ajuste de Escena")]
+    public float alturaFondo = -0.8f;
+
     [Header("Control de Activación")]
     public bool estaActivo = false; // El interruptor para el bosque
 
@@ -76,8 +79,7 @@ public class ParallaxMovement : MonoBehaviour
         distanceY = cam.position.y - camStartPos.y;
 
 
-        float alturaFija = -0.8f; // Ajustar este número según dónde se quiera el fondo
-        transform.position = new Vector3(cam.position.x, alturaFija, 9.92f);
+        transform.position = new Vector3(cam.position.x, alturaFondo, 9.92f);
 
         for (int i = 0; i < backgrounds.Length; i++)
         {

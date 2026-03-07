@@ -1,0 +1,471 @@
+fileFormatVersion: 2
+guid: 55d51d808ece4614ab4ae429f43fdeaf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5305083894480251032
+    second: WantCoin_0
+  - first:
+      213: 1401472137804020405
+    second: WantCoin_1
+  - first:
+      213: 7767493259473842335
+    second: WantCoin_2
+  - first:
+      213: -5209682532302237485
+    second: WantCoin_3
+  - first:
+      213: -7759898548246860481
+    second: WantCoin_4
+  - first:
+      213: -7835609305027390869
+    second: WantCoin_5
+  - first:
+      213: 1965128739860867177
+    second: WantCoin_6
+  - first:
+      213: 8724185362098858766
+    second: WantCoin_7
+  - first:
+      213: -8691766915600130045
+    second: WantCoin_8
+  - first:
+      213: -2556189055343823681
+    second: WantCoin_9
+  - first:
+      213: 8687135581451073767
+    second: WantCoin_10
+  - first:
+      213: -77235216957561731
+    second: WantCoin_11
+  - first:
+      213: -4469588717967493528
+    second: WantCoin_12
+  - first:
+      213: 5410928218413907063
+    second: WantCoin_13
+  - first:
+      213: -345961773503809792
+    second: WantCoin_14
+  - first:
+      213: -6425432833221317135
+    second: WantCoin_15
+  - first:
+      213: -2589481046326518154
+    second: WantCoin_16
+  - first:
+      213: 4547944544721526430
+    second: WantCoin_17
+  - first:
+      213: 2325942346879649955
+    second: WantCoin_18
+  - first:
+      213: -4546888370516964075
+    second: WantCoin_19
+  - first:
+      213: 2816258518335399251
+    second: WantCoin_20
+  - first:
+      213: -2676313620229034445
+    second: WantCoin_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WantCoin_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 898242ac1b17f9940800000000000000
+      internalID: 5305083894480251032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_11
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 0
+        width: 26
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d742819bafa9deef0800000000000000
+      internalID: -77235216957561731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866347dedb4d8f1c0800000000000000
+      internalID: -4469588717967493528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77cb2bbdb8a771b40800000000000000
+      internalID: 5410928218413907063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 24
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007f0789995e23bf0800000000000000
+      internalID: -345961773503809792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_15
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd26bfa1e644d6a0800000000000000
+      internalID: -6425432833221317135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_16
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 0
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ed91145b0501cd0800000000000000
+      internalID: -2589481046326518154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_17
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 0
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e5d46a77b8d1f30800000000000000
+      internalID: 4547944544721526430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_18
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8ccc9bd38674020800000000000000
+      internalID: 2325942346879649955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_19
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 0
+        width: 24
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d4bf11e1536e0c0800000000000000
+      internalID: -4546888370516964075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_20
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 0
+        width: 25
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355ac05833c551720800000000000000
+      internalID: 2816258518335399251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WantCoin_21
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 0
+        width: 26
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e65be21f2dbdad0800000000000000
+      internalID: -2676313620229034445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 34e1b50f1a3abf14181b1d192a3ce619
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      WantCoin_0: 5305083894480251032
+      WantCoin_1: 1401472137804020405
+      WantCoin_10: 8687135581451073767
+      WantCoin_11: -77235216957561731
+      WantCoin_12: -4469588717967493528
+      WantCoin_13: 5410928218413907063
+      WantCoin_14: -345961773503809792
+      WantCoin_15: -6425432833221317135
+      WantCoin_16: -2589481046326518154
+      WantCoin_17: 4547944544721526430
+      WantCoin_18: 2325942346879649955
+      WantCoin_19: -4546888370516964075
+      WantCoin_2: 7767493259473842335
+      WantCoin_20: 2816258518335399251
+      WantCoin_21: -2676313620229034445
+      WantCoin_3: -5209682532302237485
+      WantCoin_4: -7759898548246860481
+      WantCoin_5: -7835609305027390869
+      WantCoin_6: 1965128739860867177
+      WantCoin_7: 8724185362098858766
+      WantCoin_8: -8691766915600130045
+      WantCoin_9: -2556189055343823681
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
