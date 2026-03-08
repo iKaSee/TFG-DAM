@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Parallax\\ParallaxMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Parallax\\ParallaxMovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Menu\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Menu\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerCombat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\ItemMoneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ItemMoneda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\Skeleton\\EnemySkeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Enemy\\Skeleton\\EnemySkeleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerHealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\ControladorZonaPaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ControladorZonaPaz.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,44 +30,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ParallaxMovement.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Parallax\\ParallaxMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Parallax\\ParallaxMovement.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Parallax\\ParallaxMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Parallax\\ParallaxMovement.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAkwF0AAAAiAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ItemMoneda.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\ItemMoneda.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ItemMoneda.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\ItemMoneda.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ItemMoneda.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T18:38:38.679Z",
+              "WhenOpened": "2026-03-08T19:14:59.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerCombat.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerCombat.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAtwFQAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Menu\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Menu\\GameManager.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Menu\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Menu\\GameManager.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCwAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T17:40:34.668Z"
+              "WhenOpened": "2026-03-08T19:07:02.048Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "EnemySkeleton.cs",
-              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\Skeleton\\EnemySkeleton.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Skeleton\\EnemySkeleton.cs",
-              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Enemy\\Skeleton\\EnemySkeleton.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Skeleton\\EnemySkeleton.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAqwE0AAAAFAAAAAAAAAA==",
+              "Title": "PlayerHealth.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerHealth.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAQwHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T05:05:23.787Z"
+              "WhenOpened": "2026-03-08T18:52:58.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ControladorZonaPaz.cs",
+              "DocumentMoniker": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\ControladorZonaPaz.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ControladorZonaPaz.cs",
+              "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\ControladorZonaPaz.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ControladorZonaPaz.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T11:32:01.865Z"
             },
             {
               "$type": "Document",
@@ -73,7 +91,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
               "ToolTip": "C:\\Users\\ivanx\\Documents\\TFG-DAM\\GAME-DAM\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAawIYBAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAQwN4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-24T16:49:01.38Z"
             }

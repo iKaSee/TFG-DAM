@@ -49,12 +49,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,12 +128,12 @@ TextureImporter:
       name: SmallChest_Hit_0
       rect:
         serializedVersion: 2
-        x: 31
-        y: 15
-        width: 33
-        height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 32
+        y: 16
+        width: 31
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -150,12 +150,12 @@ TextureImporter:
       name: SmallChest_Hit_1
       rect:
         serializedVersion: 2
-        x: 128
-        y: 15
-        width: 33
-        height: 27
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 129
+        y: 16
+        width: 31
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -172,12 +172,12 @@ TextureImporter:
       name: SmallChest_Hit_2
       rect:
         serializedVersion: 2
-        x: 224
-        y: 15
-        width: 34
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 225
+        y: 16
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: SmallChest_Hit_3
       rect:
         serializedVersion: 2
-        x: 320
-        y: 15
-        width: 34
-        height: 28
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 321
+        y: 16
+        width: 32
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: SmallChest_Hit_4
       rect:
         serializedVersion: 2
-        x: 416
-        y: 15
-        width: 32
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 417
+        y: 16
+        width: 30
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -238,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 79b6f317ad160d5429e9b57080369704
     internalID: 0
     vertices: []
     indices: 
@@ -246,7 +246,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       SmallChest_Hit_0: -7293779448738914320
       SmallChest_Hit_1: -4611968894127340889

@@ -18,8 +18,8 @@ TagManager:
   - UI
   - Ground
   - Enemies
-  - 
-  - 
+  - Trap
+  - Items
   - 
   - 
   - 
@@ -27,7 +27,7 @@ TagManager:
   - SoloPersonaje
   - Fondo
   - Fondo_decorar
-  - 
+  - Plataformas
   - 
   - 
   - 

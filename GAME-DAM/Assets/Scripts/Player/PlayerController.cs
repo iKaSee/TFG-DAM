@@ -11,6 +11,10 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 8f;
     public float jumpForce = 12f;
 
+    [Header("Estados Especiales")]
+    public bool soloCaminar = false; // Si esto es true, Jotem entra en modo NPC/Cinemática
+
+
     [Header("Jump Refined (Nuevo)")]
     public float jumpInputBufferTime = 0.1f;
     private float lastPressedJumpTime;
@@ -25,6 +29,7 @@ public class PlayerController : MonoBehaviour
     public float checkHeight = 0.3f;
     public float checkWidth = 1;
     public LayerMask groundLayer;
+    public LayerMask wallLayer; // NUEVA: Para que el WallSlide solo detecte paredes reales
 
     [Header("Ajustes de Combate")]
     public float combatSpeedPenalty = 4f;
@@ -81,8 +86,6 @@ public class PlayerController : MonoBehaviour
     public float wallJumpTime = 0.2f;
     private float wallJumpCounter;
 
-
-
     [Header("Fricción de Aire")]
     public float airControlForce = 5f;
 
@@ -113,7 +116,6 @@ public class PlayerController : MonoBehaviour
             controlsEnabled = false;
             rb.bodyType = RigidbodyType2D.Kinematic;
 
-            // Forzamos el estado de tumbado y cerramos la llave en el Animator
             anim.Play("Start_Lying");
             anim.SetBool("YaDespierto", false);
         }
@@ -124,32 +126,23 @@ public class PlayerController : MonoBehaviour
         anim.speed = 1;
         anim.Play("Get_Up");
 
-        // 1. Esperamos a que la animación de levantarse casi termine
-        yield return new WaitForSeconds(1.1f); // Un pelín menos del tiempo total
+        yield return new WaitForSeconds(1.1f);
 
-        // 2. PREPARACIÓN: Forzamos los parámetros para que no pueda caer
         anim.SetBool("isGrounded", true);
         anim.SetFloat("VerticalVelocity", 0);
         anim.SetBool("YaDespierto", true);
 
-        // 3. Forzamos el paso a Idle manualmente para saltarnos cualquier transición
         anim.Play("idle_Jotem");
 
-        // 4. Activamos la física al final de todo
         rb.bodyType = RigidbodyType2D.Dynamic;
         controlsEnabled = true;
         empezarTumbado = false;
     }
 
-
-
-
     void Update()
     {
-
         if (!controlsEnabled)
         {
-            // Mientras no estemos despiertos, bloqueamos el Animator para que no se mueva
             if (anim.GetCurrentAnimatorStateInfo(0).IsName("Start_Lying"))
             {
                 anim.speed = 0;
@@ -163,22 +156,20 @@ public class PlayerController : MonoBehaviour
         }
         if (isClimbing) return;
 
-        // --- CORRECCIÓN DE GIRO ---
-        // Solo giramos si NO estamos deslizando y NO estamos en el impulso del salto de pared
         if (!isWallSliding && wallJumpCounter <= 0 && !isRolling)
         {
             if (moveInput > 0 && !facingRight) Flip();
             else if (moveInput < 0 && facingRight) Flip();
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canRoll && isGrounded && !isWallSliding)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canRoll && isGrounded && !isWallSliding && !soloCaminar) 
         {
             StartCoroutine(ExecuteRoll());
         }
 
         if (isGrabbingEdge)
         {
-            if (Input.GetButtonDown("Jump"))
+            if (Input.GetButtonDown("Jump") && !isCrouching && !soloCaminar)
             {
                 StartCoroutine(ClimbEdge());
             }
@@ -194,8 +185,8 @@ public class PlayerController : MonoBehaviour
         }
 
         CheckForEdge();
-        WallSlide(); // Lógica de deslizamiento corregida
-        WallJump();  // Lógica de salto en pared
+        WallSlide();
+        WallJump();
 
         if (isRolling || wallJumpCounter > 0) return;
 
@@ -229,10 +220,7 @@ public class PlayerController : MonoBehaviour
             isJumping = false;
             isJumpCut = false;
             wallJumpCounter = 0;
-
-            // --- ADAPTACIÓN AL ARTISTA ---
-            // Cuando Jotem toca el suelo, apagamos el booleano de salto
-            anim.SetBool("Jump", false);
+           // anim.SetBool("Jump", false);
         }
 
         if (Input.GetButtonDown("Jump") && !isCrouching)
@@ -240,15 +228,12 @@ public class PlayerController : MonoBehaviour
             lastPressedJumpTime = jumpInputBufferTime;
         }
 
-        // --- CAMBIO CLAVE AQUÍ ---
         if (lastPressedJumpTime > 0f)
         {
-            // 1. Si estamos en la pared, PRIORIDAD al WallJump
             if (wallJumpCounter > 0)
             {
-                ExecuteWallJump(); // Llamamos a una función limpia
+                ExecuteWallJump();
             }
-            // 2. Si NO estamos en la pared pero SÍ en el suelo, salto normal
             else if (isGrounded && !isJumping)
             {
                 Jump();
@@ -257,18 +242,14 @@ public class PlayerController : MonoBehaviour
 
         if (Input.GetButtonUp("Jump"))
         {
-            // Si soltamos el botón y aún estamos subiendo...
             if (rb.linearVelocity.y > 0 && isJumping)
             {
                 isJumpCut = true;
-                // Aplicamos un frenazo inmediato hacia abajo para que el salto sea corto
-                // Esto NO cambia tu fórmula de gravedad, solo le da un "empujón" inicial
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, rb.linearVelocity.y * 0.4f);
             }
         }
 
         ModifyGravity();
-
 
         #endregion
 
@@ -282,37 +263,43 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    
-
-
-
     void FixedUpdate()
     {
         if (isGrabbingEdge || isClimbing || wallJumpCounter > 0 || isRolling) return;
 
-        isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(checkWidth, checkHeight), 0f, groundLayer);
+        // COMBINACIÓN: GroundCheck detecta tanto Suelo como Plataformas para que no haga animación de caída
+        LayerMask mascaraPisar = groundLayer | LayerMask.GetMask("Plataformas") | LayerMask.GetMask("Trap");
+        isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(checkWidth, checkHeight), 0f, mascaraPisar);
 
         float velocidadTarget;
+
         if (isWallSliding)
         {
             velocidadTarget = 0;
         }
         else
         {
-            float currentSpeed = isCrouching ? moveSpeed * crouchSpeedMult : moveSpeed;
+            // ---  Lógica de velocidad ---
+            float currentSpeed;
+
+            if (soloCaminar)
+            {
+                currentSpeed = moveSpeed * 0.5f; // Camina a la mitad de velocidad 
+            }
+            else
+            {
+                currentSpeed = isCrouching ? moveSpeed * crouchSpeedMult : moveSpeed;
+            }
+
             velocidadTarget = moveInput * currentSpeed;
         }
 
-        // --- CAMBIO PARA LA FRICCIÓN DE AIRE ---
         if (isGrounded)
         {
-            // En el suelo, el movimiento es instantáneo (como hasta ahora)
             rb.linearVelocity = new Vector2(velocidadTarget, rb.linearVelocity.y);
         }
         else
         {
-            // En el aire, usamos Lerp para que la velocidad cambie poco a poco
-            // Esto crea esa sensación de "inercia" o fricción de aire
             float velocidadSuave = Mathf.Lerp(rb.linearVelocity.x, velocidadTarget, Time.fixedDeltaTime * airControlForce);
             rb.linearVelocity = new Vector2(velocidadSuave, rb.linearVelocity.y);
         }
@@ -320,14 +307,12 @@ public class PlayerController : MonoBehaviour
 
     private void WallSlide()
     {
-        // --- SOLUCIÓN DETECCIÓN (PUNTO 4) ---
-        // Aumentamos el ancho del rayo solo para la detección 
-        // y usamos una pequeña compensación (0.1f) para que no detecte "dentro" del cuerpo
         Vector2 rayOrigin = wallCheck.position;
         float laserRange = wallCheckDistance + 0.2f;
 
-        RaycastHit2D hitRight = Physics2D.Raycast(rayOrigin, Vector2.right, laserRange, groundLayer);
-        RaycastHit2D hitLeft = Physics2D.Raycast(rayOrigin, Vector2.left, laserRange, groundLayer);
+        // AQUÍ EL CAMBIO: El WallSlide ahora usa 'wallLayer' (Solo paredes reales)
+        RaycastHit2D hitRight = Physics2D.Raycast(rayOrigin, Vector2.right, laserRange, wallLayer);
+        RaycastHit2D hitLeft = Physics2D.Raycast(rayOrigin, Vector2.left, laserRange, wallLayer);
 
         bool wallRight = hitRight.collider != null;
         bool wallLeft = hitLeft.collider != null;
@@ -363,12 +348,12 @@ public class PlayerController : MonoBehaviour
         {
             wallJumpCounter = wallJumpTime;
         }
-        else if (!isGrounded) // Solo restamos si NO estamos en el suelo
+        else if (!isGrounded)
         {
             wallJumpCounter -= Time.deltaTime;
         }
 
-        if (Input.GetButtonDown("Jump") && wallJumpCounter > 0 && !isGrounded) // Añadimos !isGrounded por seguridad
+        if (Input.GetButtonDown("Jump") && wallJumpCounter > 0 && !isGrounded)
         {
             isJumping = true;
             isJumpCut = false;
@@ -378,11 +363,9 @@ public class PlayerController : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
             float jumpDir = facingRight ? 1 : -1;
 
-            // Aplicamos la fuerza
             rb.AddForce(new Vector2(wallJumpForce.x * jumpDir, wallJumpForce.y), ForceMode2D.Impulse);
 
             wallJumpCounter = 0;
-            // Reiniciamos el buffer de salto normal para que no salte otra vez al caer
             lastPressedJumpTime = 0;
         }
     }
@@ -391,17 +374,13 @@ public class PlayerController : MonoBehaviour
 
     private void ExecuteWallJump()
     {
-        isWallJumping = true; // Bloqueamos otras animaciones un momento
+        isWallJumping = true;
         isJumping = true;
         isJumpCut = false;
 
-        // 1. Limpiamos cualquier rastro de otros saltos
         anim.ResetTrigger("WallJumpTrigger");
-
-        // 2. Disparamos el Trigger (asegúrate de que se llame exactamente así en Unity)
         anim.SetTrigger("WallJumpTrigger");
 
-        // 3. Física (Punto 2 y 4)
         rb.linearVelocity = Vector2.zero;
         float jumpDir = facingRight ? 1 : -1;
         rb.AddForce(new Vector2(wallJumpForce.x * jumpDir, wallJumpForce.y), ForceMode2D.Impulse);
@@ -409,7 +388,6 @@ public class PlayerController : MonoBehaviour
         wallJumpCounter = 0;
         lastPressedJumpTime = 0;
 
-        // 4. Desbloqueamos después de un pequeño tiempo (lo que dura el impulso)
         Invoke("ResetWallJumpAnim", 0.3f);
     }
 
@@ -422,11 +400,7 @@ public class PlayerController : MonoBehaviour
         isJumping = true;
         isJumpCut = false;
 
-        // Aplicamos la fuerza igual que él
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
-
-        // --- ADAPTACIÓN AL ARTISTA ---
-        // Activamos el booleano que sus animaciones necesitan
         anim.SetBool("Jump", true);
 
         if (jumpVFX != null && puntoPies != null)
@@ -447,12 +421,10 @@ public class PlayerController : MonoBehaviour
 
         if (rb.linearVelocity.y < -0.1f)
         {
-            // Tu fórmula de caída normal que te gusta
             rb.gravityScale = defaultGravityScale * fallGravityMult;
         }
         else if (rb.linearVelocity.y > 0.1f && isJumpCut)
         {
-            // Si ha soltado el botón, aplicamos más gravedad para que suba menos
             rb.gravityScale = defaultGravityScale * jumpCutGravityMult;
         }
         else
@@ -472,7 +444,6 @@ public class PlayerController : MonoBehaviour
         if (wallCheck != null)
         {
             Gizmos.color = Color.blue;
-            // Dibujamos rayos a ambos lados en el editor
             Gizmos.DrawRay(wallCheck.position, Vector2.right * wallCheckDistance);
             Gizmos.DrawRay(wallCheck.position, Vector2.left * wallCheckDistance);
         }
@@ -480,18 +451,9 @@ public class PlayerController : MonoBehaviour
 
     void UpdateAnimator()
     {
-        // --- BLOQUEO TOTAL DURANTE EL INICIO (Punto clave) ---
-        if (!controlsEnabled && empezarTumbado)
-        {
-            // Forzamos a que el Animator se quede en el estado de tumbado
-            // y no lea nada de lo que viene abajo (isGrounded, Velocidad, etc.)
-            return;
-        }
+        if (!controlsEnabled && empezarTumbado) return;
 
         if (isClimbing || isGrabbingEdge) return;
-
-        // --- PRIORIDAD ABSOLUTA (Punto 3) ---
-        // Si estamos haciendo el salto de pared, no dejamos que entre ninguna otra animación
         if (isWallJumping) return;
 
         anim.SetBool("isWallSliding", isWallSliding);
@@ -504,12 +466,17 @@ public class PlayerController : MonoBehaviour
         }
 
 
+
+
         anim.SetBool("isWallSliding", false);
         anim.SetFloat("HorizontalSpeed", Mathf.Abs(moveInput));
         anim.SetFloat("VerticalVelocity", rb.linearVelocity.y);
         anim.SetBool("isGrounded", isGrounded);
         anim.SetBool("isCrouching", isCrouching);
-        anim.SetBool("isMoving", Mathf.Abs(moveInput) > 0.01f);
+        bool estaCorriendo = Mathf.Abs(moveInput) > 0.01f && !soloCaminar;
+        anim.SetBool("isMoving", estaCorriendo);
+        anim.SetBool("isWalking", soloCaminar);
+
     }
 
     void Flip()
@@ -524,8 +491,11 @@ public class PlayerController : MonoBehaviour
     {
         if (!isGrounded && !isGrabbingEdge && canGrabEdge)
         {
-            bool tocaPared = Physics2D.Raycast(edgeCheckPared.position, transform.right * transform.localScale.x, checkDistancia, groundLayer);
-            bool tocaArriba = Physics2D.Raycast(edgeCheckVacio.position, transform.right * transform.localScale.x, checkDistancia, groundLayer);
+            // COMBINACIÓN: El EdgeGrab busca en Suelo y Plataformas
+            LayerMask capasAgarre = groundLayer | LayerMask.GetMask("Plataformas");
+
+            bool tocaPared = Physics2D.Raycast(edgeCheckPared.position, transform.right * transform.localScale.x, checkDistancia, capasAgarre);
+            bool tocaArriba = Physics2D.Raycast(edgeCheckVacio.position, transform.right * transform.localScale.x, checkDistancia, capasAgarre);
 
             if (tocaPared && !tocaArriba && rb.linearVelocity.y < 0)
             {
@@ -541,7 +511,9 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic;
 
-        RaycastHit2D hit = Physics2D.Raycast(edgeCheckPared.position, transform.right * transform.localScale.x, checkDistancia, groundLayer);
+        // Usamos la máscara combinada aquí también para posicionar a Jotem correctamente
+        LayerMask capasAgarre = groundLayer | LayerMask.GetMask("Plataformas");
+        RaycastHit2D hit = Physics2D.Raycast(edgeCheckPared.position, transform.right * transform.localScale.x, checkDistancia, capasAgarre);
 
         if (hit.collider != null)
         {
@@ -603,6 +575,7 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(rollCooldown);
         canRoll = true;
     }
+
 
     public void CrearPolvo() { if (prefabPolvo != null) Instantiate(prefabPolvo, puntoPies.position, Quaternion.identity); }
 

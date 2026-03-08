@@ -10,14 +10,15 @@ public class Chest : MonoBehaviour
     private int currentHits = 0;
 
     [Header("Recompensa")]
-    public GameObject itemPrefab; // Arrastra aquí una moneda o cristal
+    public GameObject itemPrefab; // Tu prefab de moneda
+    public int cantidadMonedas = 5; // Cuántas monedas soltará
+    public float fuerzaExplosion = 5f; // Fuerza con la que saltan
 
     void Awake()
     {
         anim = GetComponent<Animator>();
     }
 
-    // Esta función la llamará Jotem al atacar
     public void TakeDamage(int damage)
     {
         if (isOpened) return;
@@ -26,7 +27,7 @@ public class Chest : MonoBehaviour
 
         if (currentHits < hitsToOpen)
         {
-            anim.SetTrigger("Hit"); // Animación de vibración
+            anim.SetTrigger("Hit");
         }
         else
         {
@@ -39,15 +40,28 @@ public class Chest : MonoBehaviour
         isOpened = true;
         anim.SetTrigger("Open");
 
-        // Desactivamos el collider para que no estorbe
+        // Desactivamos el collider del cofre para que las monedas no choquen con él al salir
         GetComponent<Collider2D>().enabled = false;
 
-        // Soltamos la recompensa
+        // Soltamos la lluvia de monedas
         if (itemPrefab != null)
         {
-            Instantiate(itemPrefab, transform.position + Vector3.up, Quaternion.identity);
+            for (int i = 0; i < cantidadMonedas; i++)
+            {
+                // Creamos la moneda un poco por encima del cofre
+                GameObject moneda = Instantiate(itemPrefab, transform.position + Vector3.up * 0.5f, Quaternion.identity);
+
+                // Le damos un impulso físico aleatorio
+                Rigidbody2D rbMoneda = moneda.GetComponent<Rigidbody2D>();
+                if (rbMoneda != null)
+                {
+                    // Salto en abanico: un poco a la izquierda/derecha y siempre hacia arriba
+                    Vector2 direccionSalto = new Vector2(Random.Range(-1f, 1f), Random.Range(1f, 1.5f));
+                    rbMoneda.AddForce(direccionSalto * fuerzaExplosion, ForceMode2D.Impulse);
+                }
+            }
         }
 
-        Debug.Log("¡Cofre abierto!");
+        Debug.Log("¡Cofre abierto con botín!");
     }
 }

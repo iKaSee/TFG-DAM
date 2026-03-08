@@ -31,11 +31,17 @@ public class PlayerCombat : MonoBehaviour
 
     void Update()
     {
+
+        PlayerController pc = GetComponent<PlayerController>();
+        if (pc != null && pc.soloCaminar) return;
+
         // Lógica para reiniciar el combo
         if (Time.time - lastClickTime > comboResetTime)
         {
             ResetCombo();
         }
+
+
 
         if (Time.time >= nextAttackTime)
         {

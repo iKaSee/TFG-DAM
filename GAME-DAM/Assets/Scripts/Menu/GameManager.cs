@@ -4,8 +4,11 @@ using UnityEngine.SceneManagement;
 using TMPro; // Añadimos esto para el texto
 using System.Collections;
 
+
 public class GameManager : MonoBehaviour
 {
+    public static GameManager instance;
+
     public GameObject gameOverPanel;
     public Image fondoNegro;
     public TextMeshProUGUI textoGameOver; // <--- ARRASTRA AQUÍ EL TEXTO DE "GAME OVER"
@@ -26,6 +29,9 @@ public class GameManager : MonoBehaviour
     private bool isGameOver = false;
     private bool puedeReiniciar = false;
 
+    [Header("Economía")]
+    public int oroTotal = 0; // Guardará las monedas
+    public TextMeshProUGUI textoOro;
 
 
 
@@ -34,6 +40,8 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        if (instance == null) instance = this;
+
         // Si es la primera vez que abres el juego, borramos cualquier checkpoint viejo
         if (primeraVezQueCarga)
         {
@@ -59,11 +67,7 @@ public class GameManager : MonoBehaviour
                 player.transform.position = new Vector3(x, y, player.transform.position.z);
 
                 // LIMPIAMOS LA OSCURIDAD SI EXISTE (Para que no reaparezca oscuro en el bosque)
-                ZonaOscura scriptOscuridad = FindObjectOfType<ZonaOscura>();
-                if (scriptOscuridad != null)
-                {
-                    scriptOscuridad.LimpiarOscuridadAlInstante();
-                }
+               
 
                 // LANZAMOS EL FLASH BLANCO
                 StartCoroutine(EfectoFlashReaparecer());
@@ -220,4 +224,52 @@ public class GameManager : MonoBehaviour
 
         SceneManager.LoadScene("EscenaFinal");
     }
+
+    public void SumarOro(int cantidad)
+    {
+        oroTotal += cantidad;
+        ActualizarInterfazOro();
+    }
+
+    void ActualizarInterfazOro()
+    {
+        if (textoOro != null)
+        {
+            textoOro.text = oroTotal.ToString();
+
+            // Esto hace que el texto crezca y vuelva a su tamaño original
+            StopCoroutine("AnimarTextoOro");
+            StartCoroutine(AnimarTextoOro());
+        }
+    }
+
+    IEnumerator AnimarTextoOro()
+    {
+        float duracion = 0.2f;
+        Vector3 escalaOriginal = Vector3.one;
+        Vector3 escalaGrande = new Vector3(1.3f, 1.3f, 1f);
+
+        // Crece
+        float tiempo = 0;
+        while (tiempo < duracion / 2)
+        {
+            tiempo += Time.deltaTime;
+            textoOro.transform.localScale = Vector3.Lerp(escalaOriginal, escalaGrande, tiempo / (duracion / 2));
+            yield return null;
+        }
+
+        // Vuelve al tamaño normal
+        tiempo = 0;
+        while (tiempo < duracion / 2)
+        {
+            tiempo += Time.deltaTime;
+            textoOro.transform.localScale = Vector3.Lerp(escalaGrande, escalaOriginal, tiempo / (duracion / 2));
+            yield return null;
+        }
+
+        textoOro.transform.localScale = escalaOriginal;
+    }
+
+
+
 }
