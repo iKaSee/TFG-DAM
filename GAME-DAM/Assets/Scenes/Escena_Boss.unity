@@ -3931,6 +3931,8 @@ MonoBehaviour:
   duracionVibracion: 0.5
   intensidadVibracion: 0.1
   fundidoCanvasGroup: {fileID: 1782814535}
+  oroTotal: 0
+  textoOro: {fileID: 0}
 --- !u!4 &346490566
 Transform:
   m_ObjectHideFlags: 0

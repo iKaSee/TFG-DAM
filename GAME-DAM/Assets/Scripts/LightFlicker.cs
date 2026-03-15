@@ -1,17 +1,20 @@
 using UnityEngine;
-using UnityEngine.Rendering.Universal; // Necesario para acceder a las luces 2D
+using UnityEngine.Rendering.Universal; 
 
-public class LightFlicker : MonoBehaviour
+public class FlickerHoguera : MonoBehaviour
 {
-    private Light2D lightSource;
-    public float minIntensity = 1.0f;
-    public float maxIntensity = 1.3f;
+    private Light2D luz;
+    public float intensidadMin = 0.8f;
+    public float intensidadMax = 1.4f;
+    public float velocidad = 0.15f;
 
-    void Awake() { lightSource = GetComponent<Light2D>(); }
+    void Start()
+    {
+        luz = GetComponent<Light2D>();
+    }
 
     void Update()
     {
-        // Cambia la intensidad aleatoriamente para simular una llama
-        lightSource.intensity = Random.Range(minIntensity, maxIntensity);
+        luz.intensity = Mathf.Lerp(luz.intensity, Random.Range(intensidadMin, intensidadMax), velocidad);
     }
 }

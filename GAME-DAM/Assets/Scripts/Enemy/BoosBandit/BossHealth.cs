@@ -111,7 +111,7 @@ public class BoosHealth : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
 
         Debug.Log("Boss derrotado.");
-        BossMusicController music = FindObjectOfType<BossMusicController>();
+        BossMusicController music = Object.FindAnyObjectByType<BossMusicController>();
         if (music != null) music.PararTodo(); ;
     }
 }   

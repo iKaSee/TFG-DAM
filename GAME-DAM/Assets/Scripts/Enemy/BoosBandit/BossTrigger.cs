@@ -26,7 +26,7 @@ public class BossTrigger : MonoBehaviour
             Destroy(gameObject);
         }
         // Dentro de OnTriggerEnter2D de BossTrigger.cs
-        BossMusicController music = FindObjectOfType<BossMusicController>();
+        BossMusicController music = Object.FindAnyObjectByType<BossMusicController>();
         if (music != null)
         {
             music.EmpezarMusicaBoss();

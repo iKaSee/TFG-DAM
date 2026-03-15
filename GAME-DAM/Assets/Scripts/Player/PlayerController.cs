@@ -461,6 +461,7 @@ public class PlayerController : MonoBehaviour
         if (isWallSliding)
         {
             anim.SetBool("isGrounded", false);
+            anim.SetBool("isJumping", false);
             anim.SetFloat("VerticalVelocity", rb.linearVelocity.y);
             return;
         }

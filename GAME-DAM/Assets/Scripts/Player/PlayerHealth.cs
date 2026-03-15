@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour
 
     private int currentHealth;
 
-    [Header("Invulnerabilidad Post-Daño")]
+    [Header("Invulnerabilidad Post-Daï¿½o")]
     public float tiempoInvulnerable = 1f; // 1 segundo de calma
     private bool esInvulnerable = false;
 
@@ -27,7 +27,7 @@ public class PlayerHealth : MonoBehaviour
 
         if (healthBar != null)
         {
-            healthBar.SetVidaMaxima(maxHealth); // Aquí le enviamos el 100
+            healthBar.SetVidaMaxima(maxHealth); // Aquï¿½ le enviamos el 100
         }
     }
 
@@ -84,8 +84,8 @@ public class PlayerHealth : MonoBehaviour
             healthBar.ActualizarVida(currentHealth);
         }
 
-        // Efecto visual: si quieres que brille verde, podrías pasarle un color al Flash
-        // Por ahora usamos el mismo flash para indicar que algo cambió en la vida
+        // Efecto visual: si quieres que brille verde, podrï¿½as pasarle un color al Flash
+        // Por ahora usamos el mismo flash para indicar que algo cambiï¿½ en la vida
         if (damageFlash != null)
         {
             damageFlash.Flash();
@@ -168,19 +168,19 @@ public class PlayerHealth : MonoBehaviour
         if (isDead) return;
         isDead = true;
 
-        // 1. Bloqueo físico inmediato
+        // 1. Bloqueo fï¿½sico inmediato
         rb.linearVelocity = Vector2.zero;
 
         // Desactivamos controles para que no pueda moverse ni atacar mientras muere
         GetComponent<PlayerController>().enabled = false;
         GetComponent<PlayerCombat>().enabled = false;
 
-        // 2. Lanzamos la animación (el Trigger que configuramos)
+        // 2. Lanzamos la animaciï¿½n (el Trigger que configuramos)
         anim.SetTrigger("DieTrigger");
         anim.SetBool("isDead", true);
 
-        // 3. Esperamos un poco a que caiga al suelo antes de pausar y mostrar el menú
-        // Llamamos a una función después de 1.5 segundos (ajusta según dure tu animación)
+        // 3. Esperamos un poco a que caiga al suelo antes de pausar y mostrar el menï¿½
+        // Llamamos a una funciï¿½n despuï¿½s de 1.5 segundos (ajusta segï¿½n dure tu animaciï¿½n)
         Invoke("FinalizarMuerte", 1.5f);
     }
 
@@ -190,20 +190,20 @@ public class PlayerHealth : MonoBehaviour
         Time.timeScale = 0f;
 
         // Mostramos la pantalla de Game Over
-        if (FindObjectOfType<GameManager>() != null)
+        if (Object.FindAnyObjectByType<GameManager>() != null)
         {
-            FindObjectOfType<GameManager>().ShowGameOver();
+            Object.FindAnyObjectByType<GameManager>().ShowGameOver();
         }
         else
         {
-            Debug.LogWarning("No se encontró el GameManager en la escena.");
+            Debug.LogWarning("No se encontrï¿½ el GameManager en la escena.");
         }
 
     }
 
     public void RestartGame()
     {
-        Time.timeScale = 1f; // <--- ¡OBLIGATORIO VOLVER A 1!
+        Time.timeScale = 1f; // <--- ï¿½OBLIGATORIO VOLVER A 1!
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
