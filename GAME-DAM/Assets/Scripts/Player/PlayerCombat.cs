@@ -3,13 +3,13 @@ using UnityEngine;
 public class PlayerCombat : MonoBehaviour
 {
     private Animator anim;
-
+    
     [Header("Configuracion de Ataque")]
     public float attackRate = 2f;
     private float nextAttackTime = 0f;
     public bool isAttacking;
 
-    [Header("Deteccion de Daño")]
+    [Header("Deteccion de Daï¿½o")]
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
@@ -17,12 +17,17 @@ public class PlayerCombat : MonoBehaviour
 
     [Header("Audio")]
     public AudioSource audioSource;
-    public AudioClip swingSound;
+    public AudioClip swingSound; 
+    public AudioClip hitSound;
 
     [Header("Ajustes de Combo")]
     public int comboStep = 0;
     public float comboResetTime = 0.5f;
     private float lastClickTime;
+
+    
+
+
 
     void Awake()
     {
@@ -35,7 +40,7 @@ public class PlayerCombat : MonoBehaviour
         PlayerController pc = GetComponent<PlayerController>();
         if (pc != null && pc.soloCaminar) return;
 
-        // Lógica para reiniciar el combo
+        // Lï¿½gica para reiniciar el combo
         if (Time.time - lastClickTime > comboResetTime)
         {
             ResetCombo();
@@ -53,7 +58,7 @@ public class PlayerCombat : MonoBehaviour
         }
     }
 
-    // 1. Esta función SOLO lanza la animación
+    // 1. Esta funciï¿½n SOLO lanza la animaciï¿½n
     void Attack()
     {
         isAttacking = true;
@@ -62,51 +67,49 @@ public class PlayerCombat : MonoBehaviour
         anim.SetInteger("ComboStep", comboStep);
         anim.SetTrigger("Attack");
 
-        if (audioSource != null && swingSound != null)
-        {
-            audioSource.PlayOneShot(swingSound);
-        }
     }
 
-    // 2. NUEVA FUNCIÓN: Conéctala al Animation Event en el frame de impacto
     public void PerformHitDetection()
     {
-        // Detectamos enemigos en el frame exacto de la animación
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        // Si el array tiene algo, significa que hemos golpeado al menos a un enemigo/objeto
+        if (hitEnemies.Length > 0)
+        {
+            if (audioSource != null && hitSound != null)
+            {
+                audioSource.PlayOneShot(hitSound);
+            }
+        }
 
         foreach (Collider2D enemy in hitEnemies)
         {
-            // Nota: Asegúrate de que el nombre de la clase sea BoosHealth o BossHealth según tu script
+            // --- LÃ³gica con el Boss ---
             BoosHealth enemyHealth = enemy.GetComponent<BoosHealth>();
-
             if (enemyHealth != null)
             {
                 enemyHealth.TakeDamage(attackDamage, transform.position);
-
-                // Sacudida de cámara opcional al golpear
                 GameManager gm = Object.FindFirstObjectByType<GameManager>();
                 if (gm != null) gm.SacudirCamara();
             }
 
+            // --- LÃ³gica con Cofres ---
             Chest chest = enemy.GetComponent<Chest>();
             if (chest != null)
             {
                 chest.TakeDamage(1);
             }
 
+            // --- LÃ³gica con Esqueletos ---
             EnemySkeleton skeleton = enemy.GetComponent<EnemySkeleton>();
             if (skeleton != null)
             {
-                // Llamamos a la función TakeDamage del esqueleto
-                skeleton.TakeDamage(1); // Le quitamos 1 punto de vida
-
-                // Efectos visuales de impacto
+                skeleton.TakeDamage(1);
                 GameManager gm = Object.FindFirstObjectByType<GameManager>();
                 if (gm != null) gm.SacudirCamara();
             }
-            
         }
-        // Avanzamos el combo aquí, justo cuando el golpe es efectivo
+
         comboStep++;
         if (comboStep > 2) comboStep = 0;
     }

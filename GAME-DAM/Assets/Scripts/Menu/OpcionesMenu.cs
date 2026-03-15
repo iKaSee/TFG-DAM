@@ -10,7 +10,7 @@ public class OpcionesMenu : MonoBehaviour
     public TMP_Dropdown resolucionDropdown;
     Resolution[] resoluciones;
 
-    void Start()
+void Start()
     {
         resoluciones = Screen.resolutions;
         resolucionDropdown.ClearOptions();
@@ -33,7 +33,7 @@ public class OpcionesMenu : MonoBehaviour
         resolucionDropdown.RefreshShownValue();
     }
 
-   public void SetMasterVol(float volumen)
+public void SetMasterVol(float volumen)
 {
     audioMixer.SetFloat("MasterVol", Mathf.Log10(volumen) * 20);
 }
@@ -47,12 +47,25 @@ public void SetVFXVol(float volumen)
 {
     audioMixer.SetFloat("VFXVol", Mathf.Log10(volumen) * 20);
 }
+public void SetPantallaCompleta(bool estaActivado)
+{
+    if (estaActivado)
+    {
+        Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+        Screen.fullScreen = true;
+    }
+    else
+    {
+        Screen.fullScreenMode = FullScreenMode.Windowed;
+        Screen.fullScreen = false;
+    }
+}
 
-    public void SetResolucion(int indexResolucion)
+public void SetResolucion(int indexResolucion)
 {
     Resolution res = resoluciones[indexResolucion];
-    Screen.SetResolution(res.width, res.height, Screen.fullScreen);
-    
-    Debug.Log("Cambiando resolución a: " + res.width + " x " + res.height);
+    Screen.SetResolution(res.width, res.height, Screen.fullScreenMode);
+    Debug.Log("Resolución: " + res.width + "x" + res.height);
 }
+
 }

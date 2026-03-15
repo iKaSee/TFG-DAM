@@ -96,43 +96,71 @@ public class PlayerController : MonoBehaviour
     private float moveInput;
     private bool facingRight = true;
 
+void Start()
+    {
+        string nombreEscena = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+        int indexCapaTutorial = anim.GetLayerIndex("Tutorial");
+
+        if (nombreEscena == "Mina")
+        {
+            ForzarEstadoTumbado();
+        }
+        else if (indexCapaTutorial != -1)
+        {
+            anim.SetLayerWeight(indexCapaTutorial, 0f);
+        }
+    }
+
+
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         combat = GetComponent<PlayerCombat>();
-        defaultSpeed = moveSpeed;
+        
         defaultGravityScale = rb.gravityScale;
-
         col = GetComponent<CapsuleCollider2D>();
         originalSize = col.size;
         originalOffset = col.offset;
+
+        controlsEnabled = true;
+        empezarTumbado = false;
     }
 
-    void Start()
+public void ForzarEstadoTumbado()
     {
-        if (empezarTumbado)
-        {
-            controlsEnabled = false;
-            rb.bodyType = RigidbodyType2D.Kinematic;
+        empezarTumbado = true;
+        controlsEnabled = false;
+        rb.bodyType = RigidbodyType2D.Kinematic;
 
-            anim.Play("Start_Lying");
-            anim.SetBool("YaDespierto", false);
+        int indexCapaTutorial = anim.GetLayerIndex("Tutorial");
+        if (indexCapaTutorial != -1)
+        {
+            anim.SetLayerWeight(indexCapaTutorial, 1f);
+            anim.Play("Start_Lying", indexCapaTutorial);
         }
+        
+        anim.SetBool("YaDespierto", false);
+        anim.speed = 0; 
     }
 
     IEnumerator Levantarse()
     {
         anim.speed = 1;
-        anim.Play("Get_Up");
+        int indexCapaTutorial = anim.GetLayerIndex("Tutorial");
+        
+        if (indexCapaTutorial != -1) anim.Play("Get_Up", indexCapaTutorial);
+        else anim.Play("Get_Up");
 
         yield return new WaitForSeconds(1.1f);
 
+        if (indexCapaTutorial != -1) anim.SetLayerWeight(indexCapaTutorial, 0f);
+        
         anim.SetBool("isGrounded", true);
         anim.SetFloat("VerticalVelocity", 0);
         anim.SetBool("YaDespierto", true);
-
-        anim.Play("idle_Jotem");
+        anim.Play("idle_Jotem"); 
 
         rb.bodyType = RigidbodyType2D.Dynamic;
         controlsEnabled = true;
@@ -141,32 +169,25 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (!controlsEnabled)
+        if (!controlsEnabled && empezarTumbado)
         {
-            if (anim.GetCurrentAnimatorStateInfo(0).IsName("Start_Lying"))
-            {
-                anim.speed = 0;
-            }
-
             if (Input.anyKeyDown)
             {
                 StartCoroutine(Levantarse());
             }
-            return;
+            return; 
         }
-        if (isClimbing) return;
 
+        if (isClimbing) return;
         if (!isWallSliding && wallJumpCounter <= 0 && !isRolling)
         {
             if (moveInput > 0 && !facingRight) Flip();
             else if (moveInput < 0 && facingRight) Flip();
         }
-
         if (Input.GetKeyDown(KeyCode.LeftShift) && canRoll && isGrounded && !isWallSliding && !soloCaminar) 
         {
             StartCoroutine(ExecuteRoll());
         }
-
         if (isGrabbingEdge)
         {
             if (Input.GetButtonDown("Jump") && !isCrouching && !soloCaminar)
@@ -267,7 +288,6 @@ public class PlayerController : MonoBehaviour
     {
         if (isGrabbingEdge || isClimbing || wallJumpCounter > 0 || isRolling) return;
 
-        // COMBINACIÓN: GroundCheck detecta tanto Suelo como Plataformas para que no haga animación de caída
         LayerMask mascaraPisar = groundLayer | LayerMask.GetMask("Plataformas") | LayerMask.GetMask("Trap");
         isGrounded = Physics2D.OverlapBox(groundCheck.position, new Vector2(checkWidth, checkHeight), 0f, mascaraPisar);
 

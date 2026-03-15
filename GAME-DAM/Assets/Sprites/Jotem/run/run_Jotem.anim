@@ -111,7 +111,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.33333334
+  - time: 0.41666666
     functionName: PlayFootstep
     data: 
     objectReferenceParameter: {fileID: 0}
@@ -120,13 +120,6 @@ AnimationClip:
     messageOptions: 0
   - time: 0.5833333
     functionName: CrearPolvo
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.5833333
-    functionName: PlayFootstep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

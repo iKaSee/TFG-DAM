@@ -43,8 +43,9 @@ public class PlayerHealth : MonoBehaviour
         }
 
         currentHealth -= damage;
+        GetComponent<PlayerSounds>().PlayDolor();
         if (currentHealth <= 0)
-        {
+        {   
             currentHealth = 0;
            
             if (healthBar != null) healthBar.ActualizarVida(0);
