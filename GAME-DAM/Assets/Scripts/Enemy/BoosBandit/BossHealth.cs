@@ -21,6 +21,9 @@ public class BoosHealth : MonoBehaviour
     [Header("Fase 2")]
     private bool fase2Activada = false;
 
+    [Header("Fase 3")]
+    private bool fase3Activada = false;   
+
     [Header("Referencias de Fin de Combate")]
     public GameObject[] murosAdesactivar;
 
@@ -45,32 +48,35 @@ public class BoosHealth : MonoBehaviour
 
         StartCoroutine(FlashEfecto());
 
-        if (!fase2Activada && currentHealth <= maxHealth / 2)
+        BossGuardian scriptIA = GetComponent<BossGuardian>();
+        if (scriptIA != null)
         {
-            fase2Activada = true;
-            BossGuardian guardian = GetComponent<BossGuardian>();
-            if (guardian != null) guardian.EntrarEnFaseBerserker();
-        }
+            if (!fase2Activada && currentHealth <= maxHealth * 0.6f && currentHealth > maxHealth * 0.3f)
+            {
+                fase2Activada = true;
+                scriptIA.EntrarEnFaseBerserker();
+            }
 
+            if (!fase3Activada && currentHealth <= maxHealth * 0.3f)
+            {
+                fase3Activada = true;
+                scriptIA.EntrarEnFase3();
+            }
+        }
         if (currentHealth <= 0)
         {
             Die();
         }
         else
         {
-            // --- PASO 2: SUPER ARMADURA ---
-            // Comprobamos si el Boss está en la animación de "Attack"
-            // Si el animador está en el estado de ataque, NO hacemos el Hurt
-            bool estaAtacando = anim.GetCurrentAnimatorStateInfo(0).IsName("Atack_Bandit");
-
-            if (Time.time >= tiempoSiguienteDolor && !estaAtacando)
+            // Solo se quejará cada 1.5 segundos (tu lógica original)
+            if (Time.time >= tiempoSiguienteDolor)
             {
                 if (anim != null) anim.SetTrigger("Hurt");
                 tiempoSiguienteDolor = Time.time + tiempoEntreDolor;
             }
         }
-    }
-    IEnumerator FlashEfecto()
+    }    IEnumerator FlashEfecto()
     {
         sprite.color = Color.red;
         yield return new WaitForSeconds(0.1f);

@@ -28,7 +28,14 @@ public class BossGuardian : MonoBehaviour
     public GameObject ParticulasFuria;
     public float velocidadAnimacionFase2 = 1.2f;
 
+    [Header("Fase 3 (Poder Divino)")]
+    public GameObject pilarLuzPrefab;      
+    public float tiempoEntrePilares = 2f;  
+    public bool enFase3 = false;
+
+
     private float tiempoSiguienteAtaque;
+    private bool isAttacking = false; 
 
     void Start()
     {
@@ -40,43 +47,60 @@ public class BossGuardian : MonoBehaviour
         if (playerObj != null) jugador = playerObj.transform;
     }
 
-    void FixedUpdate()
+    void Update()
     {
-        if (jugador == null || miSalud == null || miSalud.estaMuerto) return;
-
-        // --- LÓGICA DE SEGUIMIENTO DURANTE ATAQUE ---
-        AnimatorStateInfo stateInfo = anim.GetCurrentAnimatorStateInfo(0);
-        bool estaAtacando = stateInfo.IsName("Atack_Bandit");
-
-        if (estaAtacando)
+        if (miSalud.estaMuerto || jugador == null) 
         {
-            // Si la animación está en su fase inicial (menos del 20% de progreso),
-            // el Boss aún puede girarse para seguir al jugador.
-            if (stateInfo.normalizedTime < 0.5f)
-            {
-                MirarAlJugador();
-            }
-
-            // Mantenemos al Boss quieto mientras dura el ataque
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            rb.linearVelocity = Vector2.zero;
+            if (anim != null) anim.SetBool("IsWalking", false);
             return;
         }
 
-        // --- LÓGICA DE COMPORTAMIENTO NORMAL ---
-        float distancia = Vector2.Distance(transform.position, jugador.position);
+        if (jugador.position.x > transform.position.x)
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
+        else
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, 1);
 
-        if (distancia < radioDeteccion && distancia > distanciaAtaque)
+        if (isAttacking)
         {
-            Perseguir();
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            return; 
         }
-        else if (distancia <= distanciaAtaque)
+
+        float distanciaAlJugador = Vector2.Distance(transform.position, jugador.position);
+
+        if (distanciaAlJugador <= radioDeteccion)
         {
-            IntentarAtacar();
+            if (distanciaAlJugador <= distanciaAtaque)
+            {
+                rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); 
+                if (anim != null) anim.SetBool("IsWalking", false);
+
+                if (Time.time >= tiempoSiguienteAtaque)
+                {
+                    isAttacking = true; // BLOQUEAMOS EL MOVIMIENTO
+                    if (anim != null) anim.SetTrigger("Attack");
+                    tiempoSiguienteAtaque = Time.time + cooldownAtaque;
+                }
+            }
+            else
+            {
+                float dirX = jugador.position.x > transform.position.x ? 1 : -1;
+                rb.linearVelocity = new Vector2(dirX * velocidad, rb.linearVelocity.y);
+                
+                if (anim != null) anim.SetBool("IsWalking", true); 
+            }
         }
         else
         {
-            Parar();
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+            if (anim != null) anim.SetBool("IsWalking", false); 
         }
+    }
+
+    public void FinalizarAtaque()
+    {
+        isAttacking = false;
     }
 
     void Perseguir()
@@ -85,11 +109,9 @@ public class BossGuardian : MonoBehaviour
         Vector2 objetivo = new Vector2(jugador.position.x, rb.position.y);
         transform.position = Vector2.MoveTowards(transform.position, objetivo, velocidad * Time.deltaTime);
 
-        // Usamos la nueva función para girar
         MirarAlJugador();
     }
 
-    // Nueva función extraída para controlar el giro (Flip)
     private void MirarAlJugador()
     {
         if (jugador == null) return;
@@ -132,7 +154,7 @@ public class BossGuardian : MonoBehaviour
             if (saludJugador != null)
             {
                 saludJugador.TakeDamage((int)danio);
-                Debug.Log("¡Impacto sincronizado con la animación!");
+                Debug.Log("ï¿½Impacto sincronizado con la animaciï¿½n!");
             }
         }
     }
@@ -157,7 +179,7 @@ public class BossGuardian : MonoBehaviour
         BossMusicController music = Object.FindFirstObjectByType<BossMusicController>();
         if (music != null) music.CambiarAFase2();
 
-        Debug.Log("¡BOSS ENFURECIDO: Más rápido, más daño y más agresivo!");
+        Debug.Log("ï¿½BOSS ENFURECIDO: Mï¿½s rï¿½pido, mï¿½s daï¿½o y mï¿½s agresivo!");
     }
 
     public void ApagarFaseBerserker()
@@ -167,4 +189,30 @@ public class BossGuardian : MonoBehaviour
             ParticulasFuria.SetActive(false);
         }
     }
+
+    public void EntrarEnFase3()
+    {
+        if (enFase3) return; 
+        enFase3 = true;
+        
+        GetComponent<SpriteRenderer>().color = new Color(0.6f, 0.8f, 1f); 
+
+        StartCoroutine(RutinaInvocarPilares());
+    }
+
+    System.Collections.IEnumerator RutinaInvocarPilares()
+    {
+        while (enFase3 && !miSalud.estaMuerto)
+        {
+            if (pilarLuzPrefab != null && jugador != null)
+            {
+                Vector2 posicionRayo = new Vector2(jugador.position.x, jugador.position.y - 1f); 
+                Instantiate(pilarLuzPrefab, posicionRayo, Quaternion.identity);
+            }
+
+            yield return new WaitForSeconds(tiempoEntrePilares);
+        }
+    }
+
+
 }

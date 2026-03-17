@@ -15,10 +15,6 @@ public class PlayerCombat : MonoBehaviour
     public LayerMask enemyLayers;
     public int attackDamage = 40;
 
-    [Header("Audio")]
-    public AudioSource audioSource;
-    public AudioClip swingSound; 
-    public AudioClip hitSound;
 
     [Header("Ajustes de Combo")]
     public int comboStep = 0;
@@ -76,39 +72,43 @@ public class PlayerCombat : MonoBehaviour
         // Si el array tiene algo, significa que hemos golpeado al menos a un enemigo/objeto
         if (hitEnemies.Length > 0)
         {
-            if (audioSource != null && hitSound != null)
-            {
-                audioSource.PlayOneShot(hitSound);
-            }
         }
 
         foreach (Collider2D enemy in hitEnemies)
-        {
-            // --- Lógica con el Boss ---
-            BoosHealth enemyHealth = enemy.GetComponent<BoosHealth>();
-            if (enemyHealth != null)
-            {
-                enemyHealth.TakeDamage(attackDamage, transform.position);
-                GameManager gm = Object.FindFirstObjectByType<GameManager>();
-                if (gm != null) gm.SacudirCamara();
-            }
+{
+    // 1. Lógica con el Boss (Referencia específica)
+    BoosHealth bossHealth = enemy.GetComponent<BoosHealth>();
+    if (bossHealth != null)
+    {
+        bossHealth.TakeDamage(attackDamage, transform.position);
+        GameManager gm = Object.FindFirstObjectByType<GameManager>();
+        if (gm != null) gm.SacudirCamara();
+    }
 
-            // --- Lógica con Cofres ---
-            Chest chest = enemy.GetComponent<Chest>();
-            if (chest != null)
-            {
-                chest.TakeDamage(1);
-            }
+    // 2. Lógica con Enemigos Genéricos (Como el Arquero)
+    EnemyHealth genericHealth = enemy.GetComponent<EnemyHealth>();
+    if (genericHealth != null)
+    {
+        genericHealth.TakeDamage(attackDamage);
+        // añadir sonido de impacto si quieres
+    }
 
-            // --- Lógica con Esqueletos ---
-            EnemySkeleton skeleton = enemy.GetComponent<EnemySkeleton>();
-            if (skeleton != null)
-            {
-                skeleton.TakeDamage(1);
-                GameManager gm = Object.FindFirstObjectByType<GameManager>();
-                if (gm != null) gm.SacudirCamara();
-            }
-        }
+    // 3. Lógica con Cofres
+    Chest chest = enemy.GetComponent<Chest>();
+    if (chest != null)
+    {
+        chest.TakeDamage(1);
+    }
+
+    // 4. Lógica con Esqueletos antiguos 
+    EnemySkeleton skeleton = enemy.GetComponent<EnemySkeleton>();
+    if (skeleton != null)
+    {
+        skeleton.TakeDamage(1);
+        GameManager gm = Object.FindFirstObjectByType<GameManager>();
+        if (gm != null) gm.SacudirCamara();
+    }
+}
 
         comboStep++;
         if (comboStep > 2) comboStep = 0;
