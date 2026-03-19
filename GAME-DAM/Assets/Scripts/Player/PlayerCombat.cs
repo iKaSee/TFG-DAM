@@ -1,132 +1,168 @@
 using UnityEngine;
+using System.Collections.Generic; // NUEVO: Necesario para las listas
+using Object = UnityEngine.Object;
 
 public class PlayerCombat : MonoBehaviour
 {
     private Animator anim;
     
     [Header("Configuracion de Ataque")]
-    public float attackRate = 2f;
-    private float nextAttackTime = 0f;
+    public float comboResetTime = 1.5f; 
+    private float lastClickTime;
+    
+    [Header("Sistema de Clics")]
+    public int clicks = 0; 
     public bool isAttacking;
 
-    [Header("Deteccion de Da�o")]
+    [Header("Deteccion de Daño")]
     public Transform attackPoint;
     public float attackRange = 0.5f;
     public LayerMask enemyLayers;
     public int attackDamage = 40;
 
-
-    [Header("Ajustes de Combo")]
-    public int comboStep = 0;
-    public float comboResetTime = 0.5f;
-    private float lastClickTime;
-
-    
-
-
+    // --- NUEVO SISTEMA DE DAÑO CONTINUO ---
+    public bool dañoActivado = false;
+    private List<Collider2D> enemigosGolpeados = new List<Collider2D>();
+    // --------------------------------------
 
     void Awake()
     {
         anim = GetComponent<Animator>();
     }
 
-    void Update()
+   void Update()
     {
-
         PlayerController pc = GetComponent<PlayerController>();
         if (pc != null && pc.soloCaminar) return;
 
-        // L�gica para reiniciar el combo
-        if (Time.time - lastClickTime > comboResetTime)
+        // Mientras el daño esté activado, comprobamos impactos
+        if (dañoActivado)
         {
-            ResetCombo();
+            DeteccionContinua();
         }
 
+        AnimatorStateInfo estadoActual = anim.GetCurrentAnimatorStateInfo(0);
 
+        // --- NUEVO SISTEMA ANTI-COOLDOWN ---
+        // Comprobamos si la animación que se está reproduciendo AHORA es un ataque
+        bool estaHaciendoAtaque = estadoActual.IsName("Attack_1") || 
+                                  estadoActual.IsName("Attack_2") || 
+                                  estadoActual.IsName("Attack_3");
 
-        if (Time.time >= nextAttackTime)
+        // Si ya no está atacando (y ha pasado una décima de segundo desde que pulsaste F para que a Unity le dé tiempo a procesarlo)
+        if (!estaHaciendoAtaque && (Time.time - lastClickTime > 0.1f))
         {
-            if (Input.GetKeyDown(KeyCode.F))
+            clicks = 0;
+            isAttacking = false;
+            dañoActivado = false; // Apagamos el daño por seguridad
+        }
+        // -----------------------------------
+
+        // El salvavidas de tiempo original por si las moscas
+        if (Time.time - lastClickTime > comboResetTime)
+        {
+            clicks = 0;
+            isAttacking = false;
+            dañoActivado = false;
+        }
+
+        if (Input.GetKeyDown(KeyCode.F))
+        {
+            if (clicks < 3)
             {
-                Attack();
-                nextAttackTime = Time.time + 1f / attackRate;
+                lastClickTime = Time.time;
+                clicks++;
+
+                if (clicks == 1)
+                {
+                    isAttacking = true;
+                    // El -1, 0f fuerza a la animación a empezar desde el fotograma 0 INSTANTÁNEAMENTE, sin retrasos
+                    anim.Play("Attack_1", -1, 0f); 
+                }
             }
         }
     }
 
-    // 1. Esta funci�n SOLO lanza la animaci�n
-    void Attack()
+    // --- EVENTOS DE ANIMACIÓN PARA EL COMBO ---
+    public void CheckCombo2() { if (clicks >= 2) anim.Play("Attack_2"); }
+    public void CheckCombo3() { if (clicks >= 3) anim.Play("Attack_3"); }
+
+    // --- NUEVOS EVENTOS PARA EL DAÑO (Activar y Desactivar) ---
+    public void ActivarDaño()
     {
-        isAttacking = true;
-        lastClickTime = Time.time;
-
-        anim.SetInteger("ComboStep", comboStep);
-        anim.SetTrigger("Attack");
-
+        dañoActivado = true;
+        enemigosGolpeados.Clear(); // Limpiamos la memoria para poder volver a pegar en el siguiente tajo
     }
 
-    public void PerformHitDetection()
+    public void DesactivarDaño()
+    {
+        dañoActivado = false;
+    }
+    // ----------------------------------------------------------
+
+    public void DeteccionContinua()
     {
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
-        // Si el array tiene algo, significa que hemos golpeado al menos a un enemigo/objeto
-        if (hitEnemies.Length > 0)
-        {
-        }
-
         foreach (Collider2D enemy in hitEnemies)
-{
-    // 1. Lógica con el Boss (Referencia específica)
-    BoosHealth bossHealth = enemy.GetComponent<BoosHealth>();
-    if (bossHealth != null)
-    {
-        bossHealth.TakeDamage(attackDamage, transform.position);
-        GameManager gm = Object.FindFirstObjectByType<GameManager>();
-        if (gm != null) gm.SacudirCamara();
+        {
+            // Si ya golpeamos a este enemigo en este mismo tajo, lo ignoramos y pasamos al siguiente
+            if (enemigosGolpeados.Contains(enemy)) continue;
+
+            // Si es un enemigo nuevo, lo añadimos a la lista y le hacemos daño
+            enemigosGolpeados.Add(enemy);
+
+            // 1. Lógica con el Boss (Referencia específica)
+            BoosHealth bossHealth = enemy.GetComponent<BoosHealth>();
+            if (bossHealth != null)
+            {
+                bossHealth.TakeDamage(attackDamage, transform.position);
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara();
+            }
+
+            // 2. Lógica con Enemigos Genéricos (Como el Arquero)
+            EnemyHealth genericHealth = enemy.GetComponent<EnemyHealth>();
+            if (genericHealth != null)
+            {
+                genericHealth.TakeDamage(attackDamage);
+            }
+
+            // 3. Lógica con Cofres
+            Chest chest = enemy.GetComponent<Chest>();
+            if (chest != null)
+            {
+                chest.TakeDamage(1);
+            }
+
+            // 4. Lógica con Esqueletos antiguos 
+            EnemySkeleton skeleton = enemy.GetComponent<EnemySkeleton>();
+            if (skeleton != null)
+            {
+                skeleton.TakeDamage(1);
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara();
+            }
+
+            // 5. Lógica con Elite Skeleton (MiniBoss)
+            EliteSkeleton eliteSkeleton = enemy.GetComponent<EliteSkeleton>();
+            if (eliteSkeleton != null)
+            {
+                eliteSkeleton.TakeDamage(attackDamage);
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara(); 
+            }
+            
+            // 6. Lógica con Asesino del Cofre (ChestAssassin)
+            ChestAssassin chestAssassin = enemy.GetComponent<ChestAssassin>();
+            if (chestAssassin != null)
+            {
+                chestAssassin.TakeDamage(attackDamage);
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara(); 
+            }
+        }
     }
-
-    // 2. Lógica con Enemigos Genéricos (Como el Arquero)
-    EnemyHealth genericHealth = enemy.GetComponent<EnemyHealth>();
-    if (genericHealth != null)
-    {
-        genericHealth.TakeDamage(attackDamage);
-        // añadir sonido de impacto si quieres
-    }
-
-    // 3. Lógica con Cofres
-    Chest chest = enemy.GetComponent<Chest>();
-    if (chest != null)
-    {
-        chest.TakeDamage(1);
-    }
-
-    // 4. Lógica con Esqueletos antiguos 
-    EnemySkeleton skeleton = enemy.GetComponent<EnemySkeleton>();
-    if (skeleton != null)
-    {
-        skeleton.TakeDamage(1);
-        GameManager gm = Object.FindFirstObjectByType<GameManager>();
-        if (gm != null) gm.SacudirCamara();
-    }
-}
-
-        comboStep++;
-        if (comboStep > 2) comboStep = 0;
-    }
-
-
-    public void ResetCombo()
-    {
-        comboStep = 0;
-        if (anim != null) anim.SetInteger("ComboStep", 0);
-        isAttacking = false;
-    }
-
-
-    // Funciones para llamar desde el final de las animaciones
-    public void EndAttack() { isAttacking = false; }
-
-
 
     void OnDrawGizmosSelected()
     {

@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2142778872811942775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3432690289130785702}
+  m_Layer: 7
+  m_Name: SpawnEnemigo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3432690289130785702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2142778872811942775}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.41, y: -0.98, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5006075749116556285}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4280144715394684262
 GameObject:
   m_ObjectHideFlags: 0
@@ -118,6 +149,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1853431685316496791}
+  - {fileID: 3432690289130785702}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6459446335975073842
@@ -215,6 +247,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Chest
   hitsToOpen: 7
   itemPrefab: {fileID: 0}
+  cantidadMonedas: 5
+  fuerzaExplosion: 5
+  esCofreTrampa: 1
+  golpeParaEmboscada: 3
+  enemigoEmboscadaPrefab: {fileID: 4237563682051482472, guid: 026c53bd5aa15ae499bd51ad3d07f873, type: 3}
+  puntoAparicion: {fileID: 3432690289130785702}
 --- !u!61 &406181013836262729
 BoxCollider2D:
   m_ObjectHideFlags: 0

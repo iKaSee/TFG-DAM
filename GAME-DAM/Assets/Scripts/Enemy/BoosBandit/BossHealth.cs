@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement; 
 
 public class BoosHealth : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class BoosHealth : MonoBehaviour
     public bool estaMuerto = false;
 
     [Header("Ajustes de Aturdimiento (Cooldown)")]
-    public float tiempoEntreDolor = 1.5f; // Solo se quejará cada 1.5 segundos
+    public float tiempoEntreDolor = 1.5f; 
     private float tiempoSiguienteDolor = 0f;
 
     [Header("Referencias")]
@@ -117,7 +118,23 @@ public class BoosHealth : MonoBehaviour
         GetComponent<Collider2D>().enabled = false;
 
         Debug.Log("Boss derrotado.");
+        IntroCutscene cinematica = Object.FindFirstObjectByType<IntroCutscene>();
+        if (cinematica != null && cinematica.musicaBoss != null)
+        {
+            cinematica.musicaBoss.Stop();
+        }
+        // ------------------------------------------------
+
         BossMusicController music = Object.FindAnyObjectByType<BossMusicController>();
-        if (music != null) music.PararTodo(); ;
+        if (music != null) music.PararTodo();
+
+        StartCoroutine(EsperarYCargarFinal());
+        // ----------------------------------------
     }
-}   
+
+    IEnumerator EsperarYCargarFinal()
+    {
+        yield return new WaitForSeconds(3f); 
+        SceneManager.LoadScene("EscenaFinal"); 
+    }
+}

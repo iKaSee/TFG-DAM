@@ -72,7 +72,6 @@ public class MainMenu : MonoBehaviour
     }
     if (luzHoguera != null) luzHoguera.intensity = 0;
 
-    yield return new WaitForSeconds(0.5f);
     SceneManager.LoadScene(escena);
 }
 

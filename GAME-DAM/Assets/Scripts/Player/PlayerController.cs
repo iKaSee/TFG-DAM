@@ -6,16 +6,18 @@ public class PlayerController : MonoBehaviour
     [Header("Cinemática Inicial")]
     public bool empezarTumbado = false;
     private bool controlsEnabled = true;
-
-    [Header("Movimiento")]
-    public float moveSpeed = 8f;
+    public bool enCinematica = false;
     public float jumpForce = 12f;
+    
+    // --- Candado para no repetir la animación al levantarse ---
+    private bool seEstaLevantando = false; 
+    // ----------------------------------------------------------------
 
     [Header("Estados Especiales")]
     public bool soloCaminar = false; // Si esto es true, Jotem entra en modo NPC/Cinemática
 
 
-    [Header("Jump Refined (Nuevo)")]
+    [Header("Jump Refined ")]
     public float jumpInputBufferTime = 0.1f;
     private float lastPressedJumpTime;
     private bool isJumping;
@@ -24,12 +26,18 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float fallGravityMult = 6f;
     private float defaultGravityScale;
 
+    // --- Coyote Time y Límite de Caída ---
+    public float coyoteTime = 0.15f;
+    private float coyoteTimeCounter;
+    public float maxFallSpeed = 25f; 
+    // ---------------------------------------------
+
     [Header("Detección de Suelo")]
     public Transform groundCheck;
     public float checkHeight = 0.3f;
     public float checkWidth = 1;
     public LayerMask groundLayer;
-    public LayerMask wallLayer; // NUEVA: Para que el WallSlide solo detecte paredes reales
+    public LayerMask wallLayer; 
 
     [Header("Ajustes de Combate")]
     public float combatSpeedPenalty = 4f;
@@ -75,16 +83,18 @@ public class PlayerController : MonoBehaviour
     public Vector2 offsetFinalEscalado;
     private bool isClimbing = false;
 
-    [Header("Wall Movement (Nuevo)")]
+    [Header("Wall Movement")]
     public Transform wallCheck;
     public float wallCheckDistance = 0.5f;
-    public float wallSlidingSpeed = 2f;
+    public float wallSlidingSpeed = 13f; 
     private bool isWallSliding;
 
     [Header("Wall Jump")]
     public Vector2 wallJumpForce = new Vector2(10f, 20f);
     public float wallJumpTime = 0.2f;
     private float wallJumpCounter;
+    
+    private float blockWallSlideTimer; 
 
     [Header("Fricción de Aire")]
     public float airControlForce = 5f;
@@ -96,7 +106,7 @@ public class PlayerController : MonoBehaviour
     private float moveInput;
     private bool facingRight = true;
 
-void Start()
+    void Start()
     {
         string nombreEscena = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
         int indexCapaTutorial = anim.GetLayerIndex("Tutorial");
@@ -128,7 +138,7 @@ void Start()
         empezarTumbado = false;
     }
 
-public void ForzarEstadoTumbado()
+    public void ForzarEstadoTumbado()
     {
         empezarTumbado = true;
         controlsEnabled = false;
@@ -165,14 +175,29 @@ public void ForzarEstadoTumbado()
         rb.bodyType = RigidbodyType2D.Dynamic;
         controlsEnabled = true;
         empezarTumbado = false;
+        
+        seEstaLevantando = false; 
     }
 
     void Update()
     {
+        if (enCinematica)
+        {
+            moveInput = 0f;
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); 
+            anim.SetFloat("HorizontalSpeed", 0f);
+            anim.SetBool("isMoving", false);
+            return; 
+        }
+
+        if (blockWallSlideTimer > 0) blockWallSlideTimer -= Time.deltaTime;
+        // -----------------------------------------------------
+
         if (!controlsEnabled && empezarTumbado)
         {
-            if (Input.anyKeyDown)
+            if (Input.anyKeyDown && !seEstaLevantando)
             {
+                seEstaLevantando = true;
                 StartCoroutine(Levantarse());
             }
             return; 
@@ -238,15 +263,23 @@ public void ForzarEstadoTumbado()
 
         if (isGrounded)
         {
+            coyoteTimeCounter = coyoteTime;
             isJumping = false;
             isJumpCut = false;
             wallJumpCounter = 0;
-           // anim.SetBool("Jump", false);
+        }
+        else
+        {
+            coyoteTimeCounter -= Time.deltaTime;
         }
 
         if (Input.GetButtonDown("Jump") && !isCrouching)
         {
             lastPressedJumpTime = jumpInputBufferTime;
+        }
+        else 
+        {
+            lastPressedJumpTime -= Time.deltaTime; 
         }
 
         if (lastPressedJumpTime > 0f)
@@ -255,7 +288,7 @@ public void ForzarEstadoTumbado()
             {
                 ExecuteWallJump();
             }
-            else if (isGrounded && !isJumping)
+            else if (coyoteTimeCounter > 0f && !isJumping) 
             {
                 Jump();
             }
@@ -299,16 +332,15 @@ public void ForzarEstadoTumbado()
         }
         else
         {
-            // ---  Lógica de velocidad ---
             float currentSpeed;
 
             if (soloCaminar)
             {
-                currentSpeed = moveSpeed * 0.5f; // Camina a la mitad de velocidad 
+                currentSpeed = MoveSpeed * 0.5f; 
             }
             else
             {
-                currentSpeed = isCrouching ? moveSpeed * crouchSpeedMult : moveSpeed;
+                currentSpeed = isCrouching ? MoveSpeed * crouchSpeedMult : MoveSpeed;
             }
 
             velocidadTarget = moveInput * currentSpeed;
@@ -327,10 +359,17 @@ public void ForzarEstadoTumbado()
 
     private void WallSlide()
     {
+        if (blockWallSlideTimer > 0)
+        {
+            isWallSliding = false;
+            anim.SetBool("isWallSliding", false);
+            return;
+        }
+        // ----------------------------------------------------------------------------------
+
         Vector2 rayOrigin = wallCheck.position;
         float laserRange = wallCheckDistance + 0.2f;
 
-        // AQUÍ EL CAMBIO: El WallSlide ahora usa 'wallLayer' (Solo paredes reales)
         RaycastHit2D hitRight = Physics2D.Raycast(rayOrigin, Vector2.right, laserRange, wallLayer);
         RaycastHit2D hitLeft = Physics2D.Raycast(rayOrigin, Vector2.left, laserRange, wallLayer);
 
@@ -338,7 +377,7 @@ public void ForzarEstadoTumbado()
         bool wallLeft = hitLeft.collider != null;
         bool isTouchingWall = wallRight || wallLeft;
 
-        if (isTouchingWall && !isGrounded && rb.linearVelocity.y < 0 && !isGrabbingEdge)
+        if (isTouchingWall && !isGrounded && !isGrabbingEdge)
         {
             isWallSliding = true;
 
@@ -349,7 +388,14 @@ public void ForzarEstadoTumbado()
             float posicionXFija = hitActivo.point.x - (radioCuerpo * direccionPared);
 
             transform.position = new Vector2(posicionXFija, transform.position.y);
-            rb.linearVelocity = new Vector2(0, Mathf.Max(rb.linearVelocity.y, -wallSlidingSpeed));
+            
+            float velocidadY = rb.linearVelocity.y;
+            if (velocidadY > 0) velocidadY = 0;
+
+            rb.linearVelocity = new Vector2(0, Mathf.Max(velocidadY, -wallSlidingSpeed));
+
+            anim.SetBool("Jump", false);
+            isJumping = false;
 
             if (wallRight && facingRight) Flip();
             else if (wallLeft && !facingRight) Flip();
@@ -387,10 +433,16 @@ public void ForzarEstadoTumbado()
 
             wallJumpCounter = 0;
             lastPressedJumpTime = 0;
+
+            blockWallSlideTimer = 0.2f;
         }
     }
 
     private bool isWallJumping;
+
+    public float MoveSpeed { get => MoveSpeed1; set => MoveSpeed1 = value; }
+    [field: Header("Movimiento")]
+    public float MoveSpeed1 { get; set; } = 8f;
 
     private void ExecuteWallJump()
     {
@@ -407,6 +459,8 @@ public void ForzarEstadoTumbado()
 
         wallJumpCounter = 0;
         lastPressedJumpTime = 0;
+        
+        blockWallSlideTimer = 0.2f;
 
         Invoke("ResetWallJumpAnim", 0.3f);
     }
@@ -419,6 +473,10 @@ public void ForzarEstadoTumbado()
 
         isJumping = true;
         isJumpCut = false;
+        
+        // --- Agotamos el Coyote Time para no hacer saltos dobles en el aire ---
+        coyoteTimeCounter = 0f;
+        // -----------------------------------------------------------------------------
 
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         anim.SetBool("Jump", true);
@@ -451,6 +509,13 @@ public void ForzarEstadoTumbado()
         {
             rb.gravityScale = defaultGravityScale;
         }
+
+        // --- Velocidad Terminal ---
+        if (rb.linearVelocity.y < -maxFallSpeed)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, -maxFallSpeed);
+        }
+        // ------------------------------------------------------------------------
     }
 
     void OnDrawGizmos()
@@ -512,7 +577,6 @@ public void ForzarEstadoTumbado()
     {
         if (!isGrounded && !isGrabbingEdge && canGrabEdge)
         {
-            // COMBINACIÓN: El EdgeGrab busca en Suelo y Plataformas
             LayerMask capasAgarre = groundLayer | LayerMask.GetMask("Plataformas");
 
             bool tocaPared = Physics2D.Raycast(edgeCheckPared.position, transform.right * transform.localScale.x, checkDistancia, capasAgarre);
@@ -532,7 +596,6 @@ public void ForzarEstadoTumbado()
         rb.linearVelocity = Vector2.zero;
         rb.bodyType = RigidbodyType2D.Kinematic;
 
-        // Usamos la máscara combinada aquí también para posicionar a Jotem correctamente
         LayerMask capasAgarre = groundLayer | LayerMask.GetMask("Plataformas");
         RaycastHit2D hit = Physics2D.Raycast(edgeCheckPared.position, transform.right * transform.localScale.x, checkDistancia, capasAgarre);
 

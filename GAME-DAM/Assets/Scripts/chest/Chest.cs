@@ -10,9 +10,17 @@ public class Chest : MonoBehaviour
     private int currentHits = 0;
 
     [Header("Recompensa")]
-    public GameObject itemPrefab; // Tu prefab de moneda
-    public int cantidadMonedas = 5; // Cuántas monedas soltará
-    public float fuerzaExplosion = 5f; // Fuerza con la que saltan
+    public GameObject itemPrefab; 
+    public int cantidadMonedas = 5; 
+    public float fuerzaExplosion = 5f; 
+
+    [Header("Ajustes de Emboscada (Opcional)")]
+    public bool esCofreTrampa = false; 
+    public int golpeParaEmboscada = 3;
+    public GameObject enemigoEmboscadaPrefab; 
+    public Transform puntoAparicion; 
+    private bool emboscadaActivada = false;
+    // 
 
     void Awake()
     {
@@ -25,6 +33,11 @@ public class Chest : MonoBehaviour
 
         currentHits++;
 
+        if (esCofreTrampa && !emboscadaActivada && currentHits == golpeParaEmboscada)
+        {
+            ActivarEmboscada();
+        }
+
         if (currentHits < hitsToOpen)
         {
             anim.SetTrigger("Hit");
@@ -35,15 +48,26 @@ public class Chest : MonoBehaviour
         }
     }
 
+    void ActivarEmboscada()
+    {
+        emboscadaActivada = true;
+        
+        if (enemigoEmboscadaPrefab != null)
+        {
+            Vector3 posicionSpawn = puntoAparicion != null ? puntoAparicion.position : transform.position + new Vector3(1.5f, 0, 0);
+            Instantiate(enemigoEmboscadaPrefab, posicionSpawn, Quaternion.identity);
+            
+        }
+    }
+    // --------------------------------------------
+
     void OpenChest()
     {
         isOpened = true;
         anim.SetTrigger("Open");
 
-        // Desactivamos el collider del cofre para que las monedas no choquen con él al salir
         GetComponent<Collider2D>().enabled = false;
 
-        // Soltamos la lluvia de monedas
         if (itemPrefab != null)
         {
             for (int i = 0; i < cantidadMonedas; i++)
@@ -51,7 +75,7 @@ public class Chest : MonoBehaviour
                 // Creamos la moneda un poco por encima del cofre
                 GameObject moneda = Instantiate(itemPrefab, transform.position + Vector3.up * 0.5f, Quaternion.identity);
 
-                // Le damos un impulso físico aleatorio
+                // Le damos un impulso fÃ­sico aleatorio
                 Rigidbody2D rbMoneda = moneda.GetComponent<Rigidbody2D>();
                 if (rbMoneda != null)
                 {
@@ -62,6 +86,6 @@ public class Chest : MonoBehaviour
             }
         }
 
-        Debug.Log("¡Cofre abierto con botín!");
+        Debug.Log("Â¡Cofre abierto con botÃ­n!");
     }
 }

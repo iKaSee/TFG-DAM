@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro; // Añadimos esto para el texto
+using TMPro; // Aï¿½adimos esto para el texto
 using System.Collections;
 
 
@@ -11,17 +11,17 @@ public class GameManager : MonoBehaviour
 
     public GameObject gameOverPanel;
     public Image fondoNegro;
-    public TextMeshProUGUI textoGameOver; // <--- ARRASTRA AQUÍ EL TEXTO DE "GAME OVER"
+    public TextMeshProUGUI textoGameOver; // <--- ARRASTRA AQUï¿½ EL TEXTO DE "GAME OVER"
     public GameObject mensajeReintentar; // El que parpadea
 
-    [Header("Efectos de Reaparición")]
-    public Image flashBlanco; // <--- ARRASTRA AQUÍ LA IMAGEN BLANCA NUEVA
+    [Header("Efectos de Reaparicion")]
+    public Image flashBlanco; // <--- ARRASTRA AQUï¿½ LA IMAGEN BLANCA NUEVA
 
     [Header("Ajustes de Tiempo")]
-    public float duracionMuerteSegundos = 30f; // <--- PON AQUÍ LOS SEGUNDOS QUE DURA TU ANIMACIÓN
+    public float duracionMuerteSegundos = 30f; // <--- PON AQUï¿½ LOS SEGUNDOS QUE DURA TU ANIMACIï¿½N
 
-    [Header("Ajustes de Vibración Cámara")]
-    public Transform camaraPrincipal; // Arrastra aquí la cámara
+    [Header("Ajustes de Vibraciï¿½n Cï¿½mara")]
+    public Transform camaraPrincipal; // Arrastra aquï¿½ la cï¿½mara
     public float duracionVibracion = 0.1f;
     public float intensidadVibracion = 0.08f;
 
@@ -29,10 +29,13 @@ public class GameManager : MonoBehaviour
     private bool isGameOver = false;
     private bool puedeReiniciar = false;
 
-    [Header("Economía")]
-    public int oroTotal = 0; // Guardará las monedas
+    [Header("Economia")]
+    public int oroTotal = 0; // Guardarï¿½ las monedas
     public TextMeshProUGUI textoOro;
 
+[Header("ConfiguraciÃ³n del Fade")]
+    public Image fadeImage; // Arrastra aquÃ­ tu imagen negra
+    public float velocidadFade = 1f;
 
 
     // --- VARIABLE PARA RESETEAR TODO AL ABRIR EL JUEGO ---
@@ -54,7 +57,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // --- LÓGICA DE REPOSICIONAMIENTO POR CHECKPOINT ---
+        // --- Lï¿½GICA DE REPOSICIONAMIENTO POR CHECKPOINT ---
         if (PlayerPrefs.HasKey("CheckpointX"))
         {
             float x = PlayerPrefs.GetFloat("CheckpointX");
@@ -63,7 +66,7 @@ public class GameManager : MonoBehaviour
             GameObject player = GameObject.FindGameObjectWithTag("Player");
             if (player != null)
             {
-                // Movemos al jugador a la posición guardada
+                // Movemos al jugador a la posiciï¿½n guardada
                 player.transform.position = new Vector3(x, y, player.transform.position.z);
 
                 // LIMPIAMOS LA OSCURIDAD SI EXISTE (Para que no reaparezca oscuro en el bosque)
@@ -99,7 +102,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // --- FUNCIÓN PARA EL FLASH DE REAPARICIÓN ---
+    // --- FUNCIï¿½N PARA EL FLASH DE REAPARICIï¿½N ---
     IEnumerator EfectoFlashReaparecer()
     {
         if (flashBlanco == null) yield break;
@@ -118,7 +121,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // --- FUNCIÓN PARA LLAMAR DESDE EL COMBATE ---
+    // --- FUNCIï¿½N PARA LLAMAR DESDE EL COMBATE ---
     public void SacudirCamara()
     {
         if (camaraPrincipal != null)
@@ -134,7 +137,7 @@ public class GameManager : MonoBehaviour
 
         while (tiempoPasado < duracionVibracion)
         {
-            // Vibración pura de izquierda a derecha (Eje X)
+            // Vibraciï¿½n pura de izquierda a derecha (Eje X)
             float x = Random.Range(-1f, 1f) * intensidadVibracion;
             camaraPrincipal.localPosition = new Vector3(x, 0, zOriginal);
 
@@ -159,7 +162,7 @@ public class GameManager : MonoBehaviour
         Color cFondo = fondoNegro.color;
         Color cTexto = textoGameOver.color;
 
-        // Este bucle durará exactamente los segundos que hayas puesto en duracionMuerteSegundos
+        // Este bucle durarï¿½ exactamente los segundos que hayas puesto en duracionMuerteSegundos
         while (tiempoPasado < duracionMuerteSegundos)
         {
             tiempoPasado += Time.unscaledDeltaTime;
@@ -210,7 +213,7 @@ public class GameManager : MonoBehaviour
         Debug.Log("Boss derrotado. Esperando para el fundido...");
         yield return new WaitForSeconds(6f); // Esperamos 6 segundos de los 10
 
-        // Empezamos el fundido los últimos 4 segundos
+        // Empezamos el fundido los ï¿½ltimos 4 segundos
         float duracionFade = 4f;
         float tiempo = 0;
 
@@ -237,7 +240,7 @@ public class GameManager : MonoBehaviour
         {
             textoOro.text = oroTotal.ToString();
 
-            // Esto hace que el texto crezca y vuelva a su tamaño original
+            // Esto hace que el texto crezca y vuelva a su tamaï¿½o original
             StopCoroutine("AnimarTextoOro");
             StartCoroutine(AnimarTextoOro());
         }
@@ -258,7 +261,7 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
 
-        // Vuelve al tamaño normal
+        // Vuelve al tamaï¿½o normal
         tiempo = 0;
         while (tiempo < duracion / 2)
         {
@@ -270,6 +273,50 @@ public class GameManager : MonoBehaviour
         textoOro.transform.localScale = escalaOriginal;
     }
 
+    public void SecuenciaHoguera(bool esMuerte)
+    {
+        StartCoroutine(RoutineHoguera());
+    }
 
+    IEnumerator RoutineHoguera()
+    {
+        // 1. FUNDIDO A NEGRO (Aumentar Alpha)
+        float alpha = 0;
+        while (alpha < 1)
+        {
+            alpha += Time.deltaTime * velocidadFade;
+            Color c = fadeImage.color;
+            c.a = alpha;
+            fadeImage.color = c;
+            yield return null;
+        }
 
+        // 2. LOGICA DE TELETRANSPORTE Y DESCANSO
+        PlayerController player = Object.FindFirstObjectByType<PlayerController>();
+        if (player != null)
+        {
+            // Teletransportar a la Ãºltima hoguera guardada
+            if (PlayerPrefs.HasKey("CheckpointX"))
+            {
+                float x = PlayerPrefs.GetFloat("CheckpointX");
+                float y = PlayerPrefs.GetFloat("CheckpointY");
+                player.transform.position = new Vector2(x, y);
+            }
+
+            // Forzamos a Jotem a sentarse (tu lÃ³gica de la mina)
+            player.ForzarEstadoTumbado();
+        }
+
+        yield return new WaitForSeconds(0.5f);
+
+        // 3. QUITAR EL NEGRO (Disminuir Alpha)
+        while (alpha > 0)
+        {
+            alpha -= Time.deltaTime * velocidadFade;
+            Color c = fadeImage.color;
+            c.a = alpha;
+            fadeImage.color = c;
+            yield return null;
+        }
+    }
 }

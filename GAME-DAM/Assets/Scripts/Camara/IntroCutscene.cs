@@ -9,8 +9,18 @@ public class IntroCutscene : MonoBehaviour
     public CinemachineVirtualCamera vcamIntro;
 
     [Header("Enemigos a Activar")]
-    public Animator animMiniBoss;
-    public Animator animArquero;
+    public Animator[] enemigosAActivar; 
+
+    [Header("Muros de Niebla")]
+    public GameObject[] murosNiebla; 
+
+    // --- REFERENCIA AL CANVAS DE LA VIDA ---
+    [Header("UI del Boss")]
+    public GameObject canvasVidaBoss;
+    // ----------------------------------------------
+
+    [Header("Música del Boss")] 
+    public AudioSource musicaBoss; 
 
     [Header("Configuración")]
     public float tiempoEnfoque = 3f;
@@ -21,11 +31,19 @@ public class IntroCutscene : MonoBehaviour
         if (other.CompareTag("Player") && !activada)
         {
             activada = true;
+
+            // --- REPRODUCIR MÚSICA AQUÍ ---
+            if (musicaBoss != null)
+            {
+                musicaBoss.Play();
+            }
+            // ------------------------------
+
             StartCoroutine(SecuenciaIntro(other.gameObject));
         }
     }
 
-IEnumerator SecuenciaIntro(GameObject jugador)
+    IEnumerator SecuenciaIntro(GameObject jugador)
     {
         Rigidbody2D rb = jugador.GetComponent<Rigidbody2D>();
         Animator playerAnim = jugador.GetComponent<Animator>();
@@ -33,22 +51,29 @@ IEnumerator SecuenciaIntro(GameObject jugador)
 
         if (playerAnim != null)
         {
-            playerAnim.SetFloat("HorizontalSpeed", 0f);            // Si tienes otros (ej. IsRunning, IsJumping), ponlos también aquí
+            playerAnim.SetFloat("HorizontalSpeed", 0f); 
         }
 
         if (rb != null) rb.linearVelocity = Vector2.zero;
 
         yield return null; 
 
-        if (controller != null) controller.enabled = false;
+        if (controller != null) controller.enCinematica = true;
+
+        foreach (GameObject muro in murosNiebla)
+        {
+            if (muro != null) muro.SetActive(true);
+        }
 
         vcamJotem.Priority = 10;
         vcamIntro.Priority = 20; 
 
         yield return new WaitForSeconds(1f);
         
-        if (animMiniBoss != null) animMiniBoss.SetTrigger("Spawn"); 
-        if (animArquero != null) animArquero.SetTrigger("Spawn");
+        foreach (Animator enemigo in enemigosAActivar)
+        {
+            if (enemigo != null) enemigo.SetTrigger("Spawn");
+        }
 
         yield return new WaitForSeconds(tiempoEnfoque);
 
@@ -56,8 +81,13 @@ IEnumerator SecuenciaIntro(GameObject jugador)
         
         yield return new WaitForSeconds(1.5f);
         
-        if (controller != null) controller.enabled = true;
+        if (controller != null) controller.enCinematica = false;
 
-        Destroy(gameObject);
+        // --- ENCENDER LA BARRA DE VIDA AL FINAL ---
+        if (canvasVidaBoss != null) canvasVidaBoss.SetActive(true);
+        // -------------------------------------------------
+
+        // --- CAMBIO AQUÍ: Destruimos solo el Collider para que el AudioSource no muera ---
+        Destroy(GetComponent<Collider2D>());
     }
 }
