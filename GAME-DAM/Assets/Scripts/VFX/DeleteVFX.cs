@@ -1,10 +1,13 @@
 using UnityEngine;
 
-public class DestroyVFX : MonoBehaviour
+public class DeleteVFX : MonoBehaviour
 {
+    [Header("Configuración")]
+    [Tooltip("Tiempo en segundos antes de que el VFX desaparezca.")]
+    public float tiempoDeVida = 0.5f; 
+
     void Start()
     {
-        // Se borra a los 0.4 segundos (lo que duran los 4 frames)
-        Destroy(gameObject, 0.4f);
+        Destroy(gameObject, tiempoDeVida);
     }
 }

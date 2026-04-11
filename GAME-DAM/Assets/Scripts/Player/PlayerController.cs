@@ -16,7 +16,6 @@ public class PlayerController : MonoBehaviour
     [Header("Estados Especiales")]
     public bool soloCaminar = false; // Si esto es true, Jotem entra en modo NPC/Cinemática
 
-
     [Header("Jump Refined ")]
     public float jumpInputBufferTime = 0.1f;
     private float lastPressedJumpTime;
@@ -61,16 +60,19 @@ public class PlayerController : MonoBehaviour
     private Vector2 originalOffset;
     [SerializeField] private float crouchSizeMultiplier = 0.6f;
 
-    [Header("Run VFX")]
+    // --- NUEVAS VARIABLES DE VFX AÑADIDAS PARA EVITAR ERRORES ---
+    [Header("Ajustes de VFX")]
     public GameObject prefabPolvo;
-    public Transform puntoPies;
-
-    [Header("Jump VFX (Artista)")]
-    public GameObject jumpVFX;
-
-    [Header("Landing VFX")]
     public GameObject landingPrefab;
-    private bool wasInAir;
+    public GameObject jumpVFX;
+    public Transform puntoPies;
+    public Vector3 offsetPolvo = new Vector3(0, -0.1f, 0); 
+    public Vector3 offsetAterrizaje = new Vector3(0, -0.1f, 0); 
+    private bool wasInAir = false;
+    public GameObject wallJumpVFX;
+    public Vector3 offsetWallJump = new Vector3(0, 0, 0); // Ajusta según necesites
+    private float jumpVFXBlockTimer; // <-- NUEVO CANDADO PARA LOS VFX
+    // ------------------------------------------------------------
 
     [Header("Detección de Bordes")]
     public Transform edgeCheckPared;
@@ -121,8 +123,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-
-
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -148,11 +148,11 @@ public class PlayerController : MonoBehaviour
         if (indexCapaTutorial != -1)
         {
             anim.SetLayerWeight(indexCapaTutorial, 1f);
-            anim.Play("Start_Lying", indexCapaTutorial);
+            anim.Play("Camp", indexCapaTutorial);
         }
         
         anim.SetBool("YaDespierto", false);
-        anim.speed = 0; 
+        anim.speed = 0.7f; 
     }
 
     IEnumerator Levantarse()
@@ -160,8 +160,8 @@ public class PlayerController : MonoBehaviour
         anim.speed = 1;
         int indexCapaTutorial = anim.GetLayerIndex("Tutorial");
         
-        if (indexCapaTutorial != -1) anim.Play("Get_Up", indexCapaTutorial);
-        else anim.Play("Get_Up");
+        if (indexCapaTutorial != -1) anim.Play("Camp_End", indexCapaTutorial);
+        else anim.Play("Camp_End");
 
         yield return new WaitForSeconds(1.1f);
 
@@ -191,6 +191,9 @@ public class PlayerController : MonoBehaviour
         }
 
         if (blockWallSlideTimer > 0) blockWallSlideTimer -= Time.deltaTime;
+        
+        // --- CANDADO VFX ACTUALIZADO ---
+        if (jumpVFXBlockTimer > 0) jumpVFXBlockTimer -= Time.deltaTime;
         // -----------------------------------------------------
 
         if (!controlsEnabled && empezarTumbado)
@@ -309,10 +312,12 @@ public class PlayerController : MonoBehaviour
 
         UpdateAnimator();
 
+        // --- LÓGICA DE ATERRIZAJE PARA EL VFX ---
         if (!wasInAir && !isGrounded) wasInAir = true;
         if (wasInAir && isGrounded)
         {
-            CrearEfectoAterrizaje();
+            // Solo lanzamos el VFX de aterrizaje si no acabamos de hacer un WallJump
+            if (jumpVFXBlockTimer <= 0) CrearEfectoAterrizaje();
             wasInAir = false;
         }
     }
@@ -431,10 +436,26 @@ public class PlayerController : MonoBehaviour
 
             rb.AddForce(new Vector2(wallJumpForce.x * jumpDir, wallJumpForce.y), ForceMode2D.Impulse);
 
+            // --- REMODELACIÓN VFX: WALLJUMP ---
+            if (wallJumpVFX != null && wallCheck != null)
+            {
+                Vector3 spawnPos = wallCheck.position + offsetWallJump;
+                GameObject vfx = Instantiate(wallJumpVFX, spawnPos, Quaternion.identity);
+                
+                if (!facingRight)
+                {
+                    Vector3 escala = vfx.transform.localScale;
+                    escala.x *= -1;
+                    vfx.transform.localScale = escala;
+                }
+            }
+            // ----------------------------------
+
             wallJumpCounter = 0;
             lastPressedJumpTime = 0;
 
             blockWallSlideTimer = 0.2f;
+            jumpVFXBlockTimer = 0.2f; // <-- ACTIVAMOS EL CANDADO
         }
     }
 
@@ -457,10 +478,26 @@ public class PlayerController : MonoBehaviour
         float jumpDir = facingRight ? 1 : -1;
         rb.AddForce(new Vector2(wallJumpForce.x * jumpDir, wallJumpForce.y), ForceMode2D.Impulse);
 
+        // --- REMODELACIÓN VFX: WALLJUMP ---
+        if (wallJumpVFX != null && wallCheck != null)
+        {
+            Vector3 spawnPos = wallCheck.position + offsetWallJump;
+            GameObject vfx = Instantiate(wallJumpVFX, spawnPos, Quaternion.identity);
+            
+            if (!facingRight)
+            {
+                Vector3 escala = vfx.transform.localScale;
+                escala.x *= -1;
+                vfx.transform.localScale = escala;
+            }
+        }
+        // ----------------------------------
+
         wallJumpCounter = 0;
         lastPressedJumpTime = 0;
         
         blockWallSlideTimer = 0.2f;
+        jumpVFXBlockTimer = 0.2f; // <-- ACTIVAMOS EL CANDADO
 
         Invoke("ResetWallJumpAnim", 0.3f);
     }
@@ -481,7 +518,8 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         anim.SetBool("Jump", true);
 
-        if (jumpVFX != null && puntoPies != null)
+        // Bloqueamos el polvo de salto si acabamos de hacer WallJump
+        if (jumpVFX != null && puntoPies != null && jumpVFXBlockTimer <= 0)
         {
             Instantiate(jumpVFX, puntoPies.position, Quaternion.identity);
         }
@@ -551,9 +589,6 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-
-
-
         anim.SetBool("isWallSliding", false);
         anim.SetFloat("HorizontalSpeed", Mathf.Abs(moveInput));
         anim.SetFloat("VerticalVelocity", rb.linearVelocity.y);
@@ -562,7 +597,6 @@ public class PlayerController : MonoBehaviour
         bool estaCorriendo = Mathf.Abs(moveInput) > 0.01f && !soloCaminar;
         anim.SetBool("isMoving", estaCorriendo);
         anim.SetBool("isWalking", soloCaminar);
-
     }
 
     void Flip()
@@ -618,9 +652,30 @@ public class PlayerController : MonoBehaviour
         anim.SetBool("isClimbing", true);
         anim.SetBool("isEdgeGrabbing", false);
         anim.Play("Edge_Grab_Climb");
-        yield return new WaitForSeconds(0.6f);
+
+        // --- MEJORA: ROOT MOTION MANUAL (Interpolación suave) ---
+        Vector2 posInicial = transform.position;
         Vector2 posFinal = new Vector2(transform.position.x + (offsetFinalEscalado.x * (facingRight ? 1 : -1)), transform.position.y + offsetFinalEscalado.y);
+        
+        float tiempoEscalado = 0.6f;
+        float tiempoTranscurrido = 0f;
+
+        // Bucle que se ejecuta frame a frame durante el tiempo de la animación
+        while (tiempoTranscurrido < tiempoEscalado)
+        {
+            tiempoTranscurrido += Time.deltaTime;
+            float porcentaje = tiempoTranscurrido / tiempoEscalado;
+            
+            // Vector2.Lerp mueve a Jotem proporcionalmente desde el inicio hasta el fin
+            transform.position = Vector2.Lerp(posInicial, posFinal, porcentaje);
+            
+            yield return null; // Le decimos a Unity que espere al siguiente frame
+        }
+
+        // Por seguridad, forzamos que quede exactamente en la coordenada de la plataforma
         transform.position = posFinal;
+        // --------------------------------------------------------
+
         rb.bodyType = RigidbodyType2D.Dynamic;
         isClimbing = false;
         anim.SetBool("isClimbing", false);
@@ -660,10 +715,39 @@ public class PlayerController : MonoBehaviour
         canRoll = true;
     }
 
+    // --- REMODELACIÓN VFX: POLVO AL CAMINAR ---
+    public void CrearPolvo() 
+    { 
+        if (prefabPolvo != null && puntoPies != null) 
+        {
+            Vector3 spawnPos = puntoPies.position + offsetPolvo;
+            GameObject vfx = Instantiate(prefabPolvo, spawnPos, Quaternion.identity); 
+            
+            if (transform.localScale.x < 0) 
+            {
+                Vector3 escala = vfx.transform.localScale;
+                escala.x *= -1;
+                vfx.transform.localScale = escala;
+            }
+        } 
+    }
 
-    public void CrearPolvo() { if (prefabPolvo != null) Instantiate(prefabPolvo, puntoPies.position, Quaternion.identity); }
-
-    public void CrearEfectoAterrizaje() { if (landingPrefab != null) Instantiate(landingPrefab, puntoPies.position, Quaternion.identity); }
+    // --- REMODELACIÓN VFX: ATERRIZAJE ---
+    public void CrearEfectoAterrizaje() 
+    { 
+        if (landingPrefab != null && puntoPies != null) 
+        {
+            Vector3 spawnPos = puntoPies.position + offsetAterrizaje;
+            GameObject vfx = Instantiate(landingPrefab, spawnPos, Quaternion.identity);
+            
+            if (transform.localScale.x < 0) 
+            {
+                Vector3 escala = vfx.transform.localScale;
+                escala.x *= -1;
+                vfx.transform.localScale = escala;
+            }
+        } 
+    }
 
     private void HandleHitbox()
     {
