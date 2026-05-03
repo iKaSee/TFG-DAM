@@ -1,0 +1,439 @@
+fileFormatVersion: 2
+guid: d5f46c5e2dd836245a427643417ccf66
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2852250034409501191
+    second: Blacksmith_Idle_0
+  - first:
+      213: 1042296685870535901
+    second: Blacksmith_Idle_1
+  - first:
+      213: -3122328442913542183
+    second: Blacksmith_Idle_2
+  - first:
+      213: -6871949729102232875
+    second: Blacksmith_Idle_3
+  - first:
+      213: -7096615595448709680
+    second: Blacksmith_Idle_4
+  - first:
+      213: -2208913748556017529
+    second: Blacksmith_Idle_5
+  - first:
+      213: 620214959638059758
+    second: Blacksmith_Idle_6
+  - first:
+      213: 2109493596705898532
+    second: Blacksmith_Idle_7
+  - first:
+      213: 8531376639805591030
+    second: Blacksmith_Idle_8
+  - first:
+      213: 1078378699984585844
+    second: Blacksmith_Idle_9
+  - first:
+      213: 7287362707973145929
+    second: Blacksmith_Idle_10
+  - first:
+      213: -6427075257079238568
+    second: Blacksmith_Idle_11
+  - first:
+      213: 100824946712242857
+    second: Blacksmith_Idle_12
+  - first:
+      213: 8598672351326267940
+    second: Blacksmith_Idle_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blacksmith_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 16
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702f29f5b4a359720800000000000000
+      internalID: 2852250034409501191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 16
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd451ef305bf67e00800000000000000
+      internalID: 1042296685870535901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 16
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df2a00f2d24ba4d0800000000000000
+      internalID: -3122328442913542183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 16
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2058a612ee1a0a0800000000000000
+      internalID: -6871949729102232875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 16
+        width: 37
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd48c527b1c38d90800000000000000
+      internalID: -7096615595448709680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 16
+        width: 39
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea1c9148327b9800800000000000000
+      internalID: 620214959638059758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 16
+        width: 39
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd8dac4ad9856670800000000000000
+      internalID: 8531376639805591030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 16
+        width: 39
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474cde1d6bb27fe00800000000000000
+      internalID: 1078378699984585844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 16
+        width: 39
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9450b26d5c9e12560800000000000000
+      internalID: 7287362707973145929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 16
+        width: 27
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850f6151b117ec6a0800000000000000
+      internalID: -6427075257079238568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 16
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aae74d31c3366100800000000000000
+      internalID: 100824946712242857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 16
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a66c022fe945770800000000000000
+      internalID: 8598672351326267940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4f714475a4410c34d9dec78407ee13e8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Blacksmith_Idle_0: 2852250034409501191
+      Blacksmith_Idle_1: 1042296685870535901
+      Blacksmith_Idle_10: 7287362707973145929
+      Blacksmith_Idle_11: -6427075257079238568
+      Blacksmith_Idle_12: 100824946712242857
+      Blacksmith_Idle_13: 8598672351326267940
+      Blacksmith_Idle_2: -3122328442913542183
+      Blacksmith_Idle_3: -6871949729102232875
+      Blacksmith_Idle_4: -7096615595448709680
+      Blacksmith_Idle_5: -2208913748556017529
+      Blacksmith_Idle_6: 620214959638059758
+      Blacksmith_Idle_7: 2109493596705898532
+      Blacksmith_Idle_8: 8531376639805591030
+      Blacksmith_Idle_9: 1078378699984585844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
