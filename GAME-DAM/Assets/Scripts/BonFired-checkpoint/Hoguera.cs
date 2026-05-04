@@ -10,7 +10,10 @@ public class Hoguera : MonoBehaviour
     private bool yaActivada = false;
 
     [Header("Efectos")]
-    public GameObject vfxActivacion; 
+    public GameObject vfxActivacion;
+
+    [Header("UI")]
+    [SerializeField] private GameObject promptTecla;
 
     void Update()
     {
@@ -47,6 +50,7 @@ public class Hoguera : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorCerca = true;
+            if (promptTecla != null) promptTecla.SetActive(true);
         }
     }
 
@@ -55,6 +59,7 @@ public class Hoguera : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorCerca = false;
+            if (promptTecla != null) promptTecla.SetActive(false);
         }
     }
 }

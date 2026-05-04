@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mina.unity
     guid: 4e3913f03f5e3184bb83df2050b409c0
+  - enabled: 1
+    path: Assets/Scenes/Pueblo.unity
+    guid: e02ac03288b8e0e45a020bd0809ce739
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

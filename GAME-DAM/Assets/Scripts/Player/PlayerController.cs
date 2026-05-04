@@ -763,4 +763,9 @@ public class PlayerController : MonoBehaviour
             col.offset = originalOffset;
         }
     }
+
+    public void SetControlsEnabled(bool value)
+    {
+        controlsEnabled = value;
+    }
 }

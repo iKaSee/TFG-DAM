@@ -310029,7 +310029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f083e171bd8c3a64dbb42c48b481a127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneChanger
-  Escena_Boss: Escena_Boss
+  Escena_Boss: Boss
   requiereTecla: 1
   tiempoAnimacion: 1.5
   panelFade: {fileID: 1912921496}

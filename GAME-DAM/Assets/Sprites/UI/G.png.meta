@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c61562eb7f480684f9c604f3834d79fb
+guid: adee3a49481efb24c89031af78d1c13b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6099245334416579866
-    second: Background_Item_Crystal_4_0
+      213: 9202060142997513903
+    second: G_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 24
+  spritePixelsToUnits: 40
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -100,23 +100,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_Item_Crystal_4_0
+      name: G_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 52
-        height: 24
+        width: 17
+        height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a1ddbd3015fd4a450800000000000000
-      internalID: 6099245334416579866
+      spriteID: fa6a52902f844bf70800000000000000
+      internalID: 9202060142997513903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: G_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a009324deceadd4ea37098513082c23
+      internalID: -1393212814
       vertices: []
       indices: 
       edges: []
@@ -125,7 +147,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bf8e80e10adcad448a8178fe866b6000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +157,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_Item_Crystal_4_0: 6099245334416579866
+      G_0: 9202060142997513903
+      G_1: -1393212814
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
