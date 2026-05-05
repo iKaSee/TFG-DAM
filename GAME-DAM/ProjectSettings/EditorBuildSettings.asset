@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Pueblo.unity
     guid: e02ac03288b8e0e45a020bd0809ce739
+  - enabled: 1
+    path: Assets/Scenes/CorrupcionCristalina.unity
+    guid: a3d04bc78693e664e9c7430f23776fb4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
