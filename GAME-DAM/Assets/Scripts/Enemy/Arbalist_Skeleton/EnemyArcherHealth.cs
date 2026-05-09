@@ -7,7 +7,9 @@ public class EnemyHealth : MonoBehaviour
     private int currentHealth;
 
     [Header("Efectos")]
-    public GameObject bloodEffect; 
+    public GameObject bloodEffect;
+
+    [SerializeField] private BarraVidaEnemigo barraVida;
 
     private Animator anim;
     private bool isDead = false;
@@ -41,6 +43,8 @@ public class EnemyHealth : MonoBehaviour
 
         if (anim != null) anim.SetTrigger("Hurt");
 
+        if (barraVida != null) barraVida.ActualizarVida(currentHealth, maxHealth);
+
         if (currentHealth <= 0)
         {
             Die();
@@ -48,10 +52,11 @@ public class EnemyHealth : MonoBehaviour
     }
 
     void Die()
-    {   
+    {
         if (isDead) return;
         isDead = true;
-        
+        if (barraVida != null) barraVida.OcultarBarra();
+
         EnemyArcher archerScript = GetComponent<EnemyArcher>();
         if (archerScript != null) archerScript.Die();
 

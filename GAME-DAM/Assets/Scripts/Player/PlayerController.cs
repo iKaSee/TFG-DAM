@@ -54,6 +54,11 @@ public class PlayerController : MonoBehaviour
     public float crouchSpeedMult = 0.5f;
     private bool isCrouching = false;
 
+    [Header("Sprint")]
+    public bool sprintDesbloqueado = false;
+    public float sprintMultiplier = 1.5f;
+    private bool isSprinting = false;
+
     [Header("Hitbox de Agachado")]
     private CapsuleCollider2D col;
     private Vector2 originalSize;
@@ -184,11 +189,17 @@ public class PlayerController : MonoBehaviour
         if (enCinematica)
         {
             moveInput = 0f;
-            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); 
+            rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
             anim.SetFloat("HorizontalSpeed", 0f);
             anim.SetBool("isMoving", false);
-            return; 
+            return;
         }
+
+        if (sprintDesbloqueado && Input.GetKey(KeyCode.LeftControl) && isGrounded && Mathf.Abs(moveInput) > 0.01f)
+            isSprinting = true;
+        else
+            isSprinting = false;
+        anim.SetBool("isSprinting", isSprinting);
 
         if (blockWallSlideTimer > 0) blockWallSlideTimer -= Time.deltaTime;
         
@@ -239,11 +250,11 @@ public class PlayerController : MonoBehaviour
 
         if (isRolling || wallJumpCounter > 0) return;
 
-        if (isGrounded && Input.GetKey(KeyCode.LeftControl))
+        if (isGrounded && Input.GetKey(KeyCode.LeftAlt))
         {
             isCrouching = true;
         }
-        else if (!Input.GetKey(KeyCode.LeftControl))
+        else if (!Input.GetKey(KeyCode.LeftAlt))
         {
             bool hayTecho = Physics2D.OverlapCircle(transform.position + Vector3.up * 1f, 0.2f, groundLayer);
             if (!hayTecho) isCrouching = false;
@@ -347,6 +358,8 @@ public class PlayerController : MonoBehaviour
             {
                 currentSpeed = isCrouching ? MoveSpeed * crouchSpeedMult : MoveSpeed;
             }
+
+            if (isSprinting) currentSpeed *= sprintMultiplier;
 
             velocidadTarget = moveInput * currentSpeed;
         }
@@ -767,5 +780,10 @@ public class PlayerController : MonoBehaviour
     public void SetControlsEnabled(bool value)
     {
         controlsEnabled = value;
+    }
+
+    public void DesbloquearSprint()
+    {
+        sprintDesbloqueado = true;
     }
 }

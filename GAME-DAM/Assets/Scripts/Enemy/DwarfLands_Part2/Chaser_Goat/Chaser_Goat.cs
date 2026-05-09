@@ -17,6 +17,8 @@ public class Chaser_Goat : MonoBehaviour
     public float moveSpeed = 4f;
     public int maxHealth = 300;
 
+    [SerializeField] private BarraVidaEnemigo barraVida;
+
     private int currentHealth;
     private bool isDead = false;
     private bool estaAtacando = false;
@@ -41,7 +43,17 @@ public class Chaser_Goat : MonoBehaviour
 
     void Update()
     {
-        if (isDead || player == null || estaAtacando) return;
+        if (isDead || player == null) return;
+
+        if (estaAtacando)
+        {
+            AnimatorStateInfo state = anim.GetCurrentAnimatorStateInfo(0);
+            if (state.IsName("Idle"))
+            {
+                estaAtacando = false;
+            }
+            return;
+        }
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
@@ -108,19 +120,14 @@ public class Chaser_Goat : MonoBehaviour
         }
     }
 
-    // Se activa por Animation Event al final del ataque
-    public void FinAtaque()
-    {
-        estaAtacando = false;
-    }
-
     public void TakeDamage(int damage)
     {
         if (isDead) return;
 
         currentHealth -= damage;
-        estaAtacando = false;
         anim.SetTrigger("hit");
+
+        if (barraVida != null) barraVida.ActualizarVida(currentHealth, maxHealth);
 
         if (currentHealth <= 0) Die();
     }
@@ -129,6 +136,7 @@ public class Chaser_Goat : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+        if (barraVida != null) barraVida.OcultarBarra();
         anim.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
 

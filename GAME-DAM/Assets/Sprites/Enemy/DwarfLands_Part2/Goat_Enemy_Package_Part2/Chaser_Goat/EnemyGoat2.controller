@@ -84,8 +84,8 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Basic_Attack_Start
-  m_Speed: 1
+  m_Name: 'Basic_Attack_Start '
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 1323197836185031409}
@@ -134,7 +134,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Basic_Attack_Finisher
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 3221183854092315539}
@@ -188,7 +188,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Dodge_Attack
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -6963887210940785250}
@@ -215,12 +215,12 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Basic_Attack_Loop
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
+  - {fileID: 481311193790231294}
   - {fileID: -7610094880175614846}
   - {fileID: 4818410388234015021}
-  - {fileID: 481311193790231294}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
@@ -247,19 +247,19 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 7570941116928373797}
-    m_Position: {x: 320, y: -130, z: 0}
+    m_Position: {x: 60, y: -310, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7426690773858798966}
     m_Position: {x: 700, y: -360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -2388400182078191297}
-    m_Position: {x: 710, y: 0, z: 0}
+    m_Position: {x: 720, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -5695379011990005501}
     m_Position: {x: 950, y: -190, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8402538047842734140}
-    m_Position: {x: 950, y: -110, z: 0}
+    m_Position: {x: 960, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -3427637425504280468}
     m_Position: {x: 320, y: -510, z: 0}
@@ -280,7 +280,7 @@ AnimatorStateMachine:
     m_Position: {x: 260, y: 130, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -835270606860091737}
-    m_Position: {x: 730, y: 200, z: 0}
+    m_Position: {x: 840, y: 210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -1033769990064244887}
     m_Position: {x: 450, y: 260, z: 0}
@@ -327,11 +327,11 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
+  - {fileID: 4336613943732776411}
   - {fileID: 4271853701335843092}
   - {fileID: 6522243895843137843}
   - {fileID: 1604995107356601551}
   - {fileID: -1163549020540027903}
-  - {fileID: 4336613943732776411}
   - {fileID: 5131647039610633743}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
@@ -431,7 +431,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Death
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -457,7 +457,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Hit
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 7756213604569586743}
@@ -709,7 +709,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Run_to_Jump_Attack
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 13398540120565155}
@@ -780,7 +780,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Basic_Attack_Loop_to_Idle
-  m_Speed: 1
+  m_Speed: 0.7
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6458661245752726373}
@@ -1031,11 +1031,11 @@ AnimatorState:
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
+  - {fileID: -7418270794160371670}
   - {fileID: -1974020455058846473}
   - {fileID: -1220846306920851603}
   - {fileID: 1546276861262326751}
   - {fileID: -498881854360086181}
-  - {fileID: -7418270794160371670}
   - {fileID: 6831062376434220301}
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}

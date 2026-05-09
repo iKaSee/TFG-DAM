@@ -17,9 +17,11 @@ public class ChestAssassin : MonoBehaviour
     private float nextAttackTime = 0f;
 
     [Header("Detección y Daño")]
-    public Transform attackPoint; 
+    public Transform attackPoint;
     public float attackRadius = 0.8f;
-    public LayerMask playerLayer; 
+    public LayerMask playerLayer;
+
+    [SerializeField] private BarraVidaEnemigo barraVida;
 
     private Rigidbody2D rb;
     private Animator anim;
@@ -111,6 +113,8 @@ public class ChestAssassin : MonoBehaviour
 
         currentHealth -= damage;
 
+        if (barraVida != null) barraVida.ActualizarVida(currentHealth, maxHealth);
+
         if (currentHealth <= 0)
         {
             Die();
@@ -127,6 +131,7 @@ public class ChestAssassin : MonoBehaviour
     public void Die()
     {
         isDead = true;
+        if (barraVida != null) barraVida.OcultarBarra();
         isAttacking = false;
         isHit = false;
         

@@ -19,6 +19,8 @@ public class EnemySkeleton : MonoBehaviour
     public int maxHealth = 3;
     private int currentHealth;
 
+    [SerializeField] private BarraVidaEnemigo barraVida;
+
     private Animator anim;
     private Transform player;
     private bool hasSpawned = false;
@@ -49,7 +51,7 @@ public class EnemySkeleton : MonoBehaviour
 
         if (hasSpawned && !isDead)
         {
-            // Lógica de ATAQUE
+            // Lï¿½gica de ATAQUE
             if (distanceToPlayer <= attackRange)
             {
                 if (Time.time >= nextAttackTime)
@@ -58,7 +60,7 @@ public class EnemySkeleton : MonoBehaviour
                     nextAttackTime = Time.time + attackRate;
                 }
             }
-            // Lógica de PERSECUCIÓN
+            // Lï¿½gica de PERSECUCIï¿½N
             else if (distanceToPlayer <= chaseRange && distanceToPlayer > stopRange)
             {
                 MoverHaciaJugador();
@@ -115,6 +117,7 @@ public class EnemySkeleton : MonoBehaviour
         if (isDead) return;
         currentHealth -= damage;
         anim.SetTrigger("Hit");
+        if (barraVida != null) barraVida.ActualizarVida(currentHealth, maxHealth);
         if (currentHealth <= 0) Die();
     }
 
@@ -122,6 +125,7 @@ public class EnemySkeleton : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+        if (barraVida != null) barraVida.OcultarBarra();
         anim.SetBool("isDead", true);
         anim.SetBool("isMoving", false);
         GetComponent<Collider2D>().enabled = false;

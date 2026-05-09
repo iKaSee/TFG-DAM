@@ -24,6 +24,8 @@ public class EnemyGoat : MonoBehaviour
     [Header("Escudo")]
     public int shieldHits = 3;
 
+    [SerializeField] private BarraVidaEnemigo barraVida;
+
     private int currentHealth;
     private int currentShieldHits;
     private bool hasShield = true;
@@ -148,6 +150,7 @@ public class EnemyGoat : MonoBehaviour
             currentHealth -= damage;
             estaAtacando = false;
             anim.SetTrigger("hit");
+            if (barraVida != null) barraVida.ActualizarVida(currentHealth, maxHealth);
             if (currentHealth <= 0) Die();
         }
     }
@@ -174,6 +177,7 @@ public class EnemyGoat : MonoBehaviour
     {
         if (isDead) return;
         isDead = true;
+        if (barraVida != null) barraVida.OcultarBarra();
         anim.SetBool("isDead", true);
         GetComponent<Collider2D>().enabled = false;
 
