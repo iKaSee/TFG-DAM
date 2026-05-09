@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 9bf9ece360aa9674aaac64bdf00aeca9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5193752397414775145
+    second: Block_Hit_VFX_0
+  - first:
+      213: 850062222958445632
+    second: Block_Hit_VFX_1
+  - first:
+      213: 2157889572590612018
+    second: Block_Hit_VFX_2
+  - first:
+      213: 2038072161678517701
+    second: Block_Hit_VFX_3
+  - first:
+      213: 440870826173464365
+    second: Block_Hit_VFX_4
+  - first:
+      213: 2438403337062381839
+    second: Block_Hit_VFX_5
+  - first:
+      213: -2700254870748555413
+    second: Block_Hit_VFX_6
+  - first:
+      213: -5298356985100718407
+    second: Block_Hit_VFX_7
+  - first:
+      213: -1403369095303187914
+    second: Block_Hit_VFX_8
+  - first:
+      213: -2543875582545073169
+    second: Block_Hit_VFX_9
+  - first:
+      213: -2724973939819479116
+    second: Block_Hit_VFX_10
+  - first:
+      213: 6734235197910748219
+    second: Block_Hit_VFX_11
+  - first:
+      213: -7361594535582264556
+    second: Block_Hit_VFX_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Block_Hit_VFX_0
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 30
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 969bd3ba94ae31840800000000000000
+      internalID: 5193752397414775145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 47
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 044ca6486170ccb00800000000000000
+      internalID: 850062222958445632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 56
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e68ce122d52fd10800000000000000
+      internalID: 2157889572590612018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_3
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 23
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5e57735dfa84c10800000000000000
+      internalID: 2038072161678517701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 23
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ff6e93ea94e1600800000000000000
+      internalID: 440870826173464365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_5
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 45
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09fab47ae2f6d120800000000000000
+      internalID: 2438403337062381839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_6
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 56
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67930a6084c68ad0800000000000000
+      internalID: -2700254870748555413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_7
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 42
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9beacd9d4647876b0800000000000000
+      internalID: -5298356985100718407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_8
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 18
+        width: 70
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63231b14e3b368ce0800000000000000
+      internalID: -1403369095303187914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_9
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 71
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb6c9db2a652bcd0800000000000000
+      internalID: -2543875582545073169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 70
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bffcd6a3a2fe2ad0800000000000000
+      internalID: -2724973939819479116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_11
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 17
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c0765ab3fc47d50800000000000000
+      internalID: 6734235197910748219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Block_Hit_VFX_12
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 17
+        width: 577
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4139926f5cc56d990800000000000000
+      internalID: -7361594535582264556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Block_Hit_VFX_0: 5193752397414775145
+      Block_Hit_VFX_1: 850062222958445632
+      Block_Hit_VFX_10: -2724973939819479116
+      Block_Hit_VFX_11: 6734235197910748219
+      Block_Hit_VFX_12: -7361594535582264556
+      Block_Hit_VFX_2: 2157889572590612018
+      Block_Hit_VFX_3: 2038072161678517701
+      Block_Hit_VFX_4: 440870826173464365
+      Block_Hit_VFX_5: 2438403337062381839
+      Block_Hit_VFX_6: -2700254870748555413
+      Block_Hit_VFX_7: -5298356985100718407
+      Block_Hit_VFX_8: -1403369095303187914
+      Block_Hit_VFX_9: -2543875582545073169
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

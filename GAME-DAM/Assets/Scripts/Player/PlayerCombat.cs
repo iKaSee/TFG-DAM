@@ -159,7 +159,25 @@ public class PlayerCombat : MonoBehaviour
             {
                 chestAssassin.TakeDamage(attackDamage);
                 GameManager gm = Object.FindFirstObjectByType<GameManager>();
-                if (gm != null) gm.SacudirCamara(); 
+                if (gm != null) gm.SacudirCamara();
+            }
+
+            // 7. Lógica con EnemyGoat
+            EnemyGoat enemyGoat = enemy.GetComponent<EnemyGoat>();
+            if (enemyGoat != null)
+            {
+                enemyGoat.TakeDamage(attackDamage);
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara();
+            }
+
+            // 8. Lógica con Chaser_Goat
+            Chaser_Goat chaserGoat = enemy.GetComponent<Chaser_Goat>();
+            if (chaserGoat != null)
+            {
+                chaserGoat.TakeDamage(attackDamage);
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara();
             }
         }
     }

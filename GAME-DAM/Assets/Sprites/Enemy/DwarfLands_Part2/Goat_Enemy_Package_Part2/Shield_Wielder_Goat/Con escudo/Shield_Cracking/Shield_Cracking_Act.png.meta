@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: 3fd422582d59b7044bbed12515146ee5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7375248907363337746
+    second: Shield_Cracking_Act_0
+  - first:
+      213: 6156587828372387799
+    second: Shield_Cracking_Act_1
+  - first:
+      213: 2187121760416608010
+    second: Shield_Cracking_Act_2
+  - first:
+      213: -52885441635216183
+    second: Shield_Cracking_Act_3
+  - first:
+      213: -3235602878898919426
+    second: Shield_Cracking_Act_4
+  - first:
+      213: 5361788772069846197
+    second: Shield_Cracking_Act_5
+  - first:
+      213: 4384688950999746230
+    second: Shield_Cracking_Act_6
+  - first:
+      213: 7509944172258397149
+    second: Shield_Cracking_Act_7
+  - first:
+      213: -4587998326128660194
+    second: Shield_Cracking_Act_8
+  - first:
+      213: 3033439996017076747
+    second: Shield_Cracking_Act_9
+  - first:
+      213: 818823912552497746
+    second: Shield_Cracking_Act_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 19
+        width: 65
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9358ac13ad5a990800000000000000
+      internalID: -7375248907363337746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_1
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 19
+        width: 61
+        height: 54
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d731aac208907550800000000000000
+      internalID: 6156587828372387799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 19
+        width: 56
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fa82a37a73a5e10800000000000000
+      internalID: 2187121760416608010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_3
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 19
+        width: 51
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c41b8598fc144ff0800000000000000
+      internalID: -52885441635216183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_4
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 19
+        width: 51
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7aff81354d813d0800000000000000
+      internalID: -3235602878898919426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_5
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 19
+        width: 52
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bca6efea76e86a40800000000000000
+      internalID: 5361788772069846197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_6
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 19
+        width: 48
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b68beeae5b89dc30800000000000000
+      internalID: 4384688950999746230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_7
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 19
+        width: 51
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb0a7e6f6ea83860800000000000000
+      internalID: 7509944172258397149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_8
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 19
+        width: 49
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11b305a4d72450c0800000000000000
+      internalID: -4587998326128660194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_9
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 19
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0a6f02ca91f81a20800000000000000
+      internalID: 3033439996017076747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_Cracking_Act_10
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 19
+        width: 47
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2528949920c0d5b00800000000000000
+      internalID: 818823912552497746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ad34056a0cfc2754bac1cd95cfa81e5a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Shield_Cracking_Act_0: -7375248907363337746
+      Shield_Cracking_Act_1: 6156587828372387799
+      Shield_Cracking_Act_10: 818823912552497746
+      Shield_Cracking_Act_2: 2187121760416608010
+      Shield_Cracking_Act_3: -52885441635216183
+      Shield_Cracking_Act_4: -3235602878898919426
+      Shield_Cracking_Act_5: 5361788772069846197
+      Shield_Cracking_Act_6: 4384688950999746230
+      Shield_Cracking_Act_7: 7509944172258397149
+      Shield_Cracking_Act_8: -4587998326128660194
+      Shield_Cracking_Act_9: 3033439996017076747
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

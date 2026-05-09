@@ -4,16 +4,19 @@ using System.Collections;
 
 public class ZonaSecreta : MonoBehaviour
 {
-    private Tilemap tilemap;
+    [Header("Referencias")]
+    public Tilemap tilemap;
+
     [Header("Configuración")]
     public float velocidadFade = 4f;
     public float alphaOculto = 0.2f;
 
     void Awake()
     {
-        
-        tilemap = GetComponent<Tilemap>();
+        if (tilemap == null) tilemap = GetComponent<Tilemap>();
         if (tilemap == null) tilemap = GetComponentInParent<Tilemap>();
+        if (tilemap == null && transform.parent != null)
+            tilemap = transform.parent.GetComponentInChildren<Tilemap>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

@@ -1,0 +1,1755 @@
+fileFormatVersion: 2
+guid: c94be1a1953c1814582a4c9929e00afc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4842339094902558452
+    second: VFX_Heavy_GroundBlast_0
+  - first:
+      213: -185224907912091057
+    second: VFX_Heavy_GroundBlast_1
+  - first:
+      213: 9198333733848655289
+    second: VFX_Heavy_GroundBlast_2
+  - first:
+      213: 7965340600685894130
+    second: VFX_Heavy_GroundBlast_3
+  - first:
+      213: -66328869453764825
+    second: VFX_Heavy_GroundBlast_4
+  - first:
+      213: -7258848951953885963
+    second: VFX_Heavy_GroundBlast_5
+  - first:
+      213: -9100024537653520990
+    second: VFX_Heavy_GroundBlast_6
+  - first:
+      213: -430517394152450826
+    second: VFX_Heavy_GroundBlast_7
+  - first:
+      213: 3469148823176245115
+    second: VFX_Heavy_GroundBlast_8
+  - first:
+      213: -3857400196879034710
+    second: VFX_Heavy_GroundBlast_9
+  - first:
+      213: 7318617058113610792
+    second: VFX_Heavy_GroundBlast_10
+  - first:
+      213: 823393125819942317
+    second: VFX_Heavy_GroundBlast_11
+  - first:
+      213: -1078656749883850975
+    second: VFX_Heavy_GroundBlast_12
+  - first:
+      213: 8261906897464504252
+    second: VFX_Heavy_GroundBlast_13
+  - first:
+      213: -386185713341406466
+    second: VFX_Heavy_GroundBlast_14
+  - first:
+      213: -343071660685997951
+    second: VFX_Heavy_GroundBlast_15
+  - first:
+      213: -5837697420727179543
+    second: VFX_Heavy_GroundBlast_16
+  - first:
+      213: -9012759337606670965
+    second: VFX_Heavy_GroundBlast_17
+  - first:
+      213: 1153000363901155774
+    second: VFX_Heavy_GroundBlast_18
+  - first:
+      213: 6995027672116274084
+    second: VFX_Heavy_GroundBlast_19
+  - first:
+      213: -436978896279436620
+    second: VFX_Heavy_GroundBlast_20
+  - first:
+      213: 7774092300404946441
+    second: VFX_Heavy_GroundBlast_21
+  - first:
+      213: 4612834973739519860
+    second: VFX_Heavy_GroundBlast_22
+  - first:
+      213: 5219519855540691282
+    second: VFX_Heavy_GroundBlast_23
+  - first:
+      213: -4073815602242559926
+    second: VFX_Heavy_GroundBlast_24
+  - first:
+      213: 1814357924878148100
+    second: VFX_Heavy_GroundBlast_25
+  - first:
+      213: -9149020551475200914
+    second: VFX_Heavy_GroundBlast_26
+  - first:
+      213: -3883914835198021629
+    second: VFX_Heavy_GroundBlast_27
+  - first:
+      213: 1072620432447586822
+    second: VFX_Heavy_GroundBlast_28
+  - first:
+      213: 6238369259269214823
+    second: VFX_Heavy_GroundBlast_29
+  - first:
+      213: 5964890648174762187
+    second: VFX_Heavy_GroundBlast_30
+  - first:
+      213: -7804399418894795685
+    second: VFX_Heavy_GroundBlast_31
+  - first:
+      213: -6758219093274871071
+    second: VFX_Heavy_GroundBlast_32
+  - first:
+      213: -2882147037814588857
+    second: VFX_Heavy_GroundBlast_33
+  - first:
+      213: 7750414008624329250
+    second: VFX_Heavy_GroundBlast_34
+  - first:
+      213: -6088660086203302538
+    second: VFX_Heavy_GroundBlast_35
+  - first:
+      213: -3333037665967396622
+    second: VFX_Heavy_GroundBlast_36
+  - first:
+      213: 2842391343295616628
+    second: VFX_Heavy_GroundBlast_37
+  - first:
+      213: -8925180593076536579
+    second: VFX_Heavy_GroundBlast_38
+  - first:
+      213: -2992832163682036121
+    second: VFX_Heavy_GroundBlast_39
+  - first:
+      213: -868041176286024288
+    second: VFX_Heavy_GroundBlast_40
+  - first:
+      213: -916352871549331080
+    second: VFX_Heavy_GroundBlast_41
+  - first:
+      213: 4770431341315786762
+    second: VFX_Heavy_GroundBlast_42
+  - first:
+      213: -4055694065923204780
+    second: VFX_Heavy_GroundBlast_43
+  - first:
+      213: 4105604916179096783
+    second: VFX_Heavy_GroundBlast_44
+  - first:
+      213: -5117361826166099543
+    second: VFX_Heavy_GroundBlast_45
+  - first:
+      213: 4294210103400443724
+    second: VFX_Heavy_GroundBlast_46
+  - first:
+      213: 5509015464826284949
+    second: VFX_Heavy_GroundBlast_47
+  - first:
+      213: -873301919853989417
+    second: VFX_Heavy_GroundBlast_48
+  - first:
+      213: 3112712474817383044
+    second: VFX_Heavy_GroundBlast_49
+  - first:
+      213: 951912446303438867
+    second: VFX_Heavy_GroundBlast_50
+  - first:
+      213: -222189348476015763
+    second: VFX_Heavy_GroundBlast_51
+  - first:
+      213: 6852064296029415029
+    second: VFX_Heavy_GroundBlast_52
+  - first:
+      213: -1722398478093333078
+    second: VFX_Heavy_GroundBlast_53
+  - first:
+      213: -2626922945601614776
+    second: VFX_Heavy_GroundBlast_54
+  - first:
+      213: -8397572485843383439
+    second: VFX_Heavy_GroundBlast_55
+  - first:
+      213: -6096558671455541666
+    second: VFX_Heavy_GroundBlast_56
+  - first:
+      213: 6154464531910728958
+    second: VFX_Heavy_GroundBlast_57
+  - first:
+      213: -1902972215875147039
+    second: VFX_Heavy_GroundBlast_58
+  - first:
+      213: -8441388867436020171
+    second: VFX_Heavy_GroundBlast_59
+  - first:
+      213: -5337328562690598047
+    second: VFX_Heavy_GroundBlast_60
+  - first:
+      213: 809690402087070844
+    second: VFX_Heavy_GroundBlast_61
+  - first:
+      213: 4283264777170559423
+    second: VFX_Heavy_GroundBlast_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 31
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe47a140c1733340800000000000000
+      internalID: 4842339094902558452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 71
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a68587de2fd6df0800000000000000
+      internalID: -185224907912091057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_2
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 74
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5aa8bcbcb07af70800000000000000
+      internalID: 9198333733848655289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 53
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f911eaf2139a8e60800000000000000
+      internalID: 7965340600685894130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_4
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 79
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727ead1ae3a541ff0800000000000000
+      internalID: -66328869453764825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_5
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 73
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f472945653634b90800000000000000
+      internalID: -7258848951953885963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_6
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 84
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5d2d1a5e736b180800000000000000
+      internalID: -9100024537653520990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_7
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 78
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f49ae306be760af0800000000000000
+      internalID: -430517394152450826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_8
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 52
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f626e6974e42030800000000000000
+      internalID: 3469148823176245115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_9
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6d08455f2c77ac0800000000000000
+      internalID: -3857400196879034710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_10
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 57
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824e9fb4073f09560800000000000000
+      internalID: 7318617058113610792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_11
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 31
+        width: 170
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da50ff67fa74d6b00800000000000000
+      internalID: 823393125819942317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_12
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 31
+        width: 174
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f7894a667d701f0800000000000000
+      internalID: -1078656749883850975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_13
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 31
+        width: 177
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbfa8bebc8038a270800000000000000
+      internalID: 8261906897464504252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_14
+      rect:
+        serializedVersion: 2
+        x: 2363
+        y: 31
+        width: 179
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef264fac32ef3aaf0800000000000000
+      internalID: -386185713341406466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_15
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 31
+        width: 85
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188ce4c642a2d3bf0800000000000000
+      internalID: -343071660685997951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_16
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6a75310255cfea0800000000000000
+      internalID: -5837697420727179543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_17
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 64
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b859ed3522f3ce280800000000000000
+      internalID: -9012759337606670965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_18
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 63
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9793cd8b7400010800000000000000
+      internalID: 1153000363901155774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_19
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 77
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3a4864b94531160800000000000000
+      internalID: 6995027672116274084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_20
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 70
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b20ce0520a8fe9f0800000000000000
+      internalID: -436978896279436620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_21
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 31
+        width: 180
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9067cb022cf13eb60800000000000000
+      internalID: 7774092300404946441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_22
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 60
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f0e3108f4140040800000000000000
+      internalID: 4612834973739519860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_23
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 49
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251e99787a57f6840800000000000000
+      internalID: 5219519855540691282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_24
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 62
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4063e33b46e677c0800000000000000
+      internalID: -4073815602242559926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_25
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 62
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402e6c77be4ed2910800000000000000
+      internalID: 1814357924878148100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_26
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 47
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c72923846280180800000000000000
+      internalID: -9149020551475200914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_27
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 69
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300f6260900991ac0800000000000000
+      internalID: -3883914835198021629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_28
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 64
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6024ddea996b2ee00800000000000000
+      internalID: 1072620432447586822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_29
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 64
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762557cf9c3239650800000000000000
+      internalID: 6238369259269214823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_30
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 54
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc89180f07c87c250800000000000000
+      internalID: 5964890648174762187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_31
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 66
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5cb287f31431b390800000000000000
+      internalID: -7804399418894795685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_32
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 53
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eab61f8a8bf532a0800000000000000
+      internalID: -6758219093274871071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_33
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 49
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74afd941a8e8008d0800000000000000
+      internalID: -2882147037814588857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_34
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222b3463a700f8b60800000000000000
+      internalID: 7750414008624329250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_35
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 53
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67db0c329ebb08ba0800000000000000
+      internalID: -6088660086203302538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_36
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 53
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f82409e6ebaeb1d0800000000000000
+      internalID: -3333037665967396622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_37
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 47
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476d7c9fdd3327720800000000000000
+      internalID: 2842391343295616628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_38
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 56
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa7679c983632480800000000000000
+      internalID: -8925180593076536579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_39
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 46
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7665e5bf0035776d0800000000000000
+      internalID: -2992832163682036121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_40
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 60
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad2f05362914f3f0800000000000000
+      internalID: -868041176286024288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_41
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 48
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879946a1be57843f0800000000000000
+      internalID: -916352871549331080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_42
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 51
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a088484b70af33240800000000000000
+      internalID: 4770431341315786762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_43
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 52
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459dcfa2cb747b7c0800000000000000
+      internalID: -4055694065923204780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_44
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 54
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4d3f83be90af830800000000000000
+      internalID: 4105604916179096783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_45
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1b934388a7bf8b0800000000000000
+      internalID: -5117361826166099543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_46
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 49
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fa31c5659189b30800000000000000
+      internalID: 4294210103400443724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_47
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 56
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59baa139064f37c40800000000000000
+      internalID: 5509015464826284949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_48
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 43
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1bf65e78861e3f0800000000000000
+      internalID: -873301919853989417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_49
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 37
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48aca650183923b20800000000000000
+      internalID: 3112712474817383044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_50
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 31
+        width: 91
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3188033935fd53d00800000000000000
+      internalID: 951912446303438867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_51
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 43
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b263bf6ff9aecf0800000000000000
+      internalID: -222189348476015763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_52
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 31
+        width: 100
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57668f66c2c671f50800000000000000
+      internalID: 6852064296029415029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_53
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 31
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadc297b5bfc818e0800000000000000
+      internalID: -1722398478093333078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_54
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 31
+        width: 118
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cc71fbf7b4b8bd0800000000000000
+      internalID: -2626922945601614776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_55
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 31
+        width: 146
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b06bdf054d57b80800000000000000
+      internalID: -8397572485843383439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_56
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 31
+        width: 180
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56a093703ca46ba0800000000000000
+      internalID: -6096558671455541666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_57
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 31
+        width: 180
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc974f42ec096550800000000000000
+      internalID: 6154464531910728958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_58
+      rect:
+        serializedVersion: 2
+        x: 3387
+        y: 31
+        width: 180
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eae25f1ad84795e0800000000000000
+      internalID: -1902972215875147039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_59
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 31
+        width: 180
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ef989ac892ada80800000000000000
+      internalID: -8441388867436020171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_60
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 31
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16bd74b53fffde5b0800000000000000
+      internalID: -5337328562690598047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_61
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 31
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c617a71299c3b00800000000000000
+      internalID: 809690402087070844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Heavy_GroundBlast_62
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 31
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1a1320f96317b30800000000000000
+      internalID: 4283264777170559423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX_Heavy_GroundBlast_0: 4842339094902558452
+      VFX_Heavy_GroundBlast_1: -185224907912091057
+      VFX_Heavy_GroundBlast_10: 7318617058113610792
+      VFX_Heavy_GroundBlast_11: 823393125819942317
+      VFX_Heavy_GroundBlast_12: -1078656749883850975
+      VFX_Heavy_GroundBlast_13: 8261906897464504252
+      VFX_Heavy_GroundBlast_14: -386185713341406466
+      VFX_Heavy_GroundBlast_15: -343071660685997951
+      VFX_Heavy_GroundBlast_16: -5837697420727179543
+      VFX_Heavy_GroundBlast_17: -9012759337606670965
+      VFX_Heavy_GroundBlast_18: 1153000363901155774
+      VFX_Heavy_GroundBlast_19: 6995027672116274084
+      VFX_Heavy_GroundBlast_2: 9198333733848655289
+      VFX_Heavy_GroundBlast_20: -436978896279436620
+      VFX_Heavy_GroundBlast_21: 7774092300404946441
+      VFX_Heavy_GroundBlast_22: 4612834973739519860
+      VFX_Heavy_GroundBlast_23: 5219519855540691282
+      VFX_Heavy_GroundBlast_24: -4073815602242559926
+      VFX_Heavy_GroundBlast_25: 1814357924878148100
+      VFX_Heavy_GroundBlast_26: -9149020551475200914
+      VFX_Heavy_GroundBlast_27: -3883914835198021629
+      VFX_Heavy_GroundBlast_28: 1072620432447586822
+      VFX_Heavy_GroundBlast_29: 6238369259269214823
+      VFX_Heavy_GroundBlast_3: 7965340600685894130
+      VFX_Heavy_GroundBlast_30: 5964890648174762187
+      VFX_Heavy_GroundBlast_31: -7804399418894795685
+      VFX_Heavy_GroundBlast_32: -6758219093274871071
+      VFX_Heavy_GroundBlast_33: -2882147037814588857
+      VFX_Heavy_GroundBlast_34: 7750414008624329250
+      VFX_Heavy_GroundBlast_35: -6088660086203302538
+      VFX_Heavy_GroundBlast_36: -3333037665967396622
+      VFX_Heavy_GroundBlast_37: 2842391343295616628
+      VFX_Heavy_GroundBlast_38: -8925180593076536579
+      VFX_Heavy_GroundBlast_39: -2992832163682036121
+      VFX_Heavy_GroundBlast_4: -66328869453764825
+      VFX_Heavy_GroundBlast_40: -868041176286024288
+      VFX_Heavy_GroundBlast_41: -916352871549331080
+      VFX_Heavy_GroundBlast_42: 4770431341315786762
+      VFX_Heavy_GroundBlast_43: -4055694065923204780
+      VFX_Heavy_GroundBlast_44: 4105604916179096783
+      VFX_Heavy_GroundBlast_45: -5117361826166099543
+      VFX_Heavy_GroundBlast_46: 4294210103400443724
+      VFX_Heavy_GroundBlast_47: 5509015464826284949
+      VFX_Heavy_GroundBlast_48: -873301919853989417
+      VFX_Heavy_GroundBlast_49: 3112712474817383044
+      VFX_Heavy_GroundBlast_5: -7258848951953885963
+      VFX_Heavy_GroundBlast_50: 951912446303438867
+      VFX_Heavy_GroundBlast_51: -222189348476015763
+      VFX_Heavy_GroundBlast_52: 6852064296029415029
+      VFX_Heavy_GroundBlast_53: -1722398478093333078
+      VFX_Heavy_GroundBlast_54: -2626922945601614776
+      VFX_Heavy_GroundBlast_55: -8397572485843383439
+      VFX_Heavy_GroundBlast_56: -6096558671455541666
+      VFX_Heavy_GroundBlast_57: 6154464531910728958
+      VFX_Heavy_GroundBlast_58: -1902972215875147039
+      VFX_Heavy_GroundBlast_59: -8441388867436020171
+      VFX_Heavy_GroundBlast_6: -9100024537653520990
+      VFX_Heavy_GroundBlast_60: -5337328562690598047
+      VFX_Heavy_GroundBlast_61: 809690402087070844
+      VFX_Heavy_GroundBlast_62: 4283264777170559423
+      VFX_Heavy_GroundBlast_7: -430517394152450826
+      VFX_Heavy_GroundBlast_8: 3469148823176245115
+      VFX_Heavy_GroundBlast_9: -3857400196879034710
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

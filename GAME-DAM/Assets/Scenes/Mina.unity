@@ -430916,6 +430916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d64b924ac746513428cee39965922cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ZonaSecreta
+  tilemap: {fileID: 1799178812642532856}
   velocidadFade: 5
   alphaOculto: 0.2
 --- !u!61 &1142839202
@@ -494113,6 +494114,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5771577923279153139, guid: fa81bf3ba674a974e9d1dca3be315097, type: 3}
+      propertyPath: tilemap
+      value: 
+      objectReference: {fileID: 1799178812642532856}
     - target: {fileID: 7657659813182082550, guid: fa81bf3ba674a974e9d1dca3be315097, type: 3}
       propertyPath: m_Size.x
       value: 136
@@ -497373,6 +497378,11 @@ PrefabInstance:
       addedObject: {fileID: 1142839200}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa81bf3ba674a974e9d1dca3be315097, type: 3}
+--- !u!1839735485 &1799178812642532856 stripped
+Tilemap:
+  m_CorrespondingSourceObject: {fileID: 7657659813182082550, guid: fa81bf3ba674a974e9d1dca3be315097, type: 3}
+  m_PrefabInstance: {fileID: 1799178812642532855}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3771361891985380014
 PrefabInstance:
   m_ObjectHideFlags: 0
