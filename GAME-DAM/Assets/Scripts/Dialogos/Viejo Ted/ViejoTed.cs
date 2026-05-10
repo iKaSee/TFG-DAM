@@ -56,7 +56,12 @@ public class ViejoTed : MonoBehaviour
         pantallaHabilidades.MostrarPantalla();
 
         PlayerController pc = Object.FindFirstObjectByType<PlayerController>();
-        if (pc != null) pc.DesbloquearSprint();
+        if (pc != null)
+        {
+            pc.DesbloquearSprint();
+            PlayerFury fury = pc.GetComponent<PlayerFury>();
+            if (fury != null) fury.DesbloquearFuria();
+        }
     }
 
     private void MostrarLineaConIndicador(int index)

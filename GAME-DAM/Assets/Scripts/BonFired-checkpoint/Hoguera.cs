@@ -15,6 +15,9 @@ public class Hoguera : MonoBehaviour
     [Header("UI")]
     [SerializeField] private GameObject promptTecla;
 
+    private PlayerPotions playerPotions;
+    private PlayerHealth playerHealth;
+
     void Update()
     {
         // Si el jugador está cerca y pulsa G
@@ -28,8 +31,11 @@ public class Hoguera : MonoBehaviour
     {
         PlayerPrefs.SetFloat("CheckpointX", puntoAparicion.position.x);
         PlayerPrefs.SetFloat("CheckpointY", puntoAparicion.position.y);
-        PlayerPrefs.SetInt("HogueraActivada", 1); 
+        PlayerPrefs.SetInt("HogueraActivada", 1);
         PlayerPrefs.Save();
+
+        if (playerPotions != null) playerPotions.RestablecerPociones();
+        if (playerHealth != null) playerHealth.Heal(9999);
 
         GameManager gm = Object.FindFirstObjectByType<GameManager>();
         if (gm != null)
@@ -50,6 +56,8 @@ public class Hoguera : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jugadorCerca = true;
+            playerPotions = other.GetComponent<PlayerPotions>();
+            playerHealth = other.GetComponent<PlayerHealth>();
             if (promptTecla != null) promptTecla.SetActive(true);
         }
     }

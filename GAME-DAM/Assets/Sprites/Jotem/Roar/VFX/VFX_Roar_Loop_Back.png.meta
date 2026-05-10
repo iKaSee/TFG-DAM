@@ -1,0 +1,281 @@
+fileFormatVersion: 2
+guid: 2028ed49c0b446249b07fa49b21c3084
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7288897242296386150
+    second: VFX_Roar_Loop_Back_0
+  - first:
+      213: 4963843999149339301
+    second: VFX_Roar_Loop_Back_1
+  - first:
+      213: -4335095253557165478
+    second: VFX_Roar_Loop_Back_2
+  - first:
+      213: 4960579945395454226
+    second: VFX_Roar_Loop_Back_3
+  - first:
+      213: -5814721090082073054
+    second: VFX_Roar_Loop_Back_4
+  - first:
+      213: 2460480691926854983
+    second: VFX_Roar_Loop_Back_5
+  - first:
+      213: 4776368281993741485
+    second: VFX_Roar_Loop_Back_6
+  - first:
+      213: 4725232522369732581
+    second: VFX_Roar_Loop_Back_7
+  - first:
+      213: -1152828377470752191
+    second: VFX_Roar_Loop_Back_8
+  - first:
+      213: -3137750665695449898
+    second: VFX_Roar_Loop_Back_9
+  - first:
+      213: -6308499980628511306
+    second: VFX_Roar_Loop_Back_10
+  - first:
+      213: -6211966532545097449
+    second: VFX_Roar_Loop_Back_11
+  - first:
+      213: -3545284318024444801
+    second: VFX_Roar_Loop_Back_12
+  - first:
+      213: 8258181664640661475
+    second: VFX_Roar_Loop_Back_13
+  - first:
+      213: 7346755148274289800
+    second: VFX_Roar_Loop_Back_14
+  - first:
+      213: 6850531212821027733
+    second: VFX_Roar_Loop_Back_15
+  - first:
+      213: -7833261838435832254
+    second: VFX_Roar_Loop_Back_16
+  - first:
+      213: -9067352107607550826
+    second: VFX_Roar_Loop_Back_17
+  - first:
+      213: 2486671843933590241
+    second: VFX_Roar_Loop_Back_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX_Roar_Loop_Back_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 31
+        width: 121
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d799c8392a8da90800000000000000
+      internalID: -7288897242296386150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Loop_Back_1
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 24
+        width: 132
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a230c151dd13e440800000000000000
+      internalID: 4963843999149339301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Loop_Back_2
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 23
+        width: 140
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a524e30d5d5a6d3c0800000000000000
+      internalID: -4335095253557165478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Loop_Back_11
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 24
+        width: 133
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711d80fd959aac9a0800000000000000
+      internalID: -6211966532545097449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e73095caba12d9f46a9aa2a4f4795c7c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX_Roar_Loop_Back_0: -7288897242296386150
+      VFX_Roar_Loop_Back_1: 4963843999149339301
+      VFX_Roar_Loop_Back_10: -6308499980628511306
+      VFX_Roar_Loop_Back_11: -6211966532545097449
+      VFX_Roar_Loop_Back_12: -3545284318024444801
+      VFX_Roar_Loop_Back_13: 8258181664640661475
+      VFX_Roar_Loop_Back_14: 7346755148274289800
+      VFX_Roar_Loop_Back_15: 6850531212821027733
+      VFX_Roar_Loop_Back_16: -7833261838435832254
+      VFX_Roar_Loop_Back_17: -9067352107607550826
+      VFX_Roar_Loop_Back_18: 2486671843933590241
+      VFX_Roar_Loop_Back_2: -4335095253557165478
+      VFX_Roar_Loop_Back_3: 4960579945395454226
+      VFX_Roar_Loop_Back_4: -5814721090082073054
+      VFX_Roar_Loop_Back_5: 2460480691926854983
+      VFX_Roar_Loop_Back_6: 4776368281993741485
+      VFX_Roar_Loop_Back_7: 4725232522369732581
+      VFX_Roar_Loop_Back_8: -1152828377470752191
+      VFX_Roar_Loop_Back_9: -3137750665695449898
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

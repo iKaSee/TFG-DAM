@@ -50,6 +50,9 @@ public class GameManager : MonoBehaviour
         {
             PlayerPrefs.DeleteKey("CheckpointX");
             PlayerPrefs.DeleteKey("CheckpointY");
+            PlayerPrefs.DeleteKey("PocionesDesbloqueadas");
+            PlayerPrefs.DeleteKey("MaxPociones");
+            PlayerPrefs.DeleteKey("PocionesActuales");
             PlayerPrefs.Save();
             primeraVezQueCarga = false; // Marcamos que ya no es la primera carga
         }

@@ -42,6 +42,16 @@ public class PlayerHealth : MonoBehaviour
             return;
         }
 
+        PlayerBlock playerBlock = GetComponent<PlayerBlock>();
+        if (playerBlock != null && playerBlock.EstaBlockeando)
+        {
+            playerBlock.RecibirGolpeBloqueado();
+            damage = Mathf.RoundToInt(damage * (1f - playerBlock.GetReduccionDaño()));
+            currentHealth -= damage;
+            if (healthBar != null) healthBar.ActualizarVida(currentHealth);
+            return;
+        }
+
         currentHealth -= damage;
         GetComponent<PlayerSounds>().PlayDolor();
         if (currentHealth <= 0)

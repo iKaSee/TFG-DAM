@@ -396,6 +396,8 @@ GameObject:
   - component: {fileID: 2577990571000958619}
   - component: {fileID: 6684349323705722895}
   - component: {fileID: 3099718962623520084}
+  - component: {fileID: 2271233842754625088}
+  - component: {fileID: 6594036815386174389}
   - component: {fileID: 9014934214013392521}
   - component: {fileID: 1697696002735236538}
   - component: {fileID: 1041729038682676427}
@@ -529,6 +531,8 @@ MonoBehaviour:
   rollCooldown: 0.8
   invulnerable: 0
   crouchSpeedMult: 0.5
+  sprintDesbloqueado: 0
+  sprintMultiplier: 1.5
   crouchSizeMultiplier: 0.6
   prefabPolvo: {fileID: 8457201689765313569, guid: 6be39c142b56fac4da92ac1f1b440112, type: 3}
   landingPrefab: {fileID: 5474913125653688811, guid: 3f028c73c8db22f48a7d6cee7e79d103, type: 3}
@@ -612,6 +616,47 @@ MonoBehaviour:
   sonidoGolpeExitoso: {fileID: 0}
   sonidosDolor:
   - {fileID: 8300000, guid: c213dcd07d60f6e42bbd4601ac06152b, type: 3}
+--- !u!114 &2271233842754625088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959980990702144686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3673509cf98ccc04cb0e0dcb40b383a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerFury
+  furyDesbloqueada: 0
+  furyDuration: 15
+  furyCooldown: 30
+  damageMultiplier: 1.5
+  speedBonus: 0.5
+  vfxRoarStart: {fileID: 3861950060691630697, guid: 8772afbec8f970d428fb7184f2dba317, type: 3}
+  vfxRoarLoopFront: {fileID: 5793509542584912414, guid: eafadb2af916d03429841d75631c00ab, type: 3}
+  vfxRoarLoopBack: {fileID: 1390767585905856850, guid: 6ed3e37684f2fde498b69ae8c8b0f081, type: 3}
+  offsetVFX: {x: 0, y: 0.7, z: 0}
+  tinteFuria: {r: 1, g: 0.4, b: 0.4, a: 1}
+  iconoFuriaUI: {fileID: 0}
+--- !u!114 &6594036815386174389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959980990702144686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8c02093b7c0a34ea67104b98481cca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerPotions
+  pocionesDesbloqueadas: 0
+  maxPociones: 0
+  pocionesActuales: 0
+  curacionPorPocion: 50
+  iconoPociones: {fileID: 0}
+  textoCantidad: {fileID: 0}
 --- !u!50 &9014934214013392521
 Rigidbody2D:
   serializedVersion: 5

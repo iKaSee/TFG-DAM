@@ -1,0 +1,765 @@
+fileFormatVersion: 2
+guid: b3a9ddd1264f008458f6dac17e776390
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5531289470688610895
+    second: VFX_Roar_Start_0
+  - first:
+      213: 1501076561315023052
+    second: VFX_Roar_Start_1
+  - first:
+      213: 2084439925728780044
+    second: VFX_Roar_Start_2
+  - first:
+      213: 4285898625706403220
+    second: VFX_Roar_Start_3
+  - first:
+      213: -3214216803216211043
+    second: VFX_Roar_Start_4
+  - first:
+      213: -8155017011389707496
+    second: VFX_Roar_Start_5
+  - first:
+      213: 1402606200794737543
+    second: VFX_Roar_Start_6
+  - first:
+      213: 2665789738913771821
+    second: VFX_Roar_Start_7
+  - first:
+      213: 7387495469101833886
+    second: VFX_Roar_Start_8
+  - first:
+      213: 4528876846813859242
+    second: VFX_Roar_Start_9
+  - first:
+      213: 8374216391594863218
+    second: VFX_Roar_Start_10
+  - first:
+      213: 2816958699243978030
+    second: VFX_Roar_Start_11
+  - first:
+      213: 2387229816172057859
+    second: VFX_Roar_Start_12
+  - first:
+      213: 3965798002853118969
+    second: VFX_Roar_Start_13
+  - first:
+      213: 5983635348597600050
+    second: VFX_Roar_Start_14
+  - first:
+      213: -4251197876886365527
+    second: VFX_Roar_Start_15
+  - first:
+      213: 1986823580917408743
+    second: VFX_Roar_Start_16
+  - first:
+      213: 5333829610807176293
+    second: VFX_Roar_Start_17
+  - first:
+      213: 7932628381693970593
+    second: VFX_Roar_Start_18
+  - first:
+      213: -6346677890741833183
+    second: VFX_Roar_Start_19
+  - first:
+      213: 189208875578335296
+    second: VFX_Roar_Start_20
+  - first:
+      213: -3099792514508698737
+    second: VFX_Roar_Start_21
+  - first:
+      213: 5647165089710635083
+    second: VFX_Roar_Start_22
+  - first:
+      213: 7584181428960155605
+    second: VFX_Roar_Start_23
+  - first:
+      213: 7517631255097116165
+    second: VFX_Roar_Start_24
+  - first:
+      213: 5158396756182734553
+    second: VFX_Roar_Start_25
+  - first:
+      213: 4236510304929222705
+    second: VFX_Roar_Start_26
+  - first:
+      213: 3773463061413480644
+    second: VFX_Roar_Start_27
+  - first:
+      213: 336525813412517991
+    second: VFX_Roar_Start_28
+  - first:
+      213: 9086260989961833856
+    second: VFX_Roar_Start_29
+  - first:
+      213: 7139560632949983668
+    second: VFX_Roar_Start_30
+  - first:
+      213: -8184153701069537904
+    second: VFX_Roar_Start_31
+  - first:
+      213: 8935064015603328934
+    second: VFX_Roar_Start_32
+  - first:
+      213: 1541691366909542616
+    second: VFX_Roar_Start_33
+  - first:
+      213: -2484739893087931170
+    second: VFX_Roar_Start_34
+  - first:
+      213: -3306834130605971199
+    second: VFX_Roar_Start_35
+  - first:
+      213: 5559530300361047654
+    second: VFX_Roar_Start_36
+  - first:
+      213: -7524787139813509715
+    second: VFX_Roar_Start_37
+  - first:
+      213: -7698871045260566092
+    second: VFX_Roar_Start_38
+  - first:
+      213: 8051900096741406617
+    second: VFX_Roar_Start_39
+  - first:
+      213: -4528964612794064092
+    second: VFX_Roar_Start_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: VFX_Roar_Start_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 58
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23592709de171cf4499d0c151b6ce4a1
+      internalID: 5531289470688610895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 58
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca37cf39ea7a6e4d97524df541b6bfe
+      internalID: 1501076561315023052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 34
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d37b6edd54253b4fb056940857be0a1
+      internalID: 2084439925728780044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 32
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9341a50df62bc43a2ba261fe9c9130
+      internalID: 4285898625706403220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_4
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 29
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0831c4b4789c4934c86eed79f17abf90
+      internalID: -3214216803216211043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 26
+        width: 48
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630925eb121a43e4c8cc09dd6ecb3c61
+      internalID: -8155017011389707496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_6
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 33
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8846f07642ed74146ac882d86fcd3d95
+      internalID: 1402606200794737543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_7
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 28
+        width: 51
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e478f9fa0973c7a4b9fba88d6f1c5f03
+      internalID: 2665789738913771821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_8
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 34
+        width: 38
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91b08aa7bdd66b04b8a1fc45764d1bbc
+      internalID: 7387495469101833886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_9
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 32
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8c5a1f3a4903cb46a060b72b76bc6a7
+      internalID: 4528876846813859242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_10
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 40
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29d41d26e212da48a24ba527a15831b
+      internalID: 8374216391594863218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_11
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 24
+        width: 88
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388d40cd421d3524a9ed9ffe0e95caad
+      internalID: 2816958699243978030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_12
+      rect:
+        serializedVersion: 2
+        x: 3164
+        y: 28
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e3668b0cb00ec41a66db6aa12b9ce0
+      internalID: 2387229816172057859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_13
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 37
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b929387a58608d040814a4daaa59e63a
+      internalID: 3965798002853118969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_14
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 37
+        width: 80
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31c5e2e708584b040b3db1537d14a579
+      internalID: 5983635348597600050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_15
+      rect:
+        serializedVersion: 2
+        x: 3940
+        y: 38
+        width: 70
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681de56d95844804c8c12ef422f941f8
+      internalID: -4251197876886365527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_16
+      rect:
+        serializedVersion: 2
+        x: 4200
+        y: 42
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad7dad39881949429bb261b9136c994
+      internalID: 1986823580917408743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_17
+      rect:
+        serializedVersion: 2
+        x: 4416
+        y: 23
+        width: 132
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6273b18f4c3dc46ba25a795e70e6d7
+      internalID: 5333829610807176293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_18
+      rect:
+        serializedVersion: 2
+        x: 4683
+        y: 31
+        width: 104
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34021867149714946a21cb4d8e838bed
+      internalID: 7932628381693970593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_19
+      rect:
+        serializedVersion: 2
+        x: 4955
+        y: 43
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd3f8ef01c97d74e9f76387dee33918
+      internalID: -6346677890741833183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_20
+      rect:
+        serializedVersion: 2
+        x: 5229
+        y: 51
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3dcfda7a1b1e5d45b7306fc3ccedc86
+      internalID: 189208875578335296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: VFX_Roar_Start_21
+      rect:
+        serializedVersion: 2
+        x: 5473
+        y: 40
+        width: 56
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97701fa4cc6064c4e8797654db353320
+      internalID: -3099792514508698737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dc086aa93bc03154883dba792e41d8f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      VFX_Roar_Start_0: 5531289470688610895
+      VFX_Roar_Start_1: 1501076561315023052
+      VFX_Roar_Start_10: 8374216391594863218
+      VFX_Roar_Start_11: 2816958699243978030
+      VFX_Roar_Start_12: 2387229816172057859
+      VFX_Roar_Start_13: 3965798002853118969
+      VFX_Roar_Start_14: 5983635348597600050
+      VFX_Roar_Start_15: -4251197876886365527
+      VFX_Roar_Start_16: 1986823580917408743
+      VFX_Roar_Start_17: 5333829610807176293
+      VFX_Roar_Start_18: 7932628381693970593
+      VFX_Roar_Start_19: -6346677890741833183
+      VFX_Roar_Start_2: 2084439925728780044
+      VFX_Roar_Start_20: 189208875578335296
+      VFX_Roar_Start_21: -3099792514508698737
+      VFX_Roar_Start_22: 5647165089710635083
+      VFX_Roar_Start_23: 7584181428960155605
+      VFX_Roar_Start_24: 7517631255097116165
+      VFX_Roar_Start_25: 5158396756182734553
+      VFX_Roar_Start_26: 4236510304929222705
+      VFX_Roar_Start_27: 3773463061413480644
+      VFX_Roar_Start_28: 336525813412517991
+      VFX_Roar_Start_29: 9086260989961833856
+      VFX_Roar_Start_3: 4285898625706403220
+      VFX_Roar_Start_30: 7139560632949983668
+      VFX_Roar_Start_31: -8184153701069537904
+      VFX_Roar_Start_32: 8935064015603328934
+      VFX_Roar_Start_33: 1541691366909542616
+      VFX_Roar_Start_34: -2484739893087931170
+      VFX_Roar_Start_35: -3306834130605971199
+      VFX_Roar_Start_36: 5559530300361047654
+      VFX_Roar_Start_37: -7524787139813509715
+      VFX_Roar_Start_38: -7698871045260566092
+      VFX_Roar_Start_39: 8051900096741406617
+      VFX_Roar_Start_4: -3214216803216211043
+      VFX_Roar_Start_40: -4528964612794064092
+      VFX_Roar_Start_5: -8155017011389707496
+      VFX_Roar_Start_6: 1402606200794737543
+      VFX_Roar_Start_7: 2665789738913771821
+      VFX_Roar_Start_8: 7387495469101833886
+      VFX_Roar_Start_9: 4528876846813859242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
