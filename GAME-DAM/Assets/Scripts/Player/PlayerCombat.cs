@@ -28,6 +28,8 @@ public class PlayerCombat : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
+
+        if (PlayerPrefs.HasKey("AttackDamage")) attackDamage = PlayerPrefs.GetInt("AttackDamage");
     }
 
    void Update()

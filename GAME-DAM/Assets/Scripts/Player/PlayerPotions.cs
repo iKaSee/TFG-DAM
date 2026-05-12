@@ -25,8 +25,10 @@ public class PlayerPotions : MonoBehaviour
 
         if (PlayerPrefs.GetInt("PocionesDesbloqueadas", 0) == 1)
         {
-            DesbloquearPociones(PlayerPrefs.GetInt("MaxPociones", 1));
+            pocionesDesbloqueadas = true;
+            maxPociones = PlayerPrefs.GetInt("MaxPociones", 1);
             pocionesActuales = PlayerPrefs.GetInt("PocionesActuales", 0);
+            if (iconoPociones != null) iconoPociones.SetActive(true);
             ActualizarUI();
         }
     }
