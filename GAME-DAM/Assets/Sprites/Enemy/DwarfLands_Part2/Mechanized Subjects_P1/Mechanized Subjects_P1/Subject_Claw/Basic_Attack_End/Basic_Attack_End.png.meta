@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 0fd0a3ff29e65554fb65a743183b62a1
+guid: 0adb929342fa66c448b1031ac6bec588
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9082429109045791810
-    second: Laser_0
+      213: 8836571264863638345
+    second: Basic_Attack_End_0
   - first:
-      213: -8599512977041186160
-    second: Laser_1
-  - first:
-      213: -4876627861783150909
-    second: Laser_2
-  - first:
-      213: 7394846351055212603
-    second: Laser_3
+      213: 9198907948426343726
+    second: Basic_Attack_End_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,89 +103,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Laser_0
+      name: Basic_Attack_End_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 28
-        width: 29
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 63
+        y: 16
+        width: 42
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24c875667254b0e70800000000000000
-      internalID: 9082429109045791810
+      spriteID: 9431f9a4fbec1aa70800000000000000
+      internalID: 8836571264863638345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_1
+      name: Basic_Attack_End_1
       rect:
         serializedVersion: 2
-        x: 82
-        y: 28
-        width: 24
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 226
+        y: 16
+        width: 34
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0922912728468a880800000000000000
-      internalID: -8599512977041186160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_2
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 28
-        width: 25
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ce74a41cccb25cb0800000000000000
-      internalID: -4876627861783150909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_3
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 28
-        width: 28
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b305d33a395cf9660800000000000000
-      internalID: 7394846351055212603
+      spriteID: e25387b8a0619af70800000000000000
+      internalID: 9198907948426343726
       vertices: []
       indices: 
       edges: []
@@ -200,7 +150,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9c069a597b011fb49abf55e75e04c60e
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +158,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Laser_0: 9082429109045791810
-      Laser_1: -8599512977041186160
-      Laser_2: -4876627861783150909
-      Laser_3: 7394846351055212603
+      Basic_Attack_End_0: 8836571264863638345
+      Basic_Attack_End_1: 9198907948426343726
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

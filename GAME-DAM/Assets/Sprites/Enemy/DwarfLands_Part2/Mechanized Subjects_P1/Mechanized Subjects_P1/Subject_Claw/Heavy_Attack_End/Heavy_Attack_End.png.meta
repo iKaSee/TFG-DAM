@@ -1,19 +1,25 @@
 fileFormatVersion: 2
-guid: 0fd0a3ff29e65554fb65a743183b62a1
+guid: 0647aee0a5f6f724885af078658dbdc5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9082429109045791810
-    second: Laser_0
+      213: 2800983678358170853
+    second: Heavy_Attack_End_0
   - first:
-      213: -8599512977041186160
-    second: Laser_1
+      213: -2555909781234967145
+    second: Heavy_Attack_End_1
   - first:
-      213: -4876627861783150909
-    second: Laser_2
+      213: -2361097250119013299
+    second: Heavy_Attack_End_2
   - first:
-      213: 7394846351055212603
-    second: Laser_3
+      213: 8783241440457320841
+    second: Heavy_Attack_End_3
+  - first:
+      213: 6771133483651196984
+    second: Heavy_Attack_End_4
+  - first:
+      213: 5497642518474535381
+    second: Heavy_Attack_End_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -60,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -109,89 +115,133 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Laser_0
+      name: Heavy_Attack_End_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 28
+        x: 55
+        y: 16
+        width: 49
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eca432b0d71fd620800000000000000
+      internalID: 2800983678358170853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heavy_Attack_End_1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 16
+        width: 48
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d1b838895978cd0800000000000000
+      internalID: -2555909781234967145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heavy_Attack_End_2
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 16
+        width: 45
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c21868f82bb3fd0800000000000000
+      internalID: -2361097250119013299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heavy_Attack_End_3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 16
+        width: 32
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989e2f2fd8754e970800000000000000
+      internalID: 8783241440457320841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heavy_Attack_End_4
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 16
         width: 29
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24c875667254b0e70800000000000000
-      internalID: 9082429109045791810
+      spriteID: 83868c34706e7fd50800000000000000
+      internalID: 6771133483651196984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_1
+      name: Heavy_Attack_End_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 28
-        width: 24
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 867
+        y: 16
+        width: 26
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0922912728468a880800000000000000
-      internalID: -8599512977041186160
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_2
-      rect:
-        serializedVersion: 2
-        x: 146
-        y: 28
-        width: 25
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3ce74a41cccb25cb0800000000000000
-      internalID: -4876627861783150909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_3
-      rect:
-        serializedVersion: 2
-        x: 210
-        y: 28
-        width: 28
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b305d33a395cf9660800000000000000
-      internalID: 7394846351055212603
+      spriteID: 5d132c72ebc8b4c40800000000000000
+      internalID: 5497642518474535381
       vertices: []
       indices: 
       edges: []
@@ -200,7 +250,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a10ca1f3875aa6b46839bfb8094a0c8c
     internalID: 0
     vertices: []
     indices: 
@@ -208,12 +258,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Laser_0: 9082429109045791810
-      Laser_1: -8599512977041186160
-      Laser_2: -4876627861783150909
-      Laser_3: 7394846351055212603
+      Heavy_Attack_End_0: 2800983678358170853
+      Heavy_Attack_End_1: -2555909781234967145
+      Heavy_Attack_End_2: -2361097250119013299
+      Heavy_Attack_End_3: 8783241440457320841
+      Heavy_Attack_End_4: 6771133483651196984
+      Heavy_Attack_End_5: 5497642518474535381
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

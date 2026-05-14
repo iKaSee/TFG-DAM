@@ -1,40 +1,31 @@
 fileFormatVersion: 2
-guid: d7d1bfec9591c8643b4fcb788bf95a44
+guid: b87d3176bc624154eb418bdf276f031c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6126513574636382400
-    second: Laser_Explosion_0
+      213: 4944230376442633554
+    second: Run_0
   - first:
-      213: 5896970127493344520
-    second: Laser_Explosion_1
+      213: -2274363484027164459
+    second: Run_1
   - first:
-      213: -8812699624420074276
-    second: Laser_Explosion_2
+      213: 8284087734974297348
+    second: Run_2
   - first:
-      213: -5049228610814286680
-    second: Laser_Explosion_3
+      213: 5304202850863732263
+    second: Run_3
   - first:
-      213: 429820041712122624
-    second: Laser_Explosion_4
+      213: 2833043080597125133
+    second: Run_4
   - first:
-      213: -504599313179594919
-    second: Laser_Explosion_5
+      213: -2217414122262695004
+    second: Run_5
   - first:
-      213: 1112371596724535209
-    second: Laser_Explosion_6
+      213: -4440497016933152808
+    second: Run_6
   - first:
-      213: 2938611051362221023
-    second: Laser_Explosion_7
-  - first:
-      213: 8455821108898449124
-    second: Laser_Explosion_8
-  - first:
-      213: -351235882933616329
-    second: Laser_Explosion_9
-  - first:
-      213: -3885667098174575771
-    second: Laser_Explosion_10
+      213: 8676454946275842879
+    second: Run_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,100 +121,78 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Laser_Explosion_0
+      name: Run_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 29
-        width: 6
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 04790301d504afaa0800000000000000
-      internalID: -6126513574636382400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_1
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 26
-        width: 12
-        height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80da454661f36d150800000000000000
-      internalID: 5896970127493344520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_2
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 19
-        width: 27
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdc193e126003b580800000000000000
-      internalID: -8812699624420074276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_3
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 12
-        width: 47
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a4eca694598de9b0800000000000000
-      internalID: -5049228610814286680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_4
-      rect:
-        serializedVersion: 2
-        x: 207
+        x: 64
         y: 16
-        width: 36
+        width: 40
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d1f8be45f6d9440800000000000000
+      internalID: 4944230376442633554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_1
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 22
+        width: 39
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8e07c1676df60e0800000000000000
+      internalID: -2274363484027164459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 24
+        width: 41
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405305b67edf6f270800000000000000
+      internalID: 8284087734974297348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_3
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 16
+        width: 37
         height: 34
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -233,52 +202,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00b3897fc0707f500800000000000000
-      internalID: 429820041712122624
+      spriteID: 726d856d3605c9940800000000000000
+      internalID: 5304202850863732263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_Explosion_5
+      name: Run_4
       rect:
         serializedVersion: 2
-        x: 331
-        y: 9
-        width: 44
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 702
+        y: 16
+        width: 41
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95f2600299d4ff8f0800000000000000
-      internalID: -504599313179594919
+      spriteID: d08be54fbadf05720800000000000000
+      internalID: 2833043080597125133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_Explosion_6
+      name: Run_5
       rect:
         serializedVersion: 2
-        x: 395
-        y: 7
+        x: 862
+        y: 22
+        width: 42
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3f89aaa992a31e0800000000000000
+      internalID: -2217414122262695004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_6
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 24
         width: 43
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9affff8d210ff6f00800000000000000
-      internalID: 1112371596724535209
+      spriteID: 8d784876d7f2062c0800000000000000
+      internalID: -4440497016933152808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Run_7
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 16
+        width: 43
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bd376cdc5f86870800000000000000
+      internalID: 8676454946275842879
       vertices: []
       indices: 
       edges: []
@@ -287,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 562f92582e35dc0469c21bd5c74296b5
+    spriteID: 58dbb4b929574d64c9abfa00daf38fa3
     internalID: 0
     vertices: []
     indices: 
@@ -299,17 +312,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Laser_Explosion_0: -6126513574636382400
-      Laser_Explosion_1: 5896970127493344520
-      Laser_Explosion_10: -3885667098174575771
-      Laser_Explosion_2: -8812699624420074276
-      Laser_Explosion_3: -5049228610814286680
-      Laser_Explosion_4: 429820041712122624
-      Laser_Explosion_5: -504599313179594919
-      Laser_Explosion_6: 1112371596724535209
-      Laser_Explosion_7: 2938611051362221023
-      Laser_Explosion_8: 8455821108898449124
-      Laser_Explosion_9: -351235882933616329
+      Run_0: 4944230376442633554
+      Run_1: -2274363484027164459
+      Run_2: 8284087734974297348
+      Run_3: 5304202850863732263
+      Run_4: 2833043080597125133
+      Run_5: -2217414122262695004
+      Run_6: -4440497016933152808
+      Run_7: 8676454946275842879
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

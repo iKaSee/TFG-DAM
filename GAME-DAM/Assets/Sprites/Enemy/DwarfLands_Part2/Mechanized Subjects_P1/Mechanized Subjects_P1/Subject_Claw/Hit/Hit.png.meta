@@ -1,40 +1,31 @@
 fileFormatVersion: 2
-guid: d7d1bfec9591c8643b4fcb788bf95a44
+guid: 3de8f465b0ba9af4ab11148918f473da
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6126513574636382400
-    second: Laser_Explosion_0
+      213: 4457663794195168306
+    second: Hit_0
   - first:
-      213: 5896970127493344520
-    second: Laser_Explosion_1
+      213: -5364657433725072944
+    second: Hit_1
   - first:
-      213: -8812699624420074276
-    second: Laser_Explosion_2
+      213: -4947864620551752270
+    second: Hit_2
   - first:
-      213: -5049228610814286680
-    second: Laser_Explosion_3
+      213: 8733631668352107246
+    second: Hit_3
   - first:
-      213: 429820041712122624
-    second: Laser_Explosion_4
+      213: -7612900313820856468
+    second: Hit_4
   - first:
-      213: -504599313179594919
-    second: Laser_Explosion_5
+      213: -1970368629675539405
+    second: Hit_5
   - first:
-      213: 1112371596724535209
-    second: Laser_Explosion_6
+      213: -3593213518556833045
+    second: Hit_6
   - first:
-      213: 2938611051362221023
-    second: Laser_Explosion_7
-  - first:
-      213: 8455821108898449124
-    second: Laser_Explosion_8
-  - first:
-      213: -351235882933616329
-    second: Laser_Explosion_9
-  - first:
-      213: -3885667098174575771
-    second: Laser_Explosion_10
+      213: -2594108969642184640
+    second: Hit_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,100 +121,144 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Laser_Explosion_0
+      name: Hit_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 29
-        width: 6
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 04790301d504afaa0800000000000000
-      internalID: -6126513574636382400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_1
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 26
-        width: 12
-        height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80da454661f36d150800000000000000
-      internalID: 5896970127493344520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_2
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 19
-        width: 27
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdc193e126003b580800000000000000
-      internalID: -8812699624420074276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_3
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 12
-        width: 47
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a4eca694598de9b0800000000000000
-      internalID: -5049228610814286680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_4
-      rect:
-        serializedVersion: 2
-        x: 207
+        x: 70
         y: 16
-        width: 36
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23c7f156a9dccdd30800000000000000
+      internalID: 4457663794195168306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 16
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d98829bc78ec85b0800000000000000
+      internalID: -5364657433725072944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_2
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 16
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b53a4fa757a55bb0800000000000000
+      internalID: -4947864620551752270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_3
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 16
+        width: 27
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2ca37cab7143970800000000000000
+      internalID: 8733631668352107246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_4
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 16
+        width: 26
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f7f3cdf7b895690800000000000000
+      internalID: -7612900313820856468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_5
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 16
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334cd97bb28d7a4e0800000000000000
+      internalID: -1970368629675539405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hit_6
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 16
+        width: 25
         height: 34
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -233,52 +268,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00b3897fc0707f500800000000000000
-      internalID: 429820041712122624
+      spriteID: bead940b757522ec0800000000000000
+      internalID: -3593213518556833045
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_Explosion_5
+      name: Hit_7
       rect:
         serializedVersion: 2
-        x: 331
-        y: 9
-        width: 44
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1187
+        y: 16
+        width: 26
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95f2600299d4ff8f0800000000000000
-      internalID: -504599313179594919
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_6
-      rect:
-        serializedVersion: 2
-        x: 395
-        y: 7
-        width: 43
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9affff8d210ff6f00800000000000000
-      internalID: 1112371596724535209
+      spriteID: 040b2d3e2afdffbd0800000000000000
+      internalID: -2594108969642184640
       vertices: []
       indices: 
       edges: []
@@ -287,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 562f92582e35dc0469c21bd5c74296b5
+    spriteID: d23444dfbb049754689c38f5afe4ac90
     internalID: 0
     vertices: []
     indices: 
@@ -299,17 +312,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Laser_Explosion_0: -6126513574636382400
-      Laser_Explosion_1: 5896970127493344520
-      Laser_Explosion_10: -3885667098174575771
-      Laser_Explosion_2: -8812699624420074276
-      Laser_Explosion_3: -5049228610814286680
-      Laser_Explosion_4: 429820041712122624
-      Laser_Explosion_5: -504599313179594919
-      Laser_Explosion_6: 1112371596724535209
-      Laser_Explosion_7: 2938611051362221023
-      Laser_Explosion_8: 8455821108898449124
-      Laser_Explosion_9: -351235882933616329
+      Hit_0: 4457663794195168306
+      Hit_1: -5364657433725072944
+      Hit_2: -4947864620551752270
+      Hit_3: 8733631668352107246
+      Hit_4: -7612900313820856468
+      Hit_5: -1970368629675539405
+      Hit_6: -3593213518556833045
+      Hit_7: -2594108969642184640
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

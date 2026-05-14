@@ -1,58 +1,70 @@
 fileFormatVersion: 2
-guid: c276146af3c2b3d4b92fd82445a9b1be
+guid: c9441d19dc5db964c92e0ae979d008be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4151507512794623755
-    second: Death_NoBlood_0
+      213: 2291270967926626937
+    second: LaserShot_0
   - first:
-      213: 7861930611578092655
-    second: Death_NoBlood_1
+      213: -3272134961859198940
+    second: LaserShot_1
   - first:
-      213: -2328777571073438398
-    second: Death_NoBlood_2
+      213: 2298599853602208663
+    second: LaserShot_2
   - first:
-      213: -2645273090282108588
-    second: Death_NoBlood_3
+      213: 1879218281550914318
+    second: LaserShot_3
   - first:
-      213: 6697729669162812909
-    second: Death_NoBlood_4
+      213: 6074595596924034874
+    second: LaserShot_4
   - first:
-      213: 3590114198651159381
-    second: Death_NoBlood_5
+      213: -3044566742362494261
+    second: LaserShot_5
   - first:
-      213: 2592152640049256409
-    second: Death_NoBlood_6
+      213: 6834703745122917910
+    second: LaserShot_6
   - first:
-      213: 3805986757584466673
-    second: Death_NoBlood_7
+      213: 7364885400155699637
+    second: LaserShot_7
   - first:
-      213: 7862240172786644605
-    second: Death_NoBlood_8
+      213: 7424640504784757509
+    second: LaserShot_8
   - first:
-      213: 9115212585380984590
-    second: Death_NoBlood_9
+      213: 1854933357166640517
+    second: LaserShot_9
   - first:
-      213: -6116043651205942000
-    second: Death_NoBlood_10
+      213: 1788376407084287405
+    second: LaserShot_10
   - first:
-      213: 2938589465877869092
-    second: Death_NoBlood_11
+      213: -7417362097937877114
+    second: LaserShot_11
   - first:
-      213: -7269130037623741003
-    second: Death_NoBlood_12
+      213: -6725067957098215955
+    second: LaserShot_12
   - first:
-      213: -6610798852887285806
-    second: Death_NoBlood_13
+      213: -6058704646987996617
+    second: LaserShot_13
   - first:
-      213: -890358804413758810
-    second: Death_NoBlood_14
+      213: 2554544859008091707
+    second: LaserShot_14
   - first:
-      213: -4925657153849688847
-    second: Death_NoBlood_15
+      213: -7293791104540116249
+    second: LaserShot_15
   - first:
-      213: -5256356946742841977
-    second: Death_NoBlood_16
+      213: 2368987382878469303
+    second: LaserShot_16
+  - first:
+      213: 3431017846972426782
+    second: LaserShot_17
+  - first:
+      213: 5653381842439664696
+    second: LaserShot_18
+  - first:
+      213: 2498516174868292688
+    second: LaserShot_19
+  - first:
+      213: -1852996746641856848
+    second: LaserShot_20
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,7 +111,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 18
+  spritePixelsToUnits: 15
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +132,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -148,375 +160,331 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Death_NoBlood_0
+      name: LaserShot_0
       rect:
         serializedVersion: 2
-        x: 67
-        y: 15
-        width: 24
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 70
+        y: 16
+        width: 56
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f0d289a9e1e266c0800000000000000
-      internalID: -4151507512794623755
+      spriteID: 97a9e6f3eca3ccf10800000000000000
+      internalID: 2291270967926626937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_1
+      name: LaserShot_1
       rect:
         serializedVersion: 2
-        x: 220
-        y: 15
-        width: 33
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 262
+        y: 16
+        width: 56
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f6cb1e7ac303b1d60800000000000000
-      internalID: 7861930611578092655
+      spriteID: 4200f35b69a0792d0800000000000000
+      internalID: -3272134961859198940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_2
+      name: LaserShot_2
       rect:
         serializedVersion: 2
-        x: 382
-        y: 15
-        width: 33
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 454
+        y: 16
+        width: 56
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 24d454333258eafd0800000000000000
-      internalID: -2328777571073438398
+      spriteID: 79b79ba636446ef10800000000000000
+      internalID: 2298599853602208663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_3
+      name: LaserShot_3
       rect:
         serializedVersion: 2
-        x: 543
-        y: 15
-        width: 32
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 646
+        y: 16
+        width: 56
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 459c5dfb32a1a4bd0800000000000000
-      internalID: -2645273090282108588
+      spriteID: e03234f0213541a10800000000000000
+      internalID: 1879218281550914318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_4
+      name: LaserShot_4
       rect:
         serializedVersion: 2
-        x: 703
-        y: 15
-        width: 31
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1414
+        y: 16
+        width: 56
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de54b04e5ad13fc50800000000000000
-      internalID: 6697729669162812909
+      spriteID: a3f1fc4c28c4d4450800000000000000
+      internalID: 6074595596924034874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_5
+      name: LaserShot_6
       rect:
         serializedVersion: 2
-        x: 867
-        y: 15
-        width: 26
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1608
+        y: 16
+        width: 52
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55340b9a7d5a2d130800000000000000
-      internalID: 3590114198651159381
+      spriteID: 61e551928deb9de50800000000000000
+      internalID: 6834703745122917910
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_6
+      name: LaserShot_8
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 15
-        width: 19
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1791
+        y: 16
+        width: 65
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d71ab1a71d29f320800000000000000
-      internalID: 2592152640049256409
+      spriteID: 5032ca0a33f990760800000000000000
+      internalID: 7424640504784757509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_7
+      name: LaserShot_12
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 15
-        width: 32
-        height: 38
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1978
+        y: 16
+        width: 70
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f2b9a18ac491d430800000000000000
-      internalID: 3805986757584466673
+      spriteID: de58ccee252cba2a0800000000000000
+      internalID: -6725067957098215955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_8
+      name: LaserShot_13
       rect:
         serializedVersion: 2
-        x: 1345
-        y: 15
-        width: 33
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2170
+        y: 16
+        width: 70
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d76f0cdf7c94c1d60800000000000000
-      internalID: 7862240172786644605
+      spriteID: 732a54559382beba0800000000000000
+      internalID: -6058704646987996617
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_9
+      name: LaserShot_14
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 15
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2362
+        y: 16
+        width: 70
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e07bdcb4d8dbf7e70800000000000000
-      internalID: 9115212585380984590
+      spriteID: b364af3c301937320800000000000000
+      internalID: 2554544859008091707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_10
+      name: LaserShot_15
       rect:
         serializedVersion: 2
-        x: 1648
-        y: 15
-        width: 43
-        height: 29
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2559
+        y: 16
+        width: 64
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 015361314b27f1ba0800000000000000
-      internalID: -6116043651205942000
+      spriteID: 7ea7bf372af37ca90800000000000000
+      internalID: -7293791104540116249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_11
+      name: LaserShot_16
       rect:
         serializedVersion: 2
-        x: 1811
-        y: 15
-        width: 41
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2758
+        y: 16
+        width: 56
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 422fa56cc87f7c820800000000000000
-      internalID: 2938589465877869092
+      spriteID: 7bc7ad9297550e020800000000000000
+      internalID: 2368987382878469303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_12
+      name: LaserShot_17
       rect:
         serializedVersion: 2
-        x: 1971
-        y: 15
-        width: 40
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 838
+        y: 16
+        width: 56
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5b5a0598ebcde1b90800000000000000
-      internalID: -7269130037623741003
+      spriteID: e1a21d2bd8c6d9f20800000000000000
+      internalID: 3431017846972426782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_13
+      name: LaserShot_18
       rect:
         serializedVersion: 2
-        x: 2131
-        y: 15
-        width: 40
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1030
+        y: 16
+        width: 56
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dfe7140879b144a0800000000000000
-      internalID: -6610798852887285806
+      spriteID: 834724235d8d47e40800000000000000
+      internalID: 5653381842439664696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_NoBlood_14
+      name: LaserShot_19
       rect:
         serializedVersion: 2
-        x: 2291
-        y: 15
-        width: 40
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1222
+        y: 16
+        width: 56
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a2c64c726fc4a3f0800000000000000
-      internalID: -890358804413758810
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death_NoBlood_15
-      rect:
-        serializedVersion: 2
-        x: 2451
-        y: 15
-        width: 40
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1fc7d637aec84abb0800000000000000
-      internalID: -4925657153849688847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Death_NoBlood_16
-      rect:
-        serializedVersion: 2
-        x: 2611
-        y: 15
-        width: 40
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 78d6cb0d43bad07b0800000000000000
-      internalID: -5256356946742841977
+      spriteID: 054a79c29338ca220800000000000000
+      internalID: 2498516174868292688
       vertices: []
       indices: 
       edges: []
@@ -525,7 +493,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 333f064548d280743b5e8592a662818a
     internalID: 0
     vertices: []
     indices: 
@@ -533,25 +501,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Death_NoBlood_0: -4151507512794623755
-      Death_NoBlood_1: 7861930611578092655
-      Death_NoBlood_10: -6116043651205942000
-      Death_NoBlood_11: 2938589465877869092
-      Death_NoBlood_12: -7269130037623741003
-      Death_NoBlood_13: -6610798852887285806
-      Death_NoBlood_14: -890358804413758810
-      Death_NoBlood_15: -4925657153849688847
-      Death_NoBlood_16: -5256356946742841977
-      Death_NoBlood_2: -2328777571073438398
-      Death_NoBlood_3: -2645273090282108588
-      Death_NoBlood_4: 6697729669162812909
-      Death_NoBlood_5: 3590114198651159381
-      Death_NoBlood_6: 2592152640049256409
-      Death_NoBlood_7: 3805986757584466673
-      Death_NoBlood_8: 7862240172786644605
-      Death_NoBlood_9: 9115212585380984590
+      LaserShot_0: 2291270967926626937
+      LaserShot_1: -3272134961859198940
+      LaserShot_10: 1788376407084287405
+      LaserShot_11: -7417362097937877114
+      LaserShot_12: -6725067957098215955
+      LaserShot_13: -6058704646987996617
+      LaserShot_14: 2554544859008091707
+      LaserShot_15: -7293791104540116249
+      LaserShot_16: 2368987382878469303
+      LaserShot_17: 3431017846972426782
+      LaserShot_18: 5653381842439664696
+      LaserShot_19: 2498516174868292688
+      LaserShot_2: 2298599853602208663
+      LaserShot_20: -1852996746641856848
+      LaserShot_3: 1879218281550914318
+      LaserShot_4: 6074595596924034874
+      LaserShot_5: -3044566742362494261
+      LaserShot_6: 6834703745122917910
+      LaserShot_7: 7364885400155699637
+      LaserShot_8: 7424640504784757509
+      LaserShot_9: 1854933357166640517
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

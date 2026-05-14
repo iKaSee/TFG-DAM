@@ -9,6 +9,7 @@ TagManager:
   - Enemy
   - Trap
   - Boss
+  - 'Laser '
   layers:
   - Default
   - TransparentFX

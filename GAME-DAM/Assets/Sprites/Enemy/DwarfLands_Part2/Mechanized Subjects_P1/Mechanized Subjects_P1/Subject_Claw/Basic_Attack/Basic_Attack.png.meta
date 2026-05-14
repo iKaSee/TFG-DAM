@@ -1,40 +1,43 @@
 fileFormatVersion: 2
-guid: d7d1bfec9591c8643b4fcb788bf95a44
+guid: 7eca6cfa41cd7e64ea7f2605e3efdbf8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6126513574636382400
-    second: Laser_Explosion_0
+      213: -4227909405271565342
+    second: Basic_Attack_0
   - first:
-      213: 5896970127493344520
-    second: Laser_Explosion_1
+      213: 4595848184882549674
+    second: Basic_Attack_1
   - first:
-      213: -8812699624420074276
-    second: Laser_Explosion_2
+      213: 8945624041504444828
+    second: Basic_Attack_2
   - first:
-      213: -5049228610814286680
-    second: Laser_Explosion_3
+      213: 4329980563182701937
+    second: Basic_Attack_3
   - first:
-      213: 429820041712122624
-    second: Laser_Explosion_4
+      213: -7986813929368413750
+    second: Basic_Attack_4
   - first:
-      213: -504599313179594919
-    second: Laser_Explosion_5
+      213: 1810737884365237958
+    second: Basic_Attack_5
   - first:
-      213: 1112371596724535209
-    second: Laser_Explosion_6
+      213: -2776844615638064621
+    second: Basic_Attack_6
   - first:
-      213: 2938611051362221023
-    second: Laser_Explosion_7
+      213: -7247061578889029663
+    second: Basic_Attack_7
   - first:
-      213: 8455821108898449124
-    second: Laser_Explosion_8
+      213: -2676505637638551561
+    second: Basic_Attack_8
   - first:
-      213: -351235882933616329
-    second: Laser_Explosion_9
+      213: -8001481163828571455
+    second: Basic_Attack_9
   - first:
-      213: -3885667098174575771
-    second: Laser_Explosion_10
+      213: -1671977180552798450
+    second: Basic_Attack_10
+  - first:
+      213: -3300144496588572157
+    second: Basic_Attack_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -81,7 +84,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 18
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -130,100 +133,188 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Laser_Explosion_0
+      name: Basic_Attack_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 29
-        width: 6
-        height: 6
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 04790301d504afaa0800000000000000
-      internalID: -6126513574636382400
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_1
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 26
-        width: 12
-        height: 12
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80da454661f36d150800000000000000
-      internalID: 5896970127493344520
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_2
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 19
-        width: 27
-        height: 25
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cdc193e126003b580800000000000000
-      internalID: -8812699624420074276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_3
-      rect:
-        serializedVersion: 2
-        x: 265
-        y: 12
-        width: 47
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8a4eca694598de9b0800000000000000
-      internalID: -5049228610814286680
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Laser_Explosion_4
-      rect:
-        serializedVersion: 2
-        x: 207
+        x: 61
         y: 16
-        width: 36
+        width: 41
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb514cdbc27355c0800000000000000
+      internalID: -4227909405271565342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 16
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa35c85039bb7cf30800000000000000
+      internalID: 4595848184882549674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 16
+        width: 60
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9111187bad352c70800000000000000
+      internalID: 8945624041504444828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 16
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17dc9d8816e271c30800000000000000
+      internalID: 4329980563182701937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 16
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac99ad41c03292190800000000000000
+      internalID: -7986813929368413750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 16
+        width: 29
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceaeea1388012910800000000000000
+      internalID: 1810737884365237958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 16
+        width: 35
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312ef60d88aa679d0800000000000000
+      internalID: -2776844615638064621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 16
+        width: 35
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e710fcf3e34d6b90800000000000000
+      internalID: -7247061578889029663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 16
+        width: 63
         height: 34
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -233,52 +324,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00b3897fc0707f500800000000000000
-      internalID: 429820041712122624
+      spriteID: 7f74935ad442bdad0800000000000000
+      internalID: -2676505637638551561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_Explosion_5
+      name: Basic_Attack_9
       rect:
         serializedVersion: 2
-        x: 331
-        y: 9
-        width: 44
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1502
+        y: 16
+        width: 45
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95f2600299d4ff8f0800000000000000
-      internalID: -504599313179594919
+      spriteID: 1c2d401764705f090800000000000000
+      internalID: -8001481163828571455
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Laser_Explosion_6
+      name: Basic_Attack_10
       rect:
         serializedVersion: 2
-        x: 395
-        y: 7
+        x: 1662
+        y: 16
         width: 43
-        height: 49
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9affff8d210ff6f00800000000000000
-      internalID: 1112371596724535209
+      spriteID: e0f5790ec91fbc8e0800000000000000
+      internalID: -1671977180552798450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Basic_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 1822
+        y: 16
+        width: 43
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ab065b0188332d0800000000000000
+      internalID: -3300144496588572157
       vertices: []
       indices: 
       edges: []
@@ -287,7 +400,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 562f92582e35dc0469c21bd5c74296b5
+    spriteID: 7c6a1da9fce73324aac459b4718ea551
     internalID: 0
     vertices: []
     indices: 
@@ -299,17 +412,18 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Laser_Explosion_0: -6126513574636382400
-      Laser_Explosion_1: 5896970127493344520
-      Laser_Explosion_10: -3885667098174575771
-      Laser_Explosion_2: -8812699624420074276
-      Laser_Explosion_3: -5049228610814286680
-      Laser_Explosion_4: 429820041712122624
-      Laser_Explosion_5: -504599313179594919
-      Laser_Explosion_6: 1112371596724535209
-      Laser_Explosion_7: 2938611051362221023
-      Laser_Explosion_8: 8455821108898449124
-      Laser_Explosion_9: -351235882933616329
+      Basic_Attack_0: -4227909405271565342
+      Basic_Attack_1: 4595848184882549674
+      Basic_Attack_10: -1671977180552798450
+      Basic_Attack_11: -3300144496588572157
+      Basic_Attack_2: 8945624041504444828
+      Basic_Attack_3: 4329980563182701937
+      Basic_Attack_4: -7986813929368413750
+      Basic_Attack_5: 1810737884365237958
+      Basic_Attack_6: -2776844615638064621
+      Basic_Attack_7: -7247061578889029663
+      Basic_Attack_8: -2676505637638551561
+      Basic_Attack_9: -8001481163828571455
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -181,6 +181,24 @@ public class PlayerCombat : MonoBehaviour
                 GameManager gm = Object.FindFirstObjectByType<GameManager>();
                 if (gm != null) gm.SacudirCamara();
             }
+
+            // 9. Lógica con PyrethAsesino
+            PyrethAsesino pyrethAsesino = enemy.GetComponent<PyrethAsesino>();
+            if (pyrethAsesino != null)
+            {
+                pyrethAsesino.TakeDamage(attackDamage);
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara();
+            }
+
+            // 10. Lógica con PyrethTanque
+            PyrethTanque pyrethTanque = enemy.GetComponent<PyrethTanque>();
+            if (pyrethTanque != null)
+            {
+                pyrethTanque.TakeDamage(attackDamage);
+                GameManager gm = Object.FindFirstObjectByType<GameManager>();
+                if (gm != null) gm.SacudirCamara();
+            }
         }
     }
 

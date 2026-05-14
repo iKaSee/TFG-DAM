@@ -1,6 +1,5 @@
 using UnityEngine;
 using System.Collections;
-using UnityEngine.SceneManagement; 
 
 public class BoosHealth : MonoBehaviour
 {
@@ -127,14 +126,6 @@ public class BoosHealth : MonoBehaviour
 
         BossMusicController music = Object.FindAnyObjectByType<BossMusicController>();
         if (music != null) music.PararTodo();
-
-        StartCoroutine(EsperarYCargarFinal());
         // ----------------------------------------
-    }
-
-    IEnumerator EsperarYCargarFinal()
-    {
-        yield return new WaitForSeconds(3f); 
-        SceneManager.LoadScene("EscenaFinal"); 
     }
 }
